@@ -15,6 +15,7 @@ import { Route as AppCalmRouteImport } from './routes/_app/calm'
 import { Route as AppFocusRouteImport } from './routes/_app/focus'
 import { Route as AppGitaRouteImport } from './routes/_app/gita'
 import { Route as AppPracticeRouteImport } from './routes/_app/practice'
+import { Route as SessionSessionIdRouteImport } from './routes/session.$sessionId'
 
 const AppRouteRoute = AppRouteRouteImport.update({
   id: '/_app',
@@ -45,6 +46,11 @@ const AppPracticeRoute = AppPracticeRouteImport.update({
   path: '/practice',
   getParentRoute: () => AppRouteRoute,
 } as any)
+const SessionSessionIdRoute = SessionSessionIdRouteImport.update({
+  id: '/session/$sessionId',
+  path: '/session/$sessionId',
+  getParentRoute: () => rootRouteImport,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof AppIndexRoute
@@ -52,12 +58,14 @@ export interface FileRoutesByFullPath {
   '/focus': typeof AppFocusRoute
   '/gita': typeof AppGitaRoute
   '/practice': typeof AppPracticeRoute
+  '/session/$sessionId': typeof SessionSessionIdRoute
 }
 export interface FileRoutesByTo {
   '/calm': typeof AppCalmRoute
   '/focus': typeof AppFocusRoute
   '/gita': typeof AppGitaRoute
   '/practice': typeof AppPracticeRoute
+  '/session/$sessionId': typeof SessionSessionIdRoute
   '/': typeof AppIndexRoute
 }
 export interface FileRoutesById {
@@ -67,13 +75,15 @@ export interface FileRoutesById {
   '/_app/focus': typeof AppFocusRoute
   '/_app/gita': typeof AppGitaRoute
   '/_app/practice': typeof AppPracticeRoute
+  '/session/$sessionId': typeof SessionSessionIdRoute
   '/_app/': typeof AppIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/' | '/calm' | '/focus' | '/gita' | '/practice'
+  fullPaths:
+    '/' | '/calm' | '/focus' | '/gita' | '/practice' | '/session/$sessionId'
   fileRoutesByTo: FileRoutesByTo
-  to: '/calm' | '/focus' | '/gita' | '/practice' | '/'
+  to: '/calm' | '/focus' | '/gita' | '/practice' | '/session/$sessionId' | '/'
   id:
     | '__root__'
     | '/_app'
@@ -81,11 +91,13 @@ export interface FileRouteTypes {
     | '/_app/focus'
     | '/_app/gita'
     | '/_app/practice'
+    | '/session/$sessionId'
     | '/_app/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
   AppRouteRoute: typeof AppRouteRouteWithChildren
+  SessionSessionIdRoute: typeof SessionSessionIdRoute
 }
 
 declare module '@tanstack/react-router' {
@@ -132,6 +144,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppPracticeRouteImport
       parentRoute: typeof AppRouteRoute
     }
+    '/session/$sessionId': {
+      id: '/session/$sessionId'
+      path: '/session/$sessionId'
+      fullPath: '/session/$sessionId'
+      preLoaderRoute: typeof SessionSessionIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
   }
 }
 
@@ -157,6 +176,7 @@ const AppRouteRouteWithChildren = AppRouteRoute._addFileChildren(
 
 const rootRouteChildren: RootRouteChildren = {
   AppRouteRoute: AppRouteRouteWithChildren,
+  SessionSessionIdRoute: SessionSessionIdRoute,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

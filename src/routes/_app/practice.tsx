@@ -1,6 +1,9 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { Link, createFileRoute } from '@tanstack/react-router'
+import { ChevronRight } from 'lucide-react'
 import { NotBuiltYet, Page } from '@/components/page'
+import { SESSIONS } from '@/content/sessions'
 import { NAV_ITEMS } from '@/lib/nav'
+import { sessionMinutes } from '@/lib/session-timeline'
 import { SITE_NAME, seo } from '@/lib/seo'
 import { cn } from '@/lib/utils'
 
@@ -14,27 +17,6 @@ export const Route = createFileRoute('/_app/practice')({
   component: PracticePage,
 })
 
-const plannedSessions = [
-  {
-    duration: '3 min',
-    pill: 'bg-yellow-soft text-yellow-ink',
-    title: 'Settle the nervous system',
-    note: 'A short exhale-focused reset for moments when everything feels too loud.',
-  },
-  {
-    duration: '5 min',
-    pill: 'bg-peach-soft text-peach-ink',
-    title: 'Steady breath anchor',
-    note: 'Gentle practice in noticing a wandering thought and returning without frustration.',
-  },
-  {
-    duration: '10 min',
-    pill: 'bg-pink-soft text-pink-ink',
-    title: 'Open awareness',
-    note: 'Let thoughts pass like weather in the sky while staying grounded in the body.',
-  },
-] as const
-
 function PracticePage() {
   return (
     <Page
@@ -45,36 +27,43 @@ function PracticePage() {
     >
       <section className="rounded-[28px] border border-border bg-(image:--grad-sanctuary) p-6 shadow-(--surface-shadow) sm:p-8">
         <ul className="divide-y divide-border">
-          {plannedSessions.map((session) => (
-            <li
-              key={session.title}
-              className="flex flex-col gap-3 py-5 first:pt-0 last:pb-0 sm:flex-row sm:items-baseline sm:justify-between sm:gap-8"
-            >
-              <div className="flex flex-col gap-1">
-                <h2 className="text-lg font-medium tracking-[-0.02em] text-foreground">
-                  {session.title}
-                </h2>
-                <p className="max-w-[48ch] text-sm leading-relaxed text-pretty text-muted-foreground sm:text-base">
-                  {session.note}
-                </p>
-              </div>
-              <span
-                className={cn(
-                  'w-fit shrink-0 rounded-full px-3.5 py-1 text-xs font-medium ring-1 ring-border',
-                  session.pill,
-                )}
+          {SESSIONS.map((session) => (
+            <li key={session.id}>
+              <Link
+                to="/session/$sessionId"
+                params={{ sessionId: session.id }}
+                className="group -mx-3 flex items-center gap-4 rounded-2xl px-3 py-5 transition-colors hover:bg-card sm:gap-6"
               >
-                {session.duration}
-              </span>
+                <div className="flex min-w-0 flex-1 flex-col gap-1">
+                  <h2 className="text-lg font-medium tracking-[-0.02em] text-foreground">
+                    {session.title}
+                  </h2>
+                  <p className="max-w-[48ch] text-sm leading-relaxed text-pretty text-muted-foreground sm:text-base">
+                    {session.note}
+                  </p>
+                </div>
+                <span
+                  className={cn(
+                    'w-fit shrink-0 rounded-full px-3.5 py-1 text-xs font-medium ring-1 ring-border',
+                    session.pill,
+                  )}
+                >
+                  {sessionMinutes(session)} min
+                </span>
+                <ChevronRight
+                  aria-hidden
+                  className="size-4 shrink-0 text-muted-foreground/60 transition-all duration-200 group-hover:translate-x-0.5 group-hover:text-foreground motion-reduce:transition-none"
+                  strokeWidth={2}
+                />
+              </Link>
             </li>
           ))}
         </ul>
       </section>
 
-      <NotBuiltYet>
-        The guided sessions are still being written. They will open here as a
-        quiet daily sequence you can return to anytime, with no streaks or
-        pressure.
+      <NotBuiltYet title="More to come">
+        These three sessions are the start. The full course, a daily sequence
+        with no streaks or pressure, is still being written.
       </NotBuiltYet>
     </Page>
   )
