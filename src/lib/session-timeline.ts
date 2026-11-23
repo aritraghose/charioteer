@@ -60,7 +60,8 @@ export function segmentAt(timeline: Segment[], elapsed: number) {
   return { segment, progress }
 }
 
-const REST_SCALE = 0.62
+/** Size of the breathing circle with empty lungs, as a fraction of full. */
+export const REST_SCALE = 0.62
 
 /**
  * Size of the breathing circle, from REST_SCALE (empty lungs) to 1 (full).

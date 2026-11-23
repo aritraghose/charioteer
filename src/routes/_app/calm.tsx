@@ -1,5 +1,6 @@
-import { createFileRoute } from '@tanstack/react-router'
-import { NotBuiltYet, Page } from '@/components/page'
+import { Link, createFileRoute } from '@tanstack/react-router'
+import { Page } from '@/components/page'
+import { Button } from '@/components/ui/button'
 import { CALM_ITEM } from '@/lib/nav'
 import { SITE_NAME, seo } from '@/lib/seo'
 import { cn } from '@/lib/utils'
@@ -71,11 +72,29 @@ function CalmPage() {
         </ol>
       </section>
 
-      <NotBuiltYet>
-        The interactive calm flow is not built yet. When ready, it will walk you
-        through these three steps gently, at your own pace, with no timers
-        rushing you.
-      </NotBuiltYet>
+      <div className="flex flex-col gap-6">
+        <div className="flex flex-wrap items-center gap-3">
+          <Button asChild className="h-12 rounded-full px-8 text-base">
+            <Link to="/calm/now">Start now</Link>
+          </Button>
+          <Button
+            asChild
+            variant="outline"
+            className="h-12 rounded-full px-8 text-base"
+          >
+            <Link to="/calm/delay">Delay an urge</Link>
+          </Button>
+        </div>
+        <p className="max-w-[56ch] text-sm leading-relaxed text-pretty text-muted-foreground">
+          Start now walks you through these three steps at your own pace.
+          Delay an urge is for a pull to check, fix or ask for reassurance: you
+          wait a few minutes and watch what the urge does.
+        </p>
+        <p className="max-w-[56ch] text-sm leading-relaxed text-pretty text-muted-foreground">
+          This is practice, not therapy. If you are in danger or in crisis,
+          call your local emergency number or a crisis line now.
+        </p>
+      </div>
     </Page>
   )
 }
