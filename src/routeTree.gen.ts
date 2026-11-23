@@ -14,10 +14,12 @@ import { Route as AppIndexRouteImport } from './routes/_app/index'
 import { Route as AppCalmRouteImport } from './routes/_app/calm'
 import { Route as AppFocusRouteImport } from './routes/_app/focus'
 import { Route as AppGitaRouteImport } from './routes/_app/gita'
+import { Route as AppLadderRouteImport } from './routes/_app/ladder'
 import { Route as AppPracticeRouteImport } from './routes/_app/practice'
 import { Route as CalmDelayRouteImport } from './routes/calm_.delay'
 import { Route as CalmNowRouteImport } from './routes/calm_.now'
 import { Route as FocusNowRouteImport } from './routes/focus_.now'
+import { Route as LadderStepIdRouteImport } from './routes/ladder_.$stepId'
 import { Route as SessionSessionIdRouteImport } from './routes/session.$sessionId'
 import { Route as AppPracticeWeekRouteImport } from './routes/_app/practice_.$week'
 
@@ -45,6 +47,11 @@ const AppGitaRoute = AppGitaRouteImport.update({
   path: '/gita',
   getParentRoute: () => AppRouteRoute,
 } as any)
+const AppLadderRoute = AppLadderRouteImport.update({
+  id: '/ladder',
+  path: '/ladder',
+  getParentRoute: () => AppRouteRoute,
+} as any)
 const AppPracticeRoute = AppPracticeRouteImport.update({
   id: '/practice',
   path: '/practice',
@@ -65,6 +72,11 @@ const FocusNowRoute = FocusNowRouteImport.update({
   path: '/focus/now',
   getParentRoute: () => rootRouteImport,
 } as any)
+const LadderStepIdRoute = LadderStepIdRouteImport.update({
+  id: '/ladder_/$stepId',
+  path: '/ladder/$stepId',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SessionSessionIdRoute = SessionSessionIdRouteImport.update({
   id: '/session/$sessionId',
   path: '/session/$sessionId',
@@ -81,10 +93,12 @@ export interface FileRoutesByFullPath {
   '/calm': typeof AppCalmRoute
   '/focus': typeof AppFocusRoute
   '/gita': typeof AppGitaRoute
+  '/ladder': typeof AppLadderRoute
   '/practice': typeof AppPracticeRoute
   '/calm/delay': typeof CalmDelayRoute
   '/calm/now': typeof CalmNowRoute
   '/focus/now': typeof FocusNowRoute
+  '/ladder/$stepId': typeof LadderStepIdRoute
   '/session/$sessionId': typeof SessionSessionIdRoute
   '/practice/$week': typeof AppPracticeWeekRoute
 }
@@ -92,10 +106,12 @@ export interface FileRoutesByTo {
   '/calm': typeof AppCalmRoute
   '/focus': typeof AppFocusRoute
   '/gita': typeof AppGitaRoute
+  '/ladder': typeof AppLadderRoute
   '/practice': typeof AppPracticeRoute
   '/calm/delay': typeof CalmDelayRoute
   '/calm/now': typeof CalmNowRoute
   '/focus/now': typeof FocusNowRoute
+  '/ladder/$stepId': typeof LadderStepIdRoute
   '/session/$sessionId': typeof SessionSessionIdRoute
   '/': typeof AppIndexRoute
   '/practice/$week': typeof AppPracticeWeekRoute
@@ -106,10 +122,12 @@ export interface FileRoutesById {
   '/_app/calm': typeof AppCalmRoute
   '/_app/focus': typeof AppFocusRoute
   '/_app/gita': typeof AppGitaRoute
+  '/_app/ladder': typeof AppLadderRoute
   '/_app/practice': typeof AppPracticeRoute
   '/calm_/delay': typeof CalmDelayRoute
   '/calm_/now': typeof CalmNowRoute
   '/focus_/now': typeof FocusNowRoute
+  '/ladder_/$stepId': typeof LadderStepIdRoute
   '/session/$sessionId': typeof SessionSessionIdRoute
   '/_app/': typeof AppIndexRoute
   '/_app/practice_/$week': typeof AppPracticeWeekRoute
@@ -121,10 +139,12 @@ export interface FileRouteTypes {
     | '/calm'
     | '/focus'
     | '/gita'
+    | '/ladder'
     | '/practice'
     | '/calm/delay'
     | '/calm/now'
     | '/focus/now'
+    | '/ladder/$stepId'
     | '/session/$sessionId'
     | '/practice/$week'
   fileRoutesByTo: FileRoutesByTo
@@ -132,10 +152,12 @@ export interface FileRouteTypes {
     | '/calm'
     | '/focus'
     | '/gita'
+    | '/ladder'
     | '/practice'
     | '/calm/delay'
     | '/calm/now'
     | '/focus/now'
+    | '/ladder/$stepId'
     | '/session/$sessionId'
     | '/'
     | '/practice/$week'
@@ -145,10 +167,12 @@ export interface FileRouteTypes {
     | '/_app/calm'
     | '/_app/focus'
     | '/_app/gita'
+    | '/_app/ladder'
     | '/_app/practice'
     | '/calm_/delay'
     | '/calm_/now'
     | '/focus_/now'
+    | '/ladder_/$stepId'
     | '/session/$sessionId'
     | '/_app/'
     | '/_app/practice_/$week'
@@ -159,6 +183,7 @@ export interface RootRouteChildren {
   CalmDelayRoute: typeof CalmDelayRoute
   CalmNowRoute: typeof CalmNowRoute
   FocusNowRoute: typeof FocusNowRoute
+  LadderStepIdRoute: typeof LadderStepIdRoute
   SessionSessionIdRoute: typeof SessionSessionIdRoute
 }
 
@@ -199,6 +224,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppGitaRouteImport
       parentRoute: typeof AppRouteRoute
     }
+    '/_app/ladder': {
+      id: '/_app/ladder'
+      path: '/ladder'
+      fullPath: '/ladder'
+      preLoaderRoute: typeof AppLadderRouteImport
+      parentRoute: typeof AppRouteRoute
+    }
     '/_app/practice': {
       id: '/_app/practice'
       path: '/practice'
@@ -227,6 +259,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof FocusNowRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/ladder_/$stepId': {
+      id: '/ladder_/$stepId'
+      path: '/ladder/$stepId'
+      fullPath: '/ladder/$stepId'
+      preLoaderRoute: typeof LadderStepIdRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/session/$sessionId': {
       id: '/session/$sessionId'
       path: '/session/$sessionId'
@@ -248,6 +287,7 @@ interface AppRouteRouteChildren {
   AppCalmRoute: typeof AppCalmRoute
   AppFocusRoute: typeof AppFocusRoute
   AppGitaRoute: typeof AppGitaRoute
+  AppLadderRoute: typeof AppLadderRoute
   AppPracticeRoute: typeof AppPracticeRoute
   AppIndexRoute: typeof AppIndexRoute
   AppPracticeWeekRoute: typeof AppPracticeWeekRoute
@@ -257,6 +297,7 @@ const AppRouteRouteChildren: AppRouteRouteChildren = {
   AppCalmRoute: AppCalmRoute,
   AppFocusRoute: AppFocusRoute,
   AppGitaRoute: AppGitaRoute,
+  AppLadderRoute: AppLadderRoute,
   AppPracticeRoute: AppPracticeRoute,
   AppIndexRoute: AppIndexRoute,
   AppPracticeWeekRoute: AppPracticeWeekRoute,
@@ -271,6 +312,7 @@ const rootRouteChildren: RootRouteChildren = {
   CalmDelayRoute: CalmDelayRoute,
   CalmNowRoute: CalmNowRoute,
   FocusNowRoute: FocusNowRoute,
+  LadderStepIdRoute: LadderStepIdRoute,
   SessionSessionIdRoute: SessionSessionIdRoute,
 }
 export const routeTree = rootRouteImport

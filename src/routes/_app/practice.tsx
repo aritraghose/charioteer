@@ -1,5 +1,5 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
-import { ChevronRight } from 'lucide-react'
+import { ChevronRight, ShieldCheck } from 'lucide-react'
 import { Page } from '@/components/page'
 import { COURSE, getWeek } from '@/content/course'
 import { SESSIONS, getSession } from '@/content/sessions'
@@ -124,6 +124,42 @@ function PracticePage() {
             )
           })}
         </ol>
+      </section>
+
+      <section aria-labelledby="tracks-heading" className="flex flex-col gap-5">
+        <div className="flex flex-col gap-1.5">
+          <h2
+            id="tracks-heading"
+            className="text-2xl font-medium tracking-[-0.025em]"
+          >
+            For intrusive thoughts
+          </h2>
+          <p className="max-w-[56ch] text-sm leading-relaxed text-pretty text-muted-foreground sm:text-base">
+            A separate method for OCD-style loops, alongside the course.
+          </p>
+        </div>
+        <Link
+          to="/ladder"
+          className="group flex items-center gap-4 rounded-[28px] border border-border bg-card p-6 shadow-(--surface-shadow) transition-[transform,border-color] duration-200 hover:-translate-y-0.5 hover:border-primary/40 motion-reduce:transition-none sm:p-8"
+        >
+          <span className="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-peach-soft text-peach-ink">
+            <ShieldCheck aria-hidden className="size-5" strokeWidth={1.9} />
+          </span>
+          <span className="flex min-w-0 flex-1 flex-col gap-1">
+            <span className="text-lg font-medium tracking-[-0.02em]">
+              Facing intrusive thoughts
+            </span>
+            <span className="text-sm leading-relaxed text-pretty text-muted-foreground sm:text-base">
+              Build a ladder of triggers, from easiest to hardest, and practise
+              facing them without the compulsion.
+            </span>
+          </span>
+          <ChevronRight
+            aria-hidden
+            className="size-4 shrink-0 text-muted-foreground/60 transition-all duration-200 group-hover:translate-x-0.5 group-hover:text-foreground motion-reduce:transition-none"
+            strokeWidth={2}
+          />
+        </Link>
       </section>
 
       <section aria-labelledby="anytime-heading" className="flex flex-col gap-5">
