@@ -7,13 +7,14 @@
 // is generated from it, so neither can drift from the published text. Run with
 // `pnpm gita`. It fails if a gloss file breaks the rules it can check.
 
-import { mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readFileSync, readdirSync, rmSync, writeFileSync } from 'node:fs'
 import { dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const root = join(dirname(fileURLToPath(import.meta.url)), '..')
 const sourceDir = join(root, 'content-source/gita')
 const glossDir = join(sourceDir, 'glosses')
+const plainDir = join(sourceDir, 'plain')
 const outDir = join(root, 'src/content/gita/chapters')
 
 const SPEAKERS = { K: 'krishna', A: 'arjuna', S: 'sanjaya', D: 'dhritarashtra' }
@@ -68,6 +69,7 @@ export function toIast(text) {
 // --- Read the source ------------------------------------------------------
 
 const problems = []
+const missingPlain = []
 const verses = []
 
 // Plain notes on verses that can be read another way, keyed "chapter.verse".
@@ -89,6 +91,13 @@ for (const file of chapterFiles) {
     }
   }
 
+  // The plain-English rendering, keyed by verse number like the glosses.
+  const plain = {}
+  for (const name of existsSync(plainDir) ? readdirSync(plainDir).sort() : []) {
+    if (!name.startsWith(String(chapter).padStart(2, '0') + '-')) continue
+    Object.assign(plain, JSON.parse(readFileSync(join(plainDir, name), 'utf8')))
+  }
+
   const lines = readFileSync(join(sourceDir, file), 'utf8').trim().split('\n')
   for (const line of lines) {
     const [number, speakerCode, text] = line.split('|')
@@ -107,6 +116,14 @@ for (const file of chapterFiles) {
     if (!gloss.translation) problems.push(`${ref}: no translation`)
     else if (/[—–]/.test(gloss.translation)) problems.push(`${ref}: dash in translation`)
 
+    const plainText = typeof plain[number] === 'string' ? plain[number].trim() : ''
+    if (!plainText) missingPlain.push(ref)
+    else {
+      if (/[—–]/.test(plainText)) problems.push(`${ref}: dash in plain rendering`)
+      if (!/^[A-Z"'“]/.test(plainText)) problems.push(`${ref}: plain rendering does not start with a capital`)
+      if (!/[.?!]["'”]?$/.test(plainText)) problems.push(`${ref}: plain rendering does not end a sentence`)
+    }
+
     const verseNotes = [...(notes[ref] ?? []), ...(gloss.notes ?? [])]
     for (const note of verseNotes) {
       const quoted = note.match(/^"([^"]+)"/)
@@ -122,6 +139,7 @@ for (const file of chapterFiles) {
       iast: gloss.iast ?? devanagari.map(toIast),
       words: words.map(({ sa, en, term }) => (term ? { sa, en, term } : { sa, en })),
       translation: gloss.translation,
+      ...(plainText ? { plain: plainText } : {}),
       ...(verseNotes.length ? { notes: verseNotes } : {}),
       ...(gloss.practice ? { practice: gloss.practice } : {}),
     })
@@ -157,6 +175,9 @@ for (const [chapter, list] of Object.entries(perChapter)) {
   const name = `chapter-${String(chapter).padStart(2, '0')}.ts`
   writeFileSync(join(outDir, name), header + JSON.stringify(list, null, 2) + '\n')
 }
+
+if (missingPlain.length)
+  console.log(`${missingPlain.length} verses have no plain rendering yet, e.g. ${missingPlain.slice(0, 5).join(', ')}`)
 
 console.log(
   `Wrote ${verses.length} verses:`,

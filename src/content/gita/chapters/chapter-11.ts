@@ -70,7 +70,8 @@ export const VERSES: Verse[] = [
         "en": "of me"
       }
     ],
-    "translation": "The word which was spoken by you for favour to me, the highest secret, called \"concerning the self\": by that, this delusion of mine has gone away."
+    "translation": "The word which was spoken by you for favour to me, the highest secret, called \"concerning the self\": by that, this delusion of mine has gone away.",
+    "plain": "Out of kindness to me you have spoken of the highest secret, the one said to concern the self. Your words have driven away this delusion of mine."
   },
   {
     "chapter": 11,
@@ -134,7 +135,8 @@ export const VERSES: Verse[] = [
         "en": "imperishable"
       }
     ],
-    "translation": "For the arising and the passing away of beings have been heard by me in detail from you, O one with eyes like lotus petals, and also the imperishable greatness."
+    "translation": "For the arising and the passing away of beings have been heard by me in detail from you, O one with eyes like lotus petals, and also the imperishable greatness.",
+    "plain": "For I have heard from you in detail, you whose eyes are like lotus petals, how beings arise and pass away, and I have also heard of your imperishable greatness."
   },
   {
     "chapter": 11,
@@ -203,7 +205,8 @@ export const VERSES: Verse[] = [
         "en": "O highest of persons"
       }
     ],
-    "translation": "This is so, as you have said your self to be, O highest lord. I wish to see your lordly form, O highest of persons."
+    "translation": "This is so, as you have said your self to be, O highest lord. I wish to see your lordly form, O highest of persons.",
+    "plain": "It is just as you have described yourself, highest lord. I wish to see your lordly form, highest of persons."
   },
   {
     "chapter": 11,
@@ -281,7 +284,8 @@ export const VERSES: Verse[] = [
         "en": "imperishable"
       }
     ],
-    "translation": "If you think thus, that it is able to be seen by me, O lord, then, O lord of yoga, show to me your imperishable self."
+    "translation": "If you think thus, that it is able to be seen by me, O lord, then, O lord of yoga, show to me your imperishable self.",
+    "plain": "If you think that I am able to see it, lord, then show me your imperishable self, lord of yoga."
   },
   {
     "chapter": 11,
@@ -341,7 +345,8 @@ export const VERSES: Verse[] = [
         "en": "and"
       }
     ],
-    "translation": "See my forms, O son of Pṛthā, by hundreds and then by thousands, of many kinds, divine, and of many colours and shapes."
+    "translation": "See my forms, O son of Pṛthā, by hundreds and then by thousands, of many kinds, divine, and of many colours and shapes.",
+    "plain": "See my forms, son of Pṛthā, in their hundreds and their thousands, divine, of many kinds, and of many colours and shapes."
   },
   {
     "chapter": 11,
@@ -405,7 +410,8 @@ export const VERSES: Verse[] = [
         "en": "O descendant of Bharata"
       }
     ],
-    "translation": "See the Ādityas, the Vasus, the Rudras, the two Aśvins and also the Maruts. See many wonders not seen before, O descendant of Bharata."
+    "translation": "See the Ādityas, the Vasus, the Rudras, the two Aśvins and also the Maruts. See many wonders not seen before, O descendant of Bharata.",
+    "plain": "See the Ādityas, the Vasus, the Rudras, the two Aśvins and the Maruts as well. See many wonders never seen before, descendant of Bharata."
   },
   {
     "chapter": 11,
@@ -481,7 +487,8 @@ export const VERSES: Verse[] = [
         "en": "you wish"
       }
     ],
-    "translation": "See today the whole world, with the moving and the unmoving, standing in one place here in my body, O Guḍākeśa, and whatever else you wish to see."
+    "translation": "See today the whole world, with the moving and the unmoving, standing in one place here in my body, O Guḍākeśa, and whatever else you wish to see.",
+    "plain": "See today the whole world, all that moves and all that does not, gathered in one place here in my body, Guḍākeśa, and whatever else you wish to see."
   },
   {
     "chapter": 11,
@@ -562,7 +569,8 @@ export const VERSES: Verse[] = [
         "en": "lordly"
       }
     ],
-    "translation": "But you are not able to see me with only this, your own eye. I give to you a divine eye. See my lordly yoga."
+    "translation": "But you are not able to see me with only this, your own eye. I give to you a divine eye. See my lordly yoga.",
+    "plain": "But you cannot see me with only these eyes of your own. I give you a divine eye. See my lordly yoga."
   },
   {
     "chapter": 11,
@@ -624,6 +632,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Having spoken thus, O king, Hari, the great lord of yoga, then showed to the son of Pṛthā the highest lordly form,",
+    "plain": "Then, king, having said this, Hari, the great lord of yoga, showed the son of Pṛthā his highest lordly form.",
     "notes": [
       "Verses 9 to 11 are one sentence in the Sanskrit."
     ]
@@ -658,7 +667,8 @@ export const VERSES: Verse[] = [
         "en": "with many divine weapons raised"
       }
     ],
-    "translation": "with many mouths and eyes, with many wondrous sights, with many divine ornaments, with many divine weapons raised,"
+    "translation": "with many mouths and eyes, with many wondrous sights, with many divine ornaments, with many divine weapons raised,",
+    "plain": "It had many mouths and eyes and many wondrous sights, many divine ornaments and many divine weapons raised."
   },
   {
     "chapter": 11,
@@ -698,7 +708,8 @@ export const VERSES: Verse[] = [
         "en": "with faces on every side"
       }
     ],
-    "translation": "wearing divine garlands and garments, anointed with divine fragrances, made of all wonders, the god, endless, with faces on every side."
+    "translation": "wearing divine garlands and garments, anointed with divine fragrances, made of all wonders, the god, endless, with faces on every side.",
+    "plain": "It wore divine garlands and garments and was anointed with divine fragrances. It was the god, made of all wonders, endless, with faces on every side."
   },
   {
     "chapter": 11,
@@ -767,7 +778,8 @@ export const VERSES: Verse[] = [
         "term": "atman"
       }
     ],
-    "translation": "If the light of a thousand suns were to be risen at once in the sky, that would be like the light of that one of great self."
+    "translation": "If the light of a thousand suns were to be risen at once in the sky, that would be like the light of that one of great self.",
+    "plain": "If the light of a thousand suns were to rise in the sky all at once, that would be like the light of that great self."
   },
   {
     "chapter": 11,
@@ -827,7 +839,8 @@ export const VERSES: Verse[] = [
         "en": "then"
       }
     ],
-    "translation": "There, in the body of the god of gods, the son of Pāṇḍu then saw the whole world standing in one place, divided in many ways."
+    "translation": "There, in the body of the god of gods, the son of Pāṇḍu then saw the whole world standing in one place, divided in many ways.",
+    "plain": "There, in the body of the god of gods, the son of Pāṇḍu then saw the whole world gathered in one place and divided in many ways."
   },
   {
     "chapter": 11,
@@ -883,7 +896,8 @@ export const VERSES: Verse[] = [
         "en": "spoke"
       }
     ],
-    "translation": "Then he, the winner of wealth, filled with amazement, with hair standing on end, having bowed with the head to the god, spoke with palms joined."
+    "translation": "Then he, the winner of wealth, filled with amazement, with hair standing on end, having bowed with the head to the god, spoke with palms joined.",
+    "plain": "Then the winner of wealth, filled with amazement, his hair standing on end, bowed his head to the god, joined his palms and spoke."
   },
   {
     "chapter": 11,
@@ -972,6 +986,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "I see all the gods in your body, O god, and also the hosts of the different kinds of beings, Brahmā the lord seated on the lotus seat, and all the seers and the divine serpents.",
+    "plain": "I see all the gods in your body, god, and also the hosts of the different kinds of beings, Brahmā the lord seated on his lotus seat, all the seers and the divine serpents.",
     "notes": [
       "\"Brahmā the lord seated on the lotus seat\" can also be read as two gods: \"Brahmā seated on the lotus seat, and the Lord (Śiva)\"."
     ]
@@ -1058,7 +1073,8 @@ export const VERSES: Verse[] = [
         "en": "O one whose form is all"
       }
     ],
-    "translation": "I see you with many arms, bellies, mouths and eyes, of endless form on every side. I see no end, no middle, nor again a beginning of you, O lord of all, O one whose form is all."
+    "translation": "I see you with many arms, bellies, mouths and eyes, of endless form on every side. I see no end, no middle, nor again a beginning of you, O lord of all, O one whose form is all.",
+    "plain": "I see you with many arms, bellies, mouths and eyes, your form endless on every side. I see no end to you, no middle and no beginning either, lord of all, you whose form is all."
   },
   {
     "chapter": 11,
@@ -1130,7 +1146,8 @@ export const VERSES: Verse[] = [
         "en": "immeasurable"
       }
     ],
-    "translation": "I see you wearing a crown, bearing a mace and bearing a discus, a mass of radiance shining on every side, hard to look at, all around with the brightness of blazing fire and sun, immeasurable."
+    "translation": "I see you wearing a crown, bearing a mace and bearing a discus, a mass of radiance shining on every side, hard to look at, all around with the brightness of blazing fire and sun, immeasurable.",
+    "plain": "I see you crowned, bearing a mace and a discus, a mass of radiance shining on every side. You are hard to look at, bright all around as blazing fire and sun, and beyond measure."
   },
   {
     "chapter": 11,
@@ -1220,6 +1237,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "You are the undecaying, the highest, to be known. You are the highest resting place of this all. You are the imperishable guardian of the everlasting dharma. You are the eternal person: so it is thought by me.",
+    "plain": "You are the undecaying, the highest, the one to be known. You are the highest resting place of all this. You are the imperishable guardian of the everlasting dharma. You are the eternal person: so I believe.",
     "notes": [
       "\"The undecaying, the highest, to be known\" can also be read as \"the highest undecaying one that is to be known\"."
     ]
@@ -1286,7 +1304,8 @@ export const VERSES: Verse[] = [
         "en": "heating"
       }
     ],
-    "translation": "I see you without beginning, middle or end, of endless power, of endless arms, having the moon and sun as eyes, having blazing fire as mouth, heating this universe by your own radiance."
+    "translation": "I see you without beginning, middle or end, of endless power, of endless arms, having the moon and sun as eyes, having blazing fire as mouth, heating this universe by your own radiance.",
+    "plain": "I see you without beginning, middle or end, with endless power and endless arms, with the moon and sun for eyes and blazing fire for a mouth, heating this universe with your own radiance."
   },
   {
     "chapter": 11,
@@ -1383,7 +1402,8 @@ export const VERSES: Verse[] = [
         "term": "atman"
       }
     ],
-    "translation": "This space between heaven and earth is indeed pervaded by you alone, and all the directions. Having seen this wondrous, fierce form of yours, the three worlds are shaken, O you of great self."
+    "translation": "This space between heaven and earth is indeed pervaded by you alone, and all the directions. Having seen this wondrous, fierce form of yours, the three worlds are shaken, O you of great self.",
+    "plain": "For you alone fill this space between heaven and earth, and all the directions too. At the sight of this wondrous, fierce form of yours the three worlds are shaken, great self."
   },
   {
     "chapter": 11,
@@ -1471,7 +1491,8 @@ export const VERSES: Verse[] = [
         "en": "abundant"
       }
     ],
-    "translation": "Those hosts of gods indeed enter you. Some, frightened, praise with joined palms. Having said \"May it be well\", the hosts of great seers and perfected ones laud you with abundant hymns."
+    "translation": "Those hosts of gods indeed enter you. Some, frightened, praise with joined palms. Having said \"May it be well\", the hosts of great seers and perfected ones laud you with abundant hymns.",
+    "plain": "Those hosts of gods are entering you. Some, frightened, praise you with joined palms. The hosts of great seers and perfected ones cry, May it be well, and laud you with abundant hymns."
   },
   {
     "chapter": 11,
@@ -1563,7 +1584,8 @@ export const VERSES: Verse[] = [
         "en": "all"
       }
     ],
-    "translation": "The Rudras and Ādityas, the Vasus and those who are the Sādhyas, the Viśvedevas, the two Aśvins, the Maruts and the drinkers of steam, and the hosts of Gandharvas, Yakṣas, Asuras and perfected ones gaze at you, and all are indeed amazed."
+    "translation": "The Rudras and Ādityas, the Vasus and those who are the Sādhyas, the Viśvedevas, the two Aśvins, the Maruts and the drinkers of steam, and the hosts of Gandharvas, Yakṣas, Asuras and perfected ones gaze at you, and all are indeed amazed.",
+    "plain": "The Rudras and Ādityas, the Vasus and the Sādhyas, the Viśvedevas, the two Aśvins, the Maruts and the drinkers of steam, and the hosts of Gandharvas, Yakṣas, Asuras and perfected ones gaze at you, and all of them are amazed."
   },
   {
     "chapter": 11,
@@ -1635,7 +1657,8 @@ export const VERSES: Verse[] = [
         "en": "I"
       }
     ],
-    "translation": "Having seen your great form, O mighty-armed one, with many mouths and eyes, with many arms, thighs and feet, with many bellies, fearsome with many tusks, the worlds are shaken, and so also am I."
+    "translation": "Having seen your great form, O mighty-armed one, with many mouths and eyes, with many arms, thighs and feet, with many bellies, fearsome with many tusks, the worlds are shaken, and so also am I.",
+    "plain": "At the sight of your great form, mighty-armed one, with its many mouths and eyes, its many arms, thighs and feet, its many bellies and its many fearsome tusks, the worlds are shaken, and so am I."
   },
   {
     "chapter": 11,
@@ -1716,7 +1739,8 @@ export const VERSES: Verse[] = [
         "en": "O Viṣṇu"
       }
     ],
-    "translation": "Having indeed seen you touching the sky, blazing, of many colours, with mouths opened wide, with blazing wide eyes, I, with inner self shaken, do not find steadiness and calm, O Viṣṇu."
+    "translation": "Having indeed seen you touching the sky, blazing, of many colours, with mouths opened wide, with blazing wide eyes, I, with inner self shaken, do not find steadiness and calm, O Viṣṇu.",
+    "plain": "For when I see you touching the sky, blazing, many-coloured, your mouths open wide and your wide eyes ablaze, I am shaken to my inner self, and I find neither steadiness nor calm, Viṣṇu."
   },
   {
     "chapter": 11,
@@ -1805,6 +1829,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "And having just seen your mouths, fearsome with tusks, resembling the fire of time, I do not know the directions and I do not obtain shelter. Be gracious, O lord of gods, O abode of the world.",
+    "plain": "And at the mere sight of your mouths, fearsome with tusks and like the fire of time, I lose all sense of direction and find no shelter. Be gracious, lord of gods, abode of the world.",
     "notes": [
       "\"Shelter\" can also be read as \"comfort\"."
     ]
@@ -1900,6 +1925,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "And all those sons of Dhṛtarāṣṭra, indeed together with the hosts of rulers of the earth, Bhīṣma, Droṇa and likewise that son of the charioteer, together also with our own chief warriors,",
+    "plain": "And all those sons of Dhṛtarāṣṭra are entering you, together with the hosts of the rulers of the earth, and so are Bhīṣma, Droṇa and that son of the charioteer, together with our own chief warriors too.",
     "notes": [
       "Verses 26 to 27 are one sentence in the Sanskrit."
     ]
@@ -1970,7 +1996,8 @@ export const VERSES: Verse[] = [
         "en": "with heads"
       }
     ],
-    "translation": "hurrying, enter you, enter your mouths, fearsome with tusks and terrifying. Some are seen stuck in the gaps between the teeth, with crushed heads."
+    "translation": "hurrying, enter you, enter your mouths, fearsome with tusks and terrifying. Some are seen stuck in the gaps between the teeth, with crushed heads.",
+    "plain": "They hurry into your mouths, which are fearsome with tusks and terrifying. Some can be seen stuck in the gaps between your teeth, their heads crushed."
   },
   {
     "chapter": 11,
@@ -2050,7 +2077,8 @@ export const VERSES: Verse[] = [
         "en": "flaming all around"
       }
     ],
-    "translation": "As the many rushing currents of water of rivers run facing towards the ocean only, so those heroes of the world of men enter your mouths, which are flaming all around."
+    "translation": "As the many rushing currents of water of rivers run facing towards the ocean only, so those heroes of the world of men enter your mouths, which are flaming all around.",
+    "plain": "As the many rushing currents of the rivers run only towards the ocean, so those heroes of the world of men enter your mouths, which flame all around."
   },
   {
     "chapter": 11,
@@ -2135,6 +2163,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "As moths with full speed enter a blazing fire for destruction, just so the worlds also enter your mouths with full speed for destruction.",
+    "plain": "As moths fly at full speed into a blazing fire to their destruction, so too the worlds rush at full speed into your mouths to their destruction.",
     "notes": [
       "\"The worlds\" can also be read as \"people\"."
     ]
@@ -2221,7 +2250,8 @@ export const VERSES: Verse[] = [
         "en": "O Viṣṇu"
       }
     ],
-    "translation": "You lick again and again, swallowing the whole worlds from every side with flaming mouths. Having filled the whole world with radiance, your fierce rays scorch, O Viṣṇu."
+    "translation": "You lick again and again, swallowing the whole worlds from every side with flaming mouths. Having filled the whole world with radiance, your fierce rays scorch, O Viṣṇu.",
+    "plain": "You lick again and again, swallowing all the worlds from every side with your flaming mouths. Your fierce rays fill the whole world with radiance and scorch it, Viṣṇu."
   },
   {
     "chapter": 11,
@@ -2318,6 +2348,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Tell me who you are, sir, of fierce form. Let there be homage to you, O best of gods. Be gracious. I wish to know you fully, sir, the first one, for I do not understand your activity.",
+    "plain": "Tell me who you are, you of the fierce form. Homage to you, best of gods. Be gracious. I want to know you fully, you who are the first one, for I do not understand what you are doing.",
     "notes": [
       "\"Your activity\" can also be read as \"your purpose\"."
     ]
@@ -2413,6 +2444,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "I am time, fully grown, causing the destruction of the worlds, set in motion here to draw in the worlds. Even without you, all the warriors who are standing in the opposing armies will not be.",
+    "plain": "I am time, fully grown, the destroyer of the worlds, set in motion here to draw the worlds in. Even without you, all the warriors standing in the opposing armies will cease to be.",
     "notes": [
       "\"Even without you\" can also be read as \"except for you\", so that the line says all the warriors will cease to be and only Arjuna will remain.",
       "\"Time\" can also be read as \"death\"."
@@ -2513,6 +2545,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Therefore stand up, you, and obtain fame. Having conquered the enemies, enjoy a prosperous kingdom. These have already been struck down before by me alone. Be merely the instrument, O you who shoot with the left hand too.",
+    "plain": "So stand up and win fame. Conquer your enemies and enjoy a prosperous kingdom. I alone have already struck these men down. Be merely the instrument, you who shoot with the left hand too.",
     "notes": [
       "\"Merely the instrument\" can also be read as \"merely the occasion\"."
     ]
@@ -2619,7 +2652,8 @@ export const VERSES: Verse[] = [
         "en": "rivals"
       }
     ],
-    "translation": "Droṇa and Bhīṣma and Jayadratha and Karṇa, and likewise other heroic warriors also, slain by me: you, slay them. Do not be shaken. Fight. You will conquer the rivals in battle."
+    "translation": "Droṇa and Bhīṣma and Jayadratha and Karṇa, and likewise other heroic warriors also, slain by me: you, slay them. Do not be shaken. Fight. You will conquer the rivals in battle.",
+    "plain": "Droṇa, Bhīṣma, Jayadratha, Karṇa and the other heroic warriors as well have been slain by me: you, slay them. Do not be shaken. Fight. You will conquer your rivals in battle."
   },
   {
     "chapter": 11,
@@ -2699,7 +2733,8 @@ export const VERSES: Verse[] = [
         "en": "having bowed down"
       }
     ],
-    "translation": "Having heard this speech of Keśava, the crowned one, with palms joined, trembling, having paid homage, indeed said again to Kṛṣṇa with a stammer, very frightened, having bowed down."
+    "translation": "Having heard this speech of Keśava, the crowned one, with palms joined, trembling, having paid homage, indeed said again to Kṛṣṇa with a stammer, very frightened, having bowed down.",
+    "plain": "When he heard these words of Keśava, the crowned one joined his palms, trembling, and paid homage. Then, bowing down and very frightened, he spoke to Kṛṣṇa again in a stammering voice."
   },
   {
     "chapter": 11,
@@ -2783,7 +2818,8 @@ export const VERSES: Verse[] = [
         "en": "hosts of perfected ones"
       }
     ],
-    "translation": "Rightly, O Hṛṣīkeśa, by the praising of you the world rejoices and is filled with love. The demons, frightened, run to the directions, and all the hosts of perfected ones pay homage."
+    "translation": "Rightly, O Hṛṣīkeśa, by the praising of you the world rejoices and is filled with love. The demons, frightened, run to the directions, and all the hosts of perfected ones pay homage.",
+    "plain": "It is right, Hṛṣīkeśa, that the world rejoices in praising you and is filled with love. The demons run off in fear in all directions, and all the hosts of perfected ones pay homage."
   },
   {
     "chapter": 11,
@@ -2881,6 +2917,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "And why should they not bow to you, O great self, to the one greater even than Brahmā, to the first maker? O endless one, O lord of the gods, O abode of the world, you are the imperishable, the existent, the non-existent, and what is beyond that.",
+    "plain": "And why should they not bow to you, great self, the first maker, greater even than Brahmā? Endless one, lord of the gods, abode of the world, you are the imperishable, the existent, the non-existent and what is beyond that.",
     "notes": [
       "\"To the one greater even than Brahmā, to the first maker\" can also be read as \"to the greater one, the first maker even of Brahmā\"."
     ]
@@ -2983,7 +3020,8 @@ export const VERSES: Verse[] = [
         "en": "O one of endless form"
       }
     ],
-    "translation": "You are the first god, the ancient person. You are the supreme resting place of this universe. You are the knower, and what is to be known, and the supreme abode. By you the universe is pervaded, O one of endless form."
+    "translation": "You are the first god, the ancient person. You are the supreme resting place of this universe. You are the knower, and what is to be known, and the supreme abode. By you the universe is pervaded, O one of endless form.",
+    "plain": "You are the first god, the ancient person. You are the supreme resting place of this universe. You are the knower, what is to be known and the supreme abode. The universe is pervaded by you, you of endless form."
   },
   {
     "chapter": 11,
@@ -3087,7 +3125,8 @@ export const VERSES: Verse[] = [
         "en": "to you"
       }
     ],
-    "translation": "You are Vāyu, Yama, Agni, Varuṇa, the moon, the lord of creatures and the great-grandfather. Let there be homage, homage to you a thousand times, and again, and also once more, homage, homage to you."
+    "translation": "You are Vāyu, Yama, Agni, Varuṇa, the moon, the lord of creatures and the great-grandfather. Let there be homage, homage to you a thousand times, and again, and also once more, homage, homage to you.",
+    "plain": "You are Vāyu, Yama, Agni, Varuṇa, the moon, the lord of creatures and the great-grandfather. Homage, homage to you a thousand times, and again, and yet once more, homage, homage to you."
   },
   {
     "chapter": 11,
@@ -3183,7 +3222,8 @@ export const VERSES: Verse[] = [
         "en": "all"
       }
     ],
-    "translation": "Homage to you from the front and then from behind. Let there be homage to you from every side indeed, O all. O one of endless strength, you are of measureless might. You reach through all, therefore you are all."
+    "translation": "Homage to you from the front and then from behind. Let there be homage to you from every side indeed, O all. O one of endless strength, you are of measureless might. You reach through all, therefore you are all.",
+    "plain": "Homage to you from the front and from behind. Homage to you from every side, you who are all. You of endless strength, your might is measureless. You reach through all, and so you are all."
   },
   {
     "chapter": 11,
@@ -3292,6 +3332,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Whatever was said rashly, having thought of you as a friend, \"O Kṛṣṇa, O Yādava, O friend\", by me not knowing this greatness of yours, from carelessness or even from affection,",
+    "plain": "Thinking of you as a friend, I have spoken rashly, calling you Kṛṣṇa, Yādava, friend. I did not know this greatness of yours, and I spoke out of carelessness or even out of affection.",
     "notes": [
       "Verses 41 to 42 are one sentence in the Sanskrit.",
       "\"By me not knowing this greatness of yours\" can also be read as \"this, by me not knowing your greatness\", where \"this\" points to what was said."
@@ -3379,7 +3420,8 @@ export const VERSES: Verse[] = [
         "en": "the immeasurable"
       }
     ],
-    "translation": "and in whatever way you were treated without respect for the sake of a joke, at play, lying down, sitting and eating, alone or even, O unfallen one, in the sight of others: for that I ask forgiveness of you, the immeasurable."
+    "translation": "and in whatever way you were treated without respect for the sake of a joke, at play, lying down, sitting and eating, alone or even, O unfallen one, in the sight of others: for that I ask forgiveness of you, the immeasurable.",
+    "plain": "And I have treated you without respect for the sake of a joke, at play, lying down, sitting and eating, alone or even, unfallen one, in front of others. For that I ask your forgiveness, you who are immeasurable."
   },
   {
     "chapter": 11,
@@ -3475,7 +3517,8 @@ export const VERSES: Verse[] = [
         "en": "O one of matchless power"
       }
     ],
-    "translation": "You are the father of this world, of the moving and the unmoving, and the one to be worshipped, the greater teacher. There is none equal to you. From where could there be another surpassing you, even in the three worlds, O one of matchless power?"
+    "translation": "You are the father of this world, of the moving and the unmoving, and the one to be worshipped, the greater teacher. There is none equal to you. From where could there be another surpassing you, even in the three worlds, O one of matchless power?",
+    "plain": "You are the father of this world, of all that moves and all that does not, the one to be worshipped and the greater teacher. No one is equal to you. How then could there be another who surpasses you, even in the three worlds, you of matchless power?"
   },
   {
     "chapter": 11,
@@ -3576,6 +3619,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Therefore, having bowed down, having laid the body low, I ask for the grace of you, the lord to be praised. As a father with a son, as a friend with a friend, as a dear one with a dear one, you ought, O god, to be forbearing.",
+    "plain": "So I bow down, lay my body low and ask for your grace, lord who is to be praised. As a father bears with a son, a friend with a friend, a dear one with a dear one, so you, god, ought to bear with me.",
     "notes": [
       "\"As a dear one with a dear one\" can also be read as \"as a lover with his beloved\"."
     ]
@@ -3671,7 +3715,8 @@ export const VERSES: Verse[] = [
         "en": "O abode of the world"
       }
     ],
-    "translation": "Having seen what was never seen before, I am thrilled, and my mind is greatly distressed with fear. Show me that very form, O god. Be gracious, O lord of the gods, O abode of the world."
+    "translation": "Having seen what was never seen before, I am thrilled, and my mind is greatly distressed with fear. Show me that very form, O god. Be gracious, O lord of the gods, O abode of the world.",
+    "plain": "I am thrilled to have seen what was never seen before, and my mind is badly shaken with fear. Show me that very form, god. Be gracious, lord of the gods, abode of the world."
   },
   {
     "chapter": 11,
@@ -3755,7 +3800,8 @@ export const VERSES: Verse[] = [
         "en": "O one whose shape is the universe"
       }
     ],
-    "translation": "I wish to see you just so, wearing a crown, bearing a mace, with a discus in hand. Be with that very four-armed form, O thousand-armed one, O one whose shape is the universe."
+    "translation": "I wish to see you just so, wearing a crown, bearing a mace, with a discus in hand. Be with that very four-armed form, O thousand-armed one, O one whose shape is the universe.",
+    "plain": "I wish to see you in just that way, wearing a crown, bearing a mace, with a discus in your hand. Take that very four-armed form, thousand-armed one, you whose shape is the universe."
   },
   {
     "chapter": 11,
@@ -3849,6 +3895,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "By me, being gracious, O Arjuna, this supreme form has been shown to you through the yoga of the self: made of splendour, all-containing, endless, first, this form of mine which has not been seen before by anyone other than you.",
+    "plain": "Being gracious to you, Arjuna, I have shown you this supreme form through the yoga of the self. It is made of splendour, all-containing, endless and first, this form of mine that no one but you has seen before.",
     "notes": [
       "\"Through the yoga of the self\" can also be read as \"through my own yoga\"."
     ]
@@ -3940,6 +3987,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Not by the Vedas, sacrifices and study, not by gifts, and not by rites, not by fierce austerities, am I able to be seen having such a form in the world of men by anyone other than you, O great hero of the Kurus.",
+    "plain": "Not by the Vedas, sacrifices and study, not by gifts, not by rites and not by fierce austerities can I be seen in such a form in the world of men by anyone but you, great hero of the Kurus.",
     "notes": [
       "\"By the Vedas, sacrifices and study\" can also be read as \"by study of the Vedas and of sacrifices\"."
     ]
@@ -4051,7 +4099,8 @@ export const VERSES: Verse[] = [
         "en": "behold"
       }
     ],
-    "translation": "Let there not be distress for you, and let there not be a bewildered state, having seen this form of mine, such a terrible one. With fear gone, with a glad mind, behold again that very form of mine, this one."
+    "translation": "Let there not be distress for you, and let there not be a bewildered state, having seen this form of mine, such a terrible one. With fear gone, with a glad mind, behold again that very form of mine, this one.",
+    "plain": "Do not be distressed and do not be bewildered at seeing this form of mine, terrible as it is. With your fear gone and your mind glad, look again at that very form of mine, this one here."
   },
   {
     "chapter": 11,
@@ -4140,7 +4189,8 @@ export const VERSES: Verse[] = [
         "term": "atman"
       }
     ],
-    "translation": "Thus, having spoken so to Arjuna, Vāsudeva showed his own form once more. And the great self, having again become gentle in body, comforted him, the frightened one."
+    "translation": "Thus, having spoken so to Arjuna, Vāsudeva showed his own form once more. And the great self, having again become gentle in body, comforted him, the frightened one.",
+    "plain": "Having spoken so to Arjuna, Vāsudeva showed his own form once more. And the great self, gentle in body again, comforted the frightened man."
   },
   {
     "chapter": 11,
@@ -4208,7 +4258,8 @@ export const VERSES: Verse[] = [
         "en": "gone"
       }
     ],
-    "translation": "Having seen this gentle human form of yours, O Janārdana, I am now become in possession of my mind, gone to my own nature."
+    "translation": "Having seen this gentle human form of yours, O Janārdana, I am now become in possession of my mind, gone to my own nature.",
+    "plain": "Now that I see this gentle human form of yours, Janārdana, I am in possession of my mind and have returned to my own nature."
   },
   {
     "chapter": 11,
@@ -4276,7 +4327,8 @@ export const VERSES: Verse[] = [
         "en": "longing for the sight"
       }
     ],
-    "translation": "Very hard to see is this form of mine which you have seen. Even the gods are always longing for the sight of this form."
+    "translation": "Very hard to see is this form of mine which you have seen. Even the gods are always longing for the sight of this form.",
+    "plain": "This form of mine that you have seen is very hard to see. Even the gods are always longing for a sight of this form."
   },
   {
     "chapter": 11,
@@ -4360,7 +4412,8 @@ export const VERSES: Verse[] = [
         "en": "as"
       }
     ],
-    "translation": "Not by the Vedas, not by austerity, not by giving, and not by sacrifice am I able to be seen in such a way, as you have seen me."
+    "translation": "Not by the Vedas, not by austerity, not by giving, and not by sacrifice am I able to be seen in such a way, as you have seen me.",
+    "plain": "Not by the Vedas, not by austerity, not by giving and not by sacrifice can I be seen in the way that you have seen me."
   },
   {
     "chapter": 11,
@@ -4432,7 +4485,8 @@ export const VERSES: Verse[] = [
         "en": "O scorcher of foes"
       }
     ],
-    "translation": "But by devotion directed to no other, O Arjuna, I am able in such a way to be known and to be seen in truth, and to be entered, O scorcher of foes."
+    "translation": "But by devotion directed to no other, O Arjuna, I am able in such a way to be known and to be seen in truth, and to be entered, O scorcher of foes.",
+    "plain": "But by devotion directed to no other, Arjuna, I can in this way be known and seen in truth, and entered, scorcher of foes."
   },
   {
     "chapter": 11,
@@ -4495,6 +4549,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "One who does action for me, holding me as the highest, devoted to me, free from attachment, who is without enmity toward all beings: he comes to me, O son of Pāṇḍu.",
+    "plain": "One who does action for me, who holds me as the highest and is devoted to me, who is free from attachment and without enmity toward all beings: that one comes to me, son of Pāṇḍu.",
     "notes": [
       "\"One who does action for me\" can also be read as \"one who does my work\"."
     ]

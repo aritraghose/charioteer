@@ -80,7 +80,8 @@ export const VERSES: Verse[] = [
         "en": "well determined"
       }
     ],
-    "translation": "You praise the renunciation of actions, O Kṛṣṇa, and again yoga. Which one of these two is better, tell me that, well determined."
+    "translation": "You praise the renunciation of actions, O Kṛṣṇa, and again yoga. Which one of these two is better, tell me that, well determined.",
+    "plain": "Kṛṣṇa, you praise the renunciation of actions, and then again you praise yoga. Tell me for certain which one of the two is better."
   },
   {
     "chapter": 5,
@@ -140,7 +141,8 @@ export const VERSES: Verse[] = [
         "en": "excels"
       }
     ],
-    "translation": "Renunciation and the yoga of action both bring about the highest good. But of the two, the yoga of action excels the renunciation of action."
+    "translation": "Renunciation and the yoga of action both bring about the highest good. But of the two, the yoga of action excels the renunciation of action.",
+    "plain": "Renunciation and the yoga of action both lead to the highest good. But of the two, the yoga of action is better than the renunciation of action."
   },
   {
     "chapter": 5,
@@ -213,7 +215,8 @@ export const VERSES: Verse[] = [
         "en": "is released"
       }
     ],
-    "translation": "He is to be known as a constant renouncer who neither hates nor longs. For one free from the pairs of opposites, O mighty-armed one, is easily released from bondage."
+    "translation": "He is to be known as a constant renouncer who neither hates nor longs. For one free from the pairs of opposites, O mighty-armed one, is easily released from bondage.",
+    "plain": "A person who neither hates nor longs should be known as a constant renouncer. For one who is free from the pairs of opposites, mighty-armed one, is easily released from bondage."
   },
   {
     "chapter": 5,
@@ -282,7 +285,8 @@ export const VERSES: Verse[] = [
         "en": "the fruit"
       }
     ],
-    "translation": "The childish, not the learned, declare sāṅkhya and yoga to be separate. One who is rightly established in even one finds the fruit of both."
+    "translation": "The childish, not the learned, declare sāṅkhya and yoga to be separate. One who is rightly established in even one finds the fruit of both.",
+    "plain": "It is the childish, not the learned, who say that sāṅkhya and yoga are separate. One who is rightly established in even one of them finds the fruit of both."
   },
   {
     "chapter": 5,
@@ -370,7 +374,8 @@ export const VERSES: Verse[] = [
         "en": "sees"
       }
     ],
-    "translation": "The place that is reached by the followers of sāṅkhya, that is also gone to by the followers of yoga. One who sees sāṅkhya and yoga as one, he sees."
+    "translation": "The place that is reached by the followers of sāṅkhya, that is also gone to by the followers of yoga. One who sees sāṅkhya and yoga as one, he sees.",
+    "plain": "The place reached by the followers of sāṅkhya is reached by the followers of yoga too. Whoever sees sāṅkhya and yoga as one is the one who sees."
   },
   {
     "chapter": 5,
@@ -434,7 +439,8 @@ export const VERSES: Verse[] = [
         "en": "goes"
       }
     ],
-    "translation": "But renunciation, O mighty-armed one, is hard to reach without yoga. The sage yoked by yoga goes to brahman before long."
+    "translation": "But renunciation, O mighty-armed one, is hard to reach without yoga. The sage yoked by yoga goes to brahman before long.",
+    "plain": "But renunciation, mighty-armed one, is hard to reach without yoga. The sage who is yoked by yoga reaches brahman before long."
   },
   {
     "chapter": 5,
@@ -491,7 +497,8 @@ export const VERSES: Verse[] = [
         "en": "is smeared"
       }
     ],
-    "translation": "One who is yoked by yoga, whose self is purified, whose self is conquered, whose senses are conquered, whose self has become the self of all beings, is not smeared even while acting."
+    "translation": "One who is yoked by yoga, whose self is purified, whose self is conquered, whose senses are conquered, whose self has become the self of all beings, is not smeared even while acting.",
+    "plain": "One who is yoked by yoga, whose self is purified, who has conquered the self and conquered the senses, and whose self has become the self of all beings, is not stained even while acting."
   },
   {
     "chapter": 5,
@@ -573,6 +580,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "\"I do not do anything at all\": thus the yoked one, the knower of the truth, should think, while seeing, hearing, touching, smelling, eating, going, sleeping, breathing,",
+    "plain": "While seeing, hearing, touching, smelling, eating, walking, sleeping and breathing, one who is yoked and knows the truth should think: I do nothing at all.",
     "notes": [
       "Verses 8 to 9 are one sentence in the Sanskrit."
     ]
@@ -638,6 +646,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "talking, letting go, grasping, even opening the eyes and closing the eyes, holding thus: \"The senses move among the objects of the senses.\"",
+    "plain": "While talking, letting go, grasping, and even opening and closing the eyes, such a person holds to this: the senses are moving among the objects of the senses.",
     "notes": [
       "\"Letting go\" can also be read as \"excreting\"."
     ]
@@ -715,7 +724,8 @@ export const VERSES: Verse[] = [
         "en": "by water"
       }
     ],
-    "translation": "One who acts having placed actions in brahman, having given up attachment, he is not smeared by evil, like a lotus leaf by water."
+    "translation": "One who acts having placed actions in brahman, having given up attachment, he is not smeared by evil, like a lotus leaf by water.",
+    "plain": "One who acts after placing actions in brahman and giving up attachment is not stained by evil, just as a lotus leaf is not stained by water."
   },
   {
     "chapter": 5,
@@ -786,7 +796,8 @@ export const VERSES: Verse[] = [
         "term": "atman"
       }
     ],
-    "translation": "With the body, with the mind, with the buddhi, even with the senses alone, yogīs do action, having given up attachment, for the purification of the self."
+    "translation": "With the body, with the mind, with the buddhi, even with the senses alone, yogīs do action, having given up attachment, for the purification of the self.",
+    "plain": "Yogīs act with the body, with the mind, with the buddhi, and even with the senses alone. They give up attachment and act to purify the self."
   },
   {
     "chapter": 5,
@@ -853,6 +864,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The yoked one, having given up the fruit of action, attains final peace. The unyoked one, attached to the fruit by the working of desire, is bound.",
+    "plain": "One who is yoked gives up the fruit of action and attains final peace. One who is not yoked is attached to the fruit through the working of desire, and is bound.",
     "notes": [
       "\"Final peace\" can also be read as \"the peace that comes from steadfastness\"."
     ]
@@ -931,7 +943,8 @@ export const VERSES: Verse[] = [
         "en": "causing action"
       }
     ],
-    "translation": "Having renounced all actions with the mind, the embodied one sits happily, in control, in the city of nine gates, not acting at all and not causing action."
+    "translation": "Having renounced all actions with the mind, the embodied one sits happily, in control, in the city of nine gates, not acting at all and not causing action.",
+    "plain": "Having renounced all actions with the mind, the embodied one sits happily and in control in the city of nine gates, neither acting at all nor causing action."
   },
   {
     "chapter": 5,
@@ -998,6 +1011,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The lord does not create the doership of the world, nor its actions, nor the joining of action with its fruit. But one's own nature goes forward.",
+    "plain": "The lord creates neither the world's doership, nor its actions, nor the link between an action and its fruit. It is one's own nature that is at work.",
     "notes": [
       "\"The lord\" can be read as the self, the master of the body, or as the Lord of the universe."
     ]
@@ -1076,7 +1090,8 @@ export const VERSES: Verse[] = [
         "en": "creatures"
       }
     ],
-    "translation": "The all-pervading one does not take on the evil of anyone, and indeed not the good deed. Knowledge is covered by ignorance. By that, creatures are deluded."
+    "translation": "The all-pervading one does not take on the evil of anyone, and indeed not the good deed. Knowledge is covered by ignorance. By that, creatures are deluded.",
+    "plain": "The all-pervading one does not take on anyone's evil, nor anyone's good deeds either. Knowledge is covered by ignorance, and that is why creatures are deluded."
   },
   {
     "chapter": 5,
@@ -1146,6 +1161,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "But for those whose ignorance is destroyed by knowledge of the self, their knowledge, like the sun, lights up that supreme.",
+    "plain": "But for those whose ignorance has been destroyed by knowledge of the self, that knowledge, like the sun, lights up that which is supreme.",
     "notes": [
       "\"Whose ignorance is destroyed by knowledge of the self\" can also be read as \"whose ignorance of the self is destroyed by knowledge\"."
     ]
@@ -1194,7 +1210,8 @@ export const VERSES: Verse[] = [
         "en": "whose stains are shaken off by knowledge"
       }
     ],
-    "translation": "Those whose buddhi is in that, whose self is that, whose foundation is that, whose highest goal is that, whose stains are shaken off by knowledge, go to no return."
+    "translation": "Those whose buddhi is in that, whose self is that, whose foundation is that, whose highest goal is that, whose stains are shaken off by knowledge, go to no return.",
+    "plain": "Those whose buddhi rests in that, whose self is that, whose foundation is that and whose highest goal is that, go where there is no return, their stains shaken off by knowledge."
   },
   {
     "chapter": 5,
@@ -1255,7 +1272,8 @@ export const VERSES: Verse[] = [
         "term": "samatva"
       }
     ],
-    "translation": "In a brāhmaṇa endowed with learning and humility, in a cow, in an elephant, and even in a dog and in one who cooks dogs, the learned see the same."
+    "translation": "In a brāhmaṇa endowed with learning and humility, in a cow, in an elephant, and even in a dog and in one who cooks dogs, the learned see the same.",
+    "plain": "The learned see the same in a brāhmaṇa rich in learning and humility, in a cow, in an elephant, and even in a dog and in one who cooks dogs."
   },
   {
     "chapter": 5,
@@ -1345,6 +1363,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Right here creation is conquered by those whose mind stands in sameness. For brahman is flawless and the same. Therefore they stand in brahman.",
+    "plain": "Those whose mind stands in sameness have conquered creation right here. For brahman is flawless and the same, and so they stand in brahman.",
     "notes": [
       "\"Creation\" can also be read as \"birth\", meaning the round of being born again."
     ]
@@ -1422,7 +1441,8 @@ export const VERSES: Verse[] = [
         "en": "standing"
       }
     ],
-    "translation": "One should not rejoice having got the pleasant, and one should not shudder having got the unpleasant. The knower of brahman, whose buddhi is steady, undeluded, stands in brahman."
+    "translation": "One should not rejoice having got the pleasant, and one should not shudder having got the unpleasant. The knower of brahman, whose buddhi is steady, undeluded, stands in brahman.",
+    "plain": "One should not rejoice on getting what is pleasant, nor shudder on getting what is unpleasant. With a steady buddhi and free of delusion, the knower of brahman stands in brahman."
   },
   {
     "chapter": 5,
@@ -1486,6 +1506,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "One whose self is unattached to outer contacts finds the happiness which is in the self. He, whose self is yoked by the yoga of brahman, attains undecaying happiness.",
+    "plain": "One whose self is not attached to outer contacts finds the happiness that is in the self. With the self yoked by the yoga of brahman, such a person attains a happiness that does not decay.",
     "notes": [
       "\"Whose self is yoked by the yoga of brahman\" can also be read as \"whose self is yoked to brahman by yoga\"."
     ]
@@ -1556,7 +1577,8 @@ export const VERSES: Verse[] = [
         "en": "the wise one"
       }
     ],
-    "translation": "For the enjoyments which are born of contact, they are only wombs of pain. They have a beginning and an end, O son of Kuntī. The wise one does not delight in them."
+    "translation": "For the enjoyments which are born of contact, they are only wombs of pain. They have a beginning and an end, O son of Kuntī. The wise one does not delight in them.",
+    "plain": "For the enjoyments born of contact are nothing but wombs of pain. They have a beginning and an end, son of Kuntī, and the wise one does not delight in them."
   },
   {
     "chapter": 5,
@@ -1630,7 +1652,8 @@ export const VERSES: Verse[] = [
         "en": "a man"
       }
     ],
-    "translation": "One who is able right here, before release from the body, to bear the rush arising from desire and anger, he is yoked, he is a happy man."
+    "translation": "One who is able right here, before release from the body, to bear the rush arising from desire and anger, he is yoked, he is a happy man.",
+    "plain": "One who is able, right here, before being released from the body, to withstand the rush that arises from desire and anger is yoked, and is a happy person."
   },
   {
     "chapter": 5,
@@ -1698,6 +1721,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "One whose happiness is within, whose delight is within, and likewise whose light is only within, that yogī, having become brahman, goes to the nirvāṇa of brahman.",
+    "plain": "One whose happiness is within, whose delight is within, and whose light too is within alone: that yogī, having become brahman, reaches the nirvāṇa of brahman.",
     "notes": [
       "\"The nirvāṇa of brahman\" can also be read as \"nirvāṇa in brahman\", here and in the next two verses."
     ]
@@ -1751,6 +1775,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The seers attain the nirvāṇa of brahman, they whose stains are worn away, whose doubts are cut, whose self is restrained, delighting in the good of all beings.",
+    "plain": "The seers attain the nirvāṇa of brahman: those whose stains are worn away, whose doubts are cut through, whose self is restrained, and who delight in the good of all beings.",
     "notes": [
       "\"Whose doubts are cut\" can also be read as \"whose sense of twoness is cut\"."
     ]
@@ -1801,6 +1826,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "For the strivers who are freed from desire and anger, whose thought is restrained, who have known the self, the nirvāṇa of brahman exists on every side.",
+    "plain": "For the strivers who are free from desire and anger, whose thought is restrained and who have known the self, the nirvāṇa of brahman lies on every side.",
     "notes": [
       "\"On every side\" can also be read as \"close at hand\"."
     ]
@@ -1873,6 +1899,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Having put the outer contacts outside, and the gaze right between the two eyebrows, having made even the in-breath and the out-breath moving within the nose,",
+    "plain": "The sage shuts outer contacts out, fixes the gaze right between the eyebrows, and makes the in-breath and the out-breath even as they move within the nose.",
     "notes": [
       "Verses 27 to 28 are one sentence in the Sanskrit."
     ]
@@ -1929,6 +1956,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "the sage whose senses, mind and buddhi are restrained, whose highest goal is release, from whom wish, fear and anger have gone, he who is always so is freed indeed.",
+    "plain": "With senses, mind and buddhi restrained, with release as the highest goal, and with wish, fear and anger gone, the sage who is always so is free indeed.",
     "notes": [
       "\"He who is always so is freed indeed\" can also be read as \"he is always freed indeed\"."
     ]
@@ -1984,6 +2012,7 @@ export const VERSES: Verse[] = [
         "en": "one goes"
       }
     ],
-    "translation": "Having known me as the enjoyer of sacrifices and austerities, the great lord of all the worlds, the friend of all beings, one goes to peace."
+    "translation": "Having known me as the enjoyer of sacrifices and austerities, the great lord of all the worlds, the friend of all beings, one goes to peace.",
+    "plain": "Knowing me as the enjoyer of sacrifices and austerities, the great lord of all the worlds and the friend of all beings, one comes to peace."
   }
 ]

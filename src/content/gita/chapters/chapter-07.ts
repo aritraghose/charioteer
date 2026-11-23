@@ -72,7 +72,8 @@ export const VERSES: Verse[] = [
         "en": "hear"
       }
     ],
-    "translation": "With the mind attached to me, O son of Pṛthā, practising yoga, with me as refuge, hear that: how you will know me in full, without doubt."
+    "translation": "With the mind attached to me, O son of Pṛthā, practising yoga, with me as refuge, hear that: how you will know me in full, without doubt.",
+    "plain": "Hear, son of Pṛthā, how you will know me in full and without doubt, with your mind attached to me, practising yoga and taking me as your refuge."
   },
   {
     "chapter": 7,
@@ -148,7 +149,8 @@ export const VERSES: Verse[] = [
         "en": "remains"
       }
     ],
-    "translation": "I will tell you this knowledge, together with discernment, without remainder. Having known it, nothing else further remains here to be known."
+    "translation": "I will tell you this knowledge, together with discernment, without remainder. Having known it, nothing else further remains here to be known.",
+    "plain": "I will tell you this knowledge, together with discernment, leaving nothing out. Once you know it, nothing further remains here to be known."
   },
   {
     "chapter": 7,
@@ -212,7 +214,8 @@ export const VERSES: Verse[] = [
         "en": "in truth"
       }
     ],
-    "translation": "Among thousands of men, someone strives for perfection. Even of the perfected who strive, someone knows me in truth."
+    "translation": "Among thousands of men, someone strives for perfection. Even of the perfected who strive, someone knows me in truth.",
+    "plain": "Among thousands of people, perhaps one strives for perfection. And even among those who strive and are perfected, perhaps one knows me as I truly am."
   },
   {
     "chapter": 7,
@@ -294,7 +297,8 @@ export const VERSES: Verse[] = [
         "en": "eightfold"
       }
     ],
-    "translation": "Earth, water, fire, air, space, mind, and indeed buddhi, and the sense of I: thus this nature of mine is divided eightfold."
+    "translation": "Earth, water, fire, air, space, mind, and indeed buddhi, and the sense of I: thus this nature of mine is divided eightfold.",
+    "plain": "Earth, water, fire, air, space, mind, buddhi too, and the sense of I: this is my nature, divided in eight."
   },
   {
     "chapter": 7,
@@ -371,6 +375,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "This is the lower. But know my other nature, higher than this, which has become the living being, O mighty-armed one, by which this world is held up.",
+    "plain": "This is the lower nature. But know my other nature, mighty-armed one, which is higher than this. It has become the living being, and by it this world is held up.",
     "notes": [
       "\"Which has become the living being\" can also be read as \"which is the life of beings\"."
     ]
@@ -433,7 +438,8 @@ export const VERSES: Verse[] = [
         "en": "likewise"
       }
     ],
-    "translation": "All beings have this as their womb: grasp it thus. I am the origin of the whole world, and likewise the dissolution."
+    "translation": "All beings have this as their womb: grasp it thus. I am the origin of the whole world, and likewise the dissolution.",
+    "plain": "Understand that all beings have this as their womb. I am the origin of the whole world, and its dissolution as well."
   },
   {
     "chapter": 7,
@@ -505,7 +511,8 @@ export const VERSES: Verse[] = [
         "en": "like"
       }
     ],
-    "translation": "There is not anything else higher than me, O winner of wealth. All this is strung on me, like clusters of gems on a thread."
+    "translation": "There is not anything else higher than me, O winner of wealth. All this is strung on me, like clusters of gems on a thread.",
+    "plain": "There is nothing else at all higher than me, winner of wealth. All this is strung on me, like clusters of gems on a thread."
   },
   {
     "chapter": 7,
@@ -573,7 +580,8 @@ export const VERSES: Verse[] = [
         "en": "in men"
       }
     ],
-    "translation": "I am the taste in the waters, O son of Kuntī. I am the light of the moon and the sun, the syllable Om in all the Vedas, sound in space, manhood in men."
+    "translation": "I am the taste in the waters, O son of Kuntī. I am the light of the moon and the sun, the syllable Om in all the Vedas, sound in space, manhood in men.",
+    "plain": "I am the taste in water, son of Kuntī. I am the light of the moon and the sun, the syllable Om in all the Vedas, the sound in space and the manhood in men."
   },
   {
     "chapter": 7,
@@ -645,7 +653,8 @@ export const VERSES: Verse[] = [
         "en": "in ascetics"
       }
     ],
-    "translation": "And I am the pure fragrance in the earth, and the brilliance in fire, the life in all beings, and I am the austerity in ascetics."
+    "translation": "And I am the pure fragrance in the earth, and the brilliance in fire, the life in all beings, and I am the austerity in ascetics.",
+    "plain": "And I am the pure fragrance in the earth and the brilliance in fire. I am the life in all beings, and I am the austerity in ascetics."
   },
   {
     "chapter": 7,
@@ -711,7 +720,8 @@ export const VERSES: Verse[] = [
         "en": "I"
       }
     ],
-    "translation": "Know me, O son of Pṛthā, as the eternal seed of all beings. I am the buddhi of the intelligent. I am the brilliance of the brilliant."
+    "translation": "Know me, O son of Pṛthā, as the eternal seed of all beings. I am the buddhi of the intelligent. I am the brilliance of the brilliant.",
+    "plain": "Know me, son of Pṛthā, as the eternal seed of all beings. I am the buddhi of the intelligent. I am the brilliance of the brilliant."
   },
   {
     "chapter": 7,
@@ -770,7 +780,8 @@ export const VERSES: Verse[] = [
         "en": "O bull of the Bharatas"
       }
     ],
-    "translation": "And I am the strength of the strong, free from desire and passion. In beings I am desire not opposed to dharma, O bull of the Bharatas."
+    "translation": "And I am the strength of the strong, free from desire and passion. In beings I am desire not opposed to dharma, O bull of the Bharatas.",
+    "plain": "And I am the strength of the strong, a strength free from desire and passion. In beings, bull of the Bharatas, I am the desire that does not go against dharma."
   },
   {
     "chapter": 7,
@@ -869,7 +880,8 @@ export const VERSES: Verse[] = [
         "en": "in me"
       }
     ],
-    "translation": "And indeed whichever states of being are of sattva, and whichever are of rajas and of tamas, know them thus: they are from me alone. But I am not in them. They are in me."
+    "translation": "And indeed whichever states of being are of sattva, and whichever are of rajas and of tamas, know them thus: they are from me alone. But I am not in them. They are in me.",
+    "plain": "And whatever states of being come from sattva, and whatever come from rajas and from tamas, know that they are from me alone. But I am not in them. They are in me."
   },
   {
     "chapter": 7,
@@ -942,7 +954,8 @@ export const VERSES: Verse[] = [
         "en": "imperishable"
       }
     ],
-    "translation": "Deluded by these three states of being made of the qualities, this whole world does not recognise me, higher than these and imperishable."
+    "translation": "Deluded by these three states of being made of the qualities, this whole world does not recognise me, higher than these and imperishable.",
+    "plain": "Deluded by these three states of being, made of the guṇas, this whole world does not recognise me, who am higher than these and imperishable."
   },
   {
     "chapter": 7,
@@ -1019,7 +1032,8 @@ export const VERSES: Verse[] = [
         "en": "they"
       }
     ],
-    "translation": "For this divine illusion of mine, made of the qualities, is hard to cross. Those who take refuge in me alone, they cross over this illusion."
+    "translation": "For this divine illusion of mine, made of the qualities, is hard to cross. Those who take refuge in me alone, they cross over this illusion.",
+    "plain": "For this divine illusion of mine, made of the guṇas, is hard to cross. Those who take refuge in me alone cross over this illusion."
   },
   {
     "chapter": 7,
@@ -1079,7 +1093,8 @@ export const VERSES: Verse[] = [
         "en": "having resorted to"
       }
     ],
-    "translation": "The evildoers, the deluded, the lowest of men, do not take refuge in me. Their knowledge is carried away by illusion, and they have resorted to the demonic state of being."
+    "translation": "The evildoers, the deluded, the lowest of men, do not take refuge in me. Their knowledge is carried away by illusion, and they have resorted to the demonic state of being.",
+    "plain": "The evildoers, the deluded, the lowest of men, do not take refuge in me. Illusion has carried away their knowledge, and they have taken to the demonic state of being."
   },
   {
     "chapter": 7,
@@ -1143,7 +1158,8 @@ export const VERSES: Verse[] = [
         "en": "O bull of the Bharatas"
       }
     ],
-    "translation": "People of four kinds who do good worship me, O Arjuna: the distressed one, the one who wishes to know, the one who seeks gain, and the one who knows, O bull of the Bharatas."
+    "translation": "People of four kinds who do good worship me, O Arjuna: the distressed one, the one who wishes to know, the one who seeks gain, and the one who knows, O bull of the Bharatas.",
+    "plain": "Four kinds of people who do good worship me, Arjuna: the one in distress, the one who wishes to know, the one who seeks gain, and the one who knows, bull of the Bharatas."
   },
   {
     "chapter": 7,
@@ -1216,7 +1232,8 @@ export const VERSES: Verse[] = [
         "en": "dear"
       }
     ],
-    "translation": "Of them the one who knows, always yoked, devoted to one, stands out. For I am exceedingly dear to the one who knows, and he is dear to me."
+    "translation": "Of them the one who knows, always yoked, devoted to one, stands out. For I am exceedingly dear to the one who knows, and he is dear to me.",
+    "plain": "Of these, the one who knows stands out, always yoked and devoted to one. For I am exceedingly dear to the one who knows, and that one is dear to me."
   },
   {
     "chapter": 7,
@@ -1307,6 +1324,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "All these are indeed noble, but the one who knows is the very self: that is my view. For he, with the self yoked, has resorted to me alone as the unsurpassed goal.",
+    "plain": "All of these are noble indeed, but the one who knows is the very self: that is my view. For such a one, with the self yoked, has turned to me alone as the unsurpassed goal.",
     "notes": [
       "\"The very self\" can also be read as \"my very self\", with \"that is the view\" standing on its own."
     ]
@@ -1374,7 +1392,8 @@ export const VERSES: Verse[] = [
         "en": "very hard to find"
       }
     ],
-    "translation": "At the end of many births the one who has knowledge takes refuge in me, thus: \"Vāsudeva is all.\" That great self is very hard to find."
+    "translation": "At the end of many births the one who has knowledge takes refuge in me, thus: \"Vāsudeva is all.\" That great self is very hard to find.",
+    "plain": "At the end of many births, the one who has knowledge takes refuge in me, knowing that Vāsudeva is all. Such a great self is very hard to find."
   },
   {
     "chapter": 7,
@@ -1443,7 +1462,8 @@ export const VERSES: Verse[] = [
         "en": "by their own"
       }
     ],
-    "translation": "Those whose knowledge is carried away by this and that desire take refuge in other gods, having resorted to this and that observance, constrained by their own nature."
+    "translation": "Those whose knowledge is carried away by this and that desire take refuge in other gods, having resorted to this and that observance, constrained by their own nature.",
+    "plain": "Those whose knowledge has been carried away by one desire or another take refuge in other gods. They take up one observance or another, constrained by their own nature."
   },
   {
     "chapter": 7,
@@ -1527,7 +1547,8 @@ export const VERSES: Verse[] = [
         "en": "I"
       }
     ],
-    "translation": "Whichever form whichever devotee wishes to worship with faith, I make that very faith of each one unshakable."
+    "translation": "Whichever form whichever devotee wishes to worship with faith, I make that very faith of each one unshakable.",
+    "plain": "Whatever form any devotee wishes to worship with faith, I make that very faith of theirs unshakable."
   },
   {
     "chapter": 7,
@@ -1609,7 +1630,8 @@ export const VERSES: Verse[] = [
         "en": "those"
       }
     ],
-    "translation": "Joined with that faith, he seeks the worship of that one, and from that obtains his desires, for those are ordained by me alone."
+    "translation": "Joined with that faith, he seeks the worship of that one, and from that obtains his desires, for those are ordained by me alone.",
+    "plain": "Joined with that faith, the devotee seeks to worship that form, and from it obtains what is desired. For those desires are granted by me alone."
   },
   {
     "chapter": 7,
@@ -1681,7 +1703,8 @@ export const VERSES: Verse[] = [
         "en": "in turn"
       }
     ],
-    "translation": "But that fruit of those of little understanding has an end. Those who sacrifice to the gods go to the gods. My devotees in turn go to me."
+    "translation": "But that fruit of those of little understanding has an end. Those who sacrifice to the gods go to the gods. My devotees in turn go to me.",
+    "plain": "But the fruit those of little understanding gain has an end. Those who sacrifice to the gods go to the gods. My devotees, in turn, come to me."
   },
   {
     "chapter": 7,
@@ -1746,7 +1769,8 @@ export const VERSES: Verse[] = [
         "en": "unsurpassed"
       }
     ],
-    "translation": "Those without buddhi think of me, the unmanifest, as having come into manifestation, not knowing my higher state of being, imperishable and unsurpassed."
+    "translation": "Those without buddhi think of me, the unmanifest, as having come into manifestation, not knowing my higher state of being, imperishable and unsurpassed.",
+    "plain": "Those without buddhi think of me, the unmanifest, as something that has come into manifestation. They do not know my higher state of being, imperishable and unsurpassed."
   },
   {
     "chapter": 7,
@@ -1815,7 +1839,8 @@ export const VERSES: Verse[] = [
         "en": "the imperishable"
       }
     ],
-    "translation": "I am not visible to all, covered by the illusion of yoga. This deluded world does not recognise me, the unborn, the imperishable."
+    "translation": "I am not visible to all, covered by the illusion of yoga. This deluded world does not recognise me, the unborn, the imperishable.",
+    "plain": "I am not visible to all, covered as I am by the illusion of yoga. This deluded world does not recognise me, the unborn, the imperishable."
   },
   {
     "chapter": 7,
@@ -1887,7 +1912,8 @@ export const VERSES: Verse[] = [
         "en": "anyone at all"
       }
     ],
-    "translation": "I know the beings that have passed, and those that are present, O Arjuna, and those that are to come. But no one at all knows me."
+    "translation": "I know the beings that have passed, and those that are present, O Arjuna, and those that are to come. But no one at all knows me.",
+    "plain": "I know the beings that have passed, Arjuna, those that are present and those that are to come. But no one at all knows me."
   },
   {
     "chapter": 7,
@@ -1936,6 +1962,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "By the delusion of the pairs of opposites, arising from wanting and aversion, O descendant of Bharata, all beings go to delusion at birth, O scorcher of foes.",
+    "plain": "Through the delusion of the pairs of opposites, which arises from wanting and aversion, descendant of Bharata, all beings fall into delusion at birth, scorcher of foes.",
     "notes": [
       "\"At birth\" can also be read as \"in creation\", meaning in this created world rather than at the moment each being is born."
     ]
@@ -1999,7 +2026,8 @@ export const VERSES: Verse[] = [
         "en": "firm in their vows"
       }
     ],
-    "translation": "But the people of pure action, whose evil has come to an end, they, freed from the delusion of the pairs of opposites, worship me, firm in their vows."
+    "translation": "But the people of pure action, whose evil has come to an end, they, freed from the delusion of the pairs of opposites, worship me, firm in their vows.",
+    "plain": "But people of pure action, whose evil has come to an end, are freed from the delusion of the pairs of opposites. They worship me, firm in their vows."
   },
   {
     "chapter": 7,
@@ -2075,6 +2103,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Those who strive for release from old age and death, having taken refuge in me, they know that brahman, the whole of what concerns the self, and the entire action.",
+    "plain": "Those who take refuge in me and strive for release from old age and death know that brahman, the whole of what concerns the self, and action in its entirety.",
     "notes": [
       "\"That brahman, the whole of what concerns the self\" can also be read with \"the whole\" describing brahman: they know that brahman completely, and also what concerns the self."
     ]
@@ -2146,6 +2175,7 @@ export const VERSES: Verse[] = [
         "term": "yoga"
       }
     ],
-    "translation": "Those who know me together with what concerns beings and what concerns the gods, and together with what concerns sacrifice, they, with minds yoked, know me even at the time of departure."
+    "translation": "Those who know me together with what concerns beings and what concerns the gods, and together with what concerns sacrifice, they, with minds yoked, know me even at the time of departure.",
+    "plain": "Those who know me together with what concerns beings and what concerns the gods, and together with what concerns sacrifice, have minds that are yoked. They know me even at the time of departure."
   }
 ]

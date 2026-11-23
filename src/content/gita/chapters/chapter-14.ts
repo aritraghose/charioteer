@@ -74,6 +74,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Again I shall declare the supreme knowledge, the highest of knowledges, having known which all the sages have gone from here to supreme perfection.",
+    "plain": "Once more I shall teach you the supreme knowledge, the highest of all knowledge. Knowing it, all the sages have gone from here to supreme perfection.",
     "notes": [
       "\"Again I shall declare the supreme knowledge\" can also be read as \"I shall declare further, once again, the knowledge\", with the first word meaning \"further\" rather than \"supreme\"."
     ]
@@ -148,7 +149,8 @@ export const VERSES: Verse[] = [
         "en": "and"
       }
     ],
-    "translation": "Having resorted to this knowledge and having come to sameness of nature with me, they are not born even at creation, and at dissolution they are not disturbed."
+    "translation": "Having resorted to this knowledge and having come to sameness of nature with me, they are not born even at creation, and at dissolution they are not disturbed.",
+    "plain": "Those who rely on this knowledge come to share my own nature. They are not born even at creation, and at dissolution they are not disturbed."
   },
   {
     "chapter": 14,
@@ -217,7 +219,8 @@ export const VERSES: Verse[] = [
         "en": "O descendant of Bharata"
       }
     ],
-    "translation": "My womb is the great brahman. In that I place the embryo. From that comes the coming into being of all beings, O descendant of Bharata."
+    "translation": "My womb is the great brahman. In that I place the embryo. From that comes the coming into being of all beings, O descendant of Bharata.",
+    "plain": "The great brahman is my womb, and in it I place the embryo. From that, descendant of Bharata, all beings come into being."
   },
   {
     "chapter": 14,
@@ -282,7 +285,8 @@ export const VERSES: Verse[] = [
         "en": "the father"
       }
     ],
-    "translation": "Whichever forms come into being in all wombs, O son of Kuntī, of them the great brahman is the womb, and I am the seed-giving father."
+    "translation": "Whichever forms come into being in all wombs, O son of Kuntī, of them the great brahman is the womb, and I am the seed-giving father.",
+    "plain": "Whatever forms come into being in any womb, son of Kuntī, the great brahman is their womb, and I am the father who gives the seed."
   },
   {
     "chapter": 14,
@@ -347,7 +351,8 @@ export const VERSES: Verse[] = [
         "en": "imperishable"
       }
     ],
-    "translation": "Sattva, rajas and tamas: thus the guṇas, born of nature, bind the imperishable embodied one in the body, O mighty-armed one."
+    "translation": "Sattva, rajas and tamas: thus the guṇas, born of nature, bind the imperishable embodied one in the body, O mighty-armed one.",
+    "plain": "Sattva, rajas and tamas: these are the guṇas, born of nature. Mighty-armed one, they bind the imperishable embodied one in the body."
   },
   {
     "chapter": 14,
@@ -406,7 +411,8 @@ export const VERSES: Verse[] = [
         "en": "O sinless one"
       }
     ],
-    "translation": "There, sattva, illuminating and free from ill from its stainlessness, binds by attachment to happiness and by attachment to knowledge, O sinless one."
+    "translation": "There, sattva, illuminating and free from ill from its stainlessness, binds by attachment to happiness and by attachment to knowledge, O sinless one.",
+    "plain": "Of these, sattva is stainless, and so it gives light and is free from ill. It binds, sinless one, by attachment to happiness and by attachment to knowledge."
   },
   {
     "chapter": 14,
@@ -463,6 +469,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Know rajas as having the nature of passion, arising from thirst and attachment. That binds the embodied one, O son of Kuntī, by attachment to action.",
+    "plain": "Know that rajas has the nature of passion and arises from thirst and attachment. It binds the embodied one, son of Kuntī, by attachment to action.",
     "notes": [
       "\"Arising from thirst and attachment\" can also be read as \"the source of thirst and attachment\", so that rajas produces them rather than comes from them."
     ]
@@ -523,7 +530,8 @@ export const VERSES: Verse[] = [
         "en": "O descendant of Bharata"
       }
     ],
-    "translation": "But know tamas as born of ignorance, the deluding of all embodied ones. That binds by heedlessness, laziness and sleep, O descendant of Bharata."
+    "translation": "But know tamas as born of ignorance, the deluding of all embodied ones. That binds by heedlessness, laziness and sleep, O descendant of Bharata.",
+    "plain": "But know that tamas is born of ignorance and deludes all embodied ones. It binds, descendant of Bharata, by heedlessness, laziness and sleep."
   },
   {
     "chapter": 14,
@@ -595,7 +603,8 @@ export const VERSES: Verse[] = [
         "en": "indeed"
       }
     ],
-    "translation": "Sattva attaches one to happiness, rajas to action, O descendant of Bharata, but tamas, having veiled knowledge, attaches one to heedlessness indeed."
+    "translation": "Sattva attaches one to happiness, rajas to action, O descendant of Bharata, but tamas, having veiled knowledge, attaches one to heedlessness indeed.",
+    "plain": "Sattva attaches one to happiness and rajas to action, descendant of Bharata. But tamas veils knowledge and attaches one to heedlessness."
   },
   {
     "chapter": 14,
@@ -684,7 +693,8 @@ export const VERSES: Verse[] = [
         "en": "likewise"
       }
     ],
-    "translation": "Having overpowered rajas and tamas, sattva comes to be, O descendant of Bharata. Rajas indeed comes to be having overpowered sattva and tamas, and likewise tamas having overpowered sattva and rajas."
+    "translation": "Having overpowered rajas and tamas, sattva comes to be, O descendant of Bharata. Rajas indeed comes to be having overpowered sattva and tamas, and likewise tamas having overpowered sattva and rajas.",
+    "plain": "Sattva arises, descendant of Bharata, by overpowering rajas and tamas. Rajas arises by overpowering sattva and tamas, and tamas likewise by overpowering sattva and rajas."
   },
   {
     "chapter": 14,
@@ -753,7 +763,8 @@ export const VERSES: Verse[] = [
         "en": "indeed"
       }
     ],
-    "translation": "When light, which is knowledge, is born in all the gates in this body, then indeed one should know thus: sattva has increased."
+    "translation": "When light, which is knowledge, is born in all the gates in this body, then indeed one should know thus: sattva has increased.",
+    "plain": "When light, which is knowledge, is born at all the gates of this body, then one should know that sattva has increased."
   },
   {
     "chapter": 14,
@@ -815,7 +826,8 @@ export const VERSES: Verse[] = [
         "en": "O bull of the Bharatas"
       }
     ],
-    "translation": "Greed, activity, the undertaking of actions, restlessness, longing: these are born when rajas has increased, O bull of the Bharatas."
+    "translation": "Greed, activity, the undertaking of actions, restlessness, longing: these are born when rajas has increased, O bull of the Bharatas.",
+    "plain": "Greed, activity, the undertaking of actions, restlessness and longing: these are born, bull of the Bharatas, when rajas has increased."
   },
   {
     "chapter": 14,
@@ -880,7 +892,8 @@ export const VERSES: Verse[] = [
         "en": "O joy of the Kurus"
       }
     ],
-    "translation": "Absence of light and inactivity, heedlessness and indeed delusion: these are born when tamas has increased, O joy of the Kurus."
+    "translation": "Absence of light and inactivity, heedlessness and indeed delusion: these are born when tamas has increased, O joy of the Kurus.",
+    "plain": "Absence of light, inactivity, heedlessness and delusion: these are born, joy of the Kurus, when tamas has increased."
   },
   {
     "chapter": 14,
@@ -945,7 +958,8 @@ export const VERSES: Verse[] = [
         "en": "he reaches"
       }
     ],
-    "translation": "But when the bearer of a body goes to dissolution when sattva has grown strong, then he reaches the stainless worlds of the knowers of the highest."
+    "translation": "But when the bearer of a body goes to dissolution when sattva has grown strong, then he reaches the stainless worlds of the knowers of the highest.",
+    "plain": "But when an embodied being dies while sattva is strong, that being reaches the stainless worlds of those who know the highest."
   },
   {
     "chapter": 14,
@@ -1004,7 +1018,8 @@ export const VERSES: Verse[] = [
         "en": "he is born"
       }
     ],
-    "translation": "Having gone to dissolution in rajas, he is born among those attached to action. Likewise, dissolved in tamas, he is born in the wombs of the deluded."
+    "translation": "Having gone to dissolution in rajas, he is born among those attached to action. Likewise, dissolved in tamas, he is born in the wombs of the deluded.",
+    "plain": "One who dies in rajas is born among those attached to action. Likewise, one who dies in tamas is born in the wombs of the deluded."
   },
   {
     "chapter": 14,
@@ -1076,7 +1091,8 @@ export const VERSES: Verse[] = [
         "en": "the fruit"
       }
     ],
-    "translation": "They say the fruit of action well done is of the nature of sattva and stainless, but the fruit of rajas is sorrow, and the fruit of tamas is ignorance."
+    "translation": "They say the fruit of action well done is of the nature of sattva and stainless, but the fruit of rajas is sorrow, and the fruit of tamas is ignorance.",
+    "plain": "They say that the fruit of action well done is stainless and of the nature of sattva. But the fruit of rajas is sorrow, and the fruit of tamas is ignorance."
   },
   {
     "chapter": 14,
@@ -1147,7 +1163,8 @@ export const VERSES: Verse[] = [
         "en": "and"
       }
     ],
-    "translation": "From sattva knowledge is born, and from rajas indeed greed. Heedlessness and delusion come to be from tamas, and indeed ignorance."
+    "translation": "From sattva knowledge is born, and from rajas indeed greed. Heedlessness and delusion come to be from tamas, and indeed ignorance.",
+    "plain": "From sattva knowledge is born, and from rajas greed. From tamas come heedlessness and delusion, and ignorance too."
   },
   {
     "chapter": 14,
@@ -1207,7 +1224,8 @@ export const VERSES: Verse[] = [
         "term": "guna"
       }
     ],
-    "translation": "Those standing in sattva go upward. Those of rajas stay in the middle. Those of tamas, standing in the workings of the lowest guṇa, go downward."
+    "translation": "Those standing in sattva go upward. Those of rajas stay in the middle. Those of tamas, standing in the workings of the lowest guṇa, go downward.",
+    "plain": "Those who stand in sattva go upward. Those of rajas stay in the middle. Those of tamas, standing in the workings of the lowest guṇa, go downward."
   },
   {
     "chapter": 14,
@@ -1281,7 +1299,8 @@ export const VERSES: Verse[] = [
         "en": "reaches"
       }
     ],
-    "translation": "When the seer sees no doer other than the guṇas, and knows what is higher than the guṇas, he reaches my state of being."
+    "translation": "When the seer sees no doer other than the guṇas, and knows what is higher than the guṇas, he reaches my state of being.",
+    "plain": "When the seer sees that there is no doer other than the guṇas, and knows what is higher than the guṇas, that seer reaches my state of being."
   },
   {
     "chapter": 14,
@@ -1340,6 +1359,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Having gone beyond these three guṇas, arising from the body, the embodied one, freed from the sorrows of birth, death and old age, attains the deathless.",
+    "plain": "Going beyond these three guṇas, which arise from the body, the embodied one is freed from the sorrows of birth, death and old age, and attains the deathless.",
     "notes": [
       "\"Arising from the body\" can also be read as \"from which the body arises\", so that the guṇas are the source of the body rather than the reverse.",
       "\"From the sorrows of birth, death and old age\" can also be read as \"from birth, death, old age and sorrow\", four separate things."
@@ -1421,7 +1441,8 @@ export const VERSES: Verse[] = [
         "en": "he passes beyond"
       }
     ],
-    "translation": "By what marks is he one who has gone beyond these three guṇas, O lord? Of what conduct is he, and how does he pass beyond these three guṇas?"
+    "translation": "By what marks is he one who has gone beyond these three guṇas, O lord? Of what conduct is he, and how does he pass beyond these three guṇas?",
+    "plain": "Lord, by what marks is one known to have gone beyond these three guṇas? How does such a person behave, and how does one pass beyond these three guṇas?"
   },
   {
     "chapter": 14,
@@ -1493,7 +1514,8 @@ export const VERSES: Verse[] = [
         "en": "he longs for"
       }
     ],
-    "translation": "Light and activity and indeed delusion, O son of Pāṇḍu: he does not hate them when they have come forth, and does not long for them when they have ceased."
+    "translation": "Light and activity and indeed delusion, O son of Pāṇḍu: he does not hate them when they have come forth, and does not long for them when they have ceased.",
+    "plain": "Son of Pāṇḍu, such a person does not hate light, activity or delusion when they have come, and does not long for them when they have gone."
   },
   {
     "chapter": 14,
@@ -1568,6 +1590,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "He who, seated like one unconcerned, is not shaken by the guṇas, who stands firm thus, \"the guṇas act\", and does not waver,",
+    "plain": "Such a person sits like one unconcerned and is not shaken by the guṇas. Thinking that it is the guṇas that act, such a person stands firm and does not waver.",
     "notes": [
       "Verses 23 to 25 are one sentence in the Sanskrit."
     ]
@@ -1613,6 +1636,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "who is the same in sorrow and happiness, abiding in himself, to whom a clod, a stone and gold are the same, to whom the dear and the not dear are equal, who is steady, to whom blame and praise of himself are equal,",
+    "plain": "Such a person is the same in sorrow and in happiness, abides within, and is steady. To such a person a clod, a stone and gold are the same, the dear and the not dear are equal, and blame and praise of oneself are equal.",
     "notes": [
       "\"Steady\" can also be read as \"wise\"."
     ]
@@ -1664,7 +1688,8 @@ export const VERSES: Verse[] = [
         "en": "is said to be"
       }
     ],
-    "translation": "who is equal in honour and dishonour, equal toward the sides of friend and enemy, giving up all undertakings: he is said to be gone beyond the guṇas."
+    "translation": "who is equal in honour and dishonour, equal toward the sides of friend and enemy, giving up all undertakings: he is said to be gone beyond the guṇas.",
+    "plain": "Such a person is equal in honour and dishonour, equal toward the side of friend and the side of enemy, and gives up all undertakings. That person is said to have gone beyond the guṇas."
   },
   {
     "chapter": 14,
@@ -1731,7 +1756,8 @@ export const VERSES: Verse[] = [
         "en": "he is fit"
       }
     ],
-    "translation": "And he who serves me by the unswerving yoga of devotion, having gone fully beyond these guṇas, is fit for becoming brahman."
+    "translation": "And he who serves me by the unswerving yoga of devotion, having gone fully beyond these guṇas, is fit for becoming brahman.",
+    "plain": "And one who serves me with the unswerving yoga of devotion goes fully beyond these guṇas and is fit to become brahman."
   },
   {
     "chapter": 14,
@@ -1802,6 +1828,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "For I am the foundation of brahman, of the deathless and the imperishable, and of the everlasting dharma, and of the absolute happiness.",
+    "plain": "For I am the foundation of brahman, of the deathless and the imperishable, of the everlasting dharma and of absolute happiness.",
     "notes": [
       "\"Of brahman, of the deathless and the imperishable\" can also be read as \"of the deathless and imperishable brahman\", with both words describing brahman rather than naming something separate."
     ]

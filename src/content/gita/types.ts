@@ -31,6 +31,8 @@ export type Verse = {
   words: VerseWord[]
   /** Literal translation, built from the word glosses. */
   translation: string
+  /** The same verse in natural English, for reading straight through. */
+  plain?: string
   /** Where the Sanskrit can be read another way, said plainly. */
   notes?: string[]
   /** A session id that puts this verse into practice, if there is one. */

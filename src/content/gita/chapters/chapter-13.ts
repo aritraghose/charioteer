@@ -77,7 +77,8 @@ export const VERSES: Verse[] = [
         "en": "O Keśava"
       }
     ],
-    "translation": "Nature and the person, and indeed the field and the knower of the field, knowledge and what is to be known: this I wish to know, O Keśava."
+    "translation": "Nature and the person, and indeed the field and the knower of the field, knowledge and what is to be known: this I wish to know, O Keśava.",
+    "plain": "Nature and the person, the field and the knower of the field, knowledge and what is to be known: this is what I wish to know, Keśava."
   },
   {
     "chapter": 13,
@@ -149,7 +150,8 @@ export const VERSES: Verse[] = [
         "en": "those who know that"
       }
     ],
-    "translation": "This body, O son of Kuntī, is called the field. He who knows this, those who know that call him the knower of the field."
+    "translation": "This body, O son of Kuntī, is called the field. He who knows this, those who know that call him the knower of the field.",
+    "plain": "This body, son of Kuntī, is called the field. The one who knows it is called the knower of the field by those who know these things."
   },
   {
     "chapter": 13,
@@ -222,6 +224,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "And know me also as the knower of the field in all fields, O descendant of Bharata. The knowledge of the field and the knower of the field, that is held by me to be knowledge.",
+    "plain": "And know that I too am the knower of the field, in all fields, descendant of Bharata. Knowledge of the field and of the knower of the field is what I hold to be knowledge.",
     "notes": [
       "\"That is held by me to be knowledge\" can also be read as \"that is held to be knowledge of me\"."
     ]
@@ -316,7 +319,8 @@ export const VERSES: Verse[] = [
         "en": "hear"
       }
     ],
-    "translation": "What that field is, and of what kind, and what changes it has, and what comes from what, and who he is, and what power he has: hear that from me in brief."
+    "translation": "What that field is, and of what kind, and what changes it has, and what comes from what, and who he is, and what power he has: hear that from me in brief.",
+    "plain": "What that field is and what it is like, what changes it has and what comes from what, and who the knower is and what power he has: hear this from me in brief."
   },
   {
     "chapter": 13,
@@ -378,6 +382,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "It has been sung by the seers in many ways, separately, by various hymns, and indeed by the words of the aphorisms on brahman, which are reasoned and settled.",
+    "plain": "The seers have sung of it in many ways, separately, in hymns of various kinds, and also in the words of the aphorisms on brahman, which are reasoned and settled.",
     "notes": [
       "\"The aphorisms on brahman\" can also be read as the name of a particular text, the Brahma-sūtras."
     ]
@@ -452,6 +457,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The great elements, the sense of I, buddhi, and indeed the unmanifest, the ten senses and the one, and the five fields of the senses,",
+    "plain": "There are the great elements, the sense of I, buddhi and the unmanifest. There are the ten senses and the one, and the five fields of the senses.",
     "notes": [
       "Verses 6 to 7 are one sentence in the Sanskrit."
     ]
@@ -518,7 +524,8 @@ export const VERSES: Verse[] = [
         "en": "declared"
       }
     ],
-    "translation": "desire, aversion, pleasure, pain, the aggregate, awareness, firmness: this is declared in brief as the field, with its changes."
+    "translation": "desire, aversion, pleasure, pain, the aggregate, awareness, firmness: this is declared in brief as the field, with its changes.",
+    "plain": "There are desire and aversion, pleasure and pain, the aggregate, awareness and firmness. This, in brief, is what is declared to be the field, together with its changes."
   },
   {
     "chapter": 13,
@@ -572,6 +579,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Absence of pride, absence of deceit, non-injury, patience, uprightness, service of the teacher, purity, steadiness, restraint of the self,",
+    "plain": "There is absence of pride and absence of deceit, non-injury, patience, uprightness, service of the teacher, purity, steadiness and self-restraint.",
     "notes": [
       "Verses 8 to 12 are one sentence in the Sanskrit."
     ]
@@ -617,6 +625,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "dispassion toward the objects of the senses, and indeed absence of the sense of I, seeing the fault of pain in birth, death, old age and sickness,",
+    "plain": "There is dispassion toward the objects of the senses, and no sense of I, and seeing the fault of pain in birth, death, old age and sickness.",
     "notes": [
       "\"Seeing the fault of pain in birth, death, old age and sickness\" can also be read as \"seeing the faults of birth, death, old age, sickness and pain\"."
     ]
@@ -664,7 +673,8 @@ export const VERSES: Verse[] = [
         "en": "in the arrival of the wished for and the unwished for"
       }
     ],
-    "translation": "non-attachment, no clinging to sons, wife, home and the rest, and always evenness of mind in the arrival of the wished for and the unwished for,"
+    "translation": "non-attachment, no clinging to sons, wife, home and the rest, and always evenness of mind in the arrival of the wished for and the unwished for,",
+    "plain": "There is non-attachment, no clinging to sons, wife, home and the rest, and a mind that always stays even whether what arrives is wished for or unwished for."
   },
   {
     "chapter": 13,
@@ -713,7 +723,8 @@ export const VERSES: Verse[] = [
         "en": "in a gathering of people"
       }
     ],
-    "translation": "and unswerving devotion to me by yoga with no other, resorting to secluded places, no delight in a gathering of people,"
+    "translation": "and unswerving devotion to me by yoga with no other, resorting to secluded places, no delight in a gathering of people,",
+    "plain": "There is unswerving devotion to me, through yoga with no other, and keeping to secluded places, and taking no delight in a gathering of people."
   },
   {
     "chapter": 13,
@@ -770,7 +781,8 @@ export const VERSES: Verse[] = [
         "en": "otherwise"
       }
     ],
-    "translation": "constancy in knowledge concerning the self, seeing the purpose of knowledge of the truth: this is declared to be knowledge. What is otherwise than this is ignorance."
+    "translation": "constancy in knowledge concerning the self, seeing the purpose of knowledge of the truth: this is declared to be knowledge. What is otherwise than this is ignorance.",
+    "plain": "There is constancy in knowledge of the self, and seeing the purpose of knowing the truth. This is declared to be knowledge. What is otherwise is ignorance."
   },
   {
     "chapter": 13,
@@ -856,6 +868,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "I will declare that which is to be known, having known which one attains the deathless: the beginningless supreme brahman. That is said to be neither being nor non-being.",
+    "plain": "I will tell you what is to be known, by knowing which one attains the deathless. It is the beginningless supreme brahman, which is said to be neither being nor non-being.",
     "notes": [
       "\"The beginningless supreme brahman\" can also be read as \"the beginningless brahman, which has me as its highest\", because the Sanskrit letters can be divided in two ways."
     ]
@@ -918,7 +931,8 @@ export const VERSES: Verse[] = [
         "en": "it stands"
       }
     ],
-    "translation": "Having hands and feet everywhere, having eyes, heads and faces everywhere, having hearing everywhere, that stands in the world, having covered everything."
+    "translation": "Having hands and feet everywhere, having eyes, heads and faces everywhere, having hearing everywhere, that stands in the world, having covered everything.",
+    "plain": "It has hands and feet everywhere, eyes, heads and faces everywhere, and hearing everywhere. It stands in the world, covering everything."
   },
   {
     "chapter": 13,
@@ -975,6 +989,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "It has the appearance of the qualities of all the senses and is devoid of all the senses. It is unattached and indeed bears all. It is without guṇas and is the enjoyer of the guṇas.",
+    "plain": "It appears to have the qualities of all the senses, yet it is without any senses. It is unattached, yet it bears all. It is without guṇas, yet it is the enjoyer of the guṇas.",
     "notes": [
       "\"It has the appearance of the qualities of all the senses\" can also be read as \"it shines through the workings of all the senses\"."
     ]
@@ -1057,7 +1072,8 @@ export const VERSES: Verse[] = [
         "en": "that"
       }
     ],
-    "translation": "It is outside and inside of beings, unmoving and indeed moving. Because of subtlety that is not to be understood, and that stands far away and near."
+    "translation": "It is outside and inside of beings, unmoving and indeed moving. Because of subtlety that is not to be understood, and that stands far away and near.",
+    "plain": "It is outside beings and inside them, unmoving and also moving. It is too subtle to be understood. It is far away, and it is near."
   },
   {
     "chapter": 13,
@@ -1130,6 +1146,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Undivided, and standing in beings as if divided, that is to be known as the bearer of beings, and as devouring and bringing forth.",
+    "plain": "It is undivided, yet it stands in beings as if divided. Know it as the bearer of beings, and as that which devours and brings forth.",
     "notes": [
       "\"That is to be known as the bearer of beings\" can also be read as \"that which is to be known is the bearer of beings\"."
     ]
@@ -1200,7 +1217,8 @@ export const VERSES: Verse[] = [
         "en": "seated"
       }
     ],
-    "translation": "That is said to be the light even of lights, beyond darkness. It is knowledge, what is to be known, and to be reached by knowledge, seated in the heart of all."
+    "translation": "That is said to be the light even of lights, beyond darkness. It is knowledge, what is to be known, and to be reached by knowledge, seated in the heart of all.",
+    "plain": "It is called the light even of lights, beyond darkness. It is knowledge, it is what is to be known, and it is what knowledge reaches, seated in the heart of all."
   },
   {
     "chapter": 13,
@@ -1268,7 +1286,8 @@ export const VERSES: Verse[] = [
         "en": "becomes fit"
       }
     ],
-    "translation": "Thus the field, likewise knowledge, and what is to be known have been told in brief. One devoted to me, having understood this, becomes fit for my state of being."
+    "translation": "Thus the field, likewise knowledge, and what is to be known have been told in brief. One devoted to me, having understood this, becomes fit for my state of being.",
+    "plain": "So the field, and knowledge, and what is to be known have been told in brief. One who is devoted to me and understands this becomes fit for my state of being."
   },
   {
     "chapter": 13,
@@ -1345,7 +1364,8 @@ export const VERSES: Verse[] = [
         "en": "born of nature"
       }
     ],
-    "translation": "Know that nature and the person are indeed both without beginning, and know also that the changes and the guṇas are indeed born of nature."
+    "translation": "Know that nature and the person are indeed both without beginning, and know also that the changes and the guṇas are indeed born of nature.",
+    "plain": "Know that nature and the person are both without beginning. And know that the changes and the guṇas are born of nature."
   },
   {
     "chapter": 13,
@@ -1398,6 +1418,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Nature is said to be the reason in the making of effect and cause. The person is said to be the reason in the experiencing of pleasures and pains.",
+    "plain": "Nature is said to be the reason behind the making of effect and cause. The person is said to be the reason behind the experiencing of pleasures and pains.",
     "notes": [
       "\"The making of effect and cause\" can also be read as \"the making of the body and its instruments\", that is, the body and the senses."
     ]
@@ -1458,7 +1479,8 @@ export const VERSES: Verse[] = [
         "en": "in births in good and bad wombs"
       }
     ],
-    "translation": "For the person, standing in nature, experiences the guṇas born of nature. Attachment to the guṇas is the cause of this one's births in good and bad wombs."
+    "translation": "For the person, standing in nature, experiences the guṇas born of nature. Attachment to the guṇas is the cause of this one's births in good and bad wombs.",
+    "plain": "For the person, standing in nature, experiences the guṇas born of nature. Attachment to the guṇas is the cause of the person's births in good and bad wombs."
   },
   {
     "chapter": 13,
@@ -1535,7 +1557,8 @@ export const VERSES: Verse[] = [
         "en": "the highest"
       }
     ],
-    "translation": "The highest person in this body is the onlooker and the one who consents, the supporter, the experiencer, the great lord, and is also called the highest self."
+    "translation": "The highest person in this body is the onlooker and the one who consents, the supporter, the experiencer, the great lord, and is also called the highest self.",
+    "plain": "The highest person in this body is the onlooker and the one who consents, the supporter, the experiencer and the great lord. He is also called the highest self."
   },
   {
     "chapter": 13,
@@ -1612,7 +1635,8 @@ export const VERSES: Verse[] = [
         "en": "is born"
       }
     ],
-    "translation": "Who knows in this way the person and nature together with the guṇas, he is not born again, in whatever way he is living even."
+    "translation": "Who knows in this way the person and nature together with the guṇas, he is not born again, in whatever way he is living even.",
+    "plain": "Whoever knows the person and nature in this way, together with the guṇas, is not born again, in whatever way that one may be living."
   },
   {
     "chapter": 13,
@@ -1683,6 +1707,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Some see the self in the self by the self by meditation, others by the yoga of sāṅkhya, and still others by the yoga of action.",
+    "plain": "Some see the self in the self by the self through meditation. Others see it through the yoga of sāṅkhya, and still others through the yoga of action.",
     "notes": [
       "\"By the yoga of sāṅkhya\" can also be read as two separate paths, \"by sāṅkhya and by yoga\"."
     ]
@@ -1757,7 +1782,8 @@ export const VERSES: Verse[] = [
         "en": "devoted to what is heard"
       }
     ],
-    "translation": "But others, not knowing in this way, having heard from others, worship. And they also, devoted to what is heard, indeed cross beyond death."
+    "translation": "But others, not knowing in this way, having heard from others, worship. And they also, devoted to what is heard, indeed cross beyond death.",
+    "plain": "But others, not knowing in this way, hear from others and worship. They too, devoted to what they have heard, do cross beyond death."
   },
   {
     "chapter": 13,
@@ -1809,7 +1835,8 @@ export const VERSES: Verse[] = [
         "en": "O bull of the Bharatas"
       }
     ],
-    "translation": "As much as any being is born, standing still or moving, know that to be from the joining of the field and the knower of the field, O bull of the Bharatas."
+    "translation": "As much as any being is born, standing still or moving, know that to be from the joining of the field and the knower of the field, O bull of the Bharatas.",
+    "plain": "Whatever being is born, standing still or moving, know that it comes from the joining of the field and the knower of the field, bull of the Bharatas."
   },
   {
     "chapter": 13,
@@ -1870,7 +1897,8 @@ export const VERSES: Verse[] = [
         "en": "sees"
       }
     ],
-    "translation": "Who sees the highest lord standing the same in all beings, not perishing in the perishing, he sees."
+    "translation": "Who sees the highest lord standing the same in all beings, not perishing in the perishing, he sees.",
+    "plain": "Whoever sees the highest lord standing the same in all beings, not perishing when they perish, is the one who sees."
   },
   {
     "chapter": 13,
@@ -1945,7 +1973,8 @@ export const VERSES: Verse[] = [
         "en": "to the goal"
       }
     ],
-    "translation": "For seeing the same lord standing equally everywhere, he does not harm the self by the self. From that he goes to the highest goal."
+    "translation": "For seeing the same lord standing equally everywhere, he does not harm the self by the self. From that he goes to the highest goal.",
+    "plain": "For seeing the same lord standing equally everywhere, one does not harm the self by the self. From that, one goes to the highest goal."
   },
   {
     "chapter": 13,
@@ -2015,7 +2044,8 @@ export const VERSES: Verse[] = [
         "en": "sees"
       }
     ],
-    "translation": "And who sees actions being done in every way by nature alone, and likewise the self as not the doer, he sees."
+    "translation": "And who sees actions being done in every way by nature alone, and likewise the self as not the doer, he sees.",
+    "plain": "And whoever sees that actions are done in every way by nature alone, and likewise that the self is not the doer, is the one who sees."
   },
   {
     "chapter": 13,
@@ -2077,6 +2107,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "When he sees the separate state of beings standing in one, and the spreading out from that alone, then he becomes brahman.",
+    "plain": "When one sees the separate states of beings standing in one, and spreading out from that alone, then one becomes brahman.",
     "notes": [
       "\"He becomes brahman\" can also be read as \"he reaches brahman\"."
     ]
@@ -2145,7 +2176,8 @@ export const VERSES: Verse[] = [
         "en": "it is stained"
       }
     ],
-    "translation": "From being without beginning, from being without guṇas, this unchanging highest self, even standing in the body, O son of Kuntī, does not act and is not stained."
+    "translation": "From being without beginning, from being without guṇas, this unchanging highest self, even standing in the body, O son of Kuntī, does not act and is not stained.",
+    "plain": "Because it has no beginning and no guṇas, this unchanging highest self, son of Kuntī, does not act and is not stained, even though it stands in the body."
   },
   {
     "chapter": 13,
@@ -2214,7 +2246,8 @@ export const VERSES: Verse[] = [
         "en": "is stained"
       }
     ],
-    "translation": "As space, gone everywhere, is not stained, from its fineness, so the self, standing everywhere in the body, is not stained."
+    "translation": "As space, gone everywhere, is not stained, from its fineness, so the self, standing everywhere in the body, is not stained.",
+    "plain": "Space has gone everywhere, yet it is so fine that it is not stained. In the same way the self, standing everywhere in the body, is not stained."
   },
   {
     "chapter": 13,
@@ -2282,7 +2315,8 @@ export const VERSES: Verse[] = [
         "en": "O descendant of Bharata"
       }
     ],
-    "translation": "As the one sun lights up this whole world, so the owner of the field lights up the whole field, O descendant of Bharata."
+    "translation": "As the one sun lights up this whole world, so the owner of the field lights up the whole field, O descendant of Bharata.",
+    "plain": "As the one sun lights up this whole world, so the owner of the field lights up the whole field, descendant of Bharata."
   },
   {
     "chapter": 13,
@@ -2343,6 +2377,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Who know in this way, by the eye of knowledge, the difference of the field and the knower of the field, and the release of beings from nature, they go to the highest.",
+    "plain": "Those who know in this way, with the eye of knowledge, the difference between the field and the knower of the field, and the release of beings from nature, go to the highest.",
     "notes": [
       "\"The release of beings from nature\" can also be read as \"release from the nature of beings\", that is, from the material source that beings come from."
     ]

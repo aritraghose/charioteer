@@ -66,7 +66,8 @@ export const VERSES: Verse[] = [
         "en": "spoke"
       }
     ],
-    "translation": "I declared this imperishable yoga to Vivasvān. Vivasvān told it to Manu. Manu spoke it to Ikṣvāku."
+    "translation": "I declared this imperishable yoga to Vivasvān. Vivasvān told it to Manu. Manu spoke it to Ikṣvāku.",
+    "plain": "I taught this imperishable yoga to Vivasvān. Vivasvān told it to Manu, and Manu told it to Ikṣvāku."
   },
   {
     "chapter": 4,
@@ -131,7 +132,8 @@ export const VERSES: Verse[] = [
         "en": "O scorcher of foes"
       }
     ],
-    "translation": "Thus received through succession, the royal seers knew this. By great time that yoga was lost here, O scorcher of foes."
+    "translation": "Thus received through succession, the royal seers knew this. By great time that yoga was lost here, O scorcher of foes.",
+    "plain": "Handed down in this way from one to the next, it was known to the royal seers. But over a great stretch of time that yoga was lost here, scorcher of foes."
   },
   {
     "chapter": 4,
@@ -224,7 +226,8 @@ export const VERSES: Verse[] = [
         "en": "highest"
       }
     ],
-    "translation": "That very same ancient yoga is declared by me to you today, for this reason: you are devoted to me and my friend. For this is the highest secret."
+    "translation": "That very same ancient yoga is declared by me to you today, for this reason: you are devoted to me and my friend. For this is the highest secret.",
+    "plain": "That very same ancient yoga is what I have taught you today, because you are devoted to me and you are my friend. For this is the highest secret."
   },
   {
     "chapter": 4,
@@ -292,7 +295,8 @@ export const VERSES: Verse[] = [
         "en": "thus, that"
       }
     ],
-    "translation": "Later is the birth of you, earlier the birth of Vivasvān. How should I understand this, that you declared it in the beginning?"
+    "translation": "Later is the birth of you, earlier the birth of Vivasvān. How should I understand this, that you declared it in the beginning?",
+    "plain": "Your birth was later, and Vivasvān's birth was earlier. How am I to understand that you taught it in the beginning?"
   },
   {
     "chapter": 4,
@@ -368,7 +372,8 @@ export const VERSES: Verse[] = [
         "en": "O scorcher of foes"
       }
     ],
-    "translation": "Many births of me have passed, and of you, O Arjuna. I know them all. You do not know them, O scorcher of foes."
+    "translation": "Many births of me have passed, and of you, O Arjuna. I know them all. You do not know them, O scorcher of foes.",
+    "plain": "Many births of mine have passed, Arjuna, and many of yours. I know them all. You do not know them, scorcher of foes."
   },
   {
     "chapter": 4,
@@ -439,6 +444,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Even though being unborn, one whose self is imperishable, even though being the lord of beings, having taken a stand on my own nature I come into being by the illusive power of the self.",
+    "plain": "Though I am unborn and my self is imperishable, and though I am the lord of beings, I take my stand on my own nature and come into being by the illusive power of the self.",
     "notes": [
       "\"Having taken a stand on my own nature\" can also be read as \"having taken control of my own nature\".",
       "\"By the illusive power of the self\" can also be read as \"by my own illusive power\"."
@@ -514,6 +520,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "For whenever, whenever there is a decline of dharma, O descendant of Bharata, and a rising up of what is not dharma, then I send forth the self.",
+    "plain": "For whenever dharma declines, descendant of Bharata, and what is not dharma rises up, each time I send forth the self.",
     "notes": [
       "\"I send forth the self\" can also be read as \"I send forth myself\"."
     ]
@@ -569,7 +576,8 @@ export const VERSES: Verse[] = [
         "en": "in age"
       }
     ],
-    "translation": "For the protection of the good and for the destruction of the doers of evil, for the purpose of establishing dharma, I come into being in age after age."
+    "translation": "For the protection of the good and for the destruction of the doers of evil, for the purpose of establishing dharma, I come into being in age after age.",
+    "plain": "To protect the good, to destroy those who do evil, and to establish dharma, I come into being in age after age."
   },
   {
     "chapter": 4,
@@ -662,7 +670,8 @@ export const VERSES: Verse[] = [
         "en": "O Arjuna"
       }
     ],
-    "translation": "One who thus knows in truth my divine birth and action, having left the body, does not go to birth again. He goes to me, O Arjuna."
+    "translation": "One who thus knows in truth my divine birth and action, having left the body, does not go to birth again. He goes to me, O Arjuna.",
+    "plain": "One who truly knows my divine birth and action in this way does not go to another birth on leaving the body. Such a person goes to me, Arjuna."
   },
   {
     "chapter": 4,
@@ -715,6 +724,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Many, from whom passion, fear and anger have gone, filled with me, having taken refuge in me, purified by the austerity of knowledge, have come to my state of being.",
+    "plain": "Many have come to my state of being: people whom passion, fear and anger have left, who are filled with me, who have taken refuge in me, and who are purified by the austerity of knowledge.",
     "notes": [
       "\"By the austerity of knowledge\" can also be read as \"by knowledge and austerity\"."
     ]
@@ -794,6 +804,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "In whatever way those who approach me do so, in that very way I receive them. Human beings follow my path in every way, O son of Pṛthā.",
+    "plain": "In whatever way people approach me, in just that way I receive them. Human beings follow my path in every way, son of Pṛthā.",
     "notes": [
       "\"I receive them\" can also be read as \"I reward them\" or \"I am devoted to them\".",
       "\"In every way\" can also be read as \"everywhere\"."
@@ -867,7 +878,8 @@ export const VERSES: Verse[] = [
         "term": "karma"
       }
     ],
-    "translation": "Longing for the success of actions, they sacrifice to the deities here. For in the human world success born of action comes to be quickly."
+    "translation": "Longing for the success of actions, they sacrifice to the deities here. For in the human world success born of action comes to be quickly.",
+    "plain": "Longing for their actions to succeed, people here sacrifice to the deities. For in the human world the success that is born of action comes quickly."
   },
   {
     "chapter": 4,
@@ -929,6 +941,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The order of four classes was sent forth by me according to the division of qualities and actions. Though I am the maker of it, know me as an imperishable non-maker.",
+    "plain": "I sent forth the order of four classes, divided according to qualities and actions. Though I am its maker, know me as imperishable and as no maker.",
     "notes": [
       "\"Maker\" and \"non-maker\" can also be read as \"doer\" and \"non-doer\"."
     ]
@@ -1014,7 +1027,8 @@ export const VERSES: Verse[] = [
         "en": "is bound"
       }
     ],
-    "translation": "Actions do not stain me. There is for me no craving for the fruit of action. One who recognises me thus, he is not bound by actions."
+    "translation": "Actions do not stain me. There is for me no craving for the fruit of action. One who recognises me thus, he is not bound by actions.",
+    "plain": "Actions do not stain me, and I have no craving for the fruit of action. One who recognises me in this way is not bound by actions."
   },
   {
     "chapter": 4,
@@ -1092,7 +1106,8 @@ export const VERSES: Verse[] = [
         "en": "done"
       }
     ],
-    "translation": "Having known thus, action was done even by the ancients, by those wishing to be free. Therefore you indeed do action, as done by the ancients in earlier times."
+    "translation": "Having known thus, action was done even by the ancients, by those wishing to be free. Therefore you indeed do action, as done by the ancients in earlier times.",
+    "plain": "Knowing this, even the ancients who wished to be free did action. So you too should do action, just as the ancients did it in earlier times."
   },
   {
     "chapter": 4,
@@ -1179,7 +1194,8 @@ export const VERSES: Verse[] = [
         "en": "from what is inauspicious"
       }
     ],
-    "translation": "What is action? What is non-action? About this even the sages are confused here. I will explain to you that action, having known which you will be freed from what is inauspicious."
+    "translation": "What is action? What is non-action? About this even the sages are confused here. I will explain to you that action, having known which you will be freed from what is inauspicious.",
+    "plain": "What is action? What is non-action? On this point even the sages are confused. I will explain that action to you, and once you know it you will be freed from what is inauspicious."
   },
   {
     "chapter": 4,
@@ -1252,6 +1268,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "For there is something to be understood of action also, and to be understood of wrong action, and to be understood of non-action. Deep is the course of action.",
+    "plain": "For there is something to be understood about action, something to be understood about wrong action, and something to be understood about non-action. The course of action runs deep.",
     "notes": [
       "\"Wrong action\" can also be read as \"action of various kinds\"."
     ]
@@ -1334,6 +1351,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "One who would see non-action in action, and who would see action in non-action, he is possessed of buddhi among human beings. He is joined in yoga, a doer of all action.",
+    "plain": "One who sees non-action in action, and action in non-action, is the one among human beings who has buddhi. Such a person is joined in yoga and is a doer of all action.",
     "notes": [
       "\"A doer of all action\" can also be read as \"one who has done all there is to do\"."
     ]
@@ -1391,6 +1409,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "One whose undertakings are all free from desire and purpose, whose action is burnt by the fire of knowledge, him the wise call learned.",
+    "plain": "When all of a person's undertakings are free from desire and purpose, and that person's action has been burnt by the fire of knowledge, the wise call that person learned.",
     "notes": [
       "\"Free from desire and purpose\" can also be read as \"free from purposes born of desire\"."
     ]
@@ -1459,7 +1478,8 @@ export const VERSES: Verse[] = [
         "en": "he"
       }
     ],
-    "translation": "Having given up attachment to the fruit of action, always content, without dependence, even though engaged in action, he does not do anything at all."
+    "translation": "Having given up attachment to the fruit of action, always content, without dependence, even though engaged in action, he does not do anything at all.",
+    "plain": "Having given up attachment to the fruit of action, always content and depending on nothing, such a person does nothing at all, even while engaged in action."
   },
   {
     "chapter": 4,
@@ -1518,6 +1538,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Without wishes, one whose thought and self are restrained, who has given up all possessions, doing only bodily action, does not incur fault.",
+    "plain": "Without wishes, with thought and self restrained, having given up all possessions and doing only bodily action, such a person incurs no fault.",
     "notes": [
       "\"Only bodily action\" can also be read as \"action only for keeping the body alive\".",
       "\"All possessions\" can also be read as \"all grasping\"."
@@ -1582,7 +1603,8 @@ export const VERSES: Verse[] = [
         "en": "he is bound"
       }
     ],
-    "translation": "Content with what is gained by chance, gone beyond the pairs, free from envy, the same in success and in failure, even having acted he is not bound."
+    "translation": "Content with what is gained by chance, gone beyond the pairs, free from envy, the same in success and in failure, even having acted he is not bound.",
+    "plain": "Content with whatever comes by chance, beyond the pairs, free from envy, and the same in success and in failure, such a person is not bound even after acting."
   },
   {
     "chapter": 4,
@@ -1632,7 +1654,8 @@ export const VERSES: Verse[] = [
         "en": "dissolves away"
       }
     ],
-    "translation": "Of one whose attachment is gone, who is freed, whose mind is settled in knowledge, who acts for sacrifice, the whole action dissolves away."
+    "translation": "Of one whose attachment is gone, who is freed, whose mind is settled in knowledge, who acts for sacrifice, the whole action dissolves away.",
+    "plain": "For one whose attachment is gone, who is freed, whose mind is settled in knowledge, and who acts for sacrifice, the whole of action dissolves away."
   },
   {
     "chapter": 4,
@@ -1703,6 +1726,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Brahman is the offering, brahman is the oblation, poured by brahman into the fire of brahman. Brahman alone is to be reached by him, by one whose samādhi is in the action of brahman.",
+    "plain": "Brahman is the offering and brahman is the oblation, poured by brahman into the fire of brahman. Brahman alone is to be reached by one whose samādhi is in the action of brahman.",
     "notes": [
       "\"The offering\" can also be read as \"the tool of offering\", that is, the ladle used to pour the oblation.",
       "\"The action of brahman\" can also be read as \"action that is brahman\"."
@@ -1772,7 +1796,8 @@ export const VERSES: Verse[] = [
         "en": "they offer"
       }
     ],
-    "translation": "Other yogīs attend upon only the sacrifice to the gods. Others offer the sacrifice by the sacrifice itself into the fire of brahman."
+    "translation": "Other yogīs attend upon only the sacrifice to the gods. Others offer the sacrifice by the sacrifice itself into the fire of brahman.",
+    "plain": "Some yogīs attend only to the sacrifice to the gods. Others offer the sacrifice, by the sacrifice itself, into the fire of brahman."
   },
   {
     "chapter": 4,
@@ -1830,7 +1855,8 @@ export const VERSES: Verse[] = [
         "en": "they offer"
       }
     ],
-    "translation": "Others offer the senses, hearing and the rest, into the fires of restraint. Others offer the objects, sound and the rest, into the fires of the senses."
+    "translation": "Others offer the senses, hearing and the rest, into the fires of restraint. Others offer the objects, sound and the rest, into the fires of the senses.",
+    "plain": "Others offer the senses, hearing and the rest, into the fires of restraint. Others offer the objects, sound and the rest, into the fires of the senses."
   },
   {
     "chapter": 4,
@@ -1881,7 +1907,8 @@ export const VERSES: Verse[] = [
         "en": "kindled by knowledge"
       }
     ],
-    "translation": "And others offer all the actions of the senses and the actions of the breath into the fire of the yoga of restraint of the self, kindled by knowledge."
+    "translation": "And others offer all the actions of the senses and the actions of the breath into the fire of the yoga of restraint of the self, kindled by knowledge.",
+    "plain": "And others offer all the actions of the senses and the actions of the breath into the fire of the yoga of restraining the self, a fire kindled by knowledge."
   },
   {
     "chapter": 4,
@@ -1934,7 +1961,8 @@ export const VERSES: Verse[] = [
         "en": "of sharpened vows"
       }
     ],
-    "translation": "Likewise others are those whose sacrifice is of material things, those whose sacrifice is austerity, those whose sacrifice is yoga, and those whose sacrifice is study and knowledge, strivers of sharpened vows."
+    "translation": "Likewise others are those whose sacrifice is of material things, those whose sacrifice is austerity, those whose sacrifice is yoga, and those whose sacrifice is study and knowledge, strivers of sharpened vows.",
+    "plain": "Others, likewise, make their sacrifice with material things, or with austerity, or with yoga, and others with study and knowledge. These are strivers whose vows are sharpened."
   },
   {
     "chapter": 4,
@@ -1991,6 +2019,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Likewise others offer the outgoing breath into the incoming breath, and the incoming breath into the outgoing breath, having stopped the movements of the outgoing and incoming breath, intent on control of the breath.",
+    "plain": "Others, likewise, offer the outgoing breath into the incoming breath, and the incoming breath into the outgoing. They stop the movements of the outgoing and incoming breath, intent on control of the breath.",
     "notes": [
       "\"The outgoing breath\" and \"the incoming breath\" can also be read the other way round, with the first word meaning the breath drawn in and the second the breath let out or sent downward."
     ]
@@ -2049,7 +2078,8 @@ export const VERSES: Verse[] = [
         "en": "with stains destroyed by sacrifice"
       }
     ],
-    "translation": "Others, with regulated food, offer the breaths into the breaths. All these too are knowers of sacrifice, with stains destroyed by sacrifice."
+    "translation": "Others, with regulated food, offer the breaths into the breaths. All these too are knowers of sacrifice, with stains destroyed by sacrifice.",
+    "plain": "Others, regulating their food, offer the breaths into the breaths. All these too know what sacrifice is, and their stains have been destroyed by sacrifice."
   },
   {
     "chapter": 4,
@@ -2114,7 +2144,8 @@ export const VERSES: Verse[] = [
         "en": "O best of the Kurus"
       }
     ],
-    "translation": "Those who eat the nectar of what remains from sacrifice go to eternal brahman. This world is not of one without sacrifice. How then the other, O best of the Kurus?"
+    "translation": "Those who eat the nectar of what remains from sacrifice go to eternal brahman. This world is not of one without sacrifice. How then the other, O best of the Kurus?",
+    "plain": "Those who eat the nectar of what remains from sacrifice go to eternal brahman. This world does not belong to one who makes no sacrifice. How then could the other, best of the Kurus?"
   },
   {
     "chapter": 4,
@@ -2185,6 +2216,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Thus sacrifices of many kinds are spread out in the mouth of brahman. Know them all as born of action. Having known thus, you will be set free.",
+    "plain": "In this way sacrifices of many kinds are spread out in the mouth of brahman. Know that all of them are born of action. Knowing this, you will be set free.",
     "notes": [
       "\"In the mouth of brahman\" can also be read as \"in the mouth of the Veda\", meaning that the Vedas set these sacrifices out."
     ]
@@ -2248,7 +2280,8 @@ export const VERSES: Verse[] = [
         "en": "is completed"
       }
     ],
-    "translation": "Better than the sacrifice made of material things is the sacrifice of knowledge, O scorcher of foes. All action without a gap, O son of Pṛthā, is completed in knowledge."
+    "translation": "Better than the sacrifice made of material things is the sacrifice of knowledge, O scorcher of foes. All action without a gap, O son of Pṛthā, is completed in knowledge.",
+    "plain": "The sacrifice of knowledge is better than the sacrifice made of material things, scorcher of foes. All action, son of Pṛthā, with nothing left out, is completed in knowledge."
   },
   {
     "chapter": 4,
@@ -2305,6 +2338,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Know that by bowing down, by questioning, by service. Those who have knowledge, seers of the truth, will teach you knowledge,",
+    "plain": "Come to know that by bowing down, by asking questions and by service. Those who have knowledge, who see the truth, will teach you knowledge.",
     "notes": [
       "Verses 34 to 35 are one sentence in the Sanskrit."
     ]
@@ -2385,6 +2419,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "which having known, you will not again go to delusion in this way, O son of Pāṇḍu, and by which you will see beings without remainder in the self, and then in me.",
+    "plain": "Once you know it, son of Pāṇḍu, you will not fall into delusion like this again. By it you will see all beings, without exception, in the self, and then in me.",
     "notes": [
       "\"In the self, and then in me\" can also be read as \"in the self, that is, in me\"."
     ]
@@ -2447,7 +2482,8 @@ export const VERSES: Verse[] = [
         "en": "you will cross over"
       }
     ],
-    "translation": "Even if you are the greatest doer of evil, greater than all the evil ones, you will cross over all wrong by the raft of knowledge alone."
+    "translation": "Even if you are the greatest doer of evil, greater than all the evil ones, you will cross over all wrong by the raft of knowledge alone.",
+    "plain": "Even if you have done more evil than all other evildoers, you will cross over all wrong by the raft of knowledge alone."
   },
   {
     "chapter": 4,
@@ -2512,7 +2548,8 @@ export const VERSES: Verse[] = [
         "en": "so"
       }
     ],
-    "translation": "As a kindled fire makes pieces of firewood into ash, O Arjuna, so the fire of knowledge makes all actions into ash."
+    "translation": "As a kindled fire makes pieces of firewood into ash, O Arjuna, so the fire of knowledge makes all actions into ash.",
+    "plain": "As a kindled fire turns firewood to ash, Arjuna, so the fire of knowledge turns all actions to ash."
   },
   {
     "chapter": 4,
@@ -2582,7 +2619,8 @@ export const VERSES: Verse[] = [
         "en": "finds"
       }
     ],
-    "translation": "For a purifier equal to knowledge is not found here. One perfected in yoga finds that by himself, in time, in the self."
+    "translation": "For a purifier equal to knowledge is not found here. One perfected in yoga finds that by himself, in time, in the self.",
+    "plain": "For no purifier equal to knowledge is found here. One who is perfected in yoga finds it in time, by oneself, in the self."
   },
   {
     "chapter": 4,
@@ -2644,7 +2682,8 @@ export const VERSES: Verse[] = [
         "en": "he reaches"
       }
     ],
-    "translation": "One who has faith gains knowledge, intent on that, with the senses restrained. Having gained knowledge, he reaches the highest peace before long."
+    "translation": "One who has faith gains knowledge, intent on that, with the senses restrained. Having gained knowledge, he reaches the highest peace before long.",
+    "plain": "One who has faith gains knowledge, being intent on it and keeping the senses restrained. Having gained knowledge, such a person reaches the highest peace before long."
   },
   {
     "chapter": 4,
@@ -2722,7 +2761,8 @@ export const VERSES: Verse[] = [
         "term": "atman"
       }
     ],
-    "translation": "One who does not know, and has no faith, and whose self is doubt, perishes. This world is not of one whose self is doubt, nor the other, nor happiness."
+    "translation": "One who does not know, and has no faith, and whose self is doubt, perishes. This world is not of one whose self is doubt, nor the other, nor happiness.",
+    "plain": "One who does not know, who has no faith, and whose self is doubt, perishes. For one whose self is doubt there is neither this world nor the other, nor happiness."
   },
   {
     "chapter": 4,
@@ -2769,7 +2809,8 @@ export const VERSES: Verse[] = [
         "en": "O winner of wealth"
       }
     ],
-    "translation": "One who has renounced actions through yoga, whose doubt is cut apart by knowledge, who possesses the self, actions do not bind, O winner of wealth."
+    "translation": "One who has renounced actions through yoga, whose doubt is cut apart by knowledge, who possesses the self, actions do not bind, O winner of wealth.",
+    "plain": "Actions do not bind one who has renounced actions through yoga, whose doubt has been cut apart by knowledge, and who possesses the self, winner of wealth."
   },
   {
     "chapter": 4,
@@ -2836,6 +2877,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Therefore, having cut with the sword of knowledge this doubt of the self, born of ignorance and standing in the heart, resort to yoga. Stand up, O descendant of Bharata.",
+    "plain": "So take the sword of knowledge and cut through this doubt of the self, which is born of ignorance and stands in the heart. Then take to yoga. Stand up, descendant of Bharata.",
     "notes": [
       "\"This doubt of the self\" can also be read as \"this doubt of your own\", or the words \"of the self\" can go with the sword instead: \"the self's sword of knowledge\"."
     ]

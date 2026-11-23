@@ -21,8 +21,9 @@ import { Route as CalmNowRouteImport } from './routes/calm_.now'
 import { Route as FocusNowRouteImport } from './routes/focus_.now'
 import { Route as LadderStepIdRouteImport } from './routes/ladder_.$stepId'
 import { Route as SessionSessionIdRouteImport } from './routes/session.$sessionId'
+import { Route as AppGitaChapterRouteImport } from './routes/_app/gita_.$chapter'
 import { Route as AppPracticeWeekRouteImport } from './routes/_app/practice_.$week'
-import { Route as AppGitaChapterVerseRouteImport } from './routes/_app/gita_.$chapter.$verse'
+import { Route as AppGitaChapterVerseRouteImport } from './routes/_app/gita_.$chapter_.$verse'
 
 const AppRouteRoute = AppRouteRouteImport.update({
   id: '/_app',
@@ -83,13 +84,18 @@ const SessionSessionIdRoute = SessionSessionIdRouteImport.update({
   path: '/session/$sessionId',
   getParentRoute: () => rootRouteImport,
 } as any)
+const AppGitaChapterRoute = AppGitaChapterRouteImport.update({
+  id: '/gita_/$chapter',
+  path: '/gita/$chapter',
+  getParentRoute: () => AppRouteRoute,
+} as any)
 const AppPracticeWeekRoute = AppPracticeWeekRouteImport.update({
   id: '/practice_/$week',
   path: '/practice/$week',
   getParentRoute: () => AppRouteRoute,
 } as any)
 const AppGitaChapterVerseRoute = AppGitaChapterVerseRouteImport.update({
-  id: '/gita_/$chapter/$verse',
+  id: '/gita_/$chapter_/$verse',
   path: '/gita/$chapter/$verse',
   getParentRoute: () => AppRouteRoute,
 } as any)
@@ -106,6 +112,7 @@ export interface FileRoutesByFullPath {
   '/focus/now': typeof FocusNowRoute
   '/ladder/$stepId': typeof LadderStepIdRoute
   '/session/$sessionId': typeof SessionSessionIdRoute
+  '/gita/$chapter': typeof AppGitaChapterRoute
   '/practice/$week': typeof AppPracticeWeekRoute
   '/gita/$chapter/$verse': typeof AppGitaChapterVerseRoute
 }
@@ -121,6 +128,7 @@ export interface FileRoutesByTo {
   '/ladder/$stepId': typeof LadderStepIdRoute
   '/session/$sessionId': typeof SessionSessionIdRoute
   '/': typeof AppIndexRoute
+  '/gita/$chapter': typeof AppGitaChapterRoute
   '/practice/$week': typeof AppPracticeWeekRoute
   '/gita/$chapter/$verse': typeof AppGitaChapterVerseRoute
 }
@@ -138,8 +146,9 @@ export interface FileRoutesById {
   '/ladder_/$stepId': typeof LadderStepIdRoute
   '/session/$sessionId': typeof SessionSessionIdRoute
   '/_app/': typeof AppIndexRoute
+  '/_app/gita_/$chapter': typeof AppGitaChapterRoute
   '/_app/practice_/$week': typeof AppPracticeWeekRoute
-  '/_app/gita_/$chapter/$verse': typeof AppGitaChapterVerseRoute
+  '/_app/gita_/$chapter_/$verse': typeof AppGitaChapterVerseRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -155,6 +164,7 @@ export interface FileRouteTypes {
     | '/focus/now'
     | '/ladder/$stepId'
     | '/session/$sessionId'
+    | '/gita/$chapter'
     | '/practice/$week'
     | '/gita/$chapter/$verse'
   fileRoutesByTo: FileRoutesByTo
@@ -170,6 +180,7 @@ export interface FileRouteTypes {
     | '/ladder/$stepId'
     | '/session/$sessionId'
     | '/'
+    | '/gita/$chapter'
     | '/practice/$week'
     | '/gita/$chapter/$verse'
   id:
@@ -186,8 +197,9 @@ export interface FileRouteTypes {
     | '/ladder_/$stepId'
     | '/session/$sessionId'
     | '/_app/'
+    | '/_app/gita_/$chapter'
     | '/_app/practice_/$week'
-    | '/_app/gita_/$chapter/$verse'
+    | '/_app/gita_/$chapter_/$verse'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -285,6 +297,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof SessionSessionIdRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/_app/gita_/$chapter': {
+      id: '/_app/gita_/$chapter'
+      path: '/gita/$chapter'
+      fullPath: '/gita/$chapter'
+      preLoaderRoute: typeof AppGitaChapterRouteImport
+      parentRoute: typeof AppRouteRoute
+    }
     '/_app/practice_/$week': {
       id: '/_app/practice_/$week'
       path: '/practice/$week'
@@ -292,8 +311,8 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppPracticeWeekRouteImport
       parentRoute: typeof AppRouteRoute
     }
-    '/_app/gita_/$chapter/$verse': {
-      id: '/_app/gita_/$chapter/$verse'
+    '/_app/gita_/$chapter_/$verse': {
+      id: '/_app/gita_/$chapter_/$verse'
       path: '/gita/$chapter/$verse'
       fullPath: '/gita/$chapter/$verse'
       preLoaderRoute: typeof AppGitaChapterVerseRouteImport
@@ -309,6 +328,7 @@ interface AppRouteRouteChildren {
   AppLadderRoute: typeof AppLadderRoute
   AppPracticeRoute: typeof AppPracticeRoute
   AppIndexRoute: typeof AppIndexRoute
+  AppGitaChapterRoute: typeof AppGitaChapterRoute
   AppPracticeWeekRoute: typeof AppPracticeWeekRoute
   AppGitaChapterVerseRoute: typeof AppGitaChapterVerseRoute
 }
@@ -320,6 +340,7 @@ const AppRouteRouteChildren: AppRouteRouteChildren = {
   AppLadderRoute: AppLadderRoute,
   AppPracticeRoute: AppPracticeRoute,
   AppIndexRoute: AppIndexRoute,
+  AppGitaChapterRoute: AppGitaChapterRoute,
   AppPracticeWeekRoute: AppPracticeWeekRoute,
   AppGitaChapterVerseRoute: AppGitaChapterVerseRoute,
 }

@@ -62,7 +62,8 @@ export const VERSES: Verse[] = [
         "en": "O Sañjaya"
       }
     ],
-    "translation": "On the field of dharma, on the field of the Kurus, assembled and eager to fight, what did my own and the sons of Pāṇḍu as well do, O Sañjaya?"
+    "translation": "On the field of dharma, on the field of the Kurus, assembled and eager to fight, what did my own and the sons of Pāṇḍu as well do, O Sañjaya?",
+    "plain": "On the field of dharma, the field of the Kurus, my own men and the sons of Pāṇḍu gathered, eager to fight. What did they do, Sañjaya?"
   },
   {
     "chapter": 1,
@@ -122,7 +123,8 @@ export const VERSES: Verse[] = [
         "en": "he spoke"
       }
     ],
-    "translation": "But having seen the army of the sons of Pāṇḍu arrayed, King Duryodhana then, having approached the teacher, spoke a word."
+    "translation": "But having seen the army of the sons of Pāṇḍu arrayed, King Duryodhana then, having approached the teacher, spoke a word.",
+    "plain": "But King Duryodhana, seeing the army of the sons of Pāṇḍu drawn up for battle, then went up to his teacher and spoke."
   },
   {
     "chapter": 1,
@@ -182,7 +184,8 @@ export const VERSES: Verse[] = [
         "en": "by the wise one"
       }
     ],
-    "translation": "Behold, O teacher, this great army of the sons of Pāṇḍu, arrayed by the son of Drupada, your wise pupil."
+    "translation": "Behold, O teacher, this great army of the sons of Pāṇḍu, arrayed by the son of Drupada, your wise pupil.",
+    "plain": "Teacher, look at this great army of the sons of Pāṇḍu, drawn up by your wise pupil, the son of Drupada."
   },
   {
     "chapter": 1,
@@ -243,6 +246,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Here are heroes, great archers, equal to Bhīma and Arjuna in battle: Yuyudhāna and Virāṭa and Drupada, the great chariot-warrior,",
+    "plain": "Here are heroes, great archers, the equals of Bhīma and Arjuna in battle: Yuyudhāna, Virāṭa and Drupada, the great chariot-warrior.",
     "notes": [
       "Verses 4 to 6 are one sentence in the Sanskrit."
     ]
@@ -305,7 +309,8 @@ export const VERSES: Verse[] = [
         "en": "bull among men"
       }
     ],
-    "translation": "Dhṛṣṭaketu, Cekitāna and the valiant king of Kāśi, Purujit and Kuntibhoja and Śaibya, bull among men,"
+    "translation": "Dhṛṣṭaketu, Cekitāna and the valiant king of Kāśi, Purujit and Kuntibhoja and Śaibya, bull among men,",
+    "plain": "Here are Dhṛṣṭaketu, Cekitāna and the valiant king of Kāśi, and Purujit, Kuntibhoja and Śaibya, a bull among men."
   },
   {
     "chapter": 1,
@@ -369,7 +374,8 @@ export const VERSES: Verse[] = [
         "en": "great chariot-warriors"
       }
     ],
-    "translation": "and the bold Yudhāmanyu and the valiant Uttamaujas, the son of Subhadrā and the sons of Draupadī, all indeed great chariot-warriors."
+    "translation": "and the bold Yudhāmanyu and the valiant Uttamaujas, the son of Subhadrā and the sons of Draupadī, all indeed great chariot-warriors.",
+    "plain": "Here are the bold Yudhāmanyu and the valiant Uttamaujas, the son of Subhadrā and the sons of Draupadī. Every one of them is a great chariot-warrior."
   },
   {
     "chapter": 1,
@@ -441,7 +447,8 @@ export const VERSES: Verse[] = [
         "en": "to you"
       }
     ],
-    "translation": "But those of ours who are distinguished, know them, O best of the twice-born. The leaders of my army: I tell them to you for the sake of recognition."
+    "translation": "But those of ours who are distinguished, know them, O best of the twice-born. The leaders of my army: I tell them to you for the sake of recognition.",
+    "plain": "But now, best of the twice-born, know the distinguished men on our side. They are the leaders of my army, and I name them so that you may recognise them."
   },
   {
     "chapter": 1,
@@ -518,6 +525,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Your honour and Bhīṣma and Karṇa and Kṛpa, victorious in battle, Aśvatthāman and Vikarṇa, and likewise indeed the son of Somadatta,",
+    "plain": "There is your honoured self, and Bhīṣma, Karṇa and Kṛpa, victorious in battle. There is Aśvatthāman and Vikarṇa, and the son of Somadatta as well.",
     "notes": [
       "Verses 8 to 9 are one sentence in the Sanskrit."
     ]
@@ -572,7 +580,8 @@ export const VERSES: Verse[] = [
         "en": "skilled in war"
       }
     ],
-    "translation": "and many other heroes, having given up their lives for my sake, having various weapons to strike with, are all skilled in war."
+    "translation": "and many other heroes, having given up their lives for my sake, having various weapons to strike with, are all skilled in war.",
+    "plain": "And there are many other heroes who have given up their lives for my sake. They carry weapons of many kinds to strike with, and all are skilled in war."
   },
   {
     "chapter": 1,
@@ -633,6 +642,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "That force of ours, guarded by Bhīṣma, is insufficient. But this force of these, guarded by Bhīma, is sufficient.",
+    "plain": "That force of ours, guarded by Bhīṣma, is not enough. But this force of theirs, guarded by Bhīma, is enough.",
     "notes": [
       "\"Insufficient\" can also be read as \"unlimited\", and \"sufficient\" as \"limited\", which makes Duryodhana confident in his own army rather than anxious about it."
     ]
@@ -699,7 +709,8 @@ export const VERSES: Verse[] = [
         "en": "surely"
       }
     ],
-    "translation": "And stationed in all the lines of advance according to your shares, let all your honours indeed surely guard Bhīṣma alone."
+    "translation": "And stationed in all the lines of advance according to your shares, let all your honours indeed surely guard Bhīṣma alone.",
+    "plain": "And so let all of you, each stationed at your allotted post in every line of advance, be sure to guard Bhīṣma and him alone."
   },
   {
     "chapter": 1,
@@ -759,7 +770,8 @@ export const VERSES: Verse[] = [
         "en": "the mighty one"
       }
     ],
-    "translation": "Producing joy of him, the eldest of the Kurus, the grandfather, the mighty one, having loudly roared a lion's roar, blew a conch."
+    "translation": "Producing joy of him, the eldest of the Kurus, the grandfather, the mighty one, having loudly roared a lion's roar, blew a conch.",
+    "plain": "Bringing joy to Duryodhana, the mighty grandfather, eldest of the Kurus, gave a loud lion's roar and blew his conch."
   },
   {
     "chapter": 1,
@@ -827,7 +839,8 @@ export const VERSES: Verse[] = [
         "en": "it became"
       }
     ],
-    "translation": "Then conches and kettledrums, tabors, drums and cow-horns were indeed struck all at once. That sound became tumultuous."
+    "translation": "Then conches and kettledrums, tabors, drums and cow-horns were indeed struck all at once. That sound became tumultuous.",
+    "plain": "Then conches and kettledrums, tabors, drums and cow-horns were all sounded at once, and the noise became tumultuous."
   },
   {
     "chapter": 1,
@@ -899,7 +912,8 @@ export const VERSES: Verse[] = [
         "en": "the two blew"
       }
     ],
-    "translation": "Then, standing in the great chariot yoked with white horses, the descendant of Madhu and also the son of Pāṇḍu blew two divine conches."
+    "translation": "Then, standing in the great chariot yoked with white horses, the descendant of Madhu and also the son of Pāṇḍu blew two divine conches.",
+    "plain": "Then the descendant of Madhu and the son of Pāṇḍu, standing in their great chariot yoked with white horses, blew their two divine conches as well."
   },
   {
     "chapter": 1,
@@ -953,6 +967,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The lord of the senses blew Pāñcajanya, the winner of wealth Devadatta, and the wolf-bellied one, of terrible deeds, blew the great conch Pauṇḍra,",
+    "plain": "The lord of the senses blew Pāñcajanya, and the winner of wealth blew Devadatta. The wolf-bellied one, whose deeds are terrible, blew the great conch Pauṇḍra.",
     "notes": [
       "Verses 15 to 16 are one sentence in the Sanskrit."
     ]
@@ -1003,7 +1018,8 @@ export const VERSES: Verse[] = [
         "en": "Sughoṣa and Maṇipuṣpaka (their conches)"
       }
     ],
-    "translation": "the king Yudhiṣṭhira, the son of Kuntī, Anantavijaya, and Nakula and Sahadeva Sughoṣa and Maṇipuṣpaka."
+    "translation": "the king Yudhiṣṭhira, the son of Kuntī, Anantavijaya, and Nakula and Sahadeva Sughoṣa and Maṇipuṣpaka.",
+    "plain": "King Yudhiṣṭhira, the son of Kuntī, blew Anantavijaya, and Nakula and Sahadeva blew Sughoṣa and Maṇipuṣpaka."
   },
   {
     "chapter": 1,
@@ -1068,6 +1084,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "And the king of Kāśi, the supreme archer, and Śikhaṇḍin, the great chariot-warrior, Dhṛṣṭadyumna and Virāṭa and the unconquered Sātyaki,",
+    "plain": "The king of Kāśi, the supreme archer, and Śikhaṇḍin, the great chariot-warrior, joined in, and so did Dhṛṣṭadyumna, Virāṭa and the unconquered Sātyaki.",
     "notes": [
       "Verses 17 to 18 are one sentence in the Sanskrit."
     ]
@@ -1134,7 +1151,8 @@ export const VERSES: Verse[] = [
         "en": "separately"
       }
     ],
-    "translation": "Drupada and the sons of Draupadī, and the mighty-armed son of Subhadrā, on all sides, O lord of the earth, blew conches, each separately."
+    "translation": "Drupada and the sons of Draupadī, and the mighty-armed son of Subhadrā, on all sides, O lord of the earth, blew conches, each separately.",
+    "plain": "So did Drupada and the sons of Draupadī, and the mighty-armed son of Subhadrā. On every side, lord of the earth, they blew their conches, each his own."
   },
   {
     "chapter": 1,
@@ -1198,7 +1216,8 @@ export const VERSES: Verse[] = [
         "en": "making resound"
       }
     ],
-    "translation": "That tumultuous noise tore apart the hearts of the sons of Dhṛtarāṣṭra, making the sky and indeed the earth resound."
+    "translation": "That tumultuous noise tore apart the hearts of the sons of Dhṛtarāṣṭra, making the sky and indeed the earth resound.",
+    "plain": "That tumultuous noise tore the hearts of the sons of Dhṛtarāṣṭra apart, and it made the sky and the earth resound."
   },
   {
     "chapter": 1,
@@ -1255,6 +1274,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Then, having seen the sons of Dhṛtarāṣṭra arrayed, when the clash of weapons had begun, the son of Pāṇḍu, he whose banner is the monkey, having raised the bow,",
+    "plain": "Then the son of Pāṇḍu, whose banner bears the monkey, saw the sons of Dhṛtarāṣṭra drawn up against him. The clash of weapons had begun, and he raised his bow.",
     "notes": [
       "Verses 20 to 22 are one sentence in the Sanskrit."
     ]
@@ -1325,7 +1345,8 @@ export const VERSES: Verse[] = [
         "en": "O unfallen one"
       }
     ],
-    "translation": "then said this speech to the lord of the senses, O lord of the earth: station my chariot in the middle of both armies, O unfallen one,"
+    "translation": "then said this speech to the lord of the senses, O lord of the earth: station my chariot in the middle of both armies, O unfallen one,",
+    "plain": "Then, lord of the earth, he said this to the lord of the senses: place my chariot between the two armies, unfallen one."
   },
   {
     "chapter": 1,
@@ -1390,7 +1411,8 @@ export const VERSES: Verse[] = [
         "en": "in the undertaking of battle"
       }
     ],
-    "translation": "while I look at these who are standing, desiring to fight, together with whom it is to be fought by me in this undertaking of battle."
+    "translation": "while I look at these who are standing, desiring to fight, together with whom it is to be fought by me in this undertaking of battle.",
+    "plain": "Hold it there while I look at these men who stand here wanting to fight, and see whom I must fight in this battle we are taking up."
   },
   {
     "chapter": 1,
@@ -1451,7 +1473,8 @@ export const VERSES: Verse[] = [
         "en": "wishing to do what is dear"
       }
     ],
-    "translation": "I look upon those about to fight, these who have come together here, wishing to do in war what is dear to the son of Dhṛtarāṣṭra, whose buddhi is bad."
+    "translation": "I look upon those about to fight, these who have come together here, wishing to do in war what is dear to the son of Dhṛtarāṣṭra, whose buddhi is bad.",
+    "plain": "Let me look at those who are about to fight, these men who have gathered here wishing to please in war the son of Dhṛtarāṣṭra, whose buddhi is bad."
   },
   {
     "chapter": 1,
@@ -1508,6 +1531,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Thus addressed by the thick-haired one, O descendant of Bharata, the lord of the senses, having stationed the best of chariots in the middle of both armies,",
+    "plain": "Descendant of Bharata, when the thick-haired one had spoken to him so, the lord of the senses placed that best of chariots between the two armies.",
     "notes": [
       "Verses 24 to 25 are one sentence in the Sanskrit.",
       "\"The thick-haired one\" can also be read as \"the lord of sleep\", that is, one who has mastered sleep."
@@ -1571,7 +1595,8 @@ export const VERSES: Verse[] = [
         "en": "thus"
       }
     ],
-    "translation": "in front of Bhīṣma and Droṇa and of all the rulers of the earth, he said thus: O son of Pṛthā, see these Kurus assembled."
+    "translation": "in front of Bhīṣma and Droṇa and of all the rulers of the earth, he said thus: O son of Pṛthā, see these Kurus assembled.",
+    "plain": "In front of Bhīṣma and Droṇa and all the rulers of the earth, he said: son of Pṛthā, see these Kurus gathered here."
   },
   {
     "chapter": 1,
@@ -1644,6 +1669,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "There the son of Pṛthā saw standing fathers and then grandfathers, teachers, maternal uncles, brothers, sons, grandsons and likewise friends,",
+    "plain": "There the son of Pṛthā saw fathers and grandfathers standing, and teachers, maternal uncles, brothers, sons, grandsons and friends as well.",
     "notes": [
       "Verses 26 to 29 are one sentence in the Sanskrit."
     ]
@@ -1718,7 +1744,8 @@ export const VERSES: Verse[] = [
         "en": "stationed"
       }
     ],
-    "translation": "fathers-in-law and indeed well-wishers also, in both of the two armies. Having looked closely at all those relatives stationed there, he, the son of Kuntī,"
+    "translation": "fathers-in-law and indeed well-wishers also, in both of the two armies. Having looked closely at all those relatives stationed there, he, the son of Kuntī,",
+    "plain": "He saw fathers-in-law and well-wishers too, in both of the armies. The son of Kuntī looked closely at all these relatives standing there."
   },
   {
     "chapter": 1,
@@ -1782,7 +1809,8 @@ export const VERSES: Verse[] = [
         "en": "come near"
       }
     ],
-    "translation": "filled by supreme compassion, despairing, said this: having seen this people of my own, O Kṛṣṇa, come near and wishing to fight,"
+    "translation": "filled by supreme compassion, despairing, said this: having seen this people of my own, O Kṛṣṇa, come near and wishing to fight,",
+    "plain": "Filled with the deepest compassion and despairing, he said this: Kṛṣṇa, I see my own people here, come close and wanting to fight."
   },
   {
     "chapter": 1,
@@ -1850,7 +1878,8 @@ export const VERSES: Verse[] = [
         "en": "arises"
       }
     ],
-    "translation": "my limbs sink and the mouth dries up, and trembling in my body and bristling of the hair arises."
+    "translation": "my limbs sink and the mouth dries up, and trembling in my body and bristling of the hair arises.",
+    "plain": "My limbs give way and my mouth dries up. My body trembles and my hair stands on end."
   },
   {
     "chapter": 1,
@@ -1931,7 +1960,8 @@ export const VERSES: Verse[] = [
         "term": "manas"
       }
     ],
-    "translation": "The bow Gāṇḍīva slips from the hand, and the skin indeed burns all over. And I am not able to stay standing, and my mind whirls, as it were."
+    "translation": "The bow Gāṇḍīva slips from the hand, and the skin indeed burns all over. And I am not able to stay standing, and my mind whirls, as it were.",
+    "plain": "The bow Gāṇḍīva slips from my hand, and my skin burns all over. I cannot stay on my feet, and my mind seems to whirl."
   },
   {
     "chapter": 1,
@@ -1995,7 +2025,8 @@ export const VERSES: Verse[] = [
         "en": "in battle"
       }
     ],
-    "translation": "And I see adverse omens, O Keśava. And I do not foresee good, having killed my own people in battle."
+    "translation": "And I see adverse omens, O Keśava. And I do not foresee good, having killed my own people in battle.",
+    "plain": "And I see omens of ill, Keśava. Nor do I foresee any good in killing my own people in battle."
   },
   {
     "chapter": 1,
@@ -2079,7 +2110,8 @@ export const VERSES: Verse[] = [
         "en": "or"
       }
     ],
-    "translation": "I do not desire victory, O Kṛṣṇa, and not kingdom and pleasures. What use to us is kingdom, O Govinda, what use are enjoyments or life?"
+    "translation": "I do not desire victory, O Kṛṣṇa, and not kingdom and pleasures. What use to us is kingdom, O Govinda, what use are enjoyments or life?",
+    "plain": "I do not want victory, Kṛṣṇa, nor a kingdom, nor pleasures. What use is a kingdom to us, Govinda? What use are enjoyments, or life?"
   },
   {
     "chapter": 1,
@@ -2160,6 +2192,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Those for whose sake kingdom, enjoyments and pleasures are desired by us, they, these here, are stationed in battle, having given up lives and riches,",
+    "plain": "Those for whose sake we want a kingdom, enjoyments and pleasures are the very ones standing here in battle, having given up their lives and their riches.",
     "notes": [
       "Verses 33 to 34 are one sentence in the Sanskrit."
     ]
@@ -2230,7 +2263,8 @@ export const VERSES: Verse[] = [
         "en": "likewise"
       }
     ],
-    "translation": "teachers, fathers, sons, and likewise indeed grandfathers, maternal uncles, fathers-in-law, grandsons, brothers-in-law and likewise kinsmen by marriage."
+    "translation": "teachers, fathers, sons, and likewise indeed grandfathers, maternal uncles, fathers-in-law, grandsons, brothers-in-law and likewise kinsmen by marriage.",
+    "plain": "They are teachers, fathers and sons, and grandfathers too. They are maternal uncles, fathers-in-law, grandsons, brothers-in-law and kinsmen by marriage as well."
   },
   {
     "chapter": 1,
@@ -2298,7 +2332,8 @@ export const VERSES: Verse[] = [
         "en": "for the sake of the earth"
       }
     ],
-    "translation": "These I do not wish to kill, even though they are killing, O slayer of Madhu, even for the sake of kingship over the three worlds. How much less, then, for the sake of the earth?"
+    "translation": "These I do not wish to kill, even though they are killing, O slayer of Madhu, even for the sake of kingship over the three worlds. How much less, then, for the sake of the earth?",
+    "plain": "I do not wish to kill them, slayer of Madhu, even though they are killing, not even for kingship over the three worlds. How much less, then, for the sake of the earth?"
   },
   {
     "chapter": 1,
@@ -2370,7 +2405,8 @@ export const VERSES: Verse[] = [
         "en": "aggressors"
       }
     ],
-    "translation": "Having struck down the sons of Dhṛtarāṣṭra, what joy would be ours, O Janārdana? Only evil would settle on us, having killed these aggressors."
+    "translation": "Having struck down the sons of Dhṛtarāṣṭra, what joy would be ours, O Janārdana? Only evil would settle on us, having killed these aggressors.",
+    "plain": "What joy would we have, Janārdana, from striking down the sons of Dhṛtarāṣṭra? Only evil would settle on us if we killed these aggressors."
   },
   {
     "chapter": 1,
@@ -2442,7 +2478,8 @@ export const VERSES: Verse[] = [
         "en": "O Mādhava"
       }
     ],
-    "translation": "Therefore we are not entitled to kill the sons of Dhṛtarāṣṭra, our own relatives. For how, having killed our own people, would we be happy, O Mādhava?"
+    "translation": "Therefore we are not entitled to kill the sons of Dhṛtarāṣṭra, our own relatives. For how, having killed our own people, would we be happy, O Mādhava?",
+    "plain": "So we have no right to kill the sons of Dhṛtarāṣṭra, our own relatives. For how could we be happy, Mādhava, after killing our own people?"
   },
   {
     "chapter": 1,
@@ -2503,6 +2540,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Even if these, whose minds are struck down by greed, do not see the fault made by the destruction of the family and the crime in the betrayal of friends,",
+    "plain": "It may be that these men, their minds struck down by greed, do not see the wrong done in destroying the family, or the crime in betraying friends.",
     "notes": [
       "Verses 38 to 39 are one sentence in the Sanskrit."
     ]
@@ -2565,7 +2603,8 @@ export const VERSES: Verse[] = [
         "en": "O Janārdana"
       }
     ],
-    "translation": "how is it not to be known by us, who see clearly the fault made by the destruction of the family, to turn back from this evil, O Janārdana?"
+    "translation": "how is it not to be known by us, who see clearly the fault made by the destruction of the family, to turn back from this evil, O Janārdana?",
+    "plain": "But how can we not know to turn back from this evil, Janārdana, we who see clearly the wrong done in destroying the family?"
   },
   {
     "chapter": 1,
@@ -2628,7 +2667,8 @@ export const VERSES: Verse[] = [
         "en": "indeed"
       }
     ],
-    "translation": "In the destruction of the family, the eternal family dharmas perish. When dharma is lost, the opposite of dharma indeed overpowers the whole family."
+    "translation": "In the destruction of the family, the eternal family dharmas perish. When dharma is lost, the opposite of dharma indeed overpowers the whole family.",
+    "plain": "When the family is destroyed, the eternal family dharmas perish. And when dharma is lost, the opposite of dharma overpowers the whole family."
   },
   {
     "chapter": 1,
@@ -2681,7 +2721,8 @@ export const VERSES: Verse[] = [
         "en": "mixing of the classes"
       }
     ],
-    "translation": "From the overpowering by the opposite of dharma, O Kṛṣṇa, the women of the family become corrupted. When the women are corrupted, O descendant of Vṛṣṇi, mixing of the classes arises."
+    "translation": "From the overpowering by the opposite of dharma, O Kṛṣṇa, the women of the family become corrupted. When the women are corrupted, O descendant of Vṛṣṇi, mixing of the classes arises.",
+    "plain": "When the opposite of dharma overpowers it, Kṛṣṇa, the women of the family are corrupted. And when the women are corrupted, descendant of Vṛṣṇi, the classes become mixed."
   },
   {
     "chapter": 1,
@@ -2742,6 +2783,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The mixing leads only to hell, for the destroyers of the family and for the family. For the ancestors of these fall, their rites of rice-ball and water cut off.",
+    "plain": "That mixing leads only to hell, for the destroyers of the family and for the family. For their ancestors fall, cut off from the rites of rice-ball and water.",
     "notes": [
       "\"The ancestors of these\" can mean the ancestors of the destroyers of the family, or the ancestors of the whole family."
     ]
@@ -2798,7 +2840,8 @@ export const VERSES: Verse[] = [
         "en": "everlasting"
       }
     ],
-    "translation": "By these faults of the destroyers of the family, which cause mixing of the classes, the dharmas of the birth-group and the everlasting family dharmas are uprooted."
+    "translation": "By these faults of the destroyers of the family, which cause mixing of the classes, the dharmas of the birth-group and the everlasting family dharmas are uprooted.",
+    "plain": "By these wrongs of the destroyers of the family, which cause the mixing of the classes, the dharmas of the birth-group and the everlasting family dharmas are uprooted."
   },
   {
     "chapter": 1,
@@ -2852,6 +2895,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "For men whose family dharmas are uprooted, O Janārdana, there is certainly dwelling in hell: thus we have heard.",
+    "plain": "People whose family dharmas are uprooted, Janārdana, are certain to dwell in hell. So we have heard.",
     "notes": [
       "\"Certainly\" can also be read as \"for a fixed time\", describing how long the dwelling in hell lasts."
     ]
@@ -2918,7 +2962,8 @@ export const VERSES: Verse[] = [
         "en": "prepared"
       }
     ],
-    "translation": "Ah, alas, we are resolved to do a great evil, in that by greed for the pleasure of kingdom we are prepared to kill our own people."
+    "translation": "Ah, alas, we are resolved to do a great evil, in that by greed for the pleasure of kingdom we are prepared to kill our own people.",
+    "plain": "Ah, alas, what a great evil we are resolved to do: out of greed for the pleasures of a kingdom, we are ready to kill our own people."
   },
   {
     "chapter": 1,
@@ -2982,7 +3027,8 @@ export const VERSES: Verse[] = [
         "en": "would be"
       }
     ],
-    "translation": "If the sons of Dhṛtarāṣṭra, with weapons in hand, should kill me in battle, unresisting and unarmed, that would be better for me."
+    "translation": "If the sons of Dhṛtarāṣṭra, with weapons in hand, should kill me in battle, unresisting and unarmed, that would be better for me.",
+    "plain": "If the sons of Dhṛtarāṣṭra, weapons in hand, were to kill me in battle, unresisting and unarmed, that would be better for me."
   },
   {
     "chapter": 1,
@@ -3039,6 +3085,7 @@ export const VERSES: Verse[] = [
         "term": "manas"
       }
     ],
-    "translation": "Having spoken thus in the battle, Arjuna sat down on the seat of the chariot, having cast away the bow together with arrow, his mind shaken by grief."
+    "translation": "Having spoken thus in the battle, Arjuna sat down on the seat of the chariot, having cast away the bow together with arrow, his mind shaken by grief.",
+    "plain": "Having said this on the battlefield, Arjuna sat down on the seat of his chariot. He cast aside his bow and arrow, his mind shaken by grief."
   }
 ]

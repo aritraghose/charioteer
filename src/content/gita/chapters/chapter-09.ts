@@ -65,7 +65,8 @@ export const VERSES: Verse[] = [
         "en": "from the inauspicious"
       }
     ],
-    "translation": "But to you, who do not find fault, I will declare this most secret knowledge, together with realization, having known which you will be freed from the inauspicious."
+    "translation": "But to you, who do not find fault, I will declare this most secret knowledge, together with realization, having known which you will be freed from the inauspicious.",
+    "plain": "But to you, who find no fault, I will tell this most secret knowledge, together with its realization. Knowing it, you will be freed from what is inauspicious."
   },
   {
     "chapter": 9,
@@ -123,6 +124,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "This is the king of knowledge, the king of secrets, the highest purifier, understood by direct perception, in accord with dharma, very easy to do, imperishable.",
+    "plain": "It is the king of knowledge and the king of secrets, the highest purifier. It is understood by direct perception, it accords with dharma, it is very easy to practise, and it is imperishable.",
     "notes": [
       "\"The king of knowledge, the king of secrets\" can also be read as \"the knowledge of kings, the secret of kings\"."
     ]
@@ -178,7 +180,8 @@ export const VERSES: Verse[] = [
         "en": "on the path of death and the round of rebirth"
       }
     ],
-    "translation": "Men who have no faith in this dharma, O scorcher of foes, not having reached me, turn back on the path of death and the round of rebirth."
+    "translation": "Men who have no faith in this dharma, O scorcher of foes, not having reached me, turn back on the path of death and the round of rebirth.",
+    "plain": "People who have no faith in this dharma, scorcher of foes, do not reach me. They turn back onto the path of death and the round of rebirth."
   },
   {
     "chapter": 9,
@@ -246,7 +249,8 @@ export const VERSES: Verse[] = [
         "en": "standing"
       }
     ],
-    "translation": "All this world is pervaded by me, the one of unmanifest form. All beings stand in me, and I do not stand in them."
+    "translation": "All this world is pervaded by me, the one of unmanifest form. All beings stand in me, and I do not stand in them.",
+    "plain": "This whole world is pervaded by me, in my unmanifest form. All beings rest in me, and I do not rest in them."
   },
   {
     "chapter": 9,
@@ -325,6 +329,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "And beings do not stand in me. See my lordly yoga. Bearing beings and not standing in beings, my self brings beings into being.",
+    "plain": "And yet beings do not rest in me. See my lordly yoga. My self bears beings and does not rest in beings, and it brings beings into being.",
     "notes": [
       "\"My self brings beings into being\" can also be read as \"I myself bring beings into being\"."
     ]
@@ -391,7 +396,8 @@ export const VERSES: Verse[] = [
         "en": "understand"
       }
     ],
-    "translation": "As the great wind, going everywhere, always stands in space, so all beings stand in me. Understand it thus."
+    "translation": "As the great wind, going everywhere, always stands in space, so all beings stand in me. Understand it thus.",
+    "plain": "As the great wind, which goes everywhere, always rests in space, so all beings rest in me. Understand it this way."
   },
   {
     "chapter": 9,
@@ -451,7 +457,8 @@ export const VERSES: Verse[] = [
         "en": "I"
       }
     ],
-    "translation": "All beings, O son of Kuntī, go to my own nature at the end of an aeon. At the beginning of an aeon I send them forth again."
+    "translation": "All beings, O son of Kuntī, go to my own nature at the end of an aeon. At the beginning of an aeon I send them forth again.",
+    "plain": "At the end of an aeon, son of Kuntī, all beings go into my own nature. At the beginning of an aeon I send them forth again."
   },
   {
     "chapter": 9,
@@ -516,6 +523,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Resting on my own nature, I send forth again and again this whole multitude of beings, powerless, by the power of nature.",
+    "plain": "Resting on my own nature, I send forth this whole multitude of beings again and again. The multitude is powerless: it comes forth by the power of nature.",
     "notes": [
       "\"Resting on\" can also be read as \"taking control of\"."
     ]
@@ -585,7 +593,8 @@ export const VERSES: Verse[] = [
         "term": "karma"
       }
     ],
-    "translation": "And those actions do not bind me, O winner of wealth, seated like one indifferent, unattached to those actions."
+    "translation": "And those actions do not bind me, O winner of wealth, seated like one indifferent, unattached to those actions.",
+    "plain": "And those actions do not bind me, winner of wealth. I sit like one who is indifferent, unattached to those actions."
   },
   {
     "chapter": 9,
@@ -641,7 +650,8 @@ export const VERSES: Verse[] = [
         "en": "revolves"
       }
     ],
-    "translation": "With me as overseer, nature gives birth to the moving together with the unmoving. By this cause, O son of Kuntī, the world revolves."
+    "translation": "With me as overseer, nature gives birth to the moving together with the unmoving. By this cause, O son of Kuntī, the world revolves.",
+    "plain": "With me as overseer, nature gives birth to all that moves and all that does not move. This is the cause, son of Kuntī, by which the world revolves."
   },
   {
     "chapter": 9,
@@ -701,7 +711,8 @@ export const VERSES: Verse[] = [
         "en": "the great lord of beings"
       }
     ],
-    "translation": "The deluded despise me, who have resorted to a human body, not knowing my higher being as the great lord of beings."
+    "translation": "The deluded despise me, who have resorted to a human body, not knowing my higher being as the great lord of beings.",
+    "plain": "The deluded despise me when I have taken a human body. They do not know my higher being as the great lord of beings."
   },
   {
     "chapter": 9,
@@ -762,7 +773,8 @@ export const VERSES: Verse[] = [
         "en": "having resorted to"
       }
     ],
-    "translation": "Of vain hopes, of vain actions, of vain knowledge, without sense, they have resorted to the deluding nature, fiendish and indeed demonic."
+    "translation": "Of vain hopes, of vain actions, of vain knowledge, without sense, they have resorted to the deluding nature, fiendish and indeed demonic.",
+    "plain": "Their hopes are vain, their actions are vain, their knowledge is vain, and they are without sense. They have taken to the deluding nature, the fiendish and indeed demonic one."
   },
   {
     "chapter": 9,
@@ -828,7 +840,8 @@ export const VERSES: Verse[] = [
         "en": "imperishable"
       }
     ],
-    "translation": "But those of great self, O son of Pṛthā, having resorted to the divine nature, worship me with mind on nothing else, having known the imperishable beginning of beings."
+    "translation": "But those of great self, O son of Pṛthā, having resorted to the divine nature, worship me with mind on nothing else, having known the imperishable beginning of beings.",
+    "plain": "But those of great self, son of Pṛthā, take to the divine nature. Knowing me as the imperishable beginning of beings, they worship me with their minds on nothing else."
   },
   {
     "chapter": 9,
@@ -893,7 +906,8 @@ export const VERSES: Verse[] = [
         "en": "they worship"
       }
     ],
-    "translation": "Constantly glorifying me and striving, firm in vows, and bowing to me with devotion, always yoked, they worship."
+    "translation": "Constantly glorifying me and striving, firm in vows, and bowing to me with devotion, always yoked, they worship.",
+    "plain": "Constantly glorifying me, striving, firm in their vows, and bowing to me with devotion, they worship, always yoked."
   },
   {
     "chapter": 9,
@@ -953,7 +967,8 @@ export const VERSES: Verse[] = [
         "en": "facing everywhere"
       }
     ],
-    "translation": "And others also, sacrificing with the sacrifice of knowledge, worship me, who face everywhere, as oneness, as separateness, in many ways."
+    "translation": "And others also, sacrificing with the sacrifice of knowledge, worship me, who face everywhere, as oneness, as separateness, in many ways.",
+    "plain": "And others too worship me by sacrificing with the sacrifice of knowledge. They worship me, who face in every direction, as one, as separate, in many ways."
   },
   {
     "chapter": 9,
@@ -1037,7 +1052,8 @@ export const VERSES: Verse[] = [
         "en": "what is offered"
       }
     ],
-    "translation": "I am the rite, I am the sacrifice, I am the offering to the ancestors, I am the healing herb. I am the sacred formula, I alone am the clarified butter, I am the fire, I am what is offered."
+    "translation": "I am the rite, I am the sacrifice, I am the offering to the ancestors, I am the healing herb. I am the sacred formula, I alone am the clarified butter, I am the fire, I am what is offered.",
+    "plain": "I am the rite, I am the sacrifice, I am the offering to the ancestors, I am the healing herb. I am the sacred formula, I alone am the clarified butter, I am the fire, and I am what is offered."
   },
   {
     "chapter": 9,
@@ -1114,6 +1130,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "I am the father of this world, the mother, the ordainer, the grandfather, what is to be known, the purifier, the syllable Oṁ, the Ṛg Veda, the Sāma Veda and indeed the Yajur Veda.",
+    "plain": "I am the father of this world, its mother, its ordainer and its grandfather. I am what is to be known, the purifier, the syllable Oṁ, and the Ṛg Veda, the Sāma Veda and the Yajur Veda too.",
     "notes": [
       "\"The ordainer\" can also be read as \"the supporter\"."
     ]
@@ -1184,7 +1201,8 @@ export const VERSES: Verse[] = [
         "en": "imperishable"
       }
     ],
-    "translation": "The goal, the supporter, the lord, the witness, the dwelling, the refuge, the friend, the origin, the dissolution, the ground, the storehouse, the imperishable seed."
+    "translation": "The goal, the supporter, the lord, the witness, the dwelling, the refuge, the friend, the origin, the dissolution, the ground, the storehouse, the imperishable seed.",
+    "plain": "I am the goal, the supporter, the lord, the witness, the dwelling, the refuge and the friend. I am the origin, the dissolution, the ground, the storehouse and the imperishable seed."
   },
   {
     "chapter": 9,
@@ -1268,7 +1286,8 @@ export const VERSES: Verse[] = [
         "en": "O Arjuna"
       }
     ],
-    "translation": "I give heat. I hold back and send forth the rain. I am indeed deathlessness and death, and what is and what is not, O Arjuna."
+    "translation": "I give heat. I hold back and send forth the rain. I am indeed deathlessness and death, and what is and what is not, O Arjuna.",
+    "plain": "I give heat. I hold back the rain and I send it forth. I am both deathlessness and death, Arjuna, and both what is and what is not."
   },
   {
     "chapter": 9,
@@ -1353,6 +1372,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Those who know the three Vedas, drinkers of soma, cleansed of evil, having worshipped me with sacrifices, pray for the way to heaven. Having reached the meritorious world of the lord of the gods, they eat in heaven the heavenly enjoyments of the gods.",
+    "plain": "Those who know the three Vedas, who drink soma and are cleansed of evil, worship me with sacrifices and pray for the way to heaven. They reach the meritorious world of the lord of the gods, and there in heaven they feast on the heavenly enjoyments of the gods.",
     "notes": [
       "\"The meritorious world of the lord of the gods\" can also be read as \"the world of the lord of the gods, the reward of their merit\"."
     ]
@@ -1437,7 +1457,8 @@ export const VERSES: Verse[] = [
         "en": "they get"
       }
     ],
-    "translation": "Having enjoyed that wide world of heaven, when merit is spent they enter the world of mortals. Thus, following the dharma of the three Vedas, desiring desires, they get going and coming."
+    "translation": "Having enjoyed that wide world of heaven, when merit is spent they enter the world of mortals. Thus, following the dharma of the three Vedas, desiring desires, they get going and coming.",
+    "plain": "Having enjoyed that wide world of heaven, they enter the world of mortals when their merit is spent. So those who follow the dharma of the three Vedas, desiring pleasures, win going and coming."
   },
   {
     "chapter": 9,
@@ -1500,6 +1521,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The people who, having no other, thinking of me, worship me fully: of them, the ever joined, I carry the gaining and keeping.",
+    "plain": "The people who have no other, who think of me and worship me fully, are ever joined. For them I carry both the gaining and the keeping.",
     "notes": [
       "\"The gaining and keeping\" can also be read as \"the yoga and the safety\"."
     ]
@@ -1575,6 +1597,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Even the devotees who, filled with faith, worship other gods, they too worship only me, O son of Kuntī, not according to rule.",
+    "plain": "Even the devotees who worship other gods, filled with faith, are worshipping only me, son of Kuntī, though not according to rule.",
     "notes": [
       "\"The devotees who, filled with faith, worship other gods\" can also be read as \"those who are devoted to other gods and worship filled with faith\"."
     ]
@@ -1657,7 +1680,8 @@ export const VERSES: Verse[] = [
         "en": "they"
       }
     ],
-    "translation": "For I am the enjoyer and indeed the lord of all sacrifices. But they do not know me in truth, therefore they fall."
+    "translation": "For I am the enjoyer and indeed the lord of all sacrifices. But they do not know me in truth, therefore they fall.",
+    "plain": "For I am the enjoyer of all sacrifices, and indeed their lord. But they do not know me as I truly am, and so they fall."
   },
   {
     "chapter": 9,
@@ -1725,7 +1749,8 @@ export const VERSES: Verse[] = [
         "en": "to me"
       }
     ],
-    "translation": "Those vowed to the gods go to the gods. Those vowed to the ancestors go to the ancestors. Those who sacrifice to the spirits go to the spirits. Those who sacrifice to me also go to me."
+    "translation": "Those vowed to the gods go to the gods. Those vowed to the ancestors go to the ancestors. Those who sacrifice to the spirits go to the spirits. Those who sacrifice to me also go to me.",
+    "plain": "Those vowed to the gods go to the gods. Those vowed to the ancestors go to the ancestors. Those who sacrifice to the spirits go to the spirits. And those who sacrifice to me, likewise, come to me."
   },
   {
     "chapter": 9,
@@ -1794,7 +1819,8 @@ export const VERSES: Verse[] = [
         "term": "atman"
       }
     ],
-    "translation": "Whoever offers to me with devotion a leaf, a flower, a fruit, water: that, brought with devotion, I eat, the offering of the one whose self is pure."
+    "translation": "Whoever offers to me with devotion a leaf, a flower, a fruit, water: that, brought with devotion, I eat, the offering of the one whose self is pure.",
+    "plain": "When someone offers me a leaf, a flower, a fruit or water with devotion, I eat that offering, brought with devotion by one whose self is pure."
   },
   {
     "chapter": 9,
@@ -1866,7 +1892,8 @@ export const VERSES: Verse[] = [
         "en": "as an offering to me"
       }
     ],
-    "translation": "Whatever you do, whatever you eat, whatever you pour in sacrifice, whatever you give, whatever you practise as austerity, O son of Kuntī, do that as an offering to me."
+    "translation": "Whatever you do, whatever you eat, whatever you pour in sacrifice, whatever you give, whatever you practise as austerity, O son of Kuntī, do that as an offering to me.",
+    "plain": "Whatever you do, whatever you eat, whatever you pour in sacrifice, whatever you give, whatever austerity you practise, son of Kuntī, do it as an offering to me."
   },
   {
     "chapter": 9,
@@ -1916,7 +1943,8 @@ export const VERSES: Verse[] = [
         "en": "you will come"
       }
     ],
-    "translation": "Thus you will be freed from the bonds of action, which have good and bad fruits. With the self joined to the yoga of renunciation, set free, you will come to me."
+    "translation": "Thus you will be freed from the bonds of action, which have good and bad fruits. With the self joined to the yoga of renunciation, set free, you will come to me.",
+    "plain": "In this way you will be freed from the bonds of action, with their good and bad fruits. With the self joined to the yoga of renunciation, you will be set free and will come to me."
   },
   {
     "chapter": 9,
@@ -2013,7 +2041,8 @@ export const VERSES: Verse[] = [
         "en": "I"
       }
     ],
-    "translation": "I am the same toward all beings. There is none hateful to me, none dear. But those who worship me with devotion are in me, and I too am in them."
+    "translation": "I am the same toward all beings. There is none hateful to me, none dear. But those who worship me with devotion are in me, and I too am in them.",
+    "plain": "I am the same toward all beings. No one is hateful to me and no one is dear. But those who worship me with devotion are in me, and I too am in them."
   },
   {
     "chapter": 9,
@@ -2085,7 +2114,8 @@ export const VERSES: Verse[] = [
         "en": "he"
       }
     ],
-    "translation": "Even if one of very bad conduct worships me, devoted to no other, he is to be thought of as good indeed, for he is rightly resolved."
+    "translation": "Even if one of very bad conduct worships me, devoted to no other, he is to be thought of as good indeed, for he is rightly resolved.",
+    "plain": "Even if someone of very bad conduct worships me, devoted to no other, that person is to be thought of as good indeed, for that person has resolved rightly."
   },
   {
     "chapter": 9,
@@ -2152,6 +2182,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Quickly he becomes one whose self is dharma, and he reaches everlasting peace. O son of Kuntī, declare: my devotee does not perish.",
+    "plain": "Such a person quickly becomes one whose self is dharma, and reaches everlasting peace. Son of Kuntī, declare it: my devotee does not perish.",
     "notes": [
       "\"Declare\" can also be read as \"know for certain\"."
     ]
@@ -2239,6 +2270,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "For having taken refuge in me, O son of Pṛthā, even those who may be of evil birth, women, merchants and also servants, they too go to the highest goal.",
+    "plain": "For those who take refuge in me, son of Pṛthā, even if they are of evil birth, women, merchants and servants too, they also go to the highest goal.",
     "notes": [
       "\"Those who may be of evil birth, women, merchants and also servants\" can be read as one group described by the three names that follow, or as four separate groups, with those of evil birth standing apart from the women, merchants and servants."
     ]
@@ -2313,7 +2345,8 @@ export const VERSES: Verse[] = [
         "en": "me"
       }
     ],
-    "translation": "How much more then the pure brahmins, and also the devoted royal seers. Having come to this impermanent, joyless world, worship me."
+    "translation": "How much more then the pure brahmins, and also the devoted royal seers. Having come to this impermanent, joyless world, worship me.",
+    "plain": "How much more, then, the pure brahmins and the devoted royal seers. Having come to this impermanent, joyless world, worship me."
   },
   {
     "chapter": 9,
@@ -2384,6 +2417,7 @@ export const VERSES: Verse[] = [
         "en": "having me as the highest goal"
       }
     ],
-    "translation": "Be with the mind on me, devoted to me, sacrificing to me. Bow to me. Having thus joined the self, having me as the highest goal, you will come to me alone."
+    "translation": "Be with the mind on me, devoted to me, sacrificing to me. Bow to me. Having thus joined the self, having me as the highest goal, you will come to me alone.",
+    "plain": "Keep your mind on me, be devoted to me, sacrifice to me, bow to me. Having joined the self in this way, with me as your highest goal, you will come to me alone."
   }
 ]

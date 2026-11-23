@@ -69,7 +69,8 @@ export const VERSES: Verse[] = [
         "en": "a knower of the Vedas"
       }
     ],
-    "translation": "They speak of the undecaying sacred fig tree with roots above and with branches below, of which the leaves are the sacred hymns. He who knows it, he is a knower of the Vedas."
+    "translation": "They speak of the undecaying sacred fig tree with roots above and with branches below, of which the leaves are the sacred hymns. He who knows it, he is a knower of the Vedas.",
+    "plain": "They speak of an undecaying sacred fig tree with its roots above and its branches below, whose leaves are the sacred hymns. Whoever knows that tree is a knower of the Vedas."
   },
   {
     "chapter": 15,
@@ -148,6 +149,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Downward and upward the branches of it are spread out, grown strong by the guṇas, with the objects of sense as shoots. And downward the roots are stretched out, bound up with action, in the world of men.",
+    "plain": "Its branches spread downward and upward, grown strong by the guṇas, with the objects of sense as their shoots. And its roots stretch downward, bound up with action, in the human world.",
     "notes": [
       "\"Bound up with action\" can also be read as \"resulting in action\"."
     ]
@@ -252,6 +254,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The form of it is not perceived here in that way, nor the end, nor the beginning, nor the foundation. Having cut this sacred fig tree, whose roots are fully grown, with the firm weapon of non-attachment,",
+    "plain": "Its form is not perceived here as it is, nor its end, nor its beginning, nor its foundation. This sacred fig tree, whose roots are fully grown, is to be cut down with the firm weapon of non-attachment.",
     "notes": [
       "Verses 3 to 4 are one sentence in the Sanskrit."
     ]
@@ -351,6 +354,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "then that place is to be sought, to which those who have gone do not return again. And I take refuge in that very primal person, from whom the ancient activity has flowed forth.",
+    "plain": "Then that place is to be sought from which those who have gone there do not return again. And I take refuge in that very primal person, from whom the ancient activity has flowed forth.",
     "notes": [
       "\"I take refuge\" is the seeker's own thought, spoken in the first person. It can also be read as \"one should take refuge\"."
     ]
@@ -424,7 +428,8 @@ export const VERSES: Verse[] = [
         "en": "that"
       }
     ],
-    "translation": "Without pride and delusion, with the fault of attachment conquered, constant in what concerns the self, with desires turned away, freed from the pairs named pleasure and pain, the undeluded go to that undecaying place."
+    "translation": "Without pride and delusion, with the fault of attachment conquered, constant in what concerns the self, with desires turned away, freed from the pairs named pleasure and pain, the undeluded go to that undecaying place.",
+    "plain": "Those who are without pride and delusion, who have conquered the fault of attachment, who are constant in what concerns the self, whose desires have turned away, and who are freed from the pairs called pleasure and pain: they, the undeluded, go to that undecaying place."
   },
   {
     "chapter": 15,
@@ -504,7 +509,8 @@ export const VERSES: Verse[] = [
         "en": "my"
       }
     ],
-    "translation": "The sun does not light up that, nor the moon, nor fire. That to which, having gone, they do not return is my supreme abode."
+    "translation": "The sun does not light up that, nor the moon, nor fire. That to which, having gone, they do not return is my supreme abode.",
+    "plain": "The sun does not light it up, nor the moon, nor fire. That place, from which those who have gone there do not return, is my supreme abode."
   },
   {
     "chapter": 15,
@@ -562,7 +568,8 @@ export const VERSES: Verse[] = [
         "en": "it draws"
       }
     ],
-    "translation": "A part of me indeed, eternal, having become a living being in the world of the living, draws the senses, with the mind as the sixth, resting in nature."
+    "translation": "A part of me indeed, eternal, having become a living being in the world of the living, draws the senses, with the mind as the sixth, resting in nature.",
+    "plain": "It is a part of me, eternal, that becomes a living being in the world of the living. It draws to itself the senses, with the mind as the sixth, which rest in nature."
   },
   {
     "chapter": 15,
@@ -639,6 +646,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "When the lord obtains a body, and also when he departs, he goes having taken these, like the wind taking scents from their resting place.",
+    "plain": "When the lord takes on a body, and also when he departs from it, he goes taking these with him, as the wind takes scents from their resting place.",
     "notes": [
       "\"When the lord obtains a body, and also when he departs\" can also be read as \"whatever body the lord obtains, and whatever body he departs from\"."
     ]
@@ -714,7 +722,8 @@ export const VERSES: Verse[] = [
         "en": "attends on"
       }
     ],
-    "translation": "Presiding over hearing, sight and touch, taste and indeed smell, and the mind, this one attends on the objects of sense."
+    "translation": "Presiding over hearing, sight and touch, taste and indeed smell, and the mind, this one attends on the objects of sense.",
+    "plain": "Presiding over hearing, sight and touch, taste and smell, and the mind as well, he attends on the objects of sense."
   },
   {
     "chapter": 15,
@@ -779,7 +788,8 @@ export const VERSES: Verse[] = [
         "en": "those with the eye of knowledge"
       }
     ],
-    "translation": "Departing, or also staying, or experiencing, joined with the guṇas: the deluded do not see him. Those with the eye of knowledge see."
+    "translation": "Departing, or also staying, or experiencing, joined with the guṇas: the deluded do not see him. Those with the eye of knowledge see.",
+    "plain": "Whether he is departing, or staying, or experiencing, joined with the guṇas, the deluded do not see him. Those with the eye of knowledge see."
   },
   {
     "chapter": 15,
@@ -855,6 +865,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "And the striving yogīs see this one established in the self. Even though striving, those whose self is unformed, the unthinking, do not see this one.",
+    "plain": "And the yogīs who strive see him established in the self. But the unthinking, whose self is unformed, do not see him, even though they strive.",
     "notes": [
       "\"Established in the self\" can also be read as \"established in themselves\", meaning in their own body or mind."
     ]
@@ -933,7 +944,8 @@ export const VERSES: Verse[] = [
         "en": "mine"
       }
     ],
-    "translation": "The brilliance residing in the sun which lights up the whole world, which is in the moon and which is in fire: know that brilliance to be mine."
+    "translation": "The brilliance residing in the sun which lights up the whole world, which is in the moon and which is in fire: know that brilliance to be mine.",
+    "plain": "The brilliance in the sun that lights up the whole world, the brilliance that is in the moon and the brilliance that is in fire: know that brilliance to be mine."
   },
   {
     "chapter": 15,
@@ -1006,6 +1018,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "And having entered the earth, I support beings by vigour, and I nourish all the plants, having become the moon, whose nature is sap.",
+    "plain": "And entering the earth, I support beings by my vigour. And becoming the moon, whose nature is sap, I nourish all the plants.",
     "notes": [
       "\"The moon, whose nature is sap\" can also be read as \"the soma plant, whose nature is juice\"."
     ]
@@ -1065,6 +1078,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Having become the fire common to all men, dwelling in the body of breathing creatures, joined with the outgoing and incoming breaths, I cook food of four kinds.",
+    "plain": "Becoming the fire common to all people, I dwell in the body of breathing creatures. Joined with the outgoing and incoming breaths, I cook the four kinds of food.",
     "notes": [
       "\"I cook\" can also be read as \"I digest\"."
     ]
@@ -1172,6 +1186,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "And I am seated in the heart of all. From me are memory, knowledge and their removal. And by all the Vedas I alone am to be known. I am the maker of the end of the Vedas and indeed the knower of the Vedas.",
+    "plain": "And I am seated in the heart of all. From me come memory and knowledge, and their removal too. And I alone am what is to be known through all the Vedas. I am the maker of the end of the Vedas, and I am the knower of the Vedas as well.",
     "notes": [
       "\"Their removal\" can also be read as \"reasoning\", the power of working through doubts."
     ]
@@ -1251,6 +1266,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "There are these two persons in the world: the perishable and indeed the imperishable. The perishable is all beings. The one standing at the peak is called the imperishable.",
+    "plain": "There are these two persons in the world: the perishable and the imperishable. The perishable is all beings. The one who stands at the peak is called the imperishable.",
     "notes": [
       "\"The one standing at the peak\" can also be read as \"the one who stands unchanging, like an anvil\"."
     ]
@@ -1322,7 +1338,8 @@ export const VERSES: Verse[] = [
         "en": "the lord"
       }
     ],
-    "translation": "But the highest person is another, declared thus as the supreme self, the undecaying lord who, having entered the three worlds, sustains them."
+    "translation": "But the highest person is another, declared thus as the supreme self, the undecaying lord who, having entered the three worlds, sustains them.",
+    "plain": "But the highest person is another, declared to be the supreme self: the undecaying lord who enters the three worlds and sustains them."
   },
   {
     "chapter": 15,
@@ -1398,7 +1415,8 @@ export const VERSES: Verse[] = [
         "en": "the highest person"
       }
     ],
-    "translation": "Because I have gone beyond the perishable and am higher even than the imperishable, therefore I am celebrated in the world and in the Veda as the highest person."
+    "translation": "Because I have gone beyond the perishable and am higher even than the imperishable, therefore I am celebrated in the world and in the Veda as the highest person.",
+    "plain": "Because I have gone beyond the perishable, and am higher even than the imperishable, I am celebrated in the world and in the Veda as the highest person."
   },
   {
     "chapter": 15,
@@ -1463,6 +1481,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "He who, undeluded, thus knows me as the highest person, he, knowing all, worships me with his whole being, O descendant of Bharata.",
+    "plain": "Whoever, undeluded, knows me in this way as the highest person knows all, and worships me with their whole being, descendant of Bharata.",
     "notes": [
       "\"With his whole being\" can also be read as \"in every way\"."
     ]
@@ -1538,6 +1557,7 @@ export const VERSES: Verse[] = [
         "en": "O descendant of Bharata"
       }
     ],
-    "translation": "Thus this most secret teaching has been spoken by me, O sinless one. Having understood this, one would be possessed of buddhi and one who has done what is to be done, O descendant of Bharata."
+    "translation": "Thus this most secret teaching has been spoken by me, O sinless one. Having understood this, one would be possessed of buddhi and one who has done what is to be done, O descendant of Bharata.",
+    "plain": "So I have now spoken this most secret teaching, sinless one. Whoever understands it would have buddhi, and would have done all that is to be done, descendant of Bharata."
   }
 ]

@@ -80,7 +80,8 @@ export const VERSES: Verse[] = [
         "en": "is called"
       }
     ],
-    "translation": "What is that brahman? What is that which concerns the self? What is action, O highest of persons? And what is declared to be that which concerns beings? What is called that which concerns the gods?"
+    "translation": "What is that brahman? What is that which concerns the self? What is action, O highest of persons? And what is declared to be that which concerns beings? What is called that which concerns the gods?",
+    "plain": "What is that brahman? What is it that concerns the self? What is action, highest of persons? What is said to concern beings, and what is called that which concerns the gods?"
   },
   {
     "chapter": 8,
@@ -149,7 +150,8 @@ export const VERSES: Verse[] = [
         "term": "atman"
       }
     ],
-    "translation": "Who is that which concerns sacrifice, and how is it here in this body, O slayer of Madhu? And how are you to be known at the time of departure by those of controlled self?"
+    "translation": "Who is that which concerns sacrifice, and how is it here in this body, O slayer of Madhu? And how are you to be known at the time of departure by those of controlled self?",
+    "plain": "Who is it that concerns sacrifice, and how is it here in this body, slayer of Madhu? And how are those who have control of themselves to know you at the time of departure?"
   },
   {
     "chapter": 8,
@@ -205,6 +207,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Brahman is the imperishable, the highest. One's own nature is called that which concerns the self. The sending forth that causes the arising of the states of beings is named action.",
+    "plain": "Brahman is the imperishable, the highest. What concerns the self is called one's own nature. And the sending forth that brings the states of beings into existence is named action.",
     "notes": [
       "\"The sending forth\" can also be read as \"the offering\", meaning the act of giving in sacrifice."
     ]
@@ -275,7 +278,8 @@ export const VERSES: Verse[] = [
         "en": "O best"
       }
     ],
-    "translation": "That which concerns beings is perishable existence, and the person is that which concerns the gods. That which concerns sacrifice is I alone, here in the body, O best of those who bear a body."
+    "translation": "That which concerns beings is perishable existence, and the person is that which concerns the gods. That which concerns sacrifice is I alone, here in the body, O best of those who bear a body.",
+    "plain": "What concerns beings is perishable existence, and what concerns the gods is the person. What concerns sacrifice is I alone, here in the body, best of those who bear a body."
   },
   {
     "chapter": 8,
@@ -355,7 +359,8 @@ export const VERSES: Verse[] = [
         "en": "doubt"
       }
     ],
-    "translation": "And he who departs at the time of the end, remembering me alone, having let go of the body, goes to my state of being. There is no doubt here."
+    "translation": "And he who departs at the time of the end, remembering me alone, having let go of the body, goes to my state of being. There is no doubt here.",
+    "plain": "And whoever departs at the time of the end remembering me alone, letting go of the body, goes to my state of being. Of this there is no doubt."
   },
   {
     "chapter": 8,
@@ -435,7 +440,8 @@ export const VERSES: Verse[] = [
         "en": "made to become that state of being"
       }
     ],
-    "translation": "Or also, whichever state of being one remembers when one gives up the body at the end, to that very one one goes, O son of Kuntī, always made to become that state of being."
+    "translation": "Or also, whichever state of being one remembers when one gives up the body at the end, to that very one one goes, O son of Kuntī, always made to become that state of being.",
+    "plain": "Or again, whatever state of being one remembers when giving up the body at the end, that is the very state one goes to, son of Kuntī, having always been shaped into that state."
   },
   {
     "chapter": 8,
@@ -505,6 +511,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Therefore at all times remember me and fight. With mind and buddhi fixed on me, you will come to me alone, without doubt.",
+    "plain": "So remember me at all times, and fight. With your mind and buddhi fixed on me, you will come to me alone, without doubt.",
     "notes": [
       "\"Without doubt\" can be read either as \"it is certain that you will come\" or as \"you, being free of doubt, will come\"."
     ]
@@ -564,7 +571,8 @@ export const VERSES: Verse[] = [
         "en": "thinking on"
       }
     ],
-    "translation": "With a mind yoked by the yoga of practice, not going to another, one goes to the highest divine person, O son of Pṛthā, thinking on him."
+    "translation": "With a mind yoked by the yoga of practice, not going to another, one goes to the highest divine person, O son of Pṛthā, thinking on him.",
+    "plain": "With a mind yoked by the yoga of practice, a mind that goes to nothing else, one goes to the highest divine person, son of Pṛthā, by thinking on him."
   },
   {
     "chapter": 8,
@@ -637,6 +645,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "He who would remember the seer, the ancient one, the ruler, smaller than the small, the supporter of all, of unthinkable form, of the colour of the sun, beyond darkness,",
+    "plain": "A person may remember the seer, the ancient one, the ruler, who is smaller than the small, the supporter of all, whose form is beyond thought, who is the colour of the sun, beyond darkness.",
     "notes": [
       "Verses 9 to 10 are one sentence in the Sanskrit."
     ]
@@ -738,7 +747,8 @@ export const VERSES: Verse[] = [
         "en": "divine"
       }
     ],
-    "translation": "at the time of departure, with unmoving mind, yoked with devotion and indeed with the strength of yoga, having rightly made the breath enter in the middle of the two eyebrows, he goes to that highest divine person."
+    "translation": "at the time of departure, with unmoving mind, yoked with devotion and indeed with the strength of yoga, having rightly made the breath enter in the middle of the two eyebrows, he goes to that highest divine person.",
+    "plain": "At the time of departure, with an unmoving mind, yoked with devotion and with the strength of yoga, having rightly brought the breath to rest between the eyebrows, that person goes to that highest divine person."
   },
   {
     "chapter": 8,
@@ -828,6 +838,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "That which knowers of the Vedas speak of as the imperishable, which strivers whose passion is gone enter, desiring which they live the life of a student of brahman: that state I will declare to you in brief.",
+    "plain": "There is that which knowers of the Vedas call the imperishable, which strivers whose passion is gone enter, and in desire for which they live the life of a student of brahman. That state I will describe to you in brief.",
     "notes": [
       "\"That state\" can also be read as \"that word\", pointing ahead to the syllable Om in verse 13."
     ]
@@ -898,6 +909,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Having restrained all the gates and having confined the mind in the heart, having placed the breath of the self in the head, established in the holding of yoga,",
+    "plain": "One restrains all the gates and confines the mind in the heart. One places one's own breath in the head and stays established in the holding of yoga.",
     "notes": [
       "Verses 12 to 13 are one sentence in the Sanskrit."
     ]
@@ -978,6 +990,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "uttering thus \"Om\", the brahman of one syllable, remembering me, he who departs, giving up the body, goes to the highest goal.",
+    "plain": "Then, uttering Om, the brahman of one syllable, and remembering me, whoever departs, giving up the body, goes to the highest goal.",
     "notes": [
       "\"The brahman of one syllable\" can also be read as \"the one imperishable brahman\"."
     ]
@@ -1046,7 +1059,8 @@ export const VERSES: Verse[] = [
         "term": "yoga"
       }
     ],
-    "translation": "He who, with a mind on no other, continually and always remembers me: for him, the ever-yoked yogī, I am easy to reach, O son of Pṛthā."
+    "translation": "He who, with a mind on no other, continually and always remembers me: for him, the ever-yoked yogī, I am easy to reach, O son of Pṛthā.",
+    "plain": "Whoever remembers me continually and always, with a mind on nothing else, is an ever-yoked yogī, and for that yogī I am easy to reach, son of Pṛthā."
   },
   {
     "chapter": 8,
@@ -1107,7 +1121,8 @@ export const VERSES: Verse[] = [
         "en": "gone"
       }
     ],
-    "translation": "Having come to me, those of great self, gone to the highest perfection, do not obtain rebirth, the home of suffering, which does not last."
+    "translation": "Having come to me, those of great self, gone to the highest perfection, do not obtain rebirth, the home of suffering, which does not last.",
+    "plain": "Having come to me, those of great self, who have reached the highest perfection, do not meet rebirth, that home of suffering, which does not last."
   },
   {
     "chapter": 8,
@@ -1168,6 +1183,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The worlds, up to the realm of Brahmā, return again, O Arjuna. But having come to me, O son of Kuntī, there is no rebirth.",
+    "plain": "The worlds, right up to the realm of Brahmā, return again, Arjuna. But for one who has come to me, son of Kuntī, there is no rebirth.",
     "notes": [
       "\"The worlds, up to the realm of Brahmā, return again\" can also be read as \"the worlds, up to the realm of Brahmā, are places from which one returns again\"."
     ]
@@ -1226,7 +1242,8 @@ export const VERSES: Verse[] = [
         "en": "people"
       }
     ],
-    "translation": "Those who know the day of Brahmā, which reaches to a thousand ages, and the night, ending in a thousand ages: those people are knowers of day and night."
+    "translation": "Those who know the day of Brahmā, which reaches to a thousand ages, and the night, ending in a thousand ages: those people are knowers of day and night.",
+    "plain": "Those who know the day of Brahmā, which lasts a thousand ages, and his night, which ends after a thousand ages, are the people who know day and night."
   },
   {
     "chapter": 8,
@@ -1282,7 +1299,8 @@ export const VERSES: Verse[] = [
         "en": "into what is named the unmanifest"
       }
     ],
-    "translation": "From the unmanifest all manifest things come forth at the coming of the day. At the coming of the night they dissolve into that very thing which is named the unmanifest."
+    "translation": "From the unmanifest all manifest things come forth at the coming of the day. At the coming of the night they dissolve into that very thing which is named the unmanifest.",
+    "plain": "When the day comes, all manifest things come forth from the unmanifest. When the night comes, they dissolve into that very same thing, which is named the unmanifest."
   },
   {
     "chapter": 8,
@@ -1346,7 +1364,8 @@ export const VERSES: Verse[] = [
         "en": "at the coming of the day"
       }
     ],
-    "translation": "This very same multitude of beings, having come to be again and again, dissolves without will at the coming of the night, O son of Pṛthā. It comes forth at the coming of the day."
+    "translation": "This very same multitude of beings, having come to be again and again, dissolves without will at the coming of the night, O son of Pṛthā. It comes forth at the coming of the day.",
+    "plain": "This very same multitude of beings comes to be again and again, and dissolves, with no will of its own, when the night comes, son of Pṛthā. When the day comes, it comes forth."
   },
   {
     "chapter": 8,
@@ -1422,7 +1441,8 @@ export const VERSES: Verse[] = [
         "en": "it perishes"
       }
     ],
-    "translation": "But higher than that, than the unmanifest, there is another existence, unmanifest and eternal: that which does not perish when all beings are perishing."
+    "translation": "But higher than that, than the unmanifest, there is another existence, unmanifest and eternal: that which does not perish when all beings are perishing.",
+    "plain": "But higher than that unmanifest there is another existence, unmanifest and eternal, which does not perish when all beings are perishing."
   },
   {
     "chapter": 8,
@@ -1502,7 +1522,8 @@ export const VERSES: Verse[] = [
         "en": "my"
       }
     ],
-    "translation": "It is called thus: the unmanifest, the imperishable. They call it the highest goal. Having reached it, they do not return. That is my highest abode."
+    "translation": "It is called thus: the unmanifest, the imperishable. They call it the highest goal. Having reached it, they do not return. That is my highest abode.",
+    "plain": "It is called the unmanifest, the imperishable. They call it the highest goal. Those who reach it do not return. That is my highest abode."
   },
   {
     "chapter": 8,
@@ -1578,7 +1599,8 @@ export const VERSES: Verse[] = [
         "en": "spread out"
       }
     ],
-    "translation": "But that highest person, O son of Pṛthā, within whom beings stand and by whom all this is spread out, is to be gained by devotion to no other."
+    "translation": "But that highest person, O son of Pṛthā, within whom beings stand and by whom all this is spread out, is to be gained by devotion to no other.",
+    "plain": "But that highest person, son of Pṛthā, within whom beings stand and by whom all this is spread out, can be gained by devotion given to no other."
   },
   {
     "chapter": 8,
@@ -1651,7 +1673,8 @@ export const VERSES: Verse[] = [
         "en": "O bull of the Bharatas"
       }
     ],
-    "translation": "But the time at which yogīs, having departed, go to non-return, and indeed to return, that time I will tell, O bull of the Bharatas."
+    "translation": "But the time at which yogīs, having departed, go to non-return, and indeed to return, that time I will tell, O bull of the Bharatas.",
+    "plain": "But I will tell you, bull of the Bharatas, the time at which yogīs who have departed go to non-return, and the time at which they go to return."
   },
   {
     "chapter": 8,
@@ -1717,7 +1740,8 @@ export const VERSES: Verse[] = [
         "en": "people"
       }
     ],
-    "translation": "Fire, light, day, the bright fortnight, the six months of the sun's northern course: having departed then, people who are knowers of brahman go to brahman."
+    "translation": "Fire, light, day, the bright fortnight, the six months of the sun's northern course: having departed then, people who are knowers of brahman go to brahman.",
+    "plain": "Fire, light, day, the bright fortnight, the six months of the sun's northern course: people who know brahman and depart then go to brahman."
   },
   {
     "chapter": 8,
@@ -1782,7 +1806,8 @@ export const VERSES: Verse[] = [
         "en": "he returns"
       }
     ],
-    "translation": "Smoke, night, likewise the dark fortnight, the six months of the sun's southern course: then the yogī, having reached the light of the moon, returns."
+    "translation": "Smoke, night, likewise the dark fortnight, the six months of the sun's southern course: then the yogī, having reached the light of the moon, returns.",
+    "plain": "Smoke, night, and likewise the dark fortnight, the six months of the sun's southern course: then the yogī reaches the light of the moon and returns."
   },
   {
     "chapter": 8,
@@ -1850,7 +1875,8 @@ export const VERSES: Verse[] = [
         "en": "again"
       }
     ],
-    "translation": "For these two paths of the world, the bright and the dark, are held to be everlasting. By one, one goes to non-return. By the other, one returns again."
+    "translation": "For these two paths of the world, the bright and the dark, are held to be everlasting. By one, one goes to non-return. By the other, one returns again.",
+    "plain": "For these two paths of the world, the bright and the dark, are held to be everlasting. By one, a person goes to non-return. By the other, a person returns again."
   },
   {
     "chapter": 8,
@@ -1924,7 +1950,8 @@ export const VERSES: Verse[] = [
         "en": "O Arjuna"
       }
     ],
-    "translation": "Knowing these two paths, O son of Pṛthā, no yogī at all is confused. Therefore at all times be yoked in yoga, O Arjuna."
+    "translation": "Knowing these two paths, O son of Pṛthā, no yogī at all is confused. Therefore at all times be yoked in yoga, O Arjuna.",
+    "plain": "No yogī who knows these two paths is confused at all, son of Pṛthā. So at all times be yoked in yoga, Arjuna."
   },
   {
     "chapter": 8,
@@ -2025,6 +2052,7 @@ export const VERSES: Verse[] = [
         "en": "the first"
       }
     ],
-    "translation": "Whatever fruit of merit is declared in the Vedas, in sacrifices, in austerities and indeed in gifts, the yogī, having known this, goes beyond all that and reaches the highest place, the first."
+    "translation": "Whatever fruit of merit is declared in the Vedas, in sacrifices, in austerities and indeed in gifts, the yogī, having known this, goes beyond all that and reaches the highest place, the first.",
+    "plain": "Whatever fruit of merit is declared in the Vedas, in sacrifices, in austerities and in gifts, the yogī who has known this goes beyond all of it, and reaches the highest place, the first."
   }
 ]

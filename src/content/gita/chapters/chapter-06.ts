@@ -86,6 +86,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The one who does the action that is to be done, not depending on the fruit of action, he is a renouncer and a yogī, not the one without a fire and not the one without rites.",
+    "plain": "The one who does the action that ought to be done, without depending on the fruit of action, is both a renouncer and a yogī. It is not the one who keeps no fire, nor the one who performs no rites.",
     "notes": [
       "\"Without rites\" can also be read simply as \"without action\"."
     ]
@@ -164,7 +165,8 @@ export const VERSES: Verse[] = [
         "en": "anyone"
       }
     ],
-    "translation": "That which they call renunciation, know that to be yoga, O son of Pāṇḍu. For no one who has not renounced intention becomes a yogī."
+    "translation": "That which they call renunciation, know that to be yoga, O son of Pāṇḍu. For no one who has not renounced intention becomes a yogī.",
+    "plain": "What they call renunciation, son of Pāṇḍu, know that to be yoga. For no one becomes a yogī without having renounced intention."
   },
   {
     "chapter": 6,
@@ -232,6 +234,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "For the sage wishing to climb to yoga, action is called the means. For that very same one, when he has climbed to yoga, stillness is called the means.",
+    "plain": "For the sage who wishes to climb to yoga, action is said to be the means. Once that same sage has climbed to yoga, stillness is said to be the means.",
     "notes": [
       "\"The means\" can also be read as \"the cause\"."
     ]
@@ -299,7 +302,8 @@ export const VERSES: Verse[] = [
         "en": "one is called"
       }
     ],
-    "translation": "For when one clings neither to the objects of the senses nor to actions, a renouncer of all intentions, then one is called one who has climbed to yoga."
+    "translation": "For when one clings neither to the objects of the senses nor to actions, a renouncer of all intentions, then one is called one who has climbed to yoga.",
+    "plain": "For when one clings neither to the objects of the senses nor to actions, and has renounced all intentions, then one is said to have climbed to yoga."
   },
   {
     "chapter": 6,
@@ -383,6 +387,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "One should lift up the self by the self, and should not let the self sink. For the self alone is the friend of the self, and the self alone is the enemy of the self.",
+    "plain": "One should lift up the self by the self, and should not let the self sink. For the self alone is the friend of the self, and the self alone is the enemy of the self.",
     "practice": {
       "sessionId": "kindness",
       "label": "Kindness toward yourself"
@@ -472,7 +477,8 @@ export const VERSES: Verse[] = [
         "en": "like an enemy"
       }
     ],
-    "translation": "The self is the friend of the self for that person by whom the self has been mastered by the self. But for one who has not mastered the self, the self itself would act in enmity, like an enemy."
+    "translation": "The self is the friend of the self for that person by whom the self has been mastered by the self. But for one who has not mastered the self, the self itself would act in enmity, like an enemy.",
+    "plain": "The self is a friend to the person who has mastered the self by the self. But for one who has not mastered the self, the self itself would act with hostility, like an enemy."
   },
   {
     "chapter": 6,
@@ -519,6 +525,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The highest self of one who has mastered the self and is peaceful is collected in cold and heat, pleasure and pain, and likewise in honour and dishonour.",
+    "plain": "In one who has mastered the self and is at peace, the highest self stays collected in cold and heat, in pleasure and pain, and likewise in honour and dishonour.",
     "notes": [
       "\"The highest self\" reads paramātmā as one word. Divided as two words it gives \"the self is exceedingly collected\"."
     ]
@@ -574,7 +581,8 @@ export const VERSES: Verse[] = [
         "term": "samatva"
       }
     ],
-    "translation": "The yogī whose self is content with knowledge and discernment, who stands at the peak, whose senses are conquered, to whom a clod, a stone and gold are the same, is called yoked."
+    "translation": "The yogī whose self is content with knowledge and discernment, who stands at the peak, whose senses are conquered, to whom a clod, a stone and gold are the same, is called yoked.",
+    "plain": "The yogī whose self is content with knowledge and discernment, who stands at the peak with senses conquered, and to whom a clod of earth, a stone and gold are the same, is called yoked."
   },
   {
     "chapter": 6,
@@ -619,7 +627,8 @@ export const VERSES: Verse[] = [
         "en": "stands out"
       }
     ],
-    "translation": "One whose buddhi is the same toward well-wishers, friends, foes, the indifferent, those standing in the middle, the hateful and kinsmen, and even toward the good and the wicked, stands out."
+    "translation": "One whose buddhi is the same toward well-wishers, friends, foes, the indifferent, those standing in the middle, the hateful and kinsmen, and even toward the good and the wicked, stands out.",
+    "plain": "One whose buddhi is the same toward well-wishers, friends and foes, toward the indifferent, those who stand in the middle, the hateful and kinsmen, and even toward the good and the wicked, stands out."
   },
   {
     "chapter": 6,
@@ -679,7 +688,8 @@ export const VERSES: Verse[] = [
         "en": "without possessions"
       }
     ],
-    "translation": "The yogī should constantly yoke the self, staying in a secluded place, alone, with thought and self restrained, without wishes, without possessions."
+    "translation": "The yogī should constantly yoke the self, staying in a secluded place, alone, with thought and self restrained, without wishes, without possessions.",
+    "plain": "The yogī should constantly yoke the self, staying in a secluded place, alone, with thought and self restrained, free of wishes and without possessions."
   },
   {
     "chapter": 6,
@@ -741,6 +751,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Having set up in a clean place a firm seat for the self, not too high, not too low, with cloth, a hide and kuśa grass on top,",
+    "plain": "In a clean place one should set up a firm seat for oneself, neither too high nor too low, with cloth, a hide and kuśa grass laid on top.",
     "notes": [
       "Verses 11 and 12 are one sentence in the Sanskrit. \"A seat for the self\" simply means \"his own seat\"."
     ]
@@ -804,7 +815,8 @@ export const VERSES: Verse[] = [
         "term": "atman"
       }
     ],
-    "translation": "there, having made the mind one-pointed, with the activity of thought and senses restrained, having sat down on the seat, one should practise yoga for the purification of the self."
+    "translation": "there, having made the mind one-pointed, with the activity of thought and senses restrained, having sat down on the seat, one should practise yoga for the purification of the self.",
+    "plain": "There, sitting down on that seat, with the mind made one-pointed and the activity of thought and senses restrained, one should practise yoga to purify the self."
   },
   {
     "chapter": 6,
@@ -865,6 +877,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Holding body, head and neck even and unmoving, steady, having looked at the tip of one's own nose and not looking at the directions,",
+    "plain": "One should hold body, head and neck even and unmoving, stay steady, and gaze at the tip of one's own nose without looking off in any direction.",
     "notes": [
       "Verses 13 and 14 are one sentence in the Sanskrit."
     ]
@@ -927,7 +940,8 @@ export const VERSES: Verse[] = [
         "en": "having me as the highest"
       }
     ],
-    "translation": "with the self made calm, with fear gone, established in the vow of a celibate student, having restrained the mind, with mind on me, one should sit yoked, having me as the highest."
+    "translation": "with the self made calm, with fear gone, established in the vow of a celibate student, having restrained the mind, with mind on me, one should sit yoked, having me as the highest.",
+    "plain": "With the self made calm and fear gone, established in the vow of a celibate student, with the mind restrained and set on me, one should sit yoked, holding me as the highest."
   },
   {
     "chapter": 6,
@@ -988,7 +1002,8 @@ export const VERSES: Verse[] = [
         "en": "reaches"
       }
     ],
-    "translation": "Thus always yoking the self, the yogī whose mind is controlled reaches the peace that has nirvāṇa as its highest and abides in me."
+    "translation": "Thus always yoking the self, the yogī whose mind is controlled reaches the peace that has nirvāṇa as its highest and abides in me.",
+    "plain": "Always yoking the self in this way, the yogī whose mind is controlled reaches the peace that abides in me, the peace whose highest point is nirvāṇa."
   },
   {
     "chapter": 6,
@@ -1073,7 +1088,8 @@ export const VERSES: Verse[] = [
         "en": "O Arjuna"
       }
     ],
-    "translation": "But yoga is not of one who eats too much, and not of one who does not eat at all, and not of one given to too much sleep, and indeed not of one who stays awake, O Arjuna."
+    "translation": "But yoga is not of one who eats too much, and not of one who does not eat at all, and not of one given to too much sleep, and indeed not of one who stays awake, O Arjuna.",
+    "plain": "But yoga is not for one who eats too much, nor for one who does not eat at all. It is not for one given to too much sleep, Arjuna, nor indeed for one who stays awake."
   },
   {
     "chapter": 6,
@@ -1123,6 +1139,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The yoga of one measured in food and recreation, of one measured in effort in actions, of one measured in sleep and waking, becomes the destroyer of sorrow.",
+    "plain": "For one who is measured in food and recreation, measured in effort in actions, and measured in sleep and waking, yoga becomes the destroyer of sorrow.",
     "notes": [
       "\"Measured\" translates yukta, the word translated \"yoked\" in nearby verses. Both senses are present."
     ]
@@ -1192,7 +1209,8 @@ export const VERSES: Verse[] = [
         "en": "then"
       }
     ],
-    "translation": "When the well controlled mind abides in the self alone, free of longing for all desires, then one is called thus: yoked."
+    "translation": "When the well controlled mind abides in the self alone, free of longing for all desires, then one is called thus: yoked.",
+    "plain": "When the well-controlled mind rests in the self alone, and one is free of longing for all desires, then one is called yoked."
   },
   {
     "chapter": 6,
@@ -1264,6 +1282,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "As a lamp standing in a windless place does not flicker: that comparison is remembered for the yogī whose mind is restrained, practising the yoga of the self.",
+    "plain": "A lamp standing in a windless place does not flicker: that is the comparison remembered for the yogī whose mind is restrained, practising the yoga of the self.",
     "practice": {
       "sessionId": "breath-anchor",
       "label": "Steady breath anchor"
@@ -1340,6 +1359,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Where the mind, held in check by the practice of yoga, comes to rest, and where indeed, seeing the self by the self, one is content in the self,",
+    "plain": "There is a state where the mind, held in check by the practice of yoga, comes to rest, and where indeed one sees the self by the self and is content in the self.",
     "notes": [
       "Verses 20 to 23 are one sentence in the Sanskrit."
     ]
@@ -1421,6 +1441,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "where one knows that endless happiness which is to be grasped by buddhi and is beyond the senses, and where, established, this one indeed does not move from the truth,",
+    "plain": "There one knows that endless happiness which buddhi can grasp and which lies beyond the senses, and once established there, one does not move from the truth.",
     "notes": [
       "\"Does not move from the truth\" can also be read as \"truly does not move\"."
     ]
@@ -1503,7 +1524,8 @@ export const VERSES: Verse[] = [
         "en": "one is shaken"
       }
     ],
-    "translation": "and having gained which, one does not think another gain greater than that, established in which, one is not shaken even by heavy sorrow,"
+    "translation": "and having gained which, one does not think another gain greater than that, established in which, one is not shaken even by heavy sorrow,",
+    "plain": "Having gained it, one thinks no other gain greater than that, and established in it, one is not shaken even by heavy sorrow."
   },
   {
     "chapter": 6,
@@ -1558,7 +1580,8 @@ export const VERSES: Verse[] = [
         "en": "with an undespairing mind"
       }
     ],
-    "translation": "one should know that, the unjoining of the joining with sorrow, as named yoga. That yoga is to be practised with resolve, with an undespairing mind."
+    "translation": "one should know that, the unjoining of the joining with sorrow, as named yoga. That yoga is to be practised with resolve, with an undespairing mind.",
+    "plain": "One should know that state, the undoing of the union with sorrow, as what is named yoga. That yoga is to be practised with resolve and with a mind that does not despair."
   },
   {
     "chapter": 6,
@@ -1618,6 +1641,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Having abandoned without remainder all desires born of intention, having controlled the group of the senses on all sides by the mind alone,",
+    "plain": "One should give up all the desires born of intention, leaving none, and with the mind alone bring the whole group of the senses under control on every side.",
     "notes": [
       "Verses 24 and 25 are one sentence in the Sanskrit."
     ]
@@ -1683,7 +1707,8 @@ export const VERSES: Verse[] = [
         "en": "one should think of"
       }
     ],
-    "translation": "little by little one should come to rest, by buddhi held by firmness. Having made the mind abide in the self, one should not think of anything at all."
+    "translation": "little by little one should come to rest, by buddhi held by firmness. Having made the mind abide in the self, one should not think of anything at all.",
+    "plain": "Then little by little one should come to rest, by means of buddhi held steady with firmness. Having made the mind abide in the self, one should not think of anything at all."
   },
   {
     "chapter": 6,
@@ -1750,6 +1775,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "From wherever the restless, unsteady mind wanders off, from there, having restrained it, one should bring it under control in the self alone.",
+    "plain": "Wherever the restless, unsteady mind wanders off, one should restrain it from there and bring it under control in the self alone.",
     "practice": {
       "sessionId": "counting-returns",
       "label": "Counting returns"
@@ -1813,7 +1839,8 @@ export const VERSES: Verse[] = [
         "en": "without stain"
       }
     ],
-    "translation": "For the highest happiness comes to this yogī whose mind is calm, whose rajas is stilled, who has become brahman, who is without stain."
+    "translation": "For the highest happiness comes to this yogī whose mind is calm, whose rajas is stilled, who has become brahman, who is without stain.",
+    "plain": "For the highest happiness comes to this yogī, whose mind is calm, whose rajas is stilled, who has become brahman and is without stain."
   },
   {
     "chapter": 6,
@@ -1878,6 +1905,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Thus always yoking the self, the yogī with stain gone attains with ease the touch of brahman, endless happiness.",
+    "plain": "Always yoking the self in this way, the yogī, with stain gone, easily attains the touch of brahman, which is endless happiness.",
     "notes": [
       "\"The touch of brahman\" can also be read as describing the happiness: \"happiness that consists in contact with brahman\". \"With ease\" can also be read as \"by happiness\"."
     ]
@@ -1936,7 +1964,8 @@ export const VERSES: Verse[] = [
         "term": "samatva"
       }
     ],
-    "translation": "One whose self is yoked by yoga, seeing the same everywhere, sees the self abiding in all beings and all beings in the self."
+    "translation": "One whose self is yoked by yoga, seeing the same everywhere, sees the self abiding in all beings and all beings in the self.",
+    "plain": "One whose self is yoked by yoga, and who sees the same everywhere, sees the self abiding in all beings and all beings in the self."
   },
   {
     "chapter": 6,
@@ -2020,7 +2049,8 @@ export const VERSES: Verse[] = [
         "en": "is lost"
       }
     ],
-    "translation": "Who sees me everywhere and sees everything in me, to that one I am not lost, and that one is not lost to me."
+    "translation": "Who sees me everywhere and sees everything in me, to that one I am not lost, and that one is not lost to me.",
+    "plain": "To one who sees me everywhere and sees everything in me, I am not lost, and that one is not lost to me."
   },
   {
     "chapter": 6,
@@ -2090,6 +2120,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Who, resting on oneness, worships me abiding in all beings, that yogī, even though living in every way, lives in me.",
+    "plain": "The yogī who rests on oneness and worships me as abiding in all beings lives in me, in whatever way that yogī may be living.",
     "notes": [
       "\"Living in every way\" can also be read as \"in whatever condition he exists\"."
     ]
@@ -2172,6 +2203,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Who, by likeness to the self, sees the same everywhere, O Arjuna, be it happiness or if it be sorrow, that yogī is thought the highest.",
+    "plain": "The yogī who, by comparison with oneself, sees the same everywhere, Arjuna, whether it is happiness or sorrow, is thought the highest.",
     "notes": [
       "\"By likeness to the self\" means by comparing others with oneself. \"Sees the same\" can also be read as \"sees equally\"."
     ]
@@ -2248,7 +2280,8 @@ export const VERSES: Verse[] = [
         "en": "steady"
       }
     ],
-    "translation": "This yoga which was declared by you as sameness, O slayer of Madhu: I do not see a steady footing of this, because of restlessness."
+    "translation": "This yoga which was declared by you as sameness, O slayer of Madhu: I do not see a steady footing of this, because of restlessness.",
+    "plain": "This yoga that you have declared to be sameness, slayer of Madhu: I do not see any steady footing for it, because of restlessness."
   },
   {
     "chapter": 6,
@@ -2321,7 +2354,8 @@ export const VERSES: Verse[] = [
         "en": "very hard to do"
       }
     ],
-    "translation": "For the mind is restless, O Kṛṣṇa, turbulent, strong and stubborn. I think the restraint of it is very hard to do, like that of the wind."
+    "translation": "For the mind is restless, O Kṛṣṇa, turbulent, strong and stubborn. I think the restraint of it is very hard to do, like that of the wind.",
+    "plain": "The mind is restless, Kṛṣṇa: turbulent, strong and stubborn. Holding it back seems to me as hard as holding back the wind."
   },
   {
     "chapter": 6,
@@ -2385,6 +2419,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Without doubt, O mighty-armed one, the mind is hard to restrain and moving. But by practice, O son of Kuntī, and by dispassion, it is held.",
+    "plain": "No doubt, mighty-armed one, the mind is restless and hard to hold. But with practice, son of Kuntī, and with dispassion, it can be held.",
     "practice": {
       "sessionId": "breath-anchor",
       "label": "Steady breath anchor"
@@ -2456,6 +2491,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Yoga is hard to reach by one whose self is unrestrained: thus is my view. But by one who strives, whose self is under control, it is possible to reach through the right means.",
+    "plain": "Yoga is hard to reach for one whose self is unrestrained: that is my view. But one who strives, with the self under control, can reach it through the right means.",
     "notes": [
       "\"Through the right means\" can also be read as a second \"by one who strives\"."
     ]
@@ -2521,7 +2557,8 @@ export const VERSES: Verse[] = [
         "en": "he goes"
       }
     ],
-    "translation": "One who does not strive, though endowed with faith, whose mind has strayed from yoga, not having reached full success in yoga: what course does he go, O Kṛṣṇa?"
+    "translation": "One who does not strive, though endowed with faith, whose mind has strayed from yoga, not having reached full success in yoga: what course does he go, O Kṛṣṇa?",
+    "plain": "One who has faith but does not strive, whose mind has strayed from yoga and who has not reached full success in yoga: what course does that person take, Kṛṣṇa?"
   },
   {
     "chapter": 6,
@@ -2583,6 +2620,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Is it not that, fallen from both, he perishes like a torn cloud, without footing, O mighty-armed one, bewildered on the path of brahman?",
+    "plain": "Fallen from both, does that person not perish like a torn cloud, mighty-armed one, without footing and bewildered on the path of brahman?",
     "notes": [
       "\"Fallen from both\" leaves \"both\" unnamed, as the Sanskrit does. It is usually understood as the path of action and the path of yoga."
     ]
@@ -2657,7 +2695,8 @@ export const VERSES: Verse[] = [
         "en": "is found"
       }
     ],
-    "translation": "You ought to cut this doubt of mine, O Kṛṣṇa, without remainder. For a cutter of this doubt other than you is not found."
+    "translation": "You ought to cut this doubt of mine, O Kṛṣṇa, without remainder. For a cutter of this doubt other than you is not found.",
+    "plain": "You ought to cut away this doubt of mine, Kṛṣṇa, leaving nothing of it. For no one other than you can be found to cut this doubt."
   },
   {
     "chapter": 6,
@@ -2737,7 +2776,8 @@ export const VERSES: Verse[] = [
         "en": "goes"
       }
     ],
-    "translation": "O son of Pṛthā, indeed neither here nor there, in the next world, does destruction of him exist. For no one who is a doer of good, O dear one, goes to a bad course."
+    "translation": "O son of Pṛthā, indeed neither here nor there, in the next world, does destruction of him exist. For no one who is a doer of good, O dear one, goes to a bad course.",
+    "plain": "Son of Pṛthā, neither here nor in the next world is there destruction for that person. For no one who does good, dear one, ever takes a bad course."
   },
   {
     "chapter": 6,
@@ -2798,7 +2838,8 @@ export const VERSES: Verse[] = [
         "en": "is born"
       }
     ],
-    "translation": "Having reached the worlds of the doers of merit, having dwelt there for unending years, one fallen from yoga is born in the house of the pure and prosperous."
+    "translation": "Having reached the worlds of the doers of merit, having dwelt there for unending years, one fallen from yoga is born in the house of the pure and prosperous.",
+    "plain": "One who has fallen from yoga reaches the worlds of those who have done deeds of merit, dwells there for unending years, and is then born in the house of the pure and prosperous."
   },
   {
     "chapter": 6,
@@ -2867,7 +2908,8 @@ export const VERSES: Verse[] = [
         "en": "such as this"
       }
     ],
-    "translation": "Or else he comes to be in a family of wise yogīs indeed. For this, a birth which is such as this, is harder to obtain in the world."
+    "translation": "Or else he comes to be in a family of wise yogīs indeed. For this, a birth which is such as this, is harder to obtain in the world.",
+    "plain": "Or else that person is born right into a family of wise yogīs. For a birth such as this is harder to obtain in the world."
   },
   {
     "chapter": 6,
@@ -2928,7 +2970,8 @@ export const VERSES: Verse[] = [
         "en": "O joy of the Kurus"
       }
     ],
-    "translation": "There he gains that union with buddhi belonging to the former body, and from there he strives again toward full success, O joy of the Kurus."
+    "translation": "There he gains that union with buddhi belonging to the former body, and from there he strives again toward full success, O joy of the Kurus.",
+    "plain": "There that person gains the union with buddhi that belonged to the former body, and from there strives again toward full success, joy of the Kurus."
   },
   {
     "chapter": 6,
@@ -3000,6 +3043,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "For by that very former practice he is carried along, even without his will. Even one wishing to know of yoga goes beyond the brahman of words.",
+    "plain": "For that same former practice carries such a person along, even without their willing it. Even one who wishes to know about yoga goes beyond the brahman of words.",
     "notes": [
       "\"The brahman of words\" is the literal sense. It is traditionally understood as the Vedas and their rites."
     ]
@@ -3059,7 +3103,8 @@ export const VERSES: Verse[] = [
         "en": "course"
       }
     ],
-    "translation": "But the yogī striving with effort, whose faults are fully cleansed, made perfect through many births, then goes to the highest course."
+    "translation": "But the yogī striving with effort, whose faults are fully cleansed, made perfect through many births, then goes to the highest course.",
+    "plain": "But the yogī who strives with effort, whose faults are fully cleansed, and who has been made perfect through many births, then goes on to the highest course."
   },
   {
     "chapter": 6,
@@ -3139,7 +3184,8 @@ export const VERSES: Verse[] = [
         "en": "O Arjuna"
       }
     ],
-    "translation": "The yogī is greater than the ascetics, is held to be greater even than the knowers, and the yogī is greater than the doers of action. Therefore become a yogī, O Arjuna."
+    "translation": "The yogī is greater than the ascetics, is held to be greater even than the knowers, and the yogī is greater than the doers of action. Therefore become a yogī, O Arjuna.",
+    "plain": "The yogī is greater than the ascetics, is held to be greater even than those who know, and is greater than those who do actions. Therefore become a yogī, Arjuna."
   },
   {
     "chapter": 6,
@@ -3211,6 +3257,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Even of all yogīs, he who, full of faith, worships me with the inner self gone to me, he is held by me to be the most joined in yoga.",
+    "plain": "Even among all yogīs, the one who is full of faith and worships me with the inner self gone to me is the one I hold to be most fully joined in yoga.",
     "notes": [
       "\"Of all yogīs\" can also be read as \"compared with all yogīs\"."
     ]

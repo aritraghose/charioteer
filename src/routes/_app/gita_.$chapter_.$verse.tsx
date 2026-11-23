@@ -1,6 +1,11 @@
-import { Link, createFileRoute, notFound } from '@tanstack/react-router'
+import {
+  Link,
+  createFileRoute,
+  notFound,
+  useNavigate,
+} from '@tanstack/react-router'
 import { ChevronLeft, ChevronRight, X } from 'lucide-react'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import {
   SPEAKER_NAME,
   getChapter,
@@ -9,12 +14,19 @@ import {
   neighbours,
   verseRef,
 } from '@/content/gita'
+import {
+  SaveButton,
+  toggleSaved,
+  useSavedVerses,
+} from '@/components/gita/save-button'
 import { getSession } from '@/content/sessions'
+import { useStored } from '@/hooks/use-stored'
+import { LAST_READ_KEY, type LastRead } from '@/lib/gita-reading'
 import { SITE_NAME, seo } from '@/lib/seo'
 import { sessionMinutes } from '@/lib/session-timeline'
 import { cn } from '@/lib/utils'
 
-export const Route = createFileRoute('/_app/gita_/$chapter/$verse')({
+export const Route = createFileRoute('/_app/gita_/$chapter_/$verse')({
   loader: async ({ params }) => {
     const verse = await loadVerse({
       chapter: Number(params.chapter),
@@ -27,7 +39,7 @@ export const Route = createFileRoute('/_app/gita_/$chapter/$verse')({
     meta: loaderData
       ? seo({
           title: `Gita ${verseRef(loaderData.verse)} | ${SITE_NAME}`,
-          description: loaderData.verse.translation,
+          description: loaderData.verse.plain ?? loaderData.verse.translation,
         })
       : [],
   }),
@@ -37,27 +49,75 @@ export const Route = createFileRoute('/_app/gita_/$chapter/$verse')({
 function VersePage() {
   const { verse } = Route.useLoaderData()
   const [openTerm, setOpenTerm] = useState<string | null>(null)
+  const [saved, setSaved] = useSavedVerses()
+  const [, setLastRead] = useStored<LastRead | null>(LAST_READ_KEY, null)
+  const navigate = useNavigate()
+  const reference = verseRef(verse)
 
   const chapter = getChapter(verse.chapter)
   const { previous, next } = neighbours(verse)
   const term = openTerm ? getTerm(openTerm) : undefined
   const practice = verse.practice && getSession(verse.practice.sessionId)
 
+  // Remember this as the place to continue from, and close any open term card.
+  useEffect(() => {
+    setLastRead({ chapter: verse.chapter, verse: verse.verse })
+    setOpenTerm(null)
+  }, [verse.chapter, verse.verse, setLastRead])
+
+  // Left and right arrow keys move between verses.
+  useEffect(() => {
+    const onKey = (event: KeyboardEvent) => {
+      if (event.metaKey || event.ctrlKey || event.altKey) return
+      if (
+        event.target instanceof Element &&
+        event.target.closest('input, textarea, select, [contenteditable]')
+      )
+        return
+      const to =
+        event.key === 'ArrowLeft'
+          ? previous
+          : event.key === 'ArrowRight'
+            ? next
+            : undefined
+      if (!to) return
+      void navigate({
+        to: '/gita/$chapter/$verse',
+        params: { chapter: String(to.chapter), verse: String(to.verse) },
+      })
+    }
+    window.addEventListener('keydown', onKey)
+    return () => window.removeEventListener('keydown', onKey)
+    // previous and next are fully determined by the verse.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [verse.chapter, verse.verse, navigate])
+
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-1 flex-col gap-9 px-5 pt-10 pb-20 sm:px-8 sm:pt-16">
       <header className="flex flex-col gap-3">
         <Link
-          to="/gita"
+          to="/gita/$chapter"
+          params={{ chapter: String(verse.chapter) }}
+          hash={`v${verse.verse}`}
           className="inline-flex w-fit items-center gap-1 text-sm font-medium text-muted-foreground hover:text-foreground"
         >
           <ChevronLeft aria-hidden className="size-4" />
-          Gita
+          Chapter {verse.chapter}
         </Link>
-        <h1 className="text-4xl leading-[1.06] font-medium tracking-[-0.036em] sm:text-5xl">
-          Chapter {verse.chapter}, verse {verse.verse}
-        </h1>
+        <div className="flex items-start justify-between gap-4">
+          <h1 className="text-4xl leading-[1.06] font-medium tracking-[-0.036em] sm:text-5xl">
+            Chapter {verse.chapter}, verse {verse.verse}
+          </h1>
+          <SaveButton
+            withLabel
+            reference={reference}
+            saved={saved.includes(reference)}
+            onToggle={(ref) => setSaved((current) => toggleSaved(current, ref))}
+            className="mt-1 shrink-0 border border-border bg-card"
+          />
+        </div>
         <p className="text-muted-foreground">
-          {chapter && `${chapter.name}, ${chapter.about.toLowerCase()}. `}
+          {chapter && `${chapter.name}. ${chapter.about}. `}
           {SPEAKER_NAME[verse.speaker]} speaks.
         </p>
       </header>
@@ -86,11 +146,28 @@ function VersePage() {
           </p>
         </div>
 
+        {verse.plain && (
+          <div className="flex flex-col gap-2 border-t border-border/80 pt-6">
+            <h2 className="text-sm font-medium text-pink-ink">
+              In plain English
+            </h2>
+            <p className="font-serif text-xl leading-relaxed text-pretty sm:text-2xl sm:leading-relaxed">
+              {verse.plain}
+            </p>
+          </div>
+        )}
+
         <div className="flex flex-col gap-2 border-t border-border/80 pt-6">
           <h2 className="text-sm font-medium text-pink-ink">
             Literal translation
           </h2>
-          <p className="font-serif text-xl leading-relaxed text-pretty sm:text-2xl sm:leading-relaxed">
+          <p
+            className={
+              verse.plain
+                ? 'max-w-[60ch] leading-relaxed text-pretty text-muted-foreground'
+                : 'font-serif text-xl leading-relaxed text-pretty sm:text-2xl sm:leading-relaxed'
+            }
+          >
             {verse.translation}
           </p>
         </div>
@@ -230,8 +307,13 @@ function VersePage() {
         ) : (
           <span />
         )}
-        <Link to="/gita" className="text-pink-ink">
-          All verses
+        <Link
+          to="/gita/$chapter"
+          params={{ chapter: String(verse.chapter) }}
+          hash={`v${verse.verse}`}
+          className="text-pink-ink"
+        >
+          Read chapter {verse.chapter}
         </Link>
         {next ? (
           <Link

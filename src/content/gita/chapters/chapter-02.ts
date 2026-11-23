@@ -57,7 +57,8 @@ export const VERSES: Verse[] = [
         "en": "the slayer of Madhu"
       }
     ],
-    "translation": "To him, thus overcome by pity, whose eyes were filled with tears and troubled, despairing, the slayer of Madhu spoke this speech."
+    "translation": "To him, thus overcome by pity, whose eyes were filled with tears and troubled, despairing, the slayer of Madhu spoke this speech.",
+    "plain": "He was overcome by pity and despairing, his troubled eyes full of tears. To him, as he was, the slayer of Madhu spoke these words."
   },
   {
     "chapter": 2,
@@ -113,7 +114,8 @@ export const VERSES: Verse[] = [
         "en": "O Arjuna"
       }
     ],
-    "translation": "From where has this faintness of spirit come upon you in difficulty, not practised by the noble, not leading to heaven, causing disgrace, O Arjuna?"
+    "translation": "From where has this faintness of spirit come upon you in difficulty, not practised by the noble, not leading to heaven, causing disgrace, O Arjuna?",
+    "plain": "Where has this faintness of spirit come from, Arjuna, to fall on you in a hard hour? It is not the way of the noble. It does not lead to heaven, and it brings disgrace."
   },
   {
     "chapter": 2,
@@ -185,7 +187,8 @@ export const VERSES: Verse[] = [
         "en": "O scorcher of foes"
       }
     ],
-    "translation": "Do not go to unmanliness at all, O son of Pṛthā. This is not fitting in you. Having abandoned petty weakness of heart, stand up, O scorcher of foes."
+    "translation": "Do not go to unmanliness at all, O son of Pṛthā. This is not fitting in you. Having abandoned petty weakness of heart, stand up, O scorcher of foes.",
+    "plain": "Do not give way to unmanliness at all, son of Pṛthā. It does not suit you. Throw off this petty weakness of heart and stand up, scorcher of foes."
   },
   {
     "chapter": 2,
@@ -245,7 +248,8 @@ export const VERSES: Verse[] = [
         "en": "O slayer of enemies"
       }
     ],
-    "translation": "How shall I fight back with arrows in battle against Bhīṣma and against Droṇa, O slayer of Madhu, the two worthy of worship, O slayer of enemies?"
+    "translation": "How shall I fight back with arrows in battle against Bhīṣma and against Droṇa, O slayer of Madhu, the two worthy of worship, O slayer of enemies?",
+    "plain": "Slayer of Madhu, how shall I fight back with arrows in battle against Bhīṣma and against Droṇa? Both of them are worthy of worship, slayer of enemies."
   },
   {
     "chapter": 2,
@@ -343,6 +347,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "For it is better to eat even begged food here in the world, not having slain the teachers of great dignity. But having slain the teachers, desirous of gain, I would eat right here enjoyments smeared with blood.",
+    "plain": "For it would be better to eat even begged food here in this world than to kill the teachers, men of great dignity. But if I killed the teachers, eager for gain as they are, I would be eating, right here, pleasures smeared with blood.",
     "notes": [
       "\"Desirous of gain\" is read here as describing the teachers. It can also describe the enjoyments: \"enjoyments of wealth and pleasure, smeared with blood\"."
     ]
@@ -457,7 +462,8 @@ export const VERSES: Verse[] = [
         "en": "the sons of Dhṛtarāṣṭra"
       }
     ],
-    "translation": "And we do not know this, which of the two is weightier for us: whether we should conquer, or if they should conquer us. The very ones whom having slain we do not wish to live, they are standing in front, the sons of Dhṛtarāṣṭra."
+    "translation": "And we do not know this, which of the two is weightier for us: whether we should conquer, or if they should conquer us. The very ones whom having slain we do not wish to live, they are standing in front, the sons of Dhṛtarāṣṭra.",
+    "plain": "And we do not know which would weigh more for us: that we should conquer them, or that they should conquer us. The sons of Dhṛtarāṣṭra are standing in front of us, the very men we would not wish to go on living after killing."
   },
   {
     "chapter": 2,
@@ -551,6 +557,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "I, whose own nature is struck down by the fault of wretchedness, whose mind is confused about dharma, ask you: what would be better, tell that to me for certain. I am your pupil. Instruct me, who has taken refuge in you.",
+    "plain": "My own nature is struck down by the fault of wretchedness, and my mind is confused about dharma. So I ask you: tell me for certain what would be better. I am your pupil. I have taken refuge in you, so instruct me.",
     "notes": [
       "\"For certain\" is taken with \"tell me\". It can also go with \"better\": \"tell me what is decidedly better\"."
     ]
@@ -646,7 +653,8 @@ export const VERSES: Verse[] = [
         "en": "lordship"
       }
     ],
-    "translation": "For I do not see what would drive away my grief, the drying up of the senses, having obtained on earth a prosperous kingdom without rival, and even lordship of the gods."
+    "translation": "For I do not see what would drive away my grief, the drying up of the senses, having obtained on earth a prosperous kingdom without rival, and even lordship of the gods.",
+    "plain": "For I do not see what would drive away this grief of mine, which dries up my senses, not even if I won a prosperous kingdom on earth with no rival, and even lordship over the gods."
   },
   {
     "chapter": 2,
@@ -715,6 +723,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Having spoken thus to the lord of the senses, the lord of sleep, O scorcher of foes, having said to Govinda thus: \"I will not fight\", became silent indeed.",
+    "plain": "Having spoken so to the lord of the senses, scorcher of foes, the lord of sleep said to Govinda: I will not fight. And indeed he fell silent.",
     "notes": [
       "\"O scorcher of foes\" follows this text, where Sañjaya addresses the king. Other copies of the text read it as describing Arjuna: \"the scorcher of foes fell silent\"."
     ]
@@ -781,7 +790,8 @@ export const VERSES: Verse[] = [
         "en": "word"
       }
     ],
-    "translation": "To him, despairing in the middle of both of the two armies, O descendant of Bharata, the lord of the senses, as if smiling, spoke this word."
+    "translation": "To him, despairing in the middle of both of the two armies, O descendant of Bharata, the lord of the senses, as if smiling, spoke this word.",
+    "plain": "There he was, despairing in the middle of the two armies, descendant of Bharata, and to him the lord of the senses, as if smiling, spoke these words."
   },
   {
     "chapter": 2,
@@ -846,7 +856,8 @@ export const VERSES: Verse[] = [
         "en": "the learned"
       }
     ],
-    "translation": "You have grieved for those not to be grieved for, and you speak words of wisdom. The learned do not grieve for those whose breath has gone and those whose breath has not gone."
+    "translation": "You have grieved for those not to be grieved for, and you speak words of wisdom. The learned do not grieve for those whose breath has gone and those whose breath has not gone.",
+    "plain": "You have been grieving for those who should not be grieved for, and you speak words of wisdom. The learned do not grieve for those whose breath has gone, or for those whose breath has not."
   },
   {
     "chapter": 2,
@@ -946,7 +957,8 @@ export const VERSES: Verse[] = [
         "en": "onward"
       }
     ],
-    "translation": "But indeed it is not that I ever was not, nor you, nor these lords of men. And indeed it is not that we all shall not be, from this onward."
+    "translation": "But indeed it is not that I ever was not, nor you, nor these lords of men. And indeed it is not that we all shall not be, from this onward.",
+    "plain": "But there was never a time when I did not exist, nor you, nor these lords of men. And none of us will ever cease to exist from now on."
   },
   {
     "chapter": 2,
@@ -1016,6 +1028,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Just as childhood, youth and old age are of the embodied one in this body, so is the attaining of another body. The steadfast one is not confused about that.",
+    "plain": "Just as the embodied one has childhood, youth and old age in this body, so it comes to have another body. The steadfast person is not confused about that.",
     "notes": [
       "The word translated \"steadfast\" (dhīra) can equally mean \"wise\"."
     ]
@@ -1072,6 +1085,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The contacts of the senses with their objects, O son of Kuntī, give cold and heat, pleasure and pain. They come and go and do not last. Endure them, O descendant of Bharata.",
+    "plain": "But the contacts of the senses with their objects, son of Kuntī, bring cold and heat, pleasure and pain. They come and go and do not last. Endure them, descendant of Bharata.",
     "practice": {
       "sessionId": "letting-it-be",
       "label": "Letting it be"
@@ -1141,6 +1155,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "For the man whom these do not disturb, O bull among men, the same in pain and pleasure, steadfast, he is fit for deathlessness.",
+    "plain": "For the person whom these do not disturb, bull among men, who is steadfast and the same in pain and pleasure, is fit for deathlessness.",
     "notes": [
       "The word translated \"steadfast\" (dhīra) can equally mean \"wise\"."
     ]
@@ -1220,6 +1235,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Being is not found of what is not. Non-being is not found of what is. But the end of even both of these two is seen by the seers of the truth.",
+    "plain": "What is not has no being, and what is has no non-being. But the seers of the truth have seen the end of both of these.",
     "notes": [
       "\"The end\" can also be read as \"the conclusion\": the settled truth about what is and what is not."
     ]
@@ -1298,7 +1314,8 @@ export const VERSES: Verse[] = [
         "en": "is able"
       }
     ],
-    "translation": "But know that to be indestructible, by which all this is pervaded. Not anyone is able to bring about the destruction of this imperishable."
+    "translation": "But know that to be indestructible, by which all this is pervaded. Not anyone is able to bring about the destruction of this imperishable.",
+    "plain": "But know that what pervades all this is indestructible. No one is able to bring about the destruction of this imperishable one."
   },
   {
     "chapter": 2,
@@ -1359,7 +1376,8 @@ export const VERSES: Verse[] = [
         "en": "O descendant of Bharata"
       }
     ],
-    "translation": "These bodies of the eternal embodied one, of the indestructible, of the immeasurable, are said to be having an end. Therefore fight, O descendant of Bharata."
+    "translation": "These bodies of the eternal embodied one, of the indestructible, of the immeasurable, are said to be having an end. Therefore fight, O descendant of Bharata.",
+    "plain": "These bodies are said to come to an end. They belong to the embodied one, who is eternal, indestructible and immeasurable. Therefore fight, descendant of Bharata."
   },
   {
     "chapter": 2,
@@ -1447,7 +1465,8 @@ export const VERSES: Verse[] = [
         "en": "is slain"
       }
     ],
-    "translation": "He who knows this one as the slayer, and he who thinks this one slain, both of those two do not understand. This one does not slay and is not slain."
+    "translation": "He who knows this one as the slayer, and he who thinks this one slain, both of those two do not understand. This one does not slay and is not slain.",
+    "plain": "Whoever knows this one as the slayer, and whoever thinks this one is slain: neither of the two understands. This one does not slay and is not slain."
   },
   {
     "chapter": 2,
@@ -1552,6 +1571,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "This one is not born, or dies, at any time. Nor, having been, will this one again not be. Unborn, eternal, everlasting, ancient, this one is not slain when the body is being slain.",
+    "plain": "It is never born and it never dies. Having been, it will never again cease to be. Unborn, eternal, everlasting and ancient, it is not slain when the body is slain.",
     "notes": [
       "The second line has several negatives and can be divided differently, giving \"having come to be, it will not come to be again\"."
     ]
@@ -1631,6 +1651,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "He who knows this one as indestructible, eternal, unborn, undecaying: how, O son of Pṛthā, does that person cause whom to be slain, and whom does he slay?",
+    "plain": "Take a person who knows this one to be indestructible, eternal, unborn and undecaying. How, son of Pṛthā, and whom, does that person cause to be slain? Whom does that person slay?",
     "notes": [
       "The last part is two literal questions. It is usually understood as one: \"how can that person slay anyone, or cause anyone to be slain?\""
     ]
@@ -1718,7 +1739,8 @@ export const VERSES: Verse[] = [
         "term": "dehin"
       }
     ],
-    "translation": "Just as a man, having cast off worn out garments, takes others that are new, so the embodied one, having cast off worn out bodies, goes to others that are new."
+    "translation": "Just as a man, having cast off worn out garments, takes others that are new, so the embodied one, having cast off worn out bodies, goes to others that are new.",
+    "plain": "Just as a person casts off worn out clothes and takes others that are new, so the embodied one casts off worn out bodies and goes on to others that are new."
   },
   {
     "chapter": 2,
@@ -1798,7 +1820,8 @@ export const VERSES: Verse[] = [
         "en": "the wind"
       }
     ],
-    "translation": "Weapons do not cut this one, fire does not burn this one, and the waters do not wet this one, the wind does not dry it."
+    "translation": "Weapons do not cut this one, fire does not burn this one, and the waters do not wet this one, the wind does not dry it.",
+    "plain": "Weapons do not cut it and fire does not burn it. Water does not wet it and the wind does not dry it."
   },
   {
     "chapter": 2,
@@ -1870,7 +1893,8 @@ export const VERSES: Verse[] = [
         "en": "primeval"
       }
     ],
-    "translation": "This one is not to be cut, this one is not to be burned, not to be wetted, and indeed not to be dried. This one is eternal, gone everywhere, standing firm, unmoving, primeval."
+    "translation": "This one is not to be cut, this one is not to be burned, not to be wetted, and indeed not to be dried. This one is eternal, gone everywhere, standing firm, unmoving, primeval.",
+    "plain": "It cannot be cut, it cannot be burned, it cannot be wetted, and indeed it cannot be dried. It is eternal, it reaches everywhere, it stands firm, unmoving and primeval."
   },
   {
     "chapter": 2,
@@ -1942,7 +1966,8 @@ export const VERSES: Verse[] = [
         "en": "you ought"
       }
     ],
-    "translation": "This one is said to be unmanifest, this one unthinkable, this one unchangeable. Therefore, having known this one thus, you ought not to grieve over it."
+    "translation": "This one is said to be unmanifest, this one unthinkable, this one unchangeable. Therefore, having known this one thus, you ought not to grieve over it.",
+    "plain": "It is said to be unmanifest, unthinkable and unchangeable. So, knowing it to be this, you should not grieve over it."
   },
   {
     "chapter": 2,
@@ -2022,7 +2047,8 @@ export const VERSES: Verse[] = [
         "en": "you ought"
       }
     ],
-    "translation": "And now if you think this one constantly born, or constantly dead, even so, O mighty-armed one, you ought not to grieve thus."
+    "translation": "And now if you think this one constantly born, or constantly dead, even so, O mighty-armed one, you ought not to grieve thus.",
+    "plain": "And even if you think of it as constantly born, or constantly dead, even so, mighty-armed one, you should not grieve like this."
   },
   {
     "chapter": 2,
@@ -2098,7 +2124,8 @@ export const VERSES: Verse[] = [
         "en": "you ought"
       }
     ],
-    "translation": "For death is certain of one who is born, and birth is certain of one who is dead. Therefore you ought not to grieve over an unavoidable matter."
+    "translation": "For death is certain of one who is born, and birth is certain of one who is dead. Therefore you ought not to grieve over an unavoidable matter.",
+    "plain": "For death is certain for one who is born, and birth is certain for one who has died. So you should not grieve over what cannot be avoided."
   },
   {
     "chapter": 2,
@@ -2150,7 +2177,8 @@ export const VERSES: Verse[] = [
         "en": "lamentation"
       }
     ],
-    "translation": "Beings are unmanifest in their beginning, manifest in their middle, O descendant of Bharata, and indeed unmanifest in their end. What lamentation is there in that?"
+    "translation": "Beings are unmanifest in their beginning, manifest in their middle, O descendant of Bharata, and indeed unmanifest in their end. What lamentation is there in that?",
+    "plain": "Beings are unmanifest at their beginning, manifest in their middle, descendant of Bharata, and unmanifest indeed at their end. What is there to lament in that?"
   },
   {
     "chapter": 2,
@@ -2263,6 +2291,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Someone sees this one as a wonder, and just so another speaks of it as a wonder, and another hears of this one as a wonder. And even having heard, not anyone at all knows this one.",
+    "plain": "One person sees it as a wonder. In just the same way another speaks of it as a wonder, and another hears of it as a wonder. And even after hearing, no one at all knows it.",
     "notes": [
       "\"As a wonder\" is taken to describe what is seen. It can also describe the seeing, or the rare person who sees."
     ]
@@ -2338,7 +2367,8 @@ export const VERSES: Verse[] = [
         "en": "you ought"
       }
     ],
-    "translation": "This embodied one in the body of everyone is always not to be slain, O descendant of Bharata. Therefore you ought not to grieve for all beings."
+    "translation": "This embodied one in the body of everyone is always not to be slain, O descendant of Bharata. Therefore you ought not to grieve for all beings.",
+    "plain": "This embodied one in the body of everyone can never be slain, descendant of Bharata. So you should not grieve for any being."
   },
   {
     "chapter": 2,
@@ -2416,7 +2446,8 @@ export const VERSES: Verse[] = [
         "en": "is found"
       }
     ],
-    "translation": "And having looked at your own dharma also, you ought not to waver. For anything else better for a warrior than a battle in accord with dharma is not found."
+    "translation": "And having looked at your own dharma also, you ought not to waver. For anything else better for a warrior than a battle in accord with dharma is not found.",
+    "plain": "And looking at your own dharma too, you should not waver. For nothing better can be found for a warrior than a battle that accords with dharma."
   },
   {
     "chapter": 2,
@@ -2476,7 +2507,8 @@ export const VERSES: Verse[] = [
         "en": "such as this"
       }
     ],
-    "translation": "And happy warriors, O son of Pṛthā, obtain a battle such as this, arrived by chance, an opened door of heaven."
+    "translation": "And happy warriors, O son of Pṛthā, obtain a battle such as this, arrived by chance, an opened door of heaven.",
+    "plain": "And a battle such as this, son of Pṛthā, which has come by chance, is an open door to heaven. It is happy warriors who get one."
   },
   {
     "chapter": 2,
@@ -2554,7 +2586,8 @@ export const VERSES: Verse[] = [
         "en": "you will incur"
       }
     ],
-    "translation": "Now if you will not do this combat in accord with dharma, then, having abandoned your own dharma and fame, you will incur evil."
+    "translation": "Now if you will not do this combat in accord with dharma, then, having abandoned your own dharma and fame, you will incur evil.",
+    "plain": "Now if you will not fight this battle, which accords with dharma, then you will have abandoned your own dharma and your fame, and you will incur evil."
   },
   {
     "chapter": 2,
@@ -2618,7 +2651,8 @@ export const VERSES: Verse[] = [
         "en": "is more"
       }
     ],
-    "translation": "And beings will also tell of your undecaying ill fame. And for one who has been honoured, ill fame is more than death."
+    "translation": "And beings will also tell of your undecaying ill fame. And for one who has been honoured, ill fame is more than death.",
+    "plain": "People will also tell of your disgrace, and it will never fade. And for one who has been honoured, disgrace is worse than death."
   },
   {
     "chapter": 2,
@@ -2686,7 +2720,8 @@ export const VERSES: Verse[] = [
         "en": "to lightness"
       }
     ],
-    "translation": "The great chariot warriors will think you withdrawn from the battle out of fear. And you, having been much esteemed of them, will go to lightness."
+    "translation": "The great chariot warriors will think you withdrawn from the battle out of fear. And you, having been much esteemed of them, will go to lightness.",
+    "plain": "The great chariot warriors will think you withdrew from the battle out of fear. They have held you in high esteem, and you will come to count for little with them."
   },
   {
     "chapter": 2,
@@ -2754,7 +2789,8 @@ export const VERSES: Verse[] = [
         "en": "what"
       }
     ],
-    "translation": "And your ill-wishers will speak many words not to be spoken, blaming your ability. What indeed is more painful than that?"
+    "translation": "And your ill-wishers will speak many words not to be spoken, blaming your ability. What indeed is more painful than that?",
+    "plain": "And those who wish you ill will say many things that should not be said, and pour blame on your ability. What could be more painful than that?"
   },
   {
     "chapter": 2,
@@ -2822,7 +2858,8 @@ export const VERSES: Verse[] = [
         "en": "with resolve made"
       }
     ],
-    "translation": "Either, slain, you will reach heaven, or, having conquered, you will enjoy the earth. Therefore stand up, O son of Kuntī, with resolve made for battle."
+    "translation": "Either, slain, you will reach heaven, or, having conquered, you will enjoy the earth. Therefore stand up, O son of Kuntī, with resolve made for battle.",
+    "plain": "Either you will be slain and reach heaven, or you will conquer and enjoy the earth. So stand up, son of Kuntī, resolved on battle."
   },
   {
     "chapter": 2,
@@ -2889,6 +2926,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Having made pleasure and pain the same, gain and loss, victory and defeat, then yoke yourself for battle. Thus you will not incur evil.",
+    "plain": "Treat pleasure and pain as the same, and gain and loss, and victory and defeat, and then make yourself ready for battle. In this way you will not incur evil.",
     "notes": [
       "\"Yoke yourself\" keeps the root of the word yoga. The plainer sense is \"make ready for battle\"."
     ]
@@ -2974,6 +3012,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "This buddhi has been declared to you in sāṅkhya. But hear this in yoga, the buddhi yoked with which, O son of Pṛthā, you will cast off the bondage of action.",
+    "plain": "This buddhi has been explained to you as sāṅkhya gives it. Now hear it as yoga gives it. Yoked with this buddhi, son of Pṛthā, you will cast off the bondage of action.",
     "notes": [
       "\"In sāṅkhya\" and \"in yoga\" are read as the names of two teachings. They can also be read as \"with regard to understanding\" and \"with regard to practice\"."
     ]
@@ -3049,7 +3088,8 @@ export const VERSES: Verse[] = [
         "en": "from fear"
       }
     ],
-    "translation": "Here there is no loss of what is begun, and no setback is found. Even a very little of this dharma protects from great fear."
+    "translation": "Here there is no loss of what is begun, and no setback is found. Even a very little of this dharma protects from great fear.",
+    "plain": "Here nothing that is begun is lost, and there is no setback. Even a very little of this dharma protects one from great fear."
   },
   {
     "chapter": 2,
@@ -3111,7 +3151,8 @@ export const VERSES: Verse[] = [
         "en": "of the irresolute"
       }
     ],
-    "translation": "The buddhi whose nature is resolve is one here, O joy of the Kurus. For the buddhis of the irresolute are many-branched and endless."
+    "translation": "The buddhi whose nature is resolve is one here, O joy of the Kurus. For the buddhis of the irresolute are many-branched and endless.",
+    "plain": "Here, joy of the Kurus, the buddhi that is resolute by nature is one. For the buddhis of the irresolute are many-branched and endless."
   },
   {
     "chapter": 2,
@@ -3180,6 +3221,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "This is the flowery speech which the undiscerning proclaim, delighting in the words of the Vedas, O son of Pṛthā, saying thus: there is nothing else.",
+    "plain": "There is this flowery speech that the undiscerning proclaim, son of Pṛthā. They delight in the words of the Vedas and say that there is nothing else.",
     "notes": [
       "Verses 42 to 44 are one sentence in the Sanskrit. A few words are repeated here so that each verse reads as a full sentence."
     ]
@@ -3224,7 +3266,8 @@ export const VERSES: Verse[] = [
         "en": "toward"
       }
     ],
-    "translation": "Their nature is desire and they hold heaven as the highest. That speech gives birth as the fruit of action and abounds in particular rites, toward the attainment of enjoyment and lordship."
+    "translation": "Their nature is desire and they hold heaven as the highest. That speech gives birth as the fruit of action and abounds in particular rites, toward the attainment of enjoyment and lordship.",
+    "plain": "Desire is their nature, and heaven is the highest thing they know. What that speech gives is birth, as the fruit of action, and it is full of particular rites aimed at attaining enjoyment and lordship."
   },
   {
     "chapter": 2,
@@ -3274,7 +3317,8 @@ export const VERSES: Verse[] = [
         "en": "is established"
       }
     ],
-    "translation": "For those who cling to enjoyment and lordship, whose thought is carried away by that speech, the buddhi whose nature is resolve is not established in samādhi."
+    "translation": "For those who cling to enjoyment and lordship, whose thought is carried away by that speech, the buddhi whose nature is resolve is not established in samādhi.",
+    "plain": "In those who cling to enjoyment and lordship, whose thought has been carried away by that speech, the buddhi that is resolute by nature is not established in samādhi."
   },
   {
     "chapter": 2,
@@ -3331,6 +3375,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The Vedas have the three guṇas as their domain. Be free of the three guṇas, O Arjuna, free of the pairs of opposites, always standing in sattva, free of gaining and keeping, possessed of the self.",
+    "plain": "The Vedas have the three guṇas as their domain. Be free of the three guṇas, Arjuna: free of the pairs of opposites, always standing in sattva, free of gaining and keeping, in possession of the self.",
     "notes": [
       "\"Standing in sattva\" reads sattva as one of the three guṇas. It can also mean \"standing in true being\", which sits more easily beside \"free of the three guṇas\"."
     ]
@@ -3390,6 +3435,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "As much use as there is in a well when water is flooding on every side, so much is there in all the Vedas for a brahmin who knows.",
+    "plain": "For a brahmin who knows, there is as much use in all the Vedas as there is in a well when water is flooding on every side.",
     "notes": [
       "This verse is read two ways. One: the Vedas are of as little use to one who knows as a well is in a flood. The other: everything a well gives is contained in a flood, and likewise everything in the Vedas is contained in what the knower knows."
     ]
@@ -3470,7 +3516,8 @@ export const VERSES: Verse[] = [
         "en": "to inaction"
       }
     ],
-    "translation": "Your rightful claim is to action only, never to its fruits. Do not be one whose motive is the fruit of action, and let there be no attachment in you to inaction."
+    "translation": "Your rightful claim is to action only, never to its fruits. Do not be one whose motive is the fruit of action, and let there be no attachment in you to inaction.",
+    "plain": "Your rightful claim is to action alone, never to its fruits. Do not let the fruit of action be your motive, and do not let yourself be attached to inaction."
   },
   {
     "chapter": 2,
@@ -3539,7 +3586,8 @@ export const VERSES: Verse[] = [
         "en": "is called"
       }
     ],
-    "translation": "Established in yoga, do your actions, O Dhanañjaya, having given up attachment and having become even in success and failure. Evenness is called yoga."
+    "translation": "Established in yoga, do your actions, O Dhanañjaya, having given up attachment and having become even in success and failure. Evenness is called yoga.",
+    "plain": "Do your actions established in yoga, Dhanañjaya, giving up attachment and staying even in success and failure. Evenness is what is called yoga."
   },
   {
     "chapter": 2,
@@ -3602,7 +3650,8 @@ export const VERSES: Verse[] = [
         "en": "those whose motive is the fruit"
       }
     ],
-    "translation": "For action is by far lower than the yoga of buddhi, O winner of wealth. Seek refuge in buddhi. Pitiable are those whose motive is the fruit."
+    "translation": "For action is by far lower than the yoga of buddhi, O winner of wealth. Seek refuge in buddhi. Pitiable are those whose motive is the fruit.",
+    "plain": "For action is far lower than the yoga of buddhi, winner of wealth. Seek refuge in buddhi. Those whose motive is the fruit are pitiable."
   },
   {
     "chapter": 2,
@@ -3668,6 +3717,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "One yoked with buddhi casts off here both good deeds and bad deeds. Therefore yoke yourself to yoga. Yoga is skill in actions.",
+    "plain": "One who is yoked with buddhi casts off both good deeds and bad deeds here. So yoke yourself to yoga. Yoga is skill in actions.",
     "notes": [
       "The last phrase can also be read the other way round: \"skill in actions is yoga\"."
     ]
@@ -3728,7 +3778,8 @@ export const VERSES: Verse[] = [
         "en": "without affliction"
       }
     ],
-    "translation": "For the wise, yoked with buddhi, having abandoned the fruit born of action, freed from the bondage of birth, go to the state without affliction."
+    "translation": "For the wise, yoked with buddhi, having abandoned the fruit born of action, freed from the bondage of birth, go to the state without affliction.",
+    "plain": "For the wise, yoked with buddhi, give up the fruit that is born of action. Freed from the bondage of birth, they go to the state where there is no affliction."
   },
   {
     "chapter": 2,
@@ -3789,7 +3840,8 @@ export const VERSES: Verse[] = [
         "en": "and"
       }
     ],
-    "translation": "When your buddhi will cross beyond the thicket of delusion, then you will go to indifference toward what is to be heard and toward what has been heard."
+    "translation": "When your buddhi will cross beyond the thicket of delusion, then you will go to indifference toward what is to be heard and toward what has been heard.",
+    "plain": "When your buddhi crosses beyond the thicket of delusion, you will become indifferent to what is yet to be heard and to what has been heard."
   },
   {
     "chapter": 2,
@@ -3853,6 +3905,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "When your buddhi, perplexed by what is heard, will stand unmoving, unshaken in samādhi, then you will attain yoga.",
+    "plain": "When your buddhi, perplexed by what is heard, stands unmoving and unshaken in samādhi, then you will attain yoga.",
     "notes": [
       "\"Perplexed by what is heard\" can also be read as \"turned away from what is heard\". \"What is heard\" means revealed scripture."
     ]
@@ -3923,6 +3976,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "What is the description of one whose wisdom is steady, of one standing in samādhi, O Keśava? How would one whose thought is steady speak, how would he sit, how would he walk?",
+    "plain": "How is one whose wisdom is steady to be described, Keśava, one who stands in samādhi? How would a person whose thought is steady speak, how would they sit, how would they walk?",
     "notes": [
       "The three questions are read as \"how\": how would he speak, sit and walk. They can also be read as \"what would he say\", or as plain questions."
     ]
@@ -3998,7 +4052,8 @@ export const VERSES: Verse[] = [
         "en": "he is called"
       }
     ],
-    "translation": "When he casts off all desires gone into the mind, O son of Pṛthā, content in the self alone by the self, then he is called one whose wisdom is steady."
+    "translation": "When he casts off all desires gone into the mind, O son of Pṛthā, content in the self alone by the self, then he is called one whose wisdom is steady.",
+    "plain": "When a person casts off all the desires that have entered the mind, son of Pṛthā, and is content in the self alone, by the self, then that person is called one whose wisdom is steady."
   },
   {
     "chapter": 2,
@@ -4048,7 +4103,8 @@ export const VERSES: Verse[] = [
         "en": "is called"
       }
     ],
-    "translation": "One whose mind is not shaken in sorrows, whose craving for pleasures is gone, from whom passion, fear and anger have gone, is called a sage of steady understanding."
+    "translation": "One whose mind is not shaken in sorrows, whose craving for pleasures is gone, from whom passion, fear and anger have gone, is called a sage of steady understanding.",
+    "plain": "One whose mind is not shaken in sorrows, who no longer craves pleasures, and whom passion, fear and anger have left, is called a sage of steady understanding."
   },
   {
     "chapter": 2,
@@ -4121,7 +4177,8 @@ export const VERSES: Verse[] = [
         "en": "firmly established"
       }
     ],
-    "translation": "He who is without fondness everywhere, who, having met with this or that, pleasant and unpleasant, does not rejoice and does not hate, his wisdom is firmly established."
+    "translation": "He who is without fondness everywhere, who, having met with this or that, pleasant and unpleasant, does not rejoice and does not hate, his wisdom is firmly established.",
+    "plain": "One who is without fondness anywhere, who meets with this or that, pleasant or unpleasant, and neither rejoices nor hates: that person's wisdom is firmly established."
   },
   {
     "chapter": 2,
@@ -4192,7 +4249,8 @@ export const VERSES: Verse[] = [
         "en": "firmly established"
       }
     ],
-    "translation": "And when this one completely draws in the senses from the objects of the senses, like a tortoise its limbs, his wisdom is firmly established."
+    "translation": "And when this one completely draws in the senses from the objects of the senses, like a tortoise its limbs, his wisdom is firmly established.",
+    "plain": "And when such a one draws the senses completely in from the objects of the senses, as a tortoise draws in its limbs, that person's wisdom is firmly established."
   },
   {
     "chapter": 2,
@@ -4254,6 +4312,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The objects turn away from the embodied one who takes no food, except the taste. Having seen the supreme, even his taste turns away.",
+    "plain": "The objects turn away from the embodied one who takes no food, but the taste does not. Once that one has seen the supreme, even the taste turns away.",
     "notes": [
       "\"Who takes no food\" is the literal sense. It is often understood as \"who does not feed the senses on their objects\"."
     ]
@@ -4318,7 +4377,8 @@ export const VERSES: Verse[] = [
         "term": "manas"
       }
     ],
-    "translation": "For the churning senses carry off by force the mind even of a discerning man who strives, O son of Kuntī."
+    "translation": "For the churning senses carry off by force the mind even of a discerning man who strives, O son of Kuntī.",
+    "plain": "For the churning senses, son of Kuntī, carry off the mind by force, even the mind of a discerning person who strives."
   },
   {
     "chapter": 2,
@@ -4390,6 +4450,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Having restrained them all, he should sit yoked, holding me as the highest. For he whose senses are under control, his wisdom is firmly established.",
+    "plain": "Restraining them all, one should sit yoked, holding me as the highest. For when a person's senses are under control, that person's wisdom is firmly established.",
     "notes": [
       "\"Yoked\" keeps the root of the word yoga. The plainer sense is \"disciplined\"."
     ]
@@ -4460,7 +4521,8 @@ export const VERSES: Verse[] = [
         "en": "arises"
       }
     ],
-    "translation": "For a person who dwells on the objects of the senses, attachment to them arises. From attachment desire is born. From desire anger arises."
+    "translation": "For a person who dwells on the objects of the senses, attachment to them arises. From attachment desire is born. From desire anger arises.",
+    "plain": "When a person dwells on the objects of the senses, attachment to them arises. From attachment desire is born, and from desire anger arises."
   },
   {
     "chapter": 2,
@@ -4514,7 +4576,8 @@ export const VERSES: Verse[] = [
         "en": "one is lost"
       }
     ],
-    "translation": "From anger comes delusion. From delusion, confusion of memory. From the loss of memory, the ruin of buddhi. From the ruin of buddhi, one is lost."
+    "translation": "From anger comes delusion. From delusion, confusion of memory. From the loss of memory, the ruin of buddhi. From the ruin of buddhi, one is lost.",
+    "plain": "From anger comes delusion, and from delusion, confusion of memory. From the loss of memory comes the ruin of buddhi, and from the ruin of buddhi one is lost."
   },
   {
     "chapter": 2,
@@ -4569,7 +4632,8 @@ export const VERSES: Verse[] = [
         "en": "attains"
       }
     ],
-    "translation": "But one whose self is governed, moving among objects with senses that are freed from passion and aversion and under the control of the self, attains clearness."
+    "translation": "But one whose self is governed, moving among objects with senses that are freed from passion and aversion and under the control of the self, attains clearness.",
+    "plain": "But one whose self is governed, who moves among objects with senses that are freed from passion and aversion and under the control of the self, attains clearness."
   },
   {
     "chapter": 2,
@@ -4626,7 +4690,8 @@ export const VERSES: Verse[] = [
         "en": "becomes steady"
       }
     ],
-    "translation": "In clearness, the ending of all sorrows arises for him. For the buddhi of one whose mind is clear quickly becomes steady."
+    "translation": "In clearness, the ending of all sorrows arises for him. For the buddhi of one whose mind is clear quickly becomes steady.",
+    "plain": "In that clearness, all of that person's sorrows come to an end. For when the mind is clear, buddhi quickly becomes steady."
   },
   {
     "chapter": 2,
@@ -4707,7 +4772,8 @@ export const VERSES: Verse[] = [
         "en": "happiness"
       }
     ],
-    "translation": "There is no buddhi for one who is not yoked, and for one who is not yoked there is no contemplation. And for one who does not contemplate there is no peace. For one without peace, from where would happiness come?"
+    "translation": "There is no buddhi for one who is not yoked, and for one who is not yoked there is no contemplation. And for one who does not contemplate there is no peace. For one without peace, from where would happiness come?",
+    "plain": "One who is not yoked has no buddhi, and one who is not yoked has no contemplation. One who does not contemplate has no peace. And where would happiness come from for one who has no peace?"
   },
   {
     "chapter": 2,
@@ -4783,6 +4849,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "For the mind which is led after the roaming senses, that carries away his understanding, like the wind a boat on the water.",
+    "plain": "For when the mind is led along after the roaming senses, it carries away a person's understanding, as the wind carries away a boat on the water.",
     "notes": [
       "\"That\" is read here as the mind. It can also be whichever sense the mind follows: that one sense carries the understanding away."
     ]
@@ -4844,7 +4911,8 @@ export const VERSES: Verse[] = [
         "en": "firmly established"
       }
     ],
-    "translation": "Therefore, O mighty-armed one, the one whose senses are held back on all sides from the objects of the senses, his understanding is firmly established."
+    "translation": "Therefore, O mighty-armed one, the one whose senses are held back on all sides from the objects of the senses, his understanding is firmly established.",
+    "plain": "Therefore, mighty-armed one, when a person's senses are held back on all sides from the objects of the senses, that person's understanding is firmly established."
   },
   {
     "chapter": 2,
@@ -4912,7 +4980,8 @@ export const VERSES: Verse[] = [
         "en": "of the sage"
       }
     ],
-    "translation": "What is night for all beings, in that the self-restrained one is awake. That in which beings are awake is night for the sage who sees."
+    "translation": "What is night for all beings, in that the self-restrained one is awake. That in which beings are awake is night for the sage who sees.",
+    "plain": "In what is night for all beings, the self-restrained one is awake. What beings are awake in is night for the sage who sees."
   },
   {
     "chapter": 2,
@@ -4999,7 +5068,8 @@ export const VERSES: Verse[] = [
         "term": "kama"
       }
     ],
-    "translation": "Just as the waters enter the ocean, which is being filled yet whose foundation is unmoving, so the one whom all desires enter reaches peace, not the one who desires desires."
+    "translation": "Just as the waters enter the ocean, which is being filled yet whose foundation is unmoving, so the one whom all desires enter reaches peace, not the one who desires desires.",
+    "plain": "The waters enter the ocean, which keeps being filled yet rests on an unmoving foundation. In the same way, the one whom all desires enter reaches peace, and not the one who desires desires."
   },
   {
     "chapter": 2,
@@ -5065,7 +5135,8 @@ export const VERSES: Verse[] = [
         "en": "attains"
       }
     ],
-    "translation": "The person who, having given up all desires, moves about without longing, without the sense of mine, without the sense of I, attains peace."
+    "translation": "The person who, having given up all desires, moves about without longing, without the sense of mine, without the sense of I, attains peace.",
+    "plain": "The person who gives up all desires and moves about without longing, without the sense of mine, without the sense of I, attains peace."
   },
   {
     "chapter": 2,
@@ -5140,6 +5211,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "This is the standing in brahman, O son of Pṛthā. Having reached this, one is not deluded. Having stood in this, even at the time of the end, one reaches the nirvāṇa of brahman.",
+    "plain": "This is the standing in brahman, son of Pṛthā. One who has reached it is not deluded. One who stands in it, even at the time of the end, reaches the nirvāṇa of brahman.",
     "notes": [
       "\"The nirvāṇa of brahman\" can also be read as \"nirvāṇa in brahman\" or \"the nirvāṇa that is brahman\"."
     ]

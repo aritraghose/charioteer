@@ -1,18 +1,19 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
 import { ChevronRight } from 'lucide-react'
+import { GitaSearch } from '@/components/gita/gita-search'
+import { useSavedVerses } from '@/components/gita/save-button'
 import { Page } from '@/components/page'
-import { useState } from 'react'
 import {
   CHAPTERS,
-  type Chapter,
   FACING,
   GLOSSARY,
   TOTAL_VERSES,
-  type Verse,
+  getChapter,
   hasVerse,
-  loadChapter,
   parseRef,
 } from '@/content/gita'
+import { useStored } from '@/hooks/use-stored'
+import { LAST_READ_KEY, type LastRead } from '@/lib/gita-reading'
 import { NAV_ITEMS } from '@/lib/nav'
 import { SITE_NAME, seo } from '@/lib/seo'
 
@@ -44,80 +45,14 @@ function VerseChip({ reference }: Readonly<{ reference: string }>) {
   )
 }
 
-/** One chapter row. Its verses load the first time it is opened. */
-function ChapterVerses({ chapter }: Readonly<{ chapter: Chapter }>) {
-  const [verses, setVerses] = useState<Verse[] | null>(null)
-
-  return (
-    <details
-      className="group overflow-hidden rounded-[28px] border border-border bg-card shadow-(--surface-shadow)"
-      onToggle={(event) => {
-        if (event.currentTarget.open && !verses) {
-          void loadChapter(chapter.chapter).then(setVerses)
-        }
-      }}
-    >
-      <summary className="flex cursor-pointer list-none items-center gap-3 px-5 py-4 transition-colors hover:bg-surface-blush-hover sm:px-6 [&::-webkit-details-marker]:hidden">
-        <span className="w-6 shrink-0 text-sm font-medium text-peach-ink tabular-nums">
-          {chapter.chapter}
-        </span>
-        <h3 className="flex flex-1 flex-wrap items-baseline gap-x-3 text-lg font-medium">
-          {chapter.name}
-          <span className="text-sm font-normal text-muted-foreground">
-            {chapter.about}. {chapter.length} verses.
-          </span>
-        </h3>
-        <ChevronRight
-          aria-hidden
-          className="size-4 shrink-0 text-muted-foreground/60 transition-transform group-open:rotate-90 motion-reduce:transition-none"
-          strokeWidth={2}
-        />
-      </summary>
-      {!verses ? (
-        <p className="border-t border-border px-5 py-4 text-sm text-muted-foreground sm:px-6">
-          Loading verses.
-        </p>
-      ) : (
-        <ol className="divide-y divide-border border-t border-border">
-          {verses.map((verse) => (
-            <li key={verse.verse}>
-              <Link
-                to="/gita/$chapter/$verse"
-                params={{
-                  chapter: String(verse.chapter),
-                  verse: String(verse.verse),
-                }}
-                className="group/row flex items-center gap-4 px-5 py-4 transition-colors hover:bg-surface-blush-hover sm:px-6"
-              >
-                <span className="w-10 shrink-0 text-sm font-medium text-peach-ink tabular-nums">
-                  {verse.chapter}.{verse.verse}
-                </span>
-                <span className="flex min-w-0 flex-1 flex-col gap-0.5">
-                  <span
-                    lang="sa"
-                    className="truncate font-serif text-lg leading-relaxed"
-                  >
-                    {verse.devanagari[0]}
-                  </span>
-                  <span className="truncate text-sm text-muted-foreground">
-                    {verse.translation}
-                  </span>
-                </span>
-                <ChevronRight
-                  aria-hidden
-                  className="size-4 shrink-0 text-muted-foreground/60 transition-all duration-200 group-hover/row:translate-x-0.5 group-hover/row:text-foreground motion-reduce:transition-none"
-                  strokeWidth={2}
-                />
-              </Link>
-            </li>
-          ))}
-        </ol>
-      )}
-    </details>
-  )
-}
-
 function GitaPage() {
+  const [stored] = useStored<LastRead | null>(LAST_READ_KEY, null)
+  const [saved] = useSavedVerses()
+  // The saved place, if there is a valid one. Otherwise reading starts at 1.1.
+  const lastRead = stored && hasVerse(stored) ? stored : null
+  const place = lastRead ?? { chapter: 1, verse: 1 }
+  const placeChapter = getChapter(place.chapter) ?? CHAPTERS[0]
+
   return (
     <Page
       title="Gita"
@@ -125,6 +60,87 @@ function GitaPage() {
       icon={NAV_ITEMS[3].icon}
       badgeClass={NAV_ITEMS[3].badgeClass}
     >
+      <section aria-label="Find a verse" className="flex flex-col gap-4">
+        <GitaSearch />
+
+        <Link
+          to="/gita/$chapter"
+          params={{ chapter: String(place.chapter) }}
+          hash={lastRead ? `v${lastRead.verse}` : undefined}
+          className="group flex items-center gap-4 rounded-[28px] border border-border bg-(image:--grad-folio) p-6 shadow-(--surface-shadow) transition-[transform,border-color] duration-200 hover:-translate-y-0.5 hover:border-primary/40 motion-reduce:transition-none"
+        >
+          <span className="flex min-w-0 flex-1 flex-col gap-1">
+            <span className="text-sm font-medium text-pink-ink">
+              {lastRead ? 'Continue reading' : 'Start reading'}
+            </span>
+            <span className="text-xl font-medium tracking-[-0.02em]">
+              Chapter {place.chapter}, verse {place.verse}
+            </span>
+            <span className="text-sm text-muted-foreground">
+              {placeChapter.name}. {placeChapter.about}.
+            </span>
+          </span>
+          <ChevronRight
+            aria-hidden
+            className="size-5 shrink-0 text-muted-foreground transition-transform duration-200 group-hover:translate-x-0.5 motion-reduce:transition-none"
+          />
+        </Link>
+      </section>
+
+      <section aria-labelledby="chapters-heading" className="flex flex-col gap-5">
+        <div className="flex flex-col gap-1.5">
+          <h2 id="chapters-heading" className={sectionHeading}>
+            Chapters
+          </h2>
+          <p className={sectionNote}>
+            All eighteen chapters, {TOTAL_VERSES} verses. Each chapter opens as
+            one page you can read straight through.
+          </p>
+        </div>
+        <ol className="divide-y divide-border overflow-hidden rounded-[28px] border border-border bg-card shadow-(--surface-shadow)">
+          {CHAPTERS.map((chapter) => (
+            <li key={chapter.chapter}>
+              <Link
+                to="/gita/$chapter"
+                params={{ chapter: String(chapter.chapter) }}
+                className="group flex items-center gap-4 px-5 py-4 transition-colors hover:bg-surface-blush-hover sm:px-6"
+              >
+                <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-peach-soft text-sm font-medium text-peach-ink tabular-nums ring-1 ring-border">
+                  {chapter.chapter}
+                </span>
+                <span className="flex min-w-0 flex-1 flex-col">
+                  <span className="font-medium">{chapter.name}</span>
+                  <span className="text-sm text-muted-foreground">
+                    {chapter.about}. {chapter.length} verses.
+                  </span>
+                </span>
+                <ChevronRight
+                  aria-hidden
+                  className="size-4 shrink-0 text-muted-foreground/60 transition-all duration-200 group-hover:translate-x-0.5 group-hover:text-foreground motion-reduce:transition-none"
+                  strokeWidth={2}
+                />
+              </Link>
+            </li>
+          ))}
+        </ol>
+      </section>
+
+      {saved.length > 0 && (
+        <section aria-labelledby="saved-heading" className="flex flex-col gap-4">
+          <div className="flex flex-col gap-1.5">
+            <h2 id="saved-heading" className={sectionHeading}>
+              Saved verses
+            </h2>
+            <p className={sectionNote}>Kept on this device.</p>
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {saved.map((reference) => (
+              <VerseChip key={reference} reference={reference} />
+            ))}
+          </div>
+        </section>
+      )}
+
       <section aria-labelledby="facing-heading" className="flex flex-col gap-5">
         <div className="flex flex-col gap-1.5">
           <h2 id="facing-heading" className={sectionHeading}>
@@ -149,23 +165,6 @@ function GitaPage() {
             </li>
           ))}
         </ul>
-      </section>
-
-      <section aria-labelledby="verses-heading" className="flex flex-col gap-5">
-        <div className="flex flex-col gap-1.5">
-          <h2 id="verses-heading" className={sectionHeading}>
-            Verses
-          </h2>
-          <p className={sectionNote}>
-            All eighteen chapters, {TOTAL_VERSES} verses. Open a chapter to see
-            its verses.
-          </p>
-        </div>
-        <div className="flex flex-col gap-3">
-          {CHAPTERS.map((chapter) => (
-            <ChapterVerses key={chapter.chapter} chapter={chapter} />
-          ))}
-        </div>
       </section>
 
       <section aria-labelledby="terms-heading" className="flex flex-col gap-5">
@@ -202,10 +201,10 @@ function GitaPage() {
       </section>
 
       <p className="max-w-[58ch] border-l-2 border-primary/50 pl-4 text-sm leading-relaxed text-pretty text-muted-foreground">
-        The Sanskrit text is the source. The English is a literal working
-        translation built word by word, so it reads more plainly than a
-        polished one. Where a verse can be read in more than one way, the word
-        meanings show the choice that was made.
+        The Sanskrit text is the source. Each verse has two English versions:
+        a plain one for reading straight through, and a literal one that
+        follows the Sanskrit word by word. Where a verse can be read in more
+        than one way, its page says so.
       </p>
     </Page>
   )

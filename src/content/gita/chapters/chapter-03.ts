@@ -76,7 +76,8 @@ export const VERSES: Verse[] = [
         "en": "O Keśava"
       }
     ],
-    "translation": "If buddhi is thought by you superior to action, O Janārdana, then why do you engage me in terrible action, O Keśava?"
+    "translation": "If buddhi is thought by you superior to action, O Janārdana, then why do you engage me in terrible action, O Keśava?",
+    "plain": "If you think buddhi is superior to action, Janārdana, then why are you setting me to this terrible action, Keśava?"
   },
   {
     "chapter": 3,
@@ -153,7 +154,8 @@ export const VERSES: Verse[] = [
         "en": "may reach"
       }
     ],
-    "translation": "By a statement that is as if mixed, you as if bewilder my buddhi. Having decided, tell that one thing by which I may reach the better."
+    "translation": "By a statement that is as if mixed, you as if bewilder my buddhi. Having decided, tell that one thing by which I may reach the better.",
+    "plain": "Your words seem mixed, and they seem to bewilder my buddhi. Decide, and tell me the one thing by which I may reach what is better."
   },
   {
     "chapter": 3,
@@ -222,6 +224,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "In this world a firm standing of two kinds was formerly declared by me, O sinless one: that of the followers of sāṅkhya by the yoga of knowledge, that of the yogīs by the yoga of action.",
+    "plain": "I declared before now, sinless one, that there are two ways of standing firm in this world: for the followers of sāṅkhya, the yoga of knowledge, and for the yogīs, the yoga of action.",
     "notes": [
       "\"Formerly\" can mean long ago, at the beginning of things, or it can mean earlier in this same conversation."
     ]
@@ -291,7 +294,8 @@ export const VERSES: Verse[] = [
         "en": "he comes to"
       }
     ],
-    "translation": "A person does not reach actionlessness from not beginning actions, and he does not come to perfection from renouncing alone."
+    "translation": "A person does not reach actionlessness from not beginning actions, and he does not come to perfection from renouncing alone.",
+    "plain": "A person does not reach actionlessness by not starting on actions, and does not come to perfection by renouncing alone."
   },
   {
     "chapter": 3,
@@ -370,7 +374,8 @@ export const VERSES: Verse[] = [
         "term": "guna"
       }
     ],
-    "translation": "For no one ever stays even for a moment not doing action. For everyone, without choice, is made to do action by the guṇas born of nature."
+    "translation": "For no one ever stays even for a moment not doing action. For everyone, without choice, is made to do action by the guṇas born of nature.",
+    "plain": "For no one ever stays without acting, even for a moment. Everyone is made to act, with no choice in it, by the guṇas born of nature."
   },
   {
     "chapter": 3,
@@ -434,7 +439,8 @@ export const VERSES: Verse[] = [
         "en": "is called"
       }
     ],
-    "translation": "Whoever sits, having restrained the organs of action, remembering with the mind the objects of the senses, he, one whose self is deluded, is called one of false conduct."
+    "translation": "Whoever sits, having restrained the organs of action, remembering with the mind the objects of the senses, he, one whose self is deluded, is called one of false conduct.",
+    "plain": "Whoever sits with the organs of action held in check, while the mind keeps remembering the objects of the senses, has a deluded self, and that person's conduct is called false."
   },
   {
     "chapter": 3,
@@ -503,7 +509,8 @@ export const VERSES: Verse[] = [
         "en": "excels"
       }
     ],
-    "translation": "But whoever, having controlled the senses by the mind, O Arjuna, begins the yoga of action with the organs of action, unattached, he excels."
+    "translation": "But whoever, having controlled the senses by the mind, O Arjuna, begins the yoga of action with the organs of action, unattached, he excels.",
+    "plain": "But whoever controls the senses with the mind, Arjuna, and takes up the yoga of action with the organs of action, unattached, is the one who excels."
   },
   {
     "chapter": 3,
@@ -584,6 +591,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "You, do prescribed action, for action is superior to non-action. And even the maintenance of your body would not succeed from non-action.",
+    "plain": "So do the action prescribed for you, for action is superior to not acting. Without action you could not even keep your body going.",
     "notes": [
       "\"Prescribed action\" can also be read as \"do action constantly\", taking the word to describe how one acts and not which action."
     ]
@@ -650,7 +658,8 @@ export const VERSES: Verse[] = [
         "en": "perform"
       }
     ],
-    "translation": "Apart from action for the purpose of sacrifice, this world is bound by action. Perform action for that purpose, O son of Kuntī, freed from attachment."
+    "translation": "Apart from action for the purpose of sacrifice, this world is bound by action. Perform action for that purpose, O son of Kuntī, freed from attachment.",
+    "plain": "Apart from action done for the sake of sacrifice, this world is bound by action. Perform action for that purpose, son of Kuntī, free of attachment."
   },
   {
     "chapter": 3,
@@ -715,7 +724,8 @@ export const VERSES: Verse[] = [
         "term": "kama"
       }
     ],
-    "translation": "Having created creatures together with sacrifice, the lord of creatures formerly said: by this you shall bring forth. Let this be yours, yielding like milk the desires wished for."
+    "translation": "Having created creatures together with sacrifice, the lord of creatures formerly said: by this you shall bring forth. Let this be yours, yielding like milk the desires wished for.",
+    "plain": "Long ago the lord of creatures created creatures together with sacrifice, and said: by this you shall bring forth. Let this be yours, and let it yield, like milk, the desires you wish for."
   },
   {
     "chapter": 3,
@@ -779,7 +789,8 @@ export const VERSES: Verse[] = [
         "en": "you will attain"
       }
     ],
-    "translation": "Nourish the gods by this. Let those gods nourish you. Nourishing one another, you will attain the highest good."
+    "translation": "Nourish the gods by this. Let those gods nourish you. Nourishing one another, you will attain the highest good.",
+    "plain": "Nourish the gods by this, and let those gods nourish you. Nourishing one another, you will attain the highest good."
   },
   {
     "chapter": 3,
@@ -859,7 +870,8 @@ export const VERSES: Verse[] = [
         "en": "he"
       }
     ],
-    "translation": "For the gods, nourished by sacrifice, will give to you the enjoyments wished for. Whoever enjoys the things given by them without giving to these, he is only a thief."
+    "translation": "For the gods, nourished by sacrifice, will give to you the enjoyments wished for. Whoever enjoys the things given by them without giving to these, he is only a thief.",
+    "plain": "For the gods, nourished by sacrifice, will give you the enjoyments you wish for. Whoever enjoys what the gods have given without giving to the gods is nothing but a thief."
   },
   {
     "chapter": 3,
@@ -925,6 +937,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The good, eating what is left of the sacrifice, are freed from all faults. But the wicked who cook for the sake of the self, they eat sin.",
+    "plain": "The good, who eat what is left of the sacrifice, are freed from all faults. But the wicked, who cook only for themselves, eat sin.",
     "notes": [
       "\"For the sake of the self\" here most naturally means \"only for themselves\", with no deeper sense of the self intended."
     ]
@@ -984,7 +997,8 @@ export const VERSES: Verse[] = [
         "term": "karma"
       }
     ],
-    "translation": "From food beings come to be. From rain is the arising of food. From sacrifice rain comes to be. Sacrifice is arising from action."
+    "translation": "From food beings come to be. From rain is the arising of food. From sacrifice rain comes to be. Sacrifice is arising from action.",
+    "plain": "Beings come from food, and food arises from rain. Rain comes from sacrifice, and sacrifice arises from action."
   },
   {
     "chapter": 3,
@@ -1049,6 +1063,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Know action as arising from brahman, and brahman as arising from the imperishable. Therefore the all-pervading brahman is always established in sacrifice.",
+    "plain": "Know that action arises from brahman, and that brahman arises from the imperishable. Therefore the all-pervading brahman is always established in sacrifice.",
     "notes": [
       "\"Arising from brahman\" is often read with brahman meaning the Vedas, so that action arises from the Vedas and the Vedas from the imperishable. Others read brahman here as nature."
     ]
@@ -1120,7 +1135,8 @@ export const VERSES: Verse[] = [
         "en": "lives"
       }
     ],
-    "translation": "Whoever here does not keep turning the wheel thus set turning, whose life is sin, whose delight is the senses, he lives in vain, O son of Pṛthā."
+    "translation": "Whoever here does not keep turning the wheel thus set turning, whose life is sin, whose delight is the senses, he lives in vain, O son of Pṛthā.",
+    "plain": "The wheel has been set turning in this way. Whoever here does not keep it turning, whose life is sin and whose delight is the senses, lives in vain, son of Pṛthā."
   },
   {
     "chapter": 3,
@@ -1203,7 +1219,8 @@ export const VERSES: Verse[] = [
         "en": "exists"
       }
     ],
-    "translation": "But the human being who would be one whose delight is in the self alone, and satisfied by the self, and content in the self alone, for him something to be done does not exist."
+    "translation": "But the human being who would be one whose delight is in the self alone, and satisfied by the self, and content in the self alone, for him something to be done does not exist.",
+    "plain": "But for the human being whose delight is in the self alone, who is satisfied by the self and content in the self alone, there is nothing that has to be done."
   },
   {
     "chapter": 3,
@@ -1279,7 +1296,8 @@ export const VERSES: Verse[] = [
         "en": "dependence for a purpose"
       }
     ],
-    "translation": "For him there is indeed not any purpose here by what is done, nor by what is not done. And for him there is not any dependence for a purpose among all beings."
+    "translation": "For him there is indeed not any purpose here by what is done, nor by what is not done. And for him there is not any dependence for a purpose among all beings.",
+    "plain": "Such a person has no purpose at all here in what is done, nor in what is left undone, and does not depend on any being for any purpose."
   },
   {
     "chapter": 3,
@@ -1351,7 +1369,8 @@ export const VERSES: Verse[] = [
         "en": "a person"
       }
     ],
-    "translation": "Therefore, unattached, always perform the action to be done. For performing action unattached, a person reaches the highest."
+    "translation": "Therefore, unattached, always perform the action to be done. For performing action unattached, a person reaches the highest.",
+    "plain": "Therefore always perform the action that is to be done, unattached. For a person who acts unattached reaches the highest."
   },
   {
     "chapter": 3,
@@ -1417,6 +1436,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "For by action alone Janaka and the others attained perfection. Even looking only to the holding together of the world, you ought to act.",
+    "plain": "For it was by action alone that Janaka and the others attained perfection. Even if you look only to the holding together of the world, you ought to act.",
     "notes": [
       "\"The holding together of the world\" can also be read as \"the gathering of the people\", that is, keeping people on the right path and not the world in order."
     ]
@@ -1499,7 +1519,8 @@ export const VERSES: Verse[] = [
         "en": "follows"
       }
     ],
-    "translation": "Whatever the best one does, that very thing the other person does. What standard he makes, that the world follows."
+    "translation": "Whatever the best one does, that very thing the other person does. What standard he makes, that the world follows.",
+    "plain": "Whatever the best person does, others do the very same. The standard that person sets, the world follows."
   },
   {
     "chapter": 3,
@@ -1576,7 +1597,8 @@ export const VERSES: Verse[] = [
         "term": "karma"
       }
     ],
-    "translation": "For me, O son of Pṛthā, there is not anything to be done in the three worlds, nor anything unattained to be attained, and still I am engaged in action."
+    "translation": "For me, O son of Pṛthā, there is not anything to be done in the three worlds, nor anything unattained to be attained, and still I am engaged in action.",
+    "plain": "For me, son of Pṛthā, there is nothing at all to be done in the three worlds, and nothing unattained that I have yet to attain. And still I am engaged in action."
   },
   {
     "chapter": 3,
@@ -1650,6 +1672,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "For if I should not ever engage in action, unwearied, and men follow my path in every way, O son of Pṛthā,",
+    "plain": "For suppose I were ever to stop engaging tirelessly in action, son of Pṛthā, when people follow my path in every way.",
     "notes": [
       "Verses 23 to 24 are one sentence in the Sanskrit.",
       "\"Men follow my path in every way\" can also be read as \"men would follow my path in every way\", making this verse a complete sentence of its own."
@@ -1730,7 +1753,8 @@ export const VERSES: Verse[] = [
         "en": "creatures"
       }
     ],
-    "translation": "these worlds would sink down, if I should not do action, and I would be the maker of confusion, I would destroy these creatures."
+    "translation": "these worlds would sink down, if I should not do action, and I would be the maker of confusion, I would destroy these creatures.",
+    "plain": "These worlds would sink into ruin if I did not act. I would be the maker of confusion, and I would destroy these creatures."
   },
   {
     "chapter": 3,
@@ -1797,7 +1821,8 @@ export const VERSES: Verse[] = [
         "en": "the holding together of the world"
       }
     ],
-    "translation": "As the unknowing act, attached in action, O descendant of Bharata, so should the knowing one act, unattached, wishing to bring about the holding together of the world."
+    "translation": "As the unknowing act, attached in action, O descendant of Bharata, so should the knowing one act, unattached, wishing to bring about the holding together of the world.",
+    "plain": "As the unknowing act, attached to their action, descendant of Bharata, so should the knowing one act, unattached, wishing to bring about the holding together of the world."
   },
   {
     "chapter": 3,
@@ -1857,7 +1882,8 @@ export const VERSES: Verse[] = [
         "en": "performing"
       }
     ],
-    "translation": "One should not produce a splitting of the buddhi of the unknowing, of those attached to action. The knowing one, yoked, performing them, should cause them to delight in all actions."
+    "translation": "One should not produce a splitting of the buddhi of the unknowing, of those attached to action. The knowing one, yoked, performing them, should cause them to delight in all actions.",
+    "plain": "One should not split the buddhi of the unknowing, who are attached to action. The knowing one, disciplined, should perform all actions and so lead them to delight in all actions."
   },
   {
     "chapter": 3,
@@ -1916,7 +1942,8 @@ export const VERSES: Verse[] = [
         "en": "he thinks"
       }
     ],
-    "translation": "Actions are being done in every way by the guṇas of nature. One whose self is deluded by the sense of I thinks thus: I am the doer."
+    "translation": "Actions are being done in every way by the guṇas of nature. One whose self is deluded by the sense of I thinks thus: I am the doer.",
+    "plain": "Actions are being done, in every way, by the guṇas of nature. One whose self is deluded by the sense of I thinks: I am the doer."
   },
   {
     "chapter": 3,
@@ -1981,6 +2008,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "But the knower of the truth, O mighty-armed one, of the two divisions, of guṇa and of action, having thought thus, the guṇas move among the guṇas, is not attached.",
+    "plain": "But the one who knows the truth, mighty-armed one, about the two divisions, of guṇa and of action, thinks: the guṇas are moving among the guṇas. And so that one is not attached.",
     "notes": [
       "\"Of the two divisions, of guṇa and of action\" can also be read as \"of how the self is separate from the guṇas and from action\"."
     ]
@@ -2042,7 +2070,8 @@ export const VERSES: Verse[] = [
         "en": "should unsettle"
       }
     ],
-    "translation": "Those deluded by the guṇas of nature are attached in the actions of the guṇas. The knower of the whole should not unsettle those slow ones who do not know the whole."
+    "translation": "Those deluded by the guṇas of nature are attached in the actions of the guṇas. The knower of the whole should not unsettle those slow ones who do not know the whole.",
+    "plain": "Those deluded by the guṇas of nature are attached to the actions of the guṇas. The one who knows the whole should not unsettle those slow ones who do not know the whole."
   },
   {
     "chapter": 3,
@@ -2101,7 +2130,8 @@ export const VERSES: Verse[] = [
         "en": "with fever gone"
       }
     ],
-    "translation": "Having laid down all actions in me, with the mind on the self, having become without wishes and without the sense of mine, fight, with fever gone."
+    "translation": "Having laid down all actions in me, with the mind on the self, having become without wishes and without the sense of mine, fight, with fever gone.",
+    "plain": "Lay down all actions in me, with your mind on the self. Become free of wishes and free of the sense of mine, and fight, with your fever gone."
   },
   {
     "chapter": 3,
@@ -2170,7 +2200,8 @@ export const VERSES: Verse[] = [
         "term": "karma"
       }
     ],
-    "translation": "Those humans who always follow this teaching of mine, having faith, not finding fault, they too are freed from actions."
+    "translation": "Those humans who always follow this teaching of mine, having faith, not finding fault, they too are freed from actions.",
+    "plain": "Those humans who always follow this teaching of mine, with faith and without finding fault, are freed from actions too."
   },
   {
     "chapter": 3,
@@ -2238,7 +2269,8 @@ export const VERSES: Verse[] = [
         "en": "without understanding"
       }
     ],
-    "translation": "But those who, finding fault with this, do not follow my teaching, know them as deluded in all knowledge, lost, without understanding."
+    "translation": "But those who, finding fault with this, do not follow my teaching, know them as deluded in all knowledge, lost, without understanding.",
+    "plain": "But those who find fault with this and do not follow my teaching, know them to be deluded in all knowledge, lost and without understanding."
   },
   {
     "chapter": 3,
@@ -2302,7 +2334,8 @@ export const VERSES: Verse[] = [
         "en": "will do"
       }
     ],
-    "translation": "Even one who has knowledge acts in accordance with his own nature. Beings go to nature. What will restraint do?"
+    "translation": "Even one who has knowledge acts in accordance with his own nature. Beings go to nature. What will restraint do?",
+    "plain": "Even one who has knowledge acts in accordance with his own nature. Beings go the way of nature. What will restraint do?"
   },
   {
     "chapter": 3,
@@ -2372,7 +2405,8 @@ export const VERSES: Verse[] = [
         "en": "two waylayers"
       }
     ],
-    "translation": "Attraction and aversion are settled in the object of each sense. One should not come under the power of these two, for those two are his waylayers."
+    "translation": "Attraction and aversion are settled in the object of each sense. One should not come under the power of these two, for those two are his waylayers.",
+    "plain": "Attraction and aversion are settled in the object of each sense. One should not come under the power of these two, for they are the robbers on one's road."
   },
   {
     "chapter": 3,
@@ -2433,6 +2467,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Better is one's own dharma, without merit, than another's dharma well performed. Death in one's own dharma is better. Another's dharma brings fear.",
+    "plain": "One's own dharma, though without merit, is better than another's dharma well performed. Death in one's own dharma is better. Another's dharma brings fear.",
     "notes": [
       "\"Without merit\" can also be read as \"imperfectly carried out\"."
     ]
@@ -2503,7 +2538,8 @@ export const VERSES: Verse[] = [
         "en": "set to it"
       }
     ],
-    "translation": "Then impelled by what does this person do evil, even not wishing to, O descendant of Vṛṣṇi, as if set to it by force?"
+    "translation": "Then impelled by what does this person do evil, even not wishing to, O descendant of Vṛṣṇi, as if set to it by force?",
+    "plain": "Then what is it, descendant of Vṛṣṇi, that drives a person to do evil, even without wishing to, as if set to it by force?"
   },
   {
     "chapter": 3,
@@ -2565,7 +2601,8 @@ export const VERSES: Verse[] = [
         "en": "the enemy"
       }
     ],
-    "translation": "This is desire, this is anger, arising from the guṇa of rajas, greatly devouring, greatly evil. Know this as the enemy here."
+    "translation": "This is desire, this is anger, arising from the guṇa of rajas, greatly devouring, greatly evil. Know this as the enemy here.",
+    "plain": "It is desire, it is anger, arising from the guṇa of rajas, a great devourer and a great evil. Know this as the enemy here."
   },
   {
     "chapter": 3,
@@ -2641,7 +2678,8 @@ export const VERSES: Verse[] = [
         "en": "covered"
       }
     ],
-    "translation": "As fire is covered by smoke, and a mirror by dust, as an embryo is covered by the membrane, so this is covered by that."
+    "translation": "As fire is covered by smoke, and a mirror by dust, as an embryo is covered by the membrane, so this is covered by that.",
+    "plain": "As fire is covered by smoke, and a mirror by dust, as an embryo is covered by its membrane, so this is covered by that."
   },
   {
     "chapter": 3,
@@ -2699,6 +2737,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Knowledge is covered by this, the constant enemy of the knower, which has the form of desire, O son of Kuntī, and is a fire hard to fill.",
+    "plain": "Knowledge is covered by this, the constant enemy of the one who knows, son of Kuntī, which has the form of desire and is a fire that is hard to fill.",
     "notes": [
       "\"Which has the form of desire\" can also be read as \"which takes any form it wishes\"."
     ]
@@ -2769,7 +2808,8 @@ export const VERSES: Verse[] = [
         "term": "dehin"
       }
     ],
-    "translation": "The senses, the mind and the buddhi are said to be its seat. By these, having covered knowledge, this deludes the embodied one."
+    "translation": "The senses, the mind and the buddhi are said to be its seat. By these, having covered knowledge, this deludes the embodied one.",
+    "plain": "The senses, the mind and the buddhi are said to be its seat. Through these it covers knowledge and deludes the embodied one."
   },
   {
     "chapter": 3,
@@ -2831,6 +2871,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Therefore you, having restrained the senses at the start, O bull of the Bharatas, strike down indeed this evil one, the destroyer of knowledge and discernment.",
+    "plain": "Therefore, bull of the Bharatas, restrain the senses first, and then strike down this evil one, the destroyer of knowledge and discernment.",
     "notes": [
       "\"Strike down\" can also be read as \"give up\"."
     ]
@@ -2916,6 +2957,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "They say the senses are higher. Higher than the senses is the mind. But higher than the mind is the buddhi. But who is beyond the buddhi, that is he.",
+    "plain": "They say the senses are higher. Higher than the senses is the mind, but higher than the mind is the buddhi. And the one who is beyond the buddhi, that is he.",
     "notes": [
       "\"That is he\" is usually taken to mean the self. Some take it to mean desire, the enemy spoken of in the verses before."
     ]
@@ -2986,6 +3028,7 @@ export const VERSES: Verse[] = [
         "en": "hard to approach"
       }
     ],
-    "translation": "Thus having known what is higher than the buddhi, having steadied the self by the self, strike down the enemy, O mighty-armed one, who has the form of desire and is hard to approach."
+    "translation": "Thus having known what is higher than the buddhi, having steadied the self by the self, strike down the enemy, O mighty-armed one, who has the form of desire and is hard to approach.",
+    "plain": "So, knowing what is higher than the buddhi, and steadying the self by the self, strike down the enemy, mighty-armed one, who has the form of desire and is hard to approach."
   }
 ]

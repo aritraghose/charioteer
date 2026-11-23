@@ -69,7 +69,8 @@ export const VERSES: Verse[] = [
         "en": "out of desire for your good"
       }
     ],
-    "translation": "Once again indeed, O mighty-armed one, hear my supreme word, which I will speak to you, who are delighted, out of desire for your good."
+    "translation": "Once again indeed, O mighty-armed one, hear my supreme word, which I will speak to you, who are delighted, out of desire for your good.",
+    "plain": "Once again, mighty-armed one, hear my supreme word. You are delighted, and I will speak it to you out of a wish for your good."
   },
   {
     "chapter": 10,
@@ -141,7 +142,8 @@ export const VERSES: Verse[] = [
         "en": "in every way"
       }
     ],
-    "translation": "The hosts of gods do not know my origin, nor do the great seers. For I am the beginning of the gods and of the great seers in every way."
+    "translation": "The hosts of gods do not know my origin, nor do the great seers. For I am the beginning of the gods and of the great seers in every way.",
+    "plain": "Neither the hosts of gods nor the great seers know my origin. For in every way I am the beginning of the gods and of the great seers."
   },
   {
     "chapter": 10,
@@ -205,7 +207,8 @@ export const VERSES: Verse[] = [
         "en": "is freed"
       }
     ],
-    "translation": "Whoever knows me as unborn and without beginning, the great lord of the worlds, he, undeluded among mortals, is freed from all evils."
+    "translation": "Whoever knows me as unborn and without beginning, the great lord of the worlds, he, undeluded among mortals, is freed from all evils.",
+    "plain": "Whoever knows me as unborn and without beginning, the great lord of the worlds, is undeluded among mortals and is freed from all evils."
   },
   {
     "chapter": 10,
@@ -287,6 +290,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Buddhi, knowledge, freedom from delusion, forbearance, truth, self-restraint, calm, pleasure, pain, coming to be, ceasing to be, fear and indeed fearlessness,",
+    "plain": "There is buddhi, knowledge, freedom from delusion, forbearance, truth, self-restraint and calm. There is pleasure and pain, coming to be and ceasing to be, fear and fearlessness too.",
     "notes": [
       "Verses 4 to 5 are one sentence in the Sanskrit."
     ]
@@ -358,7 +362,8 @@ export const VERSES: Verse[] = [
         "en": "of different kinds"
       }
     ],
-    "translation": "non-harm, evenness, contentment, austerity, giving, fame and ill fame: the states of beings, of different kinds, arise from me alone."
+    "translation": "non-harm, evenness, contentment, austerity, giving, fame and ill fame: the states of beings, of different kinds, arise from me alone.",
+    "plain": "There is non-harm, evenness, contentment, austerity, giving, fame and ill fame. These states of beings, in their different kinds, arise from me alone."
   },
   {
     "chapter": 10,
@@ -428,6 +433,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The seven great seers, the four ancient ones, and likewise the Manus, having my nature, were born of the mind. Of them are these creatures in the world.",
+    "plain": "The seven great seers, the four ancient ones and likewise the Manus had my nature and were born of the mind. From them come these creatures in the world.",
     "notes": [
       "\"The four ancient ones, and likewise the Manus\" can also be read as \"and likewise the four Manus of old\", or with \"ancient\" describing the seven great seers.",
       "\"Having my nature\" can also be read as \"having their being from me\"."
@@ -510,7 +516,8 @@ export const VERSES: Verse[] = [
         "en": "doubt"
       }
     ],
-    "translation": "Whoever knows in truth this manifestation and yoga of mine, he is joined by unshaking yoga. There is no doubt in this."
+    "translation": "Whoever knows in truth this manifestation and yoga of mine, he is joined by unshaking yoga. There is no doubt in this.",
+    "plain": "Whoever truly knows this manifestation and yoga of mine is joined by unshaking yoga. Of this there is no doubt."
   },
   {
     "chapter": 10,
@@ -574,7 +581,8 @@ export const VERSES: Verse[] = [
         "en": "endowed with feeling"
       }
     ],
-    "translation": "I am the origin of all. From me all proceeds. Having thought thus, the wise, endowed with feeling, worship me."
+    "translation": "I am the origin of all. From me all proceeds. Having thought thus, the wise, endowed with feeling, worship me.",
+    "plain": "I am the origin of all, and from me all proceeds. Thinking this, the wise worship me, filled with feeling."
   },
   {
     "chapter": 10,
@@ -638,7 +646,8 @@ export const VERSES: Verse[] = [
         "en": "and"
       }
     ],
-    "translation": "With thought on me, with life-breath gone to me, awakening one another and always telling of me, they are content and they delight."
+    "translation": "With thought on me, with life-breath gone to me, awakening one another and always telling of me, they are content and they delight.",
+    "plain": "With their thoughts on me and their life-breath gone to me, they awaken one another and are always telling of me, and they are content and they delight."
   },
   {
     "chapter": 10,
@@ -701,6 +710,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "To them, constantly joined, worshipping with love, I give that buddhi-yoga by which they come to me.",
+    "plain": "To them, constantly joined and worshipping with love, I give that buddhi-yoga by which they come to me.",
     "notes": [
       "\"Worshipping with love, I give\" can also be read as \"worshipping, I give with love\"."
     ]
@@ -761,6 +771,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Out of compassion for them alone, I, abiding in the state of the self, destroy the darkness born of ignorance with the shining lamp of knowledge.",
+    "plain": "Out of compassion for them alone, I, abiding in the state of the self, destroy the darkness born of ignorance with the shining lamp of knowledge.",
     "notes": [
       "\"Abiding in the state of the self\" can also be read as \"dwelling within their own being\"."
     ]
@@ -833,6 +844,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "You are the supreme brahman, the supreme abode, the supreme purifier. The eternal divine person, the first god, unborn and all-pervading,",
+    "plain": "You are the supreme brahman, the supreme abode, the supreme purifier. You are the eternal divine person, the first god, unborn and all-pervading.",
     "notes": [
       "Verses 12 to 13 are one sentence in the Sanskrit.",
       "\"The supreme abode\" can also be read as \"the supreme light\"."
@@ -913,6 +925,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "all the seers call you that, and likewise the divine seer Nārada, Asita, Devala and Vyāsa, and indeed you yourself tell me.",
+    "plain": "That is what all the seers call you, and likewise the divine seer Nārada, Asita, Devala and Vyāsa. And indeed you yourself tell me so.",
     "notes": [
       "\"Asita, Devala\" can also be read as one seer, \"Asita Devala\"."
     ]
@@ -999,7 +1012,8 @@ export const VERSES: Verse[] = [
         "en": "the Dānavas"
       }
     ],
-    "translation": "All this which you say to me I think true, O Keśava. For neither the gods nor the Dānavas know your manifestation, O blessed lord."
+    "translation": "All this which you say to me I think true, O Keśava. For neither the gods nor the Dānavas know your manifestation, O blessed lord.",
+    "plain": "I think all this that you say to me is true, Keśava. For neither the gods nor the Dānavas know your manifestation, blessed lord."
   },
   {
     "chapter": 10,
@@ -1061,7 +1075,8 @@ export const VERSES: Verse[] = [
         "en": "O master of the world"
       }
     ],
-    "translation": "You yourself alone know the self by the self, O highest of persons, O bringer forth of beings, O lord of beings, O god of gods, O master of the world."
+    "translation": "You yourself alone know the self by the self, O highest of persons, O bringer forth of beings, O lord of beings, O god of gods, O master of the world.",
+    "plain": "You alone know yourself, through your own self, highest of persons, bringer forth of beings, lord of beings, god of gods, master of the world."
   },
   {
     "chapter": 10,
@@ -1130,7 +1145,8 @@ export const VERSES: Verse[] = [
         "en": "you stand"
       }
     ],
-    "translation": "You ought to tell without remainder, for divine are the manifestations of the self, the manifestations by which you stand pervading these worlds."
+    "translation": "You ought to tell without remainder, for divine are the manifestations of the self, the manifestations by which you stand pervading these worlds.",
+    "plain": "You ought to tell me of them, leaving nothing out, for your own manifestations are divine: the manifestations by which you stand pervading these worlds."
   },
   {
     "chapter": 10,
@@ -1207,7 +1223,8 @@ export const VERSES: Verse[] = [
         "en": "by me"
       }
     ],
-    "translation": "How may I know you, O yogī, always thinking of you? And in which, in which states are you to be thought of by me, O blessed lord?"
+    "translation": "How may I know you, O yogī, always thinking of you? And in which, in which states are you to be thought of by me, O blessed lord?",
+    "plain": "How may I know you, yogī, as I think of you always? And in which of the many states am I to think of you, blessed lord?"
   },
   {
     "chapter": 10,
@@ -1285,7 +1302,8 @@ export const VERSES: Verse[] = [
         "en": "the nectar"
       }
     ],
-    "translation": "Tell again at length of the yoga and manifestation of the self, O Janārdana. For there is no fullness for me, hearing the nectar."
+    "translation": "Tell again at length of the yoga and manifestation of the self, O Janārdana. For there is no fullness for me, hearing the nectar.",
+    "plain": "Tell me again, at length, of your own yoga and manifestation, Janārdana. For I never have my fill of hearing this nectar."
   },
   {
     "chapter": 10,
@@ -1354,7 +1372,8 @@ export const VERSES: Verse[] = [
         "en": "my"
       }
     ],
-    "translation": "Come, I will tell you, for divine are the manifestations of the self, by what is chief, O best of the Kurus. There is no end of my extent."
+    "translation": "Come, I will tell you, for divine are the manifestations of the self, by what is chief, O best of the Kurus. There is no end of my extent.",
+    "plain": "Come, I will tell you the chief of them, best of the Kurus, for my own manifestations are divine. There is no end to my extent."
   },
   {
     "chapter": 10,
@@ -1423,7 +1442,8 @@ export const VERSES: Verse[] = [
         "en": "and"
       }
     ],
-    "translation": "I am the self, O Guḍākeśa, seated in the heart of all beings. I am the beginning and the middle and indeed the end of beings."
+    "translation": "I am the self, O Guḍākeśa, seated in the heart of all beings. I am the beginning and the middle and indeed the end of beings.",
+    "plain": "I am the self, Guḍākeśa, seated in the heart of all beings. I am the beginning, the middle and indeed the end of beings."
   },
   {
     "chapter": 10,
@@ -1488,6 +1508,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Of the Ādityas I am Viṣṇu. Of lights I am the radiant sun. I am Marīci of the Maruts. Of the lunar mansions I am the moon.",
+    "plain": "Of the Ādityas I am Viṣṇu. Of lights I am the radiant sun. Of the Maruts I am Marīci. Of the lunar mansions I am the moon.",
     "notes": [
       "\"Of the lunar mansions\" can also be read as \"of the stars\"."
     ]
@@ -1560,7 +1581,8 @@ export const VERSES: Verse[] = [
         "en": "consciousness"
       }
     ],
-    "translation": "Of the Vedas I am the Sāma Veda. Of the gods I am Vāsava. And of the senses I am the mind. Of beings I am consciousness."
+    "translation": "Of the Vedas I am the Sāma Veda. Of the gods I am Vāsava. And of the senses I am the mind. Of beings I am consciousness.",
+    "plain": "Of the Vedas I am the Sāma Veda. Of the gods I am Vāsava. And of the senses I am the mind. Of beings I am consciousness."
   },
   {
     "chapter": 10,
@@ -1628,7 +1650,8 @@ export const VERSES: Verse[] = [
         "en": "I"
       }
     ],
-    "translation": "And of the Rudras I am Śaṅkara, the lord of wealth of the yakṣas and rākṣasas. And of the Vasus I am fire. Of peaked mountains I am Meru."
+    "translation": "And of the Rudras I am Śaṅkara, the lord of wealth of the yakṣas and rākṣasas. And of the Vasus I am fire. Of peaked mountains I am Meru.",
+    "plain": "And of the Rudras I am Śaṅkara. Of the yakṣas and rākṣasas I am the lord of wealth. And of the Vasus I am fire. Of peaked mountains I am Meru."
   },
   {
     "chapter": 10,
@@ -1696,7 +1719,8 @@ export const VERSES: Verse[] = [
         "en": "the ocean"
       }
     ],
-    "translation": "And know me, O son of Pṛthā, as Bṛhaspati, the chief of household priests. Of army commanders I am Skanda. Of bodies of water I am the ocean."
+    "translation": "And know me, O son of Pṛthā, as Bṛhaspati, the chief of household priests. Of army commanders I am Skanda. Of bodies of water I am the ocean.",
+    "plain": "And know me, son of Pṛthā, as Bṛhaspati, the chief of household priests. Of army commanders I am Skanda. Of bodies of water I am the ocean."
   },
   {
     "chapter": 10,
@@ -1761,6 +1785,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Of the great seers I am Bhṛgu. Of utterances I am the one syllable. Of sacrifices I am the sacrifice of murmured recitation, of immovable things the Himālaya,",
+    "plain": "Of the great seers I am Bhṛgu. Of utterances I am the one syllable. Of sacrifices I am the sacrifice of murmured recitation. Of immovable things I am the Himālaya.",
     "notes": [
       "Verses 25 to 26 are one sentence in the Sanskrit.",
       "\"The one syllable\" can also be read as \"the one imperishable\". The same word means both, and it is traditionally taken to point to the syllable Om."
@@ -1820,7 +1845,8 @@ export const VERSES: Verse[] = [
         "en": "the sage"
       }
     ],
-    "translation": "of all trees the sacred fig tree, and of the divine seers Nārada, of the gandharvas Citraratha, of the perfected ones the sage Kapila."
+    "translation": "of all trees the sacred fig tree, and of the divine seers Nārada, of the gandharvas Citraratha, of the perfected ones the sage Kapila.",
+    "plain": "Of all trees I am the sacred fig tree, and of the divine seers I am Nārada. Of the gandharvas I am Citraratha. Of the perfected ones I am the sage Kapila."
   },
   {
     "chapter": 10,
@@ -1876,7 +1902,8 @@ export const VERSES: Verse[] = [
         "en": "the ruler of men"
       }
     ],
-    "translation": "Of horses know me as Uccaiḥśravas, born of the nectar of immortality, of lordly elephants as Airāvata, and of men as the ruler of men."
+    "translation": "Of horses know me as Uccaiḥśravas, born of the nectar of immortality, of lordly elephants as Airāvata, and of men as the ruler of men.",
+    "plain": "Of horses know me as Uccaiḥśravas, born of the nectar of immortality. Of lordly elephants know me as Airāvata, and of men as the ruler of men."
   },
   {
     "chapter": 10,
@@ -1944,7 +1971,8 @@ export const VERSES: Verse[] = [
         "en": "Vāsuki (king of serpents)"
       }
     ],
-    "translation": "Of weapons I am the thunderbolt. Of cows I am the cow that yields what is desired. And I am Kandarpa, the begetter. Of serpents I am Vāsuki."
+    "translation": "Of weapons I am the thunderbolt. Of cows I am the cow that yields what is desired. And I am Kandarpa, the begetter. Of serpents I am Vāsuki.",
+    "plain": "Of weapons I am the thunderbolt. Of cows I am the cow that yields whatever is desired. And I am Kandarpa, the begetter. Of serpents I am Vāsuki."
   },
   {
     "chapter": 10,
@@ -2016,7 +2044,8 @@ export const VERSES: Verse[] = [
         "en": "I"
       }
     ],
-    "translation": "And of the nāgas I am Ananta. Of water creatures I am Varuṇa. And of the ancestors I am Aryaman. Of those who restrain I am Yama."
+    "translation": "And of the nāgas I am Ananta. Of water creatures I am Varuṇa. And of the ancestors I am Aryaman. Of those who restrain I am Yama.",
+    "plain": "And of the nāgas I am Ananta. Of water creatures I am Varuṇa. And of the ancestors I am Aryaman. Of those who restrain I am Yama."
   },
   {
     "chapter": 10,
@@ -2089,6 +2118,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "And of the daityas I am Prahlāda. Of those who reckon I am time. And of wild animals I am the lord of animals, and of birds the son of Vinatā.",
+    "plain": "And of the daityas I am Prahlāda. Of those who reckon I am time. And of wild animals I am the lord of animals, and of birds I am the son of Vinatā.",
     "notes": [
       "\"Of those who reckon\" can also be read as \"of those who drive things on\"."
     ]
@@ -2160,6 +2190,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Of purifiers I am the wind. Of those who bear weapons I am Rāma. And of fish I am the makara. Of streams I am the daughter of Jahnu.",
+    "plain": "Of purifiers I am the wind. Of those who bear weapons I am Rāma. And of fish I am the makara. Of streams I am the daughter of Jahnu.",
     "notes": [
       "\"Of purifiers\" can also be read as \"of things that move swiftly\".",
       "\"Rāma\" is usually taken to be Rāma the son of Daśaratha, but it can also be read as Rāma with the axe (Paraśurāma).",
@@ -2238,6 +2269,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Of creations I am the beginning and the end, and indeed the middle, O Arjuna. Of kinds of knowledge I am the knowledge of the self. Of those who debate I am the argument.",
+    "plain": "Of creations I am the beginning and the end, and the middle too, Arjuna. Of kinds of knowledge I am the knowledge of the self. Of those who debate I am the argument.",
     "notes": [
       "\"The argument\" can also be read more narrowly as \"honest debate that seeks the truth\", as against debate carried on only to win."
     ]
@@ -2309,6 +2341,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Of letters I am the letter a, and of the class of compounds the pair compound. I alone am undecaying time. I am the ordainer, facing in every direction.",
+    "plain": "Of letters I am the letter a, and of the compounds I am the pair compound. I alone am undecaying time. I am the ordainer, who faces in every direction.",
     "notes": [
       "\"The ordainer\" can also be read as \"the supporter\"."
     ]
@@ -2392,6 +2425,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "And I am death that carries off all, and the origin of things that are to be. Of feminine things I am fame, fortune and speech, memory, intelligence, steadfastness, forbearance.",
+    "plain": "And I am death, which carries off all, and I am the origin of things that are yet to be. Of feminine things I am fame, fortune and speech, memory, intelligence, steadfastness and forbearance.",
     "notes": [
       "\"Of feminine things\" can also be read as \"among women\". The seven qualities named are all feminine words in Sanskrit, and are also thought of as goddesses."
     ]
@@ -2454,7 +2488,8 @@ export const VERSES: Verse[] = [
         "en": "the mine of flowers (spring)"
       }
     ],
-    "translation": "Likewise, of chants I am the Bṛhat chant. Of metres I am the Gāyatrī. Of months I am Mārgaśīrṣa. Of seasons I am the mine of flowers."
+    "translation": "Likewise, of chants I am the Bṛhat chant. Of metres I am the Gāyatrī. Of months I am Mārgaśīrṣa. Of seasons I am the mine of flowers.",
+    "plain": "Likewise, of chants I am the Bṛhat chant. Of metres I am the Gāyatrī. Of months I am Mārgaśīrṣa. Of seasons I am the one that is a mine of flowers."
   },
   {
     "chapter": 10,
@@ -2525,6 +2560,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Of those who cheat I am gambling. I am the splendour of the splendid. I am victory. I am resolve. I am the sattva of those who have sattva.",
+    "plain": "Of those who cheat I am gambling. I am the splendour of the splendid. I am victory. I am resolve. I am the sattva of those who have sattva.",
     "notes": [
       "\"The sattva of those who have sattva\" can also be read as \"the courage of the courageous\" or \"the goodness of the good\"."
     ]
@@ -2592,6 +2628,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Of the Vṛṣṇis I am the son of Vasudeva, of the sons of Pāṇḍu the winner of wealth. Of sages also I am Vyāsa, of poets the poet Uśanas.",
+    "plain": "Of the Vṛṣṇis I am the son of Vasudeva. Of the sons of Pāṇḍu I am the winner of wealth. Of sages, too, I am Vyāsa, and of poets I am the poet Uśanas.",
     "notes": [
       "\"Of poets the poet Uśanas\" can also be read as \"of seers the seer Uśanas\". The same word means both a poet and a wise seer."
     ]
@@ -2667,6 +2704,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "I am the rod of those who subdue. I am the right conduct of those who wish to conquer. And indeed I am the silence of secret things. I am the knowledge of those who have knowledge.",
+    "plain": "I am the rod of those who subdue. I am the right conduct of those who wish to conquer. And I am the silence of secret things. I am the knowledge of those who have knowledge.",
     "notes": [
       "\"The right conduct\" can also be read as \"the statecraft\"."
     ]
@@ -2753,7 +2791,8 @@ export const VERSES: Verse[] = [
         "en": "moving or unmoving"
       }
     ],
-    "translation": "And also that which is the seed of all beings, that I am, O Arjuna. There is not that being, moving or unmoving, which could be without me."
+    "translation": "And also that which is the seed of all beings, that I am, O Arjuna. There is not that being, moving or unmoving, which could be without me.",
+    "plain": "And whatever is the seed of all beings, that too I am, Arjuna. There is no being, moving or unmoving, that could exist without me."
   },
   {
     "chapter": 10,
@@ -2825,7 +2864,8 @@ export const VERSES: Verse[] = [
         "en": "by me"
       }
     ],
-    "translation": "There is not an end of my divine manifestations of power, O scorcher of foes. But this extent of manifested power has been told by me by way of example."
+    "translation": "There is not an end of my divine manifestations of power, O scorcher of foes. But this extent of manifested power has been told by me by way of example.",
+    "plain": "There is no end to my divine manifestations of power, scorcher of foes. But what I have told you of the extent of that manifested power is given by way of example."
   },
   {
     "chapter": 10,
@@ -2902,6 +2942,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Whatever being is possessing power, possessing fortune, or indeed mighty, understand that every such one is indeed arisen from a portion of my splendour.",
+    "plain": "Whatever being has power, has fortune or is indeed mighty, understand that every such one has arisen from a portion of my splendour.",
     "notes": [
       "\"Possessing fortune\" can also be read as \"possessing beauty\"."
     ]
@@ -2977,6 +3018,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Or rather, what use to you, O Arjuna, is this much, known? Having propped up this whole world with a single portion, I stand.",
+    "plain": "Or rather, Arjuna, what use is it to you to know all this? I stand, holding up this whole world with a single portion.",
     "notes": [
       "\"Having propped up\" can also be read as \"having pervaded\"."
     ]

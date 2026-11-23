@@ -80,7 +80,8 @@ export const VERSES: Verse[] = [
         "term": "guna"
       }
     ],
-    "translation": "Those who, having set aside the rule of scripture, sacrifice endowed with faith: what indeed is their standing, O Kṛṣṇa? Is it sattva, or rajas, or tamas?"
+    "translation": "Those who, having set aside the rule of scripture, sacrifice endowed with faith: what indeed is their standing, O Kṛṣṇa? Is it sattva, or rajas, or tamas?",
+    "plain": "Some people set aside the rule of scripture and yet sacrifice full of faith. Where do they stand, Kṛṣṇa? Is it in sattva, in rajas or in tamas?"
   },
   {
     "chapter": 17,
@@ -160,7 +161,8 @@ export const VERSES: Verse[] = [
         "en": "hear"
       }
     ],
-    "translation": "The faith of the embodied ones is of three kinds. It is born of their own nature: of sattva, and indeed of rajas, and of tamas. Hear of it thus."
+    "translation": "The faith of the embodied ones is of three kinds. It is born of their own nature: of sattva, and indeed of rajas, and of tamas. Hear of it thus.",
+    "plain": "The faith of embodied beings is of three kinds, and it is born of their own nature: it is of sattva, of rajas or of tamas. Hear about it now."
   },
   {
     "chapter": 17,
@@ -230,6 +232,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The faith of everyone is in keeping with his nature, O descendant of Bharata. This person is made of faith. Whatever faith one has, that indeed he is.",
+    "plain": "Everyone's faith is in keeping with their nature, descendant of Bharata. A person is made of faith. Whatever one's faith is, that is what one is.",
     "notes": [
       "\"In keeping with his nature\" can also be read as \"in keeping with his mind\", or as \"in keeping with the sattva in him\"."
     ]
@@ -299,7 +302,8 @@ export const VERSES: Verse[] = [
         "en": "people"
       }
     ],
-    "translation": "Those of sattva worship the gods, those of rajas the yakṣas and rākṣasas. The others, the people of tamas, worship the departed and the hosts of spirits."
+    "translation": "Those of sattva worship the gods, those of rajas the yakṣas and rākṣasas. The others, the people of tamas, worship the departed and the hosts of spirits.",
+    "plain": "Those of sattva worship the gods, and those of rajas worship the yakṣas and rākṣasas. The others, the people of tamas, worship the departed and the hosts of spirits."
   },
   {
     "chapter": 17,
@@ -349,6 +353,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The people who practise fierce austerity not ordained by scripture, joined to hypocrisy and ego, endowed with the force of desire and passion,",
+    "plain": "There are people who practise fierce austerities that scripture does not ordain. They are bound up in hypocrisy and ego, and driven by the force of desire and passion.",
     "notes": [
       "Verses 5 to 6 are one sentence in the Sanskrit.",
       "\"Endowed with the force of desire and passion\" can also be read as \"endowed with desire, passion and force\"."
@@ -412,7 +417,8 @@ export const VERSES: Verse[] = [
         "en": "of demonic resolve"
       }
     ],
-    "translation": "senseless, tormenting the group of elements standing in the body, and also me standing within the body: know them to be of demonic resolve."
+    "translation": "senseless, tormenting the group of elements standing in the body, and also me standing within the body: know them to be of demonic resolve.",
+    "plain": "Senseless, they torment the group of elements that dwells in the body, and they torment me as well, dwelling within the body. Know them to be demonic in their resolve."
   },
   {
     "chapter": 17,
@@ -488,7 +494,8 @@ export const VERSES: Verse[] = [
         "en": "hear"
       }
     ],
-    "translation": "But the food also that is dear to everyone is of three kinds, and likewise sacrifice, austerity and giving. Hear this distinction of them."
+    "translation": "But the food also that is dear to everyone is of three kinds, and likewise sacrifice, austerity and giving. Hear this distinction of them.",
+    "plain": "The food that each person loves is also of three kinds, and so are sacrifice, austerity and giving. Hear how they differ."
   },
   {
     "chapter": 17,
@@ -534,6 +541,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Foods that increase life, vitality, strength, health, happiness and delight, that are juicy, oily, firm and pleasing to the heart, are dear to one of sattva.",
+    "plain": "Foods that increase life, vitality, strength, health, happiness and delight, that are juicy, oily, firm and pleasing to the heart, are dear to a person of sattva.",
     "notes": [
       "\"Firm\" can also be read as \"lasting\", that is, food that sustains for a long time."
     ]
@@ -573,7 +581,8 @@ export const VERSES: Verse[] = [
         "en": "giving pain, grief and sickness"
       }
     ],
-    "translation": "Foods that are pungent, sour, salty, very hot, sharp, dry and burning are wished for by one of rajas. They give pain, grief and sickness."
+    "translation": "Foods that are pungent, sour, salty, very hot, sharp, dry and burning are wished for by one of rajas. They give pain, grief and sickness.",
+    "plain": "Foods that are pungent, sour, salty, very hot, sharp, dry and burning are what a person of rajas wants. They bring pain, grief and sickness."
   },
   {
     "chapter": 17,
@@ -638,7 +647,8 @@ export const VERSES: Verse[] = [
         "term": "guna"
       }
     ],
-    "translation": "Food which is stale, with its taste gone, putrid and left overnight, and also left over by others and unfit for offering, is dear to one of tamas."
+    "translation": "Food which is stale, with its taste gone, putrid and left overnight, and also left over by others and unfit for offering, is dear to one of tamas.",
+    "plain": "Food that is stale, that has lost its taste, that is putrid and has been left overnight, that is also other people's leavings and unfit to be offered, is dear to a person of tamas."
   },
   {
     "chapter": 17,
@@ -705,7 +715,8 @@ export const VERSES: Verse[] = [
         "term": "guna"
       }
     ],
-    "translation": "The sacrifice seen in the rule, which is offered by those not longing for fruit, having settled the mind thus: 'it is simply to be offered', that is of sattva."
+    "translation": "The sacrifice seen in the rule, which is offered by those not longing for fruit, having settled the mind thus: 'it is simply to be offered', that is of sattva.",
+    "plain": "A sacrifice is of sattva when it is the one the rule lays down, and is offered by those who do not long for its fruit, with the mind settled on the thought that it simply ought to be offered."
   },
   {
     "chapter": 17,
@@ -778,7 +789,8 @@ export const VERSES: Verse[] = [
         "term": "guna"
       }
     ],
-    "translation": "But that which is offered having aimed at fruit, and indeed also for the sake of show, O best of the Bharatas, know that sacrifice to be of rajas."
+    "translation": "But that which is offered having aimed at fruit, and indeed also for the sake of show, O best of the Bharatas, know that sacrifice to be of rajas.",
+    "plain": "But when a sacrifice is offered with its fruit in view, and for the sake of show as well, best of the Bharatas, know that sacrifice to be of rajas."
   },
   {
     "chapter": 17,
@@ -827,7 +839,8 @@ export const VERSES: Verse[] = [
         "en": "they declare"
       }
     ],
-    "translation": "A sacrifice lacking the rule, with no food given out, lacking the sacred words, without the gift to the priest, devoid of faith, they declare to be of tamas."
+    "translation": "A sacrifice lacking the rule, with no food given out, lacking the sacred words, without the gift to the priest, devoid of faith, they declare to be of tamas.",
+    "plain": "A sacrifice that ignores the rule, where no food is given out, no sacred words are spoken and no gift is made to the priest, and that is empty of faith, is declared to be of tamas."
   },
   {
     "chapter": 17,
@@ -880,7 +893,8 @@ export const VERSES: Verse[] = [
         "en": "is called"
       }
     ],
-    "translation": "Honouring of the gods, the twice-born, the teachers and the wise, purity, straightness, celibacy and non-harming are called austerity of the body."
+    "translation": "Honouring of the gods, the twice-born, the teachers and the wise, purity, straightness, celibacy and non-harming are called austerity of the body.",
+    "plain": "Honouring the gods, the twice-born, the teachers and the wise, together with purity, uprightness, celibacy and doing no harm: this is called austerity of the body."
   },
   {
     "chapter": 17,
@@ -945,7 +959,8 @@ export const VERSES: Verse[] = [
         "en": "is called"
       }
     ],
-    "translation": "Speech which causes no agitation, which is true, pleasant and beneficial, and also the practice of one's own recitation, are called austerity made of speech."
+    "translation": "Speech which causes no agitation, which is true, pleasant and beneficial, and also the practice of one's own recitation, are called austerity made of speech.",
+    "plain": "Speech that upsets no one, that is true, pleasant and helpful, and also the regular practice of one's own recitation: this is called austerity of speech."
   },
   {
     "chapter": 17,
@@ -1004,7 +1019,8 @@ export const VERSES: Verse[] = [
         "en": "is called"
       }
     ],
-    "translation": "Calmness of mind, gentleness, silence, restraint of the self, purity of feeling: this is called austerity of the mind."
+    "translation": "Calmness of mind, gentleness, silence, restraint of the self, purity of feeling: this is called austerity of the mind.",
+    "plain": "Calmness of mind, gentleness, silence, restraint of the self and purity of feeling: this is called austerity of the mind."
   },
   {
     "chapter": 17,
@@ -1066,7 +1082,8 @@ export const VERSES: Verse[] = [
         "en": "they declare"
       }
     ],
-    "translation": "That threefold austerity, practised with supreme faith by men who are yoked and not longing for fruit, they declare to be of sattva."
+    "translation": "That threefold austerity, practised with supreme faith by men who are yoked and not longing for fruit, they declare to be of sattva.",
+    "plain": "When this threefold austerity is practised with the highest faith, by disciplined people who do not long for its fruit, it is declared to be of sattva."
   },
   {
     "chapter": 17,
@@ -1135,7 +1152,8 @@ export const VERSES: Verse[] = [
         "en": "unlasting"
       }
     ],
-    "translation": "The austerity which is done for the sake of good treatment, respect and honour, and indeed with hypocrisy, that is here said to be of rajas, moving and unlasting."
+    "translation": "The austerity which is done for the sake of good treatment, respect and honour, and indeed with hypocrisy, that is here said to be of rajas, moving and unlasting.",
+    "plain": "Austerity that is done to win good treatment, respect and honour, and done with hypocrisy too, is said here to be of rajas. It is unsteady and does not last."
   },
   {
     "chapter": 17,
@@ -1202,6 +1220,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The austerity which is done with a deluded grasp, with torment of the self, or for the sake of destroying another, that is declared to be of tamas.",
+    "plain": "Austerity that is done out of a deluded notion, with torment of the self, or in order to destroy someone else, is declared to be of tamas.",
     "notes": [
       "\"With torment of the self\" can also be read as \"with torment of oneself\", that is, of one's own body."
     ]
@@ -1282,6 +1301,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The gift which is given thus: 'it is to be given', to one who does no favour in return, in the proper place and at the proper time and to a worthy receiver, that gift is remembered as of sattva.",
+    "plain": "A gift is remembered as being of sattva when it is given simply because it ought to be given, to someone who does no favour in return, in the right place, at the right time and to a worthy receiver.",
     "notes": [
       "\"To one who does no favour in return\" can also be read as \"to one who has done no favour before\"."
     ]
@@ -1357,7 +1377,8 @@ export const VERSES: Verse[] = [
         "en": "is remembered"
       }
     ],
-    "translation": "But that which is given for the sake of a favour in return, or again having aimed at fruit, and is given grudgingly, that gift is remembered as of rajas."
+    "translation": "But that which is given for the sake of a favour in return, or again having aimed at fruit, and is given grudgingly, that gift is remembered as of rajas.",
+    "plain": "But a gift that is given to get a favour in return, or else with some fruit in view, and that is given grudgingly, is remembered as being of rajas."
   },
   {
     "chapter": 17,
@@ -1418,7 +1439,8 @@ export const VERSES: Verse[] = [
         "en": "is declared"
       }
     ],
-    "translation": "The gift which is given at the wrong place and time and to unworthy receivers, without good treatment, with contempt, that is declared to be of tamas."
+    "translation": "The gift which is given at the wrong place and time and to unworthy receivers, without good treatment, with contempt, that is declared to be of tamas.",
+    "plain": "A gift that is given in the wrong place and at the wrong time, to unworthy receivers, without courtesy and with contempt, is declared to be of tamas."
   },
   {
     "chapter": 17,
@@ -1500,6 +1522,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "'Oṁ, tat, sat': thus the threefold designation of brahman is remembered. By it the brahmins and the Vedas and the sacrifices were ordained of old.",
+    "plain": "Oṁ, tat, sat: this is remembered as the threefold designation of brahman. By it the brahmins, the Vedas and the sacrifices were ordained long ago.",
     "notes": [
       "\"The brahmins\" can also be read as \"the Brāhmaṇas\", the ritual texts attached to the Vedas."
     ]
@@ -1556,6 +1579,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Therefore the acts of sacrifice, giving and austerity stated in the rules, of those who speak of brahman, always begin having uttered 'oṁ'.",
+    "plain": "So those who speak of brahman always utter oṁ before they begin the acts of sacrifice, giving and austerity that the rules lay down.",
     "notes": [
       "\"Those who speak of brahman\" can also be read as \"those who recite the Veda\"."
     ]
@@ -1614,7 +1638,8 @@ export const VERSES: Verse[] = [
         "en": "by those longing for release"
       }
     ],
-    "translation": "With 'tat', not having aimed at fruit, acts of sacrifice and austerity and the various acts of giving are done by those longing for release."
+    "translation": "With 'tat', not having aimed at fruit, acts of sacrifice and austerity and the various acts of giving are done by those longing for release.",
+    "plain": "With the word tat, and with no fruit in view, those who long for release perform acts of sacrifice and austerity and the various acts of giving."
   },
   {
     "chapter": 17,
@@ -1683,7 +1708,8 @@ export const VERSES: Verse[] = [
         "en": "is applied"
       }
     ],
-    "translation": "In the sense of being real and in the sense of being good, this 'sat' is used. Likewise, O son of Pṛthā, the word 'sat' is applied to a praiseworthy action."
+    "translation": "In the sense of being real and in the sense of being good, this 'sat' is used. Likewise, O son of Pṛthā, the word 'sat' is applied to a praiseworthy action.",
+    "plain": "The word sat is used to mean what is real and to mean what is good. In the same way, son of Pṛthā, the word sat is applied to an action worthy of praise."
   },
   {
     "chapter": 17,
@@ -1769,6 +1795,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Steadiness in sacrifice, in austerity and in giving is also called 'sat', and indeed action for the sake of that is simply named 'sat'.",
+    "plain": "Steadiness in sacrifice, in austerity and in giving is also called sat. And action done for the sake of that is simply named sat as well.",
     "notes": [
       "\"For the sake of that\" can point to sacrifice, austerity and giving, or to \"tat\", the name of brahman given in verse 23."
     ]
@@ -1859,6 +1886,7 @@ export const VERSES: Verse[] = [
         "en": "here"
       }
     ],
-    "translation": "Whatever is offered in the fire, given, practised as austerity and done without faith is called 'asat', O son of Pṛthā, and that is nothing after departing, nor here."
+    "translation": "Whatever is offered in the fire, given, practised as austerity and done without faith is called 'asat', O son of Pṛthā, and that is nothing after departing, nor here.",
+    "plain": "Whatever is offered in the fire, given, practised as austerity or done without faith is called asat, son of Pṛthā. It is nothing after one departs, and nothing here."
   }
 ]

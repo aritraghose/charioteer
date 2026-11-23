@@ -75,7 +75,8 @@ export const VERSES: Verse[] = [
         "term": "yoga"
       }
     ],
-    "translation": "The devotees who, thus constantly yoked, worship you, and also those who worship the imperishable, the unmanifest: of them, which are the best knowers of yoga?"
+    "translation": "The devotees who, thus constantly yoked, worship you, and also those who worship the imperishable, the unmanifest: of them, which are the best knowers of yoga?",
+    "plain": "Some devotees worship you, constantly yoked in this way, and others worship the imperishable, the unmanifest. Which of them know yoga best?"
   },
   {
     "chapter": 12,
@@ -150,7 +151,8 @@ export const VERSES: Verse[] = [
         "en": "are held to be"
       }
     ],
-    "translation": "Those who, having fixed the mind on me, worship me, always yoked, endowed with supreme faith: they are held by me to be the most yoked."
+    "translation": "Those who, having fixed the mind on me, worship me, always yoked, endowed with supreme faith: they are held by me to be the most yoked.",
+    "plain": "Those who fix the mind on me and worship me, always yoked and endowed with supreme faith: I hold them to be the most yoked."
   },
   {
     "chapter": 12,
@@ -215,6 +217,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "But those who worship the imperishable, the indefinable, the unmanifest, which goes everywhere and is unthinkable, the unchanging, the unmoving, the fixed,",
+    "plain": "But there are those who worship the imperishable, the indefinable, the unmanifest, which goes everywhere and is unthinkable, unchanging, unmoving and fixed.",
     "notes": [
       "Verses 3 to 4 are one sentence in the Sanskrit.",
       "\"The unchanging\" can also be read as \"that which stands at the summit\"."
@@ -277,6 +280,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "having restrained the whole group of the senses, of even buddhi everywhere, they reach me alone, delighting in the welfare of all beings.",
+    "plain": "Restraining the whole group of the senses, of even buddhi everywhere, and delighting in the welfare of all beings, they reach me alone.",
     "notes": [
       "\"They reach me alone\" can also be read as \"they too reach me\"."
     ]
@@ -337,7 +341,8 @@ export const VERSES: Verse[] = [
         "en": "is reached"
       }
     ],
-    "translation": "The trouble is greater for those whose minds are attached to the unmanifest, for the unmanifest goal is reached with pain by those who have bodies."
+    "translation": "The trouble is greater for those whose minds are attached to the unmanifest, for the unmanifest goal is reached with pain by those who have bodies.",
+    "plain": "The trouble is greater for those whose minds are attached to the unmanifest, for the unmanifest goal is painful to reach for those who have bodies."
   },
   {
     "chapter": 12,
@@ -409,6 +414,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "But those who, having laid down all actions in me, holding me as the highest, worship me, meditating on me by a yoga that indeed has no other object,",
+    "plain": "But there are those who lay down all actions in me and hold me as the highest, who worship me, meditating on me by a yoga that has no other object at all.",
     "notes": [
       "Verses 6 to 7 are one sentence in the Sanskrit."
     ]
@@ -463,7 +469,8 @@ export const VERSES: Verse[] = [
         "en": "whose minds are fixed"
       }
     ],
-    "translation": "of them, whose minds are fixed on me, I become before long the one who lifts them out from the ocean of death and wandering on, O son of Pṛthā."
+    "translation": "of them, whose minds are fixed on me, I become before long the one who lifts them out from the ocean of death and wandering on, O son of Pṛthā.",
+    "plain": "Their minds are fixed on me, son of Pṛthā, and before long I become the one who lifts them out of the ocean of death and wandering on."
   },
   {
     "chapter": 12,
@@ -537,7 +544,8 @@ export const VERSES: Verse[] = [
         "en": "doubt"
       }
     ],
-    "translation": "Place the mind on me alone, make buddhi enter into me. From this onward you will dwell in me alone. There is no doubt."
+    "translation": "Place the mind on me alone, make buddhi enter into me. From this onward you will dwell in me alone. There is no doubt.",
+    "plain": "Place your mind on me alone and let buddhi enter into me. From then on you will dwell in me alone. Of this there is no doubt."
   },
   {
     "chapter": 12,
@@ -607,7 +615,8 @@ export const VERSES: Verse[] = [
         "en": "O winner of wealth"
       }
     ],
-    "translation": "Now if you are not able to settle the mind steadily on me, then seek to reach me by the yoga of practice, O winner of wealth."
+    "translation": "Now if you are not able to settle the mind steadily on me, then seek to reach me by the yoga of practice, O winner of wealth.",
+    "plain": "But if you cannot settle the mind steadily on me, then seek to reach me by the yoga of practice, winner of wealth."
   },
   {
     "chapter": 12,
@@ -674,7 +683,8 @@ export const VERSES: Verse[] = [
         "en": "you will reach"
       }
     ],
-    "translation": "If you are unable even in practice, become one for whom action for me is the highest. Even doing actions for my sake, you will reach perfection."
+    "translation": "If you are unable even in practice, become one for whom action for me is the highest. Even doing actions for my sake, you will reach perfection.",
+    "plain": "If you are unable even to practise, make action for me your highest aim. Even by doing actions for my sake you will reach perfection."
   },
   {
     "chapter": 12,
@@ -742,6 +752,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Now if you are unable to do even this, then, resorting to my yoga, with the self restrained, give up the fruit of all action.",
+    "plain": "And if you cannot do even this, then take refuge in my yoga and, with the self restrained, give up the fruit of all action.",
     "notes": [
       "\"Then, resorting to my yoga\" can also be read with the first half: \"if you are unable to do even this while resorting to my yoga\"."
     ]
@@ -811,7 +822,8 @@ export const VERSES: Verse[] = [
         "en": "immediately after"
       }
     ],
-    "translation": "For knowledge is better than practice, meditation surpasses knowledge, and the giving up of the fruit of action surpasses meditation. From giving up, peace comes immediately after."
+    "translation": "For knowledge is better than practice, meditation surpasses knowledge, and the giving up of the fruit of action surpasses meditation. From giving up, peace comes immediately after.",
+    "plain": "For knowledge is better than practice, meditation is better than knowledge, and giving up the fruit of action is better than meditation. Peace follows at once from giving up."
   },
   {
     "chapter": 12,
@@ -869,6 +881,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "One who does not hate any of all beings, friendly and indeed compassionate, without the sense of mine, without the sense of I, the same in pain and pleasure, patient,",
+    "plain": "There is one who hates no being at all, who is friendly and compassionate, free of the sense of mine and the sense of I, the same in pain and pleasure, and patient.",
     "notes": [
       "Verses 13 to 14 are one sentence in the Sanskrit."
     ]
@@ -939,6 +952,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "always content, a yogī, with the self restrained, of firm resolve, with mind and buddhi offered to me: he who is devoted to me is dear to me.",
+    "plain": "Always content, a yogī with the self restrained and of firm resolve, with mind and buddhi offered to me: such a person, devoted to me, is dear to me.",
     "notes": [
       "\"Always content, a yogī\" can also be read as \"content, always a yogī\"."
     ]
@@ -1021,7 +1035,8 @@ export const VERSES: Verse[] = [
         "en": "dear"
       }
     ],
-    "translation": "He from whom the world does not shrink, and who does not shrink from the world, who is freed from joy, impatience, fear and agitation: he too is dear to me."
+    "translation": "He from whom the world does not shrink, and who does not shrink from the world, who is freed from joy, impatience, fear and agitation: he too is dear to me.",
+    "plain": "One from whom the world does not shrink, and who does not shrink from the world, who is free from joy, impatience, fear and agitation: that one too is dear to me."
   },
   {
     "chapter": 12,
@@ -1081,7 +1096,8 @@ export const VERSES: Verse[] = [
         "en": "dear"
       }
     ],
-    "translation": "Expecting nothing, pure, skilled, sitting apart, with distress gone, giving up all undertakings: he who is devoted to me is dear to me."
+    "translation": "Expecting nothing, pure, skilled, sitting apart, with distress gone, giving up all undertakings: he who is devoted to me is dear to me.",
+    "plain": "One who expects nothing, who is pure, skilled, sitting apart, with distress gone, who gives up all undertakings and is devoted to me: that one is dear to me."
   },
   {
     "chapter": 12,
@@ -1157,7 +1173,8 @@ export const VERSES: Verse[] = [
         "en": "dear"
       }
     ],
-    "translation": "He who does not rejoice, does not hate, does not grieve, does not long, giving up the auspicious and the inauspicious, who is full of devotion: he is dear to me."
+    "translation": "He who does not rejoice, does not hate, does not grieve, does not long, giving up the auspicious and the inauspicious, who is full of devotion: he is dear to me.",
+    "plain": "One who does not rejoice or hate, grieve or long, who gives up the auspicious and the inauspicious and is full of devotion: that one is dear to me."
   },
   {
     "chapter": 12,
@@ -1217,6 +1234,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "The same toward an enemy and toward a friend, and likewise in honour and dishonour, the same in cold and heat, pleasure and pain, free from attachment,",
+    "plain": "There is one who is the same toward an enemy and a friend, and likewise in honour and dishonour, the same in cold and heat, pleasure and pain, and free from attachment.",
     "notes": [
       "Verses 18 to 19 are one sentence in the Sanskrit."
     ]
@@ -1279,7 +1297,8 @@ export const VERSES: Verse[] = [
         "en": "the man"
       }
     ],
-    "translation": "to whom blame and praise are equal, silent, content with anything whatever, without a home, of steady mind, full of devotion: that man is dear to me."
+    "translation": "to whom blame and praise are equal, silent, content with anything whatever, without a home, of steady mind, full of devotion: that man is dear to me.",
+    "plain": "Blame and praise are equal to such a person, who is silent, content with anything whatever, without a home, of steady mind and full of devotion: that person is dear to me."
   },
   {
     "chapter": 12,
@@ -1349,6 +1368,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "But those who honour this nectar that accords with dharma, as spoken, having faith, holding me as the highest, devotees: they are exceedingly dear to me.",
+    "plain": "But those who honour this nectar that accords with dharma, just as it has been spoken, who have faith, hold me as the highest and are devoted: they are exceedingly dear to me.",
     "notes": [
       "\"This nectar that accords with dharma\" can also be read as \"this immortal dharma\"."
     ]

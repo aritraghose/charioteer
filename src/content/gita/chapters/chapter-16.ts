@@ -63,6 +63,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Fearlessness, purity of being, steadfastness in the yoga of knowledge, giving and self-restraint and sacrifice, study of the scriptures, austerity, straightness,",
+    "plain": "There is fearlessness, purity of being and steadfastness in the yoga of knowledge. There is giving, self-restraint and sacrifice, study of the scriptures, austerity and straightness.",
     "notes": [
       "Verses 1 to 3 are one sentence in the Sanskrit.",
       "\"Steadfastness in the yoga of knowledge\" can also be read as \"steadfastness in knowledge and in yoga\", two things rather than one."
@@ -131,7 +132,8 @@ export const VERSES: Verse[] = [
         "en": "freedom from fickleness"
       }
     ],
-    "translation": "non-harming, truth, freedom from anger, giving up, peace, not slandering, compassion towards beings, freedom from greed, gentleness, modesty, freedom from fickleness,"
+    "translation": "non-harming, truth, freedom from anger, giving up, peace, not slandering, compassion towards beings, freedom from greed, gentleness, modesty, freedom from fickleness,",
+    "plain": "There is non-harming, truth, freedom from anger, giving up, peace and not slandering. There is compassion towards beings, freedom from greed, gentleness, modesty and freedom from fickleness."
   },
   {
     "chapter": 16,
@@ -195,7 +197,8 @@ export const VERSES: Verse[] = [
         "en": "O descendant of Bharata"
       }
     ],
-    "translation": "vigour, forbearance, firmness, cleanliness, freedom from malice, no excessive pride: they are of one born to the divine endowment, O descendant of Bharata."
+    "translation": "vigour, forbearance, firmness, cleanliness, freedom from malice, no excessive pride: they are of one born to the divine endowment, O descendant of Bharata.",
+    "plain": "And there is vigour, forbearance, firmness, cleanliness, freedom from malice and the absence of excessive pride. These belong to one born to the divine endowment, descendant of Bharata."
   },
   {
     "chapter": 16,
@@ -267,7 +270,8 @@ export const VERSES: Verse[] = [
         "en": "demonic"
       }
     ],
-    "translation": "Hypocrisy, arrogance and conceit, anger and indeed harshness, and ignorance are of one born, O son of Pṛthā, to the demonic endowment."
+    "translation": "Hypocrisy, arrogance and conceit, anger and indeed harshness, and ignorance are of one born, O son of Pṛthā, to the demonic endowment.",
+    "plain": "Hypocrisy, arrogance and conceit, anger and harshness too, and ignorance: these belong to one born to the demonic endowment, son of Pṛthā."
   },
   {
     "chapter": 16,
@@ -335,7 +339,8 @@ export const VERSES: Verse[] = [
         "en": "O son of Pāṇḍu"
       }
     ],
-    "translation": "The divine endowment is held to be for release, the demonic for bondage. Do not grieve. You are born to the divine endowment, O son of Pāṇḍu."
+    "translation": "The divine endowment is held to be for release, the demonic for bondage. Do not grieve. You are born to the divine endowment, O son of Pāṇḍu.",
+    "plain": "The divine endowment is held to lead to release, the demonic to bondage. Do not grieve, son of Pāṇḍu. You are born to the divine endowment."
   },
   {
     "chapter": 16,
@@ -411,7 +416,8 @@ export const VERSES: Verse[] = [
         "en": "hear"
       }
     ],
-    "translation": "There are two creations of beings in this world, the divine and indeed the demonic. The divine has been told at length. Hear from me the demonic, O son of Pṛthā."
+    "translation": "There are two creations of beings in this world, the divine and indeed the demonic. The divine has been told at length. Hear from me the demonic, O son of Pṛthā.",
+    "plain": "There are two creations of beings in this world, the divine and the demonic. The divine has been described at length. Now hear from me about the demonic, son of Pṛthā."
   },
   {
     "chapter": 16,
@@ -500,6 +506,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Demonic people do not know engaging in action and ceasing from action. Cleanliness is not found in them, nor even right conduct, nor truth.",
+    "plain": "Demonic people understand neither engaging in action nor ceasing from it. There is no cleanliness in them, nor even right conduct, nor truth.",
     "notes": [
       "\"Engaging in action and ceasing from action\" can also be read as \"what is to be done and what is to be left undone\"."
     ]
@@ -560,6 +567,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "They say the world is without truth, without foundation, without a lord, born of one with another, having desire as its cause. What else?",
+    "plain": "They say that the world is without truth, without foundation and without a lord, that it is born of one with another and has desire as its cause. What else?",
     "notes": [
       "\"Born of one with another\" can also be read as \"not arising in any ordered sequence of causes\", that is, coming about by chance."
     ]
@@ -621,7 +629,8 @@ export const VERSES: Verse[] = [
         "en": "hostile"
       }
     ],
-    "translation": "Holding to this view, those whose self is lost, of small buddhi, of fierce action, hostile, come forth for the destruction of the world."
+    "translation": "Holding to this view, those whose self is lost, of small buddhi, of fierce action, hostile, come forth for the destruction of the world.",
+    "plain": "Holding to this view, these people whose self is lost, small in buddhi, fierce in their deeds and hostile, come forth to destroy the world."
   },
   {
     "chapter": 16,
@@ -674,7 +683,8 @@ export const VERSES: Verse[] = [
         "en": "of impure vows"
       }
     ],
-    "translation": "Resorting to desire that is hard to fill, filled with hypocrisy, pride and intoxication, having seized false notions out of delusion, they act, being of impure vows."
+    "translation": "Resorting to desire that is hard to fill, filled with hypocrisy, pride and intoxication, having seized false notions out of delusion, they act, being of impure vows.",
+    "plain": "They resort to desire that is hard to fill, and they are full of hypocrisy, pride and intoxication. Out of delusion they seize on false notions, and they act with impure vows."
   },
   {
     "chapter": 16,
@@ -728,6 +738,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "And given over to immeasurable anxiety ending at death, holding the enjoyment of desires as the highest, convinced that there is this much and no more,",
+    "plain": "And they are given over to immeasurable anxiety that ends at death. They hold the enjoyment of desires to be the highest thing, convinced that this is all there is.",
     "notes": [
       "Verses 11 to 12 are one sentence in the Sanskrit."
     ]
@@ -776,7 +787,8 @@ export const VERSES: Verse[] = [
         "en": "hoards of wealth"
       }
     ],
-    "translation": "bound by hundreds of ropes of hope, devoted to desire and anger, they strive, for the sake of enjoying desires, for hoards of wealth by unjust means."
+    "translation": "bound by hundreds of ropes of hope, devoted to desire and anger, they strive, for the sake of enjoying desires, for hoards of wealth by unjust means.",
+    "plain": "Bound by hundreds of ropes of hope and devoted to desire and anger, they strive by unjust means for hoards of wealth, so that they can enjoy their desires."
   },
   {
     "chapter": 16,
@@ -853,6 +865,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "\"This has been gained by me today, this wish I shall obtain. This there is, and this wealth also will be mine again,",
+    "plain": "They think: I have gained this today, and I shall get this wish too. This much is here, and this wealth will be mine as well in its turn.",
     "notes": [
       "Verses 13 to 16 are one sentence in the Sanskrit."
     ]
@@ -935,7 +948,8 @@ export const VERSES: Verse[] = [
         "en": "happy"
       }
     ],
-    "translation": "that enemy has been slain by me, and I shall slay others too. I am the lord, I am the enjoyer, I am successful, strong, happy,"
+    "translation": "that enemy has been slain by me, and I shall slay others too. I am the lord, I am the enjoyer, I am successful, strong, happy,",
+    "plain": "I have killed that enemy, and I shall kill others too. I am the lord, I am the enjoyer. I am successful, strong and happy."
   },
   {
     "chapter": 16,
@@ -1003,7 +1017,8 @@ export const VERSES: Verse[] = [
         "en": "deluded by ignorance"
       }
     ],
-    "translation": "I am wealthy, of high birth. Who else is there equal to me? I shall sacrifice, I shall give, I shall rejoice.\" Thus deluded by ignorance,"
+    "translation": "I am wealthy, of high birth. Who else is there equal to me? I shall sacrifice, I shall give, I shall rejoice.\" Thus deluded by ignorance,",
+    "plain": "I am wealthy and of high birth. Who else is there equal to me? I shall sacrifice, I shall give, I shall rejoice. So they think, deluded by ignorance."
   },
   {
     "chapter": 16,
@@ -1048,7 +1063,8 @@ export const VERSES: Verse[] = [
         "en": "impure"
       }
     ],
-    "translation": "led astray by many thoughts, covered by a net of delusion, attached to the enjoyments of desire, they fall into an impure hell."
+    "translation": "led astray by many thoughts, covered by a net of delusion, attached to the enjoyments of desire, they fall into an impure hell.",
+    "plain": "Led astray by many thoughts, covered by a net of delusion and attached to the enjoyments of desire, they fall into an impure hell."
   },
   {
     "chapter": 16,
@@ -1098,6 +1114,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Holding the self in high esteem, stubborn, filled with the pride and intoxication of wealth, they sacrifice with sacrifices in name only, with hypocrisy, not according to rule,",
+    "plain": "Thinking highly of themselves, stubborn, full of the pride and intoxication of wealth, they offer sacrifices that are sacrifices in name only, with hypocrisy and not according to rule.",
     "notes": [
       "Verses 17 to 18 are one sentence in the Sanskrit.",
       "\"Filled with the pride and intoxication of wealth\" can also be read as \"filled with wealth, pride and intoxication\", three separate things."
@@ -1162,7 +1179,8 @@ export const VERSES: Verse[] = [
         "en": "envious"
       }
     ],
-    "translation": "resorting to egoism, force, arrogance, desire and anger, hating me in their own bodies and those of others, envious."
+    "translation": "resorting to egoism, force, arrogance, desire and anger, hating me in their own bodies and those of others, envious.",
+    "plain": "They resort to egoism, force, arrogance, desire and anger. Envious, they hate me in their own bodies and in the bodies of others."
   },
   {
     "chapter": 16,
@@ -1226,7 +1244,8 @@ export const VERSES: Verse[] = [
         "en": "into wombs"
       }
     ],
-    "translation": "Those hating ones, cruel, the lowest of men, inauspicious, I hurl ceaselessly in the cycles of birth into demonic wombs only."
+    "translation": "Those hating ones, cruel, the lowest of men, inauspicious, I hurl ceaselessly in the cycles of birth into demonic wombs only.",
+    "plain": "Those haters, cruel and inauspicious, the lowest of men, I hurl ceaselessly through the cycles of birth into demonic wombs alone."
   },
   {
     "chapter": 16,
@@ -1298,7 +1317,8 @@ export const VERSES: Verse[] = [
         "en": "state"
       }
     ],
-    "translation": "Having fallen into a demonic womb, the deluded, in birth after birth, not reaching me at all, O son of Kuntī, go from there to the lowest state."
+    "translation": "Having fallen into a demonic womb, the deluded, in birth after birth, not reaching me at all, O son of Kuntī, go from there to the lowest state.",
+    "plain": "Having fallen into a demonic womb in birth after birth, the deluded never reach me at all, son of Kuntī. From there they go to the lowest state."
   },
   {
     "chapter": 16,
@@ -1372,7 +1392,8 @@ export const VERSES: Verse[] = [
         "en": "one should give up"
       }
     ],
-    "translation": "This is the threefold gate of hell, destroying of the self: desire, anger, likewise greed. Therefore one should give up this set of three."
+    "translation": "This is the threefold gate of hell, destroying of the self: desire, anger, likewise greed. Therefore one should give up this set of three.",
+    "plain": "This is the threefold gate of hell, which destroys the self: desire, anger and likewise greed. So one should give up these three."
   },
   {
     "chapter": 16,
@@ -1442,6 +1463,7 @@ export const VERSES: Verse[] = [
       }
     ],
     "translation": "Freed from these three gates of darkness, O son of Kuntī, a man practises what is best for the self. From that he goes to the highest state.",
+    "plain": "A person freed from these three gates of darkness, son of Kuntī, practises what is best for the self. From that, such a person goes to the highest state.",
     "notes": [
       "\"Gates of darkness\" can also be read as \"gates of tamas\", naming the guṇa of that name rather than darkness in general."
     ]
@@ -1517,7 +1539,8 @@ export const VERSES: Verse[] = [
         "en": "state"
       }
     ],
-    "translation": "He who, casting aside the rule of scripture, acts at the urging of desire, he does not attain success, nor happiness, nor the highest state."
+    "translation": "He who, casting aside the rule of scripture, acts at the urging of desire, he does not attain success, nor happiness, nor the highest state.",
+    "plain": "One who casts aside the rule of scripture and acts at the urging of desire does not attain success, nor happiness, nor the highest state."
   },
   {
     "chapter": 16,
@@ -1578,6 +1601,7 @@ export const VERSES: Verse[] = [
         "en": "you ought"
       }
     ],
-    "translation": "Therefore scripture is the measure for you in settling what is to be done and what is not to be done. Having known the action declared by the ordinance of scripture, you ought to do it here."
+    "translation": "Therefore scripture is the measure for you in settling what is to be done and what is not to be done. Having known the action declared by the ordinance of scripture, you ought to do it here.",
+    "plain": "Therefore scripture is your measure in settling what is to be done and what is not to be done. Once you know the action that the ordinance of scripture declares, you ought to do it here."
   }
 ]
