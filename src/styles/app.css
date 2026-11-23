@@ -17,9 +17,9 @@
     color-scheme: dark;
   }
   body {
-    @apply bg-background text-foreground antialiased;
+    @apply bg-background text-foreground antialiased selection:bg-yellow-soft selection:text-foreground;
     background-image: var(--page-wash);
-    background-attachment: fixed;
+    background-repeat: no-repeat;
   }
   :focus-visible {
     outline: 2px solid var(--ring);
@@ -27,28 +27,25 @@
   }
 }
 
-/* The flame wavers once when it appears, then holds still. */
+/* The flame wavers gently once on arrival, then rests completely still. */
 @keyframes flame-settle {
   0% {
-    transform: rotate(-7deg) scaleY(0.94);
+    transform: rotate(-5.5deg) scaleY(0.95);
   }
-  15% {
-    transform: rotate(6deg) scaleY(1.04);
+  18% {
+    transform: rotate(4.2deg) scaleY(1.03);
   }
-  30% {
-    transform: rotate(-4.5deg) scaleY(0.98);
+  36% {
+    transform: rotate(-3deg) scaleY(0.985);
   }
-  45% {
-    transform: rotate(3deg) scaleY(1.02);
+  54% {
+    transform: rotate(1.8deg) scaleY(1.01);
   }
-  60% {
-    transform: rotate(-1.8deg) scaleY(0.99);
+  72% {
+    transform: rotate(-0.9deg) scaleY(0.995);
   }
-  75% {
-    transform: rotate(1deg);
-  }
-  90% {
-    transform: rotate(-0.4deg);
+  88% {
+    transform: rotate(0.35deg);
   }
   100% {
     transform: none;
@@ -58,7 +55,25 @@
 @utility flame-settle {
   transform-box: fill-box;
   transform-origin: 50% 100%;
-  animation: flame-settle 4.5s ease-out 1 both;
+  animation: flame-settle 3.8s cubic-bezier(0.22, 1, 0.36, 1) 1 both;
+  @media (prefers-reduced-motion: reduce) {
+    animation: none;
+  }
+}
+
+/* The medallion's rings swell and ease like a slow breath. */
+@keyframes ring-breathe {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.045);
+  }
+}
+
+@utility ring-breathe {
+  animation: ring-breathe 9s ease-in-out infinite;
   @media (prefers-reduced-motion: reduce) {
     animation: none;
   }
@@ -66,10 +81,26 @@
 
 @theme inline {
   --font-heading: var(--font-sans);
-  --color-flame: var(--flame);
-  --color-flame-core: var(--flame-core);
-  --color-flame-foreground: var(--flame-foreground);
   --font-sans: 'Geist Variable', sans-serif;
+  --font-serif: 'Iowan Old Style', 'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif;
+
+  --color-flame: var(--flame);
+  --color-flame-top: var(--flame-top);
+  --color-flame-core: var(--flame-core);
+  --color-pink-soft: var(--pink-soft);
+  --color-pink-ink: var(--pink-ink);
+  --color-yellow-soft: var(--yellow-soft);
+  --color-yellow-ink: var(--yellow-ink);
+  --color-peach-soft: var(--peach-soft);
+  --color-peach-ink: var(--peach-ink);
+  --color-lifeline-ink: var(--lifeline-ink);
+  --color-surface-blush: var(--surface-blush);
+  --color-surface-blush-hover: var(--surface-blush-hover);
+  --color-surface-sun: var(--surface-sun);
+  --color-tone-practice: var(--tone-practice);
+  --color-tone-focus: var(--tone-focus);
+  --color-tone-gita: var(--tone-gita);
+
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -101,6 +132,7 @@
   --color-card: var(--card);
   --color-foreground: var(--foreground);
   --color-background: var(--background);
+
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -111,105 +143,190 @@
 }
 
 :root {
-  /* Sunrise: saffron, rose and violet over a pale sky. */
-  --background: oklch(0.985 0.01 320);
-  --foreground: oklch(0.25 0.08 290);
-  --card: oklch(1 0 0 / 62%);
-  --card-foreground: oklch(0.25 0.08 290);
-  --popover: oklch(0.99 0.008 320);
-  --popover-foreground: oklch(0.25 0.08 290);
-  --primary: oklch(0.5 0.22 295);
-  --primary-foreground: oklch(0.99 0.01 320);
-  --secondary: oklch(0.55 0.2 295 / 10%);
-  --secondary-foreground: oklch(0.25 0.08 290);
-  --muted: oklch(0.55 0.12 295 / 9%);
-  --muted-foreground: oklch(0.43 0.07 292);
-  --accent: oklch(0.55 0.2 295 / 12%);
-  --accent-foreground: oklch(0.25 0.08 290);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.45 0.14 295 / 16%);
-  --input: oklch(0.45 0.14 295 / 22%);
-  --ring: oklch(0.55 0.22 295);
-  --flame: oklch(0.76 0.17 66);
-  --flame-core: oklch(0.95 0.09 95);
-  --flame-foreground: oklch(0.26 0.06 60);
+  /* Morning sunshine: pure white, light blossom pink, and joyful butter yellow. */
+  --background: oklch(1 0 0);
+  --foreground: oklch(0.28 0.035 344);
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.28 0.035 344);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.28 0.035 344);
 
+  --primary: oklch(0.68 0.195 354);
+  --primary-foreground: oklch(1 0 0);
+  --secondary: oklch(0.978 0.025 90);
+  --secondary-foreground: oklch(0.3 0.04 344);
+  --muted: oklch(0.982 0.014 60);
+  --muted-foreground: oklch(0.53 0.03 344);
+  --accent: oklch(0.965 0.035 352);
+  --accent-foreground: oklch(0.56 0.2 354);
+  --destructive: oklch(0.62 0.2 24);
+
+  --border: oklch(0.7 0.1 12 / 34%);
+  --input: oklch(0.68 0.1 12 / 44%);
+  --ring: oklch(0.7 0.19 354);
+
+  /* Expressive light pink, butter yellow, and soft peach tokens */
+  --pink-soft: oklch(0.958 0.042 352);
+  --pink-ink: oklch(0.55 0.205 354);
+  --yellow-soft: oklch(0.968 0.068 94);
+  --yellow-ink: oklch(0.53 0.145 78);
+  --peach-soft: oklch(0.962 0.045 36);
+  --peach-ink: oklch(0.56 0.17 28);
+  --lifeline-ink: oklch(0.25 0.068 346);
+
+  --surface-blush: oklch(0.987 0.015 352);
+  --surface-blush-hover: oklch(0.972 0.03 352);
+  --surface-sun: oklch(0.988 0.032 94);
+
+  --tone-practice: var(--pink-ink);
+  --tone-focus: var(--yellow-ink);
+  --tone-gita: var(--peach-ink);
+
+  /* Pink-to-sunbeam-yellow lamp flame */
+  --flame: oklch(0.68 0.205 354);
+  --flame-top: oklch(0.87 0.16 90);
+  --flame-core: oklch(0.995 0.02 95);
+
+  /* Airy pink & butter-yellow morning light at the top of the pure white canvas. */
   --page-wash:
-    radial-gradient(60rem 38rem at 0% 0%, oklch(0.88 0.12 75 / 60%), transparent 62%),
-    radial-gradient(52rem 38rem at 100% 0%, oklch(0.84 0.13 350 / 55%), transparent 62%),
-    radial-gradient(75rem 48rem at 50% 115%, oklch(0.82 0.13 292 / 60%), transparent 62%);
-  --grad-dawn: linear-gradient(
-    100deg,
-    oklch(0.7 0.19 55) 0%,
-    oklch(0.6 0.24 12) 45%,
-    oklch(0.5 0.24 298) 100%
-  );
-  --grad-active: linear-gradient(120deg, oklch(0.52 0.23 295), oklch(0.6 0.23 352));
-  --grad-practice: linear-gradient(135deg, oklch(0.72 0.15 190), oklch(0.56 0.19 255));
-  --grad-focus: linear-gradient(135deg, oklch(0.66 0.21 305), oklch(0.5 0.21 275));
-  --grad-gita: linear-gradient(135deg, oklch(0.75 0.17 68), oklch(0.62 0.22 20));
-  --grad-calm: linear-gradient(135deg, oklch(0.6 0.23 5), oklch(0.66 0.2 42));
-  --tile-shadow: 0 1px 2px oklch(0.4 0.15 295 / 8%), 0 12px 32px -12px oklch(0.45 0.2 310 / 28%);
+    radial-gradient(56rem 28rem at 8% -6%, oklch(0.952 0.068 352 / 68%), transparent 68%),
+    radial-gradient(52rem 26rem at 92% -4%, oklch(0.962 0.095 92 / 72%), transparent 66%),
+    radial-gradient(38rem 20rem at 52% -8%, oklch(0.962 0.055 34 / 45%), transparent 64%);
 
-  --chart-1: oklch(0.7 0.19 55);
-  --chart-2: oklch(0.6 0.24 12);
-  --chart-3: oklch(0.5 0.24 298);
-  --chart-4: oklch(0.72 0.15 190);
-  --chart-5: oklch(0.56 0.19 255);
+  /* Signature bright, light pink -> peach -> butter-yellow gradient (paired with crisp berry ink). */
+  --grad-lifeline: linear-gradient(
+    112deg,
+    oklch(0.82 0.145 352) 0%,
+    oklch(0.875 0.105 32) 52%,
+    oklch(0.935 0.135 93) 100%
+  );
+  /* Luminous pastel pink-to-cream sanctuary surface. */
+  --grad-sanctuary:
+    radial-gradient(28rem 20rem at 0% 0%, oklch(0.942 0.075 352 / 78%), transparent 70%),
+    radial-gradient(26rem 18rem at 100% 0%, oklch(0.962 0.092 92 / 72%), transparent 72%),
+    linear-gradient(180deg, oklch(0.988 0.016 25) 0%, oklch(0.996 0.008 352) 100%);
+  /* Sunlit butter-yellow to blossom-pink Gita folio surface. */
+  --grad-folio:
+    radial-gradient(24rem 15rem at 94% 0%, oklch(0.952 0.105 92 / 80%), transparent 72%),
+    radial-gradient(22rem 15rem at 8% 100%, oklch(0.948 0.068 352 / 65%), transparent 74%),
+    linear-gradient(180deg, oklch(1 0 0) 0%, oklch(0.992 0.016 80) 100%);
+  /* Joyful sunlit yellow + blossom pink halo behind the hero lamp. */
+  --grad-orb:
+    radial-gradient(circle at 65% 30%, oklch(0.91 0.145 92 / 68%) 0%, transparent 58%),
+    radial-gradient(circle at 35% 68%, oklch(0.84 0.145 352 / 55%) 0%, transparent 62%);
+
+  --medallion-ring: inset 0 0 0 1px oklch(0.7 0.1 12 / 24%);
+  --medallion-core:
+    inset 0 0 0 1px oklch(0.7 0.1 12 / 24%),
+    0 10px 30px -12px oklch(0.7 0.16 354 / 35%);
+  --lifeline-shadow:
+    0 2px 6px oklch(0.75 0.14 15 / 16%),
+    0 14px 32px -12px oklch(0.74 0.16 355 / 32%);
+  --surface-shadow:
+    0 1px 2px oklch(0.66 0.1 20 / 6%),
+    0 20px 46px -22px oklch(0.68 0.14 354 / 18%);
+
+  --chart-1: oklch(0.72 0.18 354);
+  --chart-2: oklch(0.88 0.15 92);
+  --chart-3: oklch(0.78 0.15 32);
+  --chart-4: oklch(0.84 0.12 352);
+  --chart-5: oklch(0.92 0.11 94);
   --radius: 1rem;
-  --sidebar: oklch(0.975 0.015 320);
-  --sidebar-foreground: oklch(0.25 0.08 290);
-  --sidebar-primary: oklch(0.5 0.22 295);
-  --sidebar-primary-foreground: oklch(0.99 0.01 320);
-  --sidebar-accent: oklch(0.55 0.2 295 / 12%);
-  --sidebar-accent-foreground: oklch(0.25 0.08 290);
-  --sidebar-border: oklch(0.45 0.14 295 / 16%);
-  --sidebar-ring: oklch(0.55 0.22 295);
+
+  --sidebar: oklch(0.99 0.012 40);
+  --sidebar-foreground: var(--foreground);
+  --sidebar-primary: var(--primary);
+  --sidebar-primary-foreground: var(--primary-foreground);
+  --sidebar-accent: var(--pink-soft);
+  --sidebar-accent-foreground: var(--pink-ink);
+  --sidebar-border: var(--border);
+  --sidebar-ring: var(--ring);
 }
 
 .dark {
-  /* The same sunrise seen before dawn: violet night with a warm horizon. */
-  --background: oklch(0.19 0.06 288);
-  --foreground: oklch(0.96 0.015 310);
-  --card: oklch(1 0 0 / 7%);
-  --card-foreground: oklch(0.96 0.015 310);
-  --popover: oklch(0.24 0.07 288);
-  --popover-foreground: oklch(0.96 0.015 310);
-  --primary: oklch(0.78 0.16 305);
-  --primary-foreground: oklch(0.2 0.06 288);
-  --secondary: oklch(1 0 0 / 8%);
-  --secondary-foreground: oklch(0.96 0.015 310);
-  --muted: oklch(1 0 0 / 7%);
-  --muted-foreground: oklch(0.8 0.05 300);
-  --accent: oklch(1 0 0 / 11%);
-  --accent-foreground: oklch(0.96 0.015 310);
-  --destructive: oklch(0.704 0.191 22.216);
-  --border: oklch(1 0 0 / 13%);
-  --input: oklch(1 0 0 / 18%);
-  --ring: oklch(0.82 0.15 72);
-  --flame: oklch(0.82 0.16 72);
-  --flame-core: oklch(0.97 0.08 98);
-  --flame-foreground: oklch(0.24 0.05 60);
+  /* Lighter twilight rose-mauve dark mode lit by pastel pink and buttercup yellow. */
+  --background: oklch(0.255 0.026 342);
+  --foreground: oklch(0.978 0.012 85);
+  --card: oklch(0.295 0.03 344);
+  --card-foreground: oklch(0.978 0.012 85);
+  --popover: oklch(0.3 0.03 344);
+  --popover-foreground: oklch(0.978 0.012 85);
+
+  --primary: oklch(0.82 0.155 354);
+  --primary-foreground: oklch(0.24 0.04 344);
+  --secondary: oklch(0.34 0.036 346);
+  --secondary-foreground: oklch(0.978 0.012 85);
+  --muted: oklch(0.32 0.03 344);
+  --muted-foreground: oklch(0.835 0.025 350);
+  --accent: oklch(0.365 0.052 350);
+  --accent-foreground: oklch(0.91 0.11 354);
+  --destructive: oklch(0.76 0.16 22);
+
+  --border: oklch(0.93 0.045 65 / 21%);
+  --input: oklch(0.93 0.045 65 / 30%);
+  --ring: oklch(0.88 0.13 92);
+
+  --pink-soft: oklch(0.8 0.155 354 / 20%);
+  --pink-ink: oklch(0.87 0.125 354);
+  --yellow-soft: oklch(0.9 0.13 92 / 20%);
+  --yellow-ink: oklch(0.92 0.125 92);
+  --peach-soft: oklch(0.84 0.12 36 / 20%);
+  --peach-ink: oklch(0.88 0.115 38);
+  --lifeline-ink: oklch(0.24 0.068 346);
+
+  --surface-blush: oklch(0.305 0.034 346);
+  --surface-blush-hover: oklch(0.34 0.044 348);
+  --surface-sun: oklch(0.32 0.036 72);
+
+  --tone-practice: var(--pink-ink);
+  --tone-focus: var(--yellow-ink);
+  --tone-gita: var(--peach-ink);
+
+  --flame: oklch(0.8 0.165 354);
+  --flame-top: oklch(0.92 0.14 92);
+  --flame-core: oklch(0.995 0.015 95);
 
   --page-wash:
-    radial-gradient(60rem 38rem at 0% 0%, oklch(0.5 0.22 300 / 55%), transparent 62%),
-    radial-gradient(52rem 38rem at 100% 0%, oklch(0.52 0.22 350 / 40%), transparent 62%),
-    radial-gradient(75rem 44rem at 50% 118%, oklch(0.66 0.18 55 / 38%), transparent 62%);
-  --grad-dawn: linear-gradient(
-    100deg,
-    oklch(0.86 0.15 80) 0%,
-    oklch(0.76 0.19 12) 45%,
-    oklch(0.76 0.17 305) 100%
-  );
-  --grad-active: linear-gradient(120deg, oklch(0.58 0.24 297), oklch(0.64 0.24 352));
-  --tile-shadow: 0 1px 2px oklch(0 0 0 / 30%), 0 14px 36px -14px oklch(0.1 0.08 290 / 80%);
+    radial-gradient(56rem 28rem at 8% -8%, oklch(0.68 0.17 352 / 24%), transparent 66%),
+    radial-gradient(52rem 26rem at 92% -6%, oklch(0.8 0.14 92 / 18%), transparent 64%),
+    radial-gradient(38rem 20rem at 52% -8%, oklch(0.74 0.13 34 / 14%), transparent 62%);
 
-  --sidebar: oklch(0.22 0.065 288);
-  --sidebar-foreground: oklch(0.96 0.015 310);
-  --sidebar-primary: oklch(0.78 0.16 305);
-  --sidebar-primary-foreground: oklch(0.2 0.06 288);
-  --sidebar-accent: oklch(1 0 0 / 11%);
-  --sidebar-accent-foreground: oklch(0.96 0.015 310);
-  --sidebar-border: oklch(1 0 0 / 13%);
-  --sidebar-ring: oklch(0.82 0.15 72);
+  /* Keeps the joyful light pink -> peach -> butter-yellow glow even in dark mode! */
+  --grad-lifeline: linear-gradient(
+    112deg,
+    oklch(0.81 0.145 352) 0%,
+    oklch(0.865 0.108 32) 52%,
+    oklch(0.925 0.135 93) 100%
+  );
+  --grad-sanctuary:
+    radial-gradient(28rem 20rem at 0% 0%, oklch(0.66 0.16 352 / 24%), transparent 70%),
+    radial-gradient(26rem 18rem at 100% 0%, oklch(0.78 0.13 92 / 20%), transparent 72%),
+    linear-gradient(180deg, oklch(0.305 0.034 346) 0%, oklch(0.285 0.028 344) 100%);
+  --grad-folio:
+    radial-gradient(24rem 15rem at 94% 0%, oklch(0.8 0.135 92 / 22%), transparent 72%),
+    radial-gradient(22rem 15rem at 8% 100%, oklch(0.68 0.16 352 / 20%), transparent 74%),
+    linear-gradient(180deg, oklch(0.305 0.032 346) 0%, oklch(0.285 0.028 344) 100%);
+  --grad-orb:
+    radial-gradient(circle at 65% 30%, oklch(0.86 0.135 92 / 36%) 0%, transparent 58%),
+    radial-gradient(circle at 35% 68%, oklch(0.78 0.155 352 / 34%) 0%, transparent 62%);
+
+  --medallion-ring: inset 0 0 0 1px oklch(0.93 0.045 65 / 12%);
+  --medallion-core:
+    inset 0 0 0 1px oklch(0.93 0.045 65 / 14%),
+    0 12px 32px -12px oklch(0 0 0 / 55%);
+  --lifeline-shadow:
+    0 2px 8px oklch(0 0 0 / 24%),
+    0 16px 36px -14px oklch(0.8 0.14 354 / 30%);
+  --surface-shadow:
+    0 1px 3px oklch(0 0 0 / 22%),
+    0 20px 48px -24px oklch(0 0 0 / 38%);
+
+  --sidebar: oklch(0.275 0.028 344);
+  --sidebar-foreground: var(--foreground);
+  --sidebar-primary: var(--primary);
+  --sidebar-primary-foreground: var(--primary-foreground);
+  --sidebar-accent: var(--pink-soft);
+  --sidebar-accent-foreground: var(--pink-ink);
+  --sidebar-border: var(--border);
+  --sidebar-ring: var(--ring);
 }

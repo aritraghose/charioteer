@@ -4,30 +4,32 @@ export const NAV_ITEMS = [
   {
     to: '/',
     label: 'Today',
-    gradient: 'bg-(image:--grad-active)',
+    badgeClass: 'bg-pink-soft text-pink-ink',
     icon: House,
     description: 'Where you start.',
   },
   {
     to: '/practice',
     label: 'Practice',
-    gradient: 'bg-(image:--grad-practice)',
+    badgeClass: 'bg-pink-soft text-pink-ink',
     icon: Wind,
-    description: 'Guided meditation, from five minutes up.',
+    description: 'Short, gentle guided meditations, from three minutes up.',
   },
   {
     to: '/focus',
     label: 'Focus',
-    gradient: 'bg-(image:--grad-focus)',
+    badgeClass: 'bg-yellow-soft text-yellow-ink',
     icon: Timer,
-    description: 'One task, one timer, and a place to park stray thoughts.',
+    description:
+      'One intention, a calm timer, and a quiet place to park stray thoughts.',
   },
   {
     to: '/gita',
     label: 'Gita',
-    gradient: 'bg-(image:--grad-gita)',
+    badgeClass: 'bg-peach-soft text-peach-ink',
     icon: BookOpen,
-    description: 'The Bhagavad Gita, read from the Sanskrit, word by word.',
+    description:
+      'Read the Bhagavad Gita word by word from the Sanskrit, for steadiness in daily life.',
   },
 ] as const
 
@@ -36,7 +38,7 @@ export const CALM_ITEM = {
   to: '/calm',
   label: 'Mind racing?',
   shortLabel: 'Calm',
-  gradient: 'bg-(image:--grad-calm)',
   icon: Waves,
-  description: 'A few minutes to step out of a thought loop.',
+  description:
+    'A few quiet minutes to step out of a thought loop and settle your nervous system.',
 } as const

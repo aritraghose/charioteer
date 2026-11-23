@@ -9,25 +9,25 @@ import { cn } from '@/lib/utils'
 export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <div className="flex min-h-svh flex-col">
-      <header className="mx-auto flex w-full max-w-5xl items-center gap-6 px-5 py-4">
+      <header className="mx-auto flex w-full max-w-5xl items-center gap-6 px-5 py-5 sm:px-8">
         <Link
           to="/"
-          className="flex items-center gap-2 rounded-md text-lg font-semibold tracking-tight"
+          className="group flex items-center gap-2 rounded-xl text-base font-medium tracking-tight text-foreground"
         >
-          <Flame className="h-7" />
-          {SITE_NAME}
+          <Flame className="h-6 transition-transform duration-300 group-hover:scale-105 motion-reduce:transition-none" />
+          <span>{SITE_NAME}</span>
         </Link>
 
         <nav
           aria-label="Main"
-          className="hidden items-center gap-1 rounded-full border bg-card p-1 backdrop-blur-md sm:flex"
+          className="hidden items-center gap-1 sm:ml-4 sm:flex"
         >
           {NAV_ITEMS.map((item) => (
             <Link
               key={item.to}
               to={item.to}
               activeOptions={{ exact: item.to === '/' }}
-              className="rounded-full px-3.5 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:text-foreground data-[status=active]:bg-(image:--grad-active) data-[status=active]:text-white data-[status=active]:shadow-sm"
+              className="rounded-full px-3.5 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-yellow-soft/70 hover:text-foreground data-[status=active]:bg-pink-soft data-[status=active]:text-pink-ink"
             >
               {item.label}
             </Link>
@@ -37,17 +37,14 @@ export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
         <div className="ml-auto flex items-center gap-3">
           <Link
             to={CALM_ITEM.to}
-            className={cn(
-              'hidden h-9 items-center gap-2 rounded-full px-4 text-sm font-semibold text-white shadow-(--tile-shadow) transition-[filter] hover:brightness-110 sm:inline-flex',
-              CALM_ITEM.gradient,
-            )}
+            className="hidden h-9 items-center gap-2 rounded-full bg-(image:--grad-lifeline) px-4 text-sm font-medium text-lifeline-ink shadow-(--lifeline-shadow) ring-1 ring-white/55 transition-[transform,filter] duration-200 hover:brightness-103 active:scale-[0.98] ring-inset motion-reduce:transition-none sm:inline-flex"
           >
             <CALM_ITEM.icon className="size-4" strokeWidth={2} />
-            {CALM_ITEM.label}
+            <span>{CALM_ITEM.label}</span>
           </Link>
           {/* Fixed size so the header does not shift when the switcher mounts. */}
           <div className="h-8 w-20">
-            <ThemeSwitcher className="bg-card backdrop-blur-md" />
+            <ThemeSwitcher />
           </div>
         </div>
       </header>
@@ -56,7 +53,7 @@ export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
 
       <nav
         aria-label="Main"
-        className="fixed inset-x-0 bottom-0 z-30 border-t bg-background/80 pb-[env(safe-area-inset-bottom)] backdrop-blur-xl sm:hidden"
+        className="fixed inset-x-0 bottom-0 z-30 border-t border-border bg-background/94 pb-[env(safe-area-inset-bottom)] backdrop-blur-md sm:hidden"
       >
         <ul className="mx-auto grid max-w-md grid-cols-5">
           {[
@@ -72,31 +69,24 @@ export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
                 <Link
                   to={item.to}
                   activeOptions={{ exact: item.to === '/' }}
-                  className="group flex flex-col items-center gap-1 px-1 pt-2.5 pb-2 text-xs font-medium text-muted-foreground data-[status=active]:text-foreground"
+                  className={cn(
+                    'group flex flex-col items-center gap-1 px-1 pt-2.5 pb-2 text-xs font-medium text-muted-foreground transition-colors',
+                    isCalm
+                      ? 'text-pink-ink'
+                      : 'data-[status=active]:text-pink-ink',
+                  )}
                 >
-                  {/* The gradient sits on its own layer so it can fade in for the active tab. */}
-                  <span className="relative flex h-8 w-12 items-center justify-center overflow-hidden rounded-full">
-                    <span
-                      aria-hidden
-                      className={cn(
-                        'absolute inset-0 transition-opacity',
-                        item.gradient,
-                        isCalm
-                          ? 'opacity-100'
-                          : 'opacity-0 group-data-[status=active]:opacity-100',
-                      )}
-                    />
-                    <item.icon
-                      className={cn(
-                        'relative size-[1.125rem]',
-                        isCalm
-                          ? 'text-white'
-                          : 'group-data-[status=active]:text-white',
-                      )}
-                      strokeWidth={1.75}
-                    />
+                  <span
+                    className={cn(
+                      'flex h-8 w-12 items-center justify-center rounded-full transition-colors',
+                      isCalm
+                        ? 'bg-(image:--grad-lifeline) text-lifeline-ink shadow-sm ring-1 ring-white/50 ring-inset'
+                        : 'group-data-[status=active]:bg-pink-soft group-data-[status=active]:text-pink-ink',
+                    )}
+                  >
+                    <item.icon className="size-[1.125rem]" strokeWidth={1.9} />
                   </span>
-                  {item.label}
+                  <span>{item.label}</span>
                 </Link>
               </li>
             )

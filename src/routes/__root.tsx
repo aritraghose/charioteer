@@ -63,12 +63,12 @@ function Document({ children }: Readonly<{ children: ReactNode }>) {
         <meta
           name="theme-color"
           media="(prefers-color-scheme: light)"
-          content="#fbf3f1"
+          content="#ffffff"
         />
         <meta
           name="theme-color"
           media="(prefers-color-scheme: dark)"
-          content="#1d1436"
+          content="#2b212a"
         />
         <ScriptOnce>{themeScript}</ScriptOnce>
       </head>

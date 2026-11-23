@@ -25,13 +25,13 @@ export function ThemeSwitcher({ className }: Readonly<{ className?: string }>) {
   return (
     <div
       className={cn(
-        'relative isolate flex h-8 rounded-full bg-background p-1 ring-1 ring-border',
+        'relative isolate flex h-8 rounded-full border border-border bg-card p-1',
         className,
       )}
     >
       <span
         aria-hidden
-        className="absolute top-1 left-1 size-6 rounded-full bg-accent transition-transform duration-300 ease-out motion-reduce:transition-none"
+        className="absolute top-1 left-1 size-6 rounded-full bg-yellow-soft transition-transform duration-300 ease-out motion-reduce:transition-none"
         style={{ transform: `translateX(${activeIndex * 100}%)` }}
       />
       {themes.map(({ key, icon: Icon, label }) => {
@@ -47,9 +47,10 @@ export function ThemeSwitcher({ className }: Readonly<{ className?: string }>) {
           >
             <Icon
               className={cn(
-                'm-auto size-4',
-                isActive ? 'text-accent-foreground' : 'text-muted-foreground',
+                'm-auto size-3.5 transition-colors',
+                isActive ? 'text-yellow-ink' : 'text-muted-foreground',
               )}
+              strokeWidth={1.9}
             />
           </button>
         )

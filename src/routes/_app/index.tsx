@@ -1,5 +1,5 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
-import { ArrowRight } from 'lucide-react'
+import { ChevronRight, Sparkles } from 'lucide-react'
 import { Flame } from '@/components/flame'
 import { CALM_ITEM, NAV_ITEMS } from '@/lib/nav'
 import { SITE_DESCRIPTION, SITE_NAME, seo } from '@/lib/seo'
@@ -12,88 +12,181 @@ export const Route = createFileRoute('/_app/')({
   component: Today,
 })
 
-const sections = NAV_ITEMS.slice(1)
+const practiceItem = NAV_ITEMS[1]
+const focusItem = NAV_ITEMS[2]
+const gitaItem = NAV_ITEMS[3]
 
 function Today() {
   return (
-    <main className="mx-auto flex w-full max-w-3xl flex-1 flex-col gap-12 px-5 pt-10 pb-16 sm:pt-16">
-      <section className="flex flex-col gap-6">
-        <div className="relative w-fit">
-          <div
-            aria-hidden
-            className="absolute top-1/2 left-1/2 size-44 -translate-1/2 rounded-full bg-(image:--grad-dawn) opacity-45 blur-3xl"
-          />
-          <Flame settle className="relative h-24" />
+    <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col gap-14 px-5 pt-10 pb-20 sm:px-8 sm:pt-16">
+      {/* Expressive sunlit hero with concentric pink-and-yellow stillness medallion */}
+      <section className="grid items-center gap-12 md:grid-cols-[1.25fr_0.75fr] md:gap-10">
+        <div className="flex flex-col gap-6">
+          <p className="inline-flex w-fit items-center gap-2 rounded-full bg-yellow-soft px-3.5 py-1.5 text-xs font-medium text-yellow-ink ring-1 ring-border">
+            <Sparkles aria-hidden className="size-3.5" strokeWidth={2} />
+            <span>A gentle place for busy minds</span>
+          </p>
+
+          <h1 className="max-w-[14ch] text-5xl leading-[1.03] font-medium tracking-[-0.042em] text-balance text-foreground sm:text-6xl lg:text-7xl">
+            When the mind wanders, bring it back.
+          </h1>
+          <p className="max-w-[46ch] text-lg leading-relaxed text-pretty text-muted-foreground sm:text-xl sm:leading-relaxed">
+            A bright, calm space for OCD, racing thoughts and a sensitive
+            nervous system. Gentle meditation, steady focus, and the Bhagavad
+            Gita.
+          </p>
         </div>
-        <h1 className="w-fit bg-(image:--grad-dawn) bg-clip-text pb-1 text-5xl leading-[1.05] font-semibold tracking-tight text-balance text-transparent sm:text-7xl">
-          When the mind wanders, bring it back.
-        </h1>
-        <p className="max-w-[50ch] text-lg leading-relaxed text-pretty text-muted-foreground">
-          That is the whole practice. Charioteer gives you guided meditation,
-          focus sessions, and help for the moments your thoughts will not stop.
-        </p>
+
+        {/* Stillness medallion: soft rings breathe slowly around a flame that holds still. */}
+        <div
+          aria-hidden
+          className="relative mx-auto flex size-56 items-center justify-center sm:size-64 md:mr-0 md:ml-auto lg:size-72"
+        >
+          <div className="pointer-events-none absolute -inset-10 rounded-full bg-(image:--grad-orb) blur-3xl" />
+          <span className="ring-breathe absolute inset-0 rounded-full bg-surface-sun shadow-(--medallion-ring)" />
+          <span className="ring-breathe absolute inset-[13%] rounded-full bg-pink-soft shadow-(--medallion-ring) [animation-delay:-3s]" />
+          <span className="absolute inset-[27%] rounded-full bg-card shadow-(--medallion-core)" />
+
+          <svg
+            viewBox="0 0 24 24"
+            className="absolute top-[7%] right-[12%] size-4 text-yellow-ink/70"
+            fill="currentColor"
+          >
+            <path d="M12 2L14.2 9.8L22 12L14.2 14.2L12 22L9.8 14.2L2 12L9.8 9.8L12 2Z" />
+          </svg>
+          <svg
+            viewBox="0 0 24 24"
+            className="absolute bottom-[10%] left-[8%] size-3 text-pink-ink/65"
+            fill="currentColor"
+          >
+            <path d="M12 2L14.2 9.8L22 12L14.2 14.2L12 22L9.8 14.2L2 12L9.8 9.8L12 2Z" />
+          </svg>
+
+          <Flame settle className="relative h-20 lg:h-24" />
+        </div>
       </section>
 
-      <nav aria-label="Sections" className="flex flex-col gap-4">
-        <Link
-          to={CALM_ITEM.to}
-          className={cn(
-            'group flex items-center gap-4 rounded-3xl p-5 text-white shadow-(--tile-shadow) transition-[filter] hover:brightness-110 sm:p-6',
-            CALM_ITEM.gradient,
-          )}
-        >
-          <span className="flex size-12 shrink-0 items-center justify-center rounded-2xl bg-white/20">
-            <CALM_ITEM.icon className="size-6" strokeWidth={1.75} />
-          </span>
-          <span className="flex min-w-0 flex-1 flex-col gap-0.5">
-            <span className="text-xl font-semibold">{CALM_ITEM.label}</span>
-            <span className="text-pretty text-white/90">
-              {CALM_ITEM.description}
+      {/* Two bespoke sculptural surfaces: sunlit sanctuary left, Gita folio right */}
+      <section
+        aria-label="Spaces"
+        className="grid gap-6 lg:grid-cols-[1.35fr_1fr] lg:items-stretch"
+      >
+        {/* Left: Unified pink-and-yellow sanctuary surface */}
+        <div className="flex flex-col justify-between gap-5 overflow-hidden rounded-[28px] border border-border bg-(image:--grad-sanctuary) p-6 shadow-(--surface-shadow) sm:p-8">
+          <Link
+            to={CALM_ITEM.to}
+            className="group flex flex-col gap-5 rounded-2xl bg-(image:--grad-lifeline) p-6 text-lifeline-ink shadow-(--lifeline-shadow) ring-1 ring-white/60 transition-[transform,filter,box-shadow] duration-200 hover:-translate-y-0.5 hover:brightness-102 active:translate-y-0 active:scale-[0.99] ring-inset motion-reduce:transition-none sm:flex-row sm:items-center sm:gap-5"
+          >
+            <span className="flex size-11 shrink-0 items-center justify-center rounded-2xl bg-white/85 text-pink-ink shadow-xs">
+              <CALM_ITEM.icon className="size-5" strokeWidth={2} />
             </span>
-          </span>
-          <ArrowRight
-            aria-hidden
-            className="size-5 shrink-0 transition-transform group-hover:translate-x-1 motion-reduce:transition-none"
-          />
-        </Link>
+            <span className="flex min-w-0 flex-1 flex-col gap-1">
+              <span className="text-xl font-medium tracking-[-0.02em]">
+                {CALM_ITEM.label}
+              </span>
+              <span className="max-w-[40ch] text-sm leading-relaxed text-pretty text-lifeline-ink/82">
+                {CALM_ITEM.description}
+              </span>
+            </span>
+            <span className="flex size-9 shrink-0 items-center justify-center self-start rounded-full bg-white/80 text-lifeline-ink transition-transform duration-200 group-hover:translate-x-0.5 motion-reduce:transition-none sm:self-center">
+              <ChevronRight aria-hidden className="size-4" strokeWidth={2.2} />
+            </span>
+          </Link>
 
-        <ul className="grid gap-4 sm:grid-cols-3">
-          {sections.map((item) => (
-            <li key={item.to}>
+          <div className="grid flex-1 divide-y divide-border rounded-2xl bg-card ring-1 ring-border sm:grid-cols-2 sm:divide-x sm:divide-y-0">
+            {[practiceItem, focusItem].map((item) => (
               <Link
+                key={item.to}
                 to={item.to}
-                className="group flex h-full flex-col gap-4 rounded-3xl border bg-card p-5 shadow-(--tile-shadow) backdrop-blur-md transition-transform hover:-translate-y-0.5 motion-reduce:transition-none"
+                className="group flex flex-col justify-between gap-5 p-5 transition-colors first:rounded-t-2xl last:rounded-b-2xl hover:bg-surface-blush-hover sm:p-6 sm:first:rounded-l-2xl sm:first:rounded-tr-none sm:last:rounded-r-2xl sm:last:rounded-bl-none"
               >
-                <span
-                  className={cn(
-                    'flex size-12 items-center justify-center rounded-2xl text-white',
-                    item.gradient,
-                  )}
-                >
-                  <item.icon className="size-6" strokeWidth={1.75} />
-                </span>
-                <span className="flex flex-col gap-1">
-                  <span className="text-xl font-semibold">{item.label}</span>
-                  <span className="text-pretty text-muted-foreground">
+                <div className="flex items-center justify-between">
+                  <span
+                    className={cn(
+                      'flex size-10 items-center justify-center rounded-xl transition-transform duration-200 group-hover:scale-105 motion-reduce:transition-none',
+                      item.badgeClass,
+                    )}
+                  >
+                    <item.icon className="size-[1.1rem]" strokeWidth={1.9} />
+                  </span>
+                  <ChevronRight
+                    aria-hidden
+                    className="size-4 text-muted-foreground/50 transition-all duration-200 group-hover:translate-x-0.5 group-hover:text-foreground motion-reduce:transition-none"
+                    strokeWidth={2}
+                  />
+                </div>
+                <div className="flex flex-col gap-1">
+                  <span className="text-lg font-medium tracking-[-0.02em] text-foreground">
+                    {item.label}
+                  </span>
+                  <span className="text-sm leading-relaxed text-pretty text-muted-foreground">
                     {item.description}
                   </span>
-                </span>
+                </div>
               </Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
+            ))}
+          </div>
+        </div>
 
-      <div className="flex max-w-[58ch] flex-col gap-3 text-sm leading-relaxed text-pretty text-muted-foreground">
-        <p>
-          There is no account and nothing to sign up for. What you do here
-          stays on this device.
+        {/* Right: Sunlit butter-yellow & blossom Bhagavad Gita folio */}
+        <Link
+          to={gitaItem.to}
+          className="group flex flex-col justify-between gap-8 rounded-[28px] border border-border bg-(image:--grad-folio) p-6 shadow-(--surface-shadow) transition-[transform,border-color] duration-200 hover:-translate-y-0.5 hover:border-primary/40 motion-reduce:transition-none sm:p-8"
+        >
+          <div className="flex items-center">
+            <span className="inline-flex items-center gap-2.5 text-sm font-medium text-foreground">
+              <span
+                className={cn(
+                  'flex size-10 items-center justify-center rounded-xl transition-transform duration-200 group-hover:scale-105 motion-reduce:transition-none',
+                  gitaItem.badgeClass,
+                )}
+              >
+                <gitaItem.icon className="size-[1.1rem]" strokeWidth={1.9} />
+              </span>
+              <span>Bhagavad Gita</span>
+            </span>
+          </div>
+
+          <figure className="flex flex-col gap-3.5">
+            <p
+              lang="sa"
+              className="font-serif text-xl leading-relaxed text-foreground/85"
+            >
+              यथा दीपो निवातस्थो नेङ्गते सोपमा स्मृता ।
+            </p>
+            <p lang="sa-Latn" className="-mt-1.5 text-sm text-muted-foreground italic">
+              yathā dīpo nivāta-stho neṅgate sopamā smṛtā
+            </p>
+            <blockquote className="font-serif text-xl leading-relaxed text-pretty text-foreground sm:text-2xl">
+              “Like a lamp in a windless place, that does not flicker.”
+            </blockquote>
+            <figcaption className="inline-flex w-fit rounded-full bg-yellow-soft px-3 py-0.5 text-xs font-medium text-yellow-ink">
+              Chapter 6, Verse 19
+            </figcaption>
+          </figure>
+
+          <div className="flex flex-col gap-2 border-t border-border/80 pt-5">
+            <p className="text-sm leading-relaxed text-pretty text-muted-foreground">
+              {gitaItem.description}
+            </p>
+            <span className="inline-flex items-center gap-1 text-sm font-medium text-pink-ink">
+              Open Gita reader
+              <ChevronRight
+                aria-hidden
+                className="size-4 transition-transform duration-200 group-hover:translate-x-0.5 motion-reduce:transition-none"
+                strokeWidth={2.2}
+              />
+            </span>
+          </div>
+        </Link>
+      </section>
+
+      <footer className="flex flex-col justify-between gap-2 border-t border-border/75 pt-7 text-sm leading-relaxed text-pretty text-muted-foreground sm:flex-row sm:items-center sm:gap-8">
+        <p>No account. Everything you do here stays on this device.</p>
+        <p className="text-xs sm:text-right sm:text-sm">
+          Practice, not therapy. In crisis, call your local emergency line.
         </p>
-        <p>
-          Charioteer is practice, not therapy. If you are in danger or in
-          crisis, call your local emergency number or a crisis line now.
-        </p>
-      </div>
+      </footer>
     </main>
   )
 }
