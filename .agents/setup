@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Prepares a fresh agent environment: installs the project's dependencies with
+# pnpm. Idempotent and non-interactive.
+set -euo pipefail
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+
+step() {
+  local name="$1"
+  shift
+  echo "==> $name"
+  local start=$SECONDS
+  "$@"
+  echo "<== $name ($((SECONDS - start))s)"
+}
+
+step "pnpm install" pnpm install --frozen-lockfile
