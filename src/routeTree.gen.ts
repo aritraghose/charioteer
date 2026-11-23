@@ -9,75 +9,154 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as PublicRouteRouteImport } from './routes/_public/route'
-import { Route as PublicIndexRouteImport } from './routes/_public/index'
+import { Route as AppRouteRouteImport } from './routes/_app/route'
+import { Route as AppIndexRouteImport } from './routes/_app/index'
+import { Route as AppCalmRouteImport } from './routes/_app/calm'
+import { Route as AppFocusRouteImport } from './routes/_app/focus'
+import { Route as AppGitaRouteImport } from './routes/_app/gita'
+import { Route as AppPracticeRouteImport } from './routes/_app/practice'
 
-const PublicRouteRoute = PublicRouteRouteImport.update({
-  id: '/_public',
+const AppRouteRoute = AppRouteRouteImport.update({
+  id: '/_app',
   getParentRoute: () => rootRouteImport,
 } as any)
-const PublicIndexRoute = PublicIndexRouteImport.update({
+const AppIndexRoute = AppIndexRouteImport.update({
   id: '/',
   path: '/',
-  getParentRoute: () => PublicRouteRoute,
+  getParentRoute: () => AppRouteRoute,
+} as any)
+const AppCalmRoute = AppCalmRouteImport.update({
+  id: '/calm',
+  path: '/calm',
+  getParentRoute: () => AppRouteRoute,
+} as any)
+const AppFocusRoute = AppFocusRouteImport.update({
+  id: '/focus',
+  path: '/focus',
+  getParentRoute: () => AppRouteRoute,
+} as any)
+const AppGitaRoute = AppGitaRouteImport.update({
+  id: '/gita',
+  path: '/gita',
+  getParentRoute: () => AppRouteRoute,
+} as any)
+const AppPracticeRoute = AppPracticeRouteImport.update({
+  id: '/practice',
+  path: '/practice',
+  getParentRoute: () => AppRouteRoute,
 } as any)
 
 export interface FileRoutesByFullPath {
-  '/': typeof PublicIndexRoute
+  '/': typeof AppIndexRoute
+  '/calm': typeof AppCalmRoute
+  '/focus': typeof AppFocusRoute
+  '/gita': typeof AppGitaRoute
+  '/practice': typeof AppPracticeRoute
 }
 export interface FileRoutesByTo {
-  '/': typeof PublicIndexRoute
+  '/calm': typeof AppCalmRoute
+  '/focus': typeof AppFocusRoute
+  '/gita': typeof AppGitaRoute
+  '/practice': typeof AppPracticeRoute
+  '/': typeof AppIndexRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
-  '/_public': typeof PublicRouteRouteWithChildren
-  '/_public/': typeof PublicIndexRoute
+  '/_app': typeof AppRouteRouteWithChildren
+  '/_app/calm': typeof AppCalmRoute
+  '/_app/focus': typeof AppFocusRoute
+  '/_app/gita': typeof AppGitaRoute
+  '/_app/practice': typeof AppPracticeRoute
+  '/_app/': typeof AppIndexRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
-  fullPaths: '/'
+  fullPaths: '/' | '/calm' | '/focus' | '/gita' | '/practice'
   fileRoutesByTo: FileRoutesByTo
-  to: '/'
-  id: '__root__' | '/_public' | '/_public/'
+  to: '/calm' | '/focus' | '/gita' | '/practice' | '/'
+  id:
+    | '__root__'
+    | '/_app'
+    | '/_app/calm'
+    | '/_app/focus'
+    | '/_app/gita'
+    | '/_app/practice'
+    | '/_app/'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
-  PublicRouteRoute: typeof PublicRouteRouteWithChildren
+  AppRouteRoute: typeof AppRouteRouteWithChildren
 }
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/_public': {
-      id: '/_public'
+    '/_app': {
+      id: '/_app'
       path: ''
       fullPath: '/'
-      preLoaderRoute: typeof PublicRouteRouteImport
+      preLoaderRoute: typeof AppRouteRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/_public/': {
-      id: '/_public/'
+    '/_app/': {
+      id: '/_app/'
       path: '/'
       fullPath: '/'
-      preLoaderRoute: typeof PublicIndexRouteImport
-      parentRoute: typeof PublicRouteRoute
+      preLoaderRoute: typeof AppIndexRouteImport
+      parentRoute: typeof AppRouteRoute
+    }
+    '/_app/calm': {
+      id: '/_app/calm'
+      path: '/calm'
+      fullPath: '/calm'
+      preLoaderRoute: typeof AppCalmRouteImport
+      parentRoute: typeof AppRouteRoute
+    }
+    '/_app/focus': {
+      id: '/_app/focus'
+      path: '/focus'
+      fullPath: '/focus'
+      preLoaderRoute: typeof AppFocusRouteImport
+      parentRoute: typeof AppRouteRoute
+    }
+    '/_app/gita': {
+      id: '/_app/gita'
+      path: '/gita'
+      fullPath: '/gita'
+      preLoaderRoute: typeof AppGitaRouteImport
+      parentRoute: typeof AppRouteRoute
+    }
+    '/_app/practice': {
+      id: '/_app/practice'
+      path: '/practice'
+      fullPath: '/practice'
+      preLoaderRoute: typeof AppPracticeRouteImport
+      parentRoute: typeof AppRouteRoute
     }
   }
 }
 
-interface PublicRouteRouteChildren {
-  PublicIndexRoute: typeof PublicIndexRoute
+interface AppRouteRouteChildren {
+  AppCalmRoute: typeof AppCalmRoute
+  AppFocusRoute: typeof AppFocusRoute
+  AppGitaRoute: typeof AppGitaRoute
+  AppPracticeRoute: typeof AppPracticeRoute
+  AppIndexRoute: typeof AppIndexRoute
 }
 
-const PublicRouteRouteChildren: PublicRouteRouteChildren = {
-  PublicIndexRoute: PublicIndexRoute,
+const AppRouteRouteChildren: AppRouteRouteChildren = {
+  AppCalmRoute: AppCalmRoute,
+  AppFocusRoute: AppFocusRoute,
+  AppGitaRoute: AppGitaRoute,
+  AppPracticeRoute: AppPracticeRoute,
+  AppIndexRoute: AppIndexRoute,
 }
 
-const PublicRouteRouteWithChildren = PublicRouteRoute._addFileChildren(
-  PublicRouteRouteChildren,
+const AppRouteRouteWithChildren = AppRouteRoute._addFileChildren(
+  AppRouteRouteChildren,
 )
 
 const rootRouteChildren: RootRouteChildren = {
-  PublicRouteRoute: PublicRouteRouteWithChildren,
+  AppRouteRoute: AppRouteRouteWithChildren,
 }
 export const routeTree = rootRouteImport
   ._addFileChildren(rootRouteChildren)

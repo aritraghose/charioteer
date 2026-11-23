@@ -1,6 +1,7 @@
 export const SITE_NAME = 'Charioteer'
 
-export const SITE_DESCRIPTION = 'Focus and meditation.'
+export const SITE_DESCRIPTION =
+  'Guided meditation, focus sessions, and help for the moments your thoughts will not stop. No account needed.'
 
 export function seo({
   title,

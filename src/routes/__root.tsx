@@ -1,6 +1,5 @@
 /// <reference types="vite/client" />
 import type { QueryClient } from '@tanstack/react-query'
-import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 import {
   HeadContent,
   Outlet,
@@ -8,7 +7,6 @@ import {
   Scripts,
   createRootRouteWithContext,
 } from '@tanstack/react-router'
-import { TanStackRouterDevtools } from '@tanstack/react-router-devtools'
 import type { ReactNode } from 'react'
 import { DefaultCatchBoundary } from '@/components/default-catch-boundary'
 import { NotFound } from '@/components/not-found'
@@ -29,6 +27,7 @@ export const Route = createRootRouteWithContext<{
     ],
     links: [
       { rel: 'stylesheet', href: appCss },
+      { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
       {
         rel: 'apple-touch-icon',
         sizes: '180x180',
@@ -61,12 +60,20 @@ function Document({ children }: Readonly<{ children: ReactNode }>) {
     <html lang="en" suppressHydrationWarning>
       <head>
         <HeadContent />
+        <meta
+          name="theme-color"
+          media="(prefers-color-scheme: light)"
+          content="#fbf3f1"
+        />
+        <meta
+          name="theme-color"
+          media="(prefers-color-scheme: dark)"
+          content="#1d1436"
+        />
         <ScriptOnce>{themeScript}</ScriptOnce>
       </head>
       <body>
         <ThemeProvider>{children}</ThemeProvider>
-        <TanStackRouterDevtools position="bottom-right" />
-        <ReactQueryDevtools buttonPosition="bottom-left" />
         <Scripts />
       </body>
     </html>
