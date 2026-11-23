@@ -10,6 +10,7 @@ import { Button } from '@/components/ui/button'
 import { ringBell, unlockBell } from '@/lib/bell'
 import { type UrgeAfter, logUrge } from '@/lib/urge-log'
 import { cn } from '@/lib/utils'
+import { devSpeed } from '@/lib/dev-speed'
 
 const MINUTE_OPTIONS = [5, 10, 15] as const
 
@@ -42,13 +43,6 @@ const AFTER_OPTIONS: { value: UrgeAfter; label: string; reply: string }[] = [
 ]
 
 const bigButton = 'h-12 rounded-full px-8 text-base'
-
-/** In development, `?speed=20` makes the wait shorter for testing. */
-function devSpeed() {
-  if (!import.meta.env.DEV || typeof window === 'undefined') return 1
-  const value = Number(new URLSearchParams(window.location.search).get('speed'))
-  return value > 0 ? value : 1
-}
 
 type Stage = 'choose' | 'waiting' | 'check' | 'after'
 

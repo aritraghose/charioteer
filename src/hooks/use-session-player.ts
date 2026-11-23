@@ -9,18 +9,12 @@ import {
   totalSeconds,
 } from '@/lib/session-timeline'
 import { readStored, writeStored } from '@/lib/storage'
+import { devSpeed } from '@/lib/dev-speed'
 
 export type PlayerStatus = 'ready' | 'playing' | 'paused' | 'done'
 
 /** Sessions shorter than this are not worth logging when ended early. */
 const MIN_LOGGED_SECONDS = 10
-
-/** In development, `?speed=20` plays a session faster for testing. */
-function devSpeed() {
-  if (!import.meta.env.DEV || typeof window === 'undefined') return 1
-  const value = Number(new URLSearchParams(window.location.search).get('speed'))
-  return value > 0 ? value : 1
-}
 
 export function useSessionPlayer(session: Session) {
   const timeline = useMemo(() => buildTimeline(session), [session])

@@ -13,7 +13,7 @@ export function QuietScreen({
   footer,
   children,
 }: Readonly<{
-  leaveTo: '/calm' | '/practice' | '/'
+  leaveTo: '/calm' | '/practice' | '/focus' | '/'
   leaveLabel?: string
   footer?: ReactNode
   children: ReactNode

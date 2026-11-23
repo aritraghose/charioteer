@@ -17,6 +17,7 @@ import { Route as AppGitaRouteImport } from './routes/_app/gita'
 import { Route as AppPracticeRouteImport } from './routes/_app/practice'
 import { Route as CalmDelayRouteImport } from './routes/calm_.delay'
 import { Route as CalmNowRouteImport } from './routes/calm_.now'
+import { Route as FocusNowRouteImport } from './routes/focus_.now'
 import { Route as SessionSessionIdRouteImport } from './routes/session.$sessionId'
 
 const AppRouteRoute = AppRouteRouteImport.update({
@@ -58,6 +59,11 @@ const CalmNowRoute = CalmNowRouteImport.update({
   path: '/calm/now',
   getParentRoute: () => rootRouteImport,
 } as any)
+const FocusNowRoute = FocusNowRouteImport.update({
+  id: '/focus_/now',
+  path: '/focus/now',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const SessionSessionIdRoute = SessionSessionIdRouteImport.update({
   id: '/session/$sessionId',
   path: '/session/$sessionId',
@@ -72,6 +78,7 @@ export interface FileRoutesByFullPath {
   '/practice': typeof AppPracticeRoute
   '/calm/delay': typeof CalmDelayRoute
   '/calm/now': typeof CalmNowRoute
+  '/focus/now': typeof FocusNowRoute
   '/session/$sessionId': typeof SessionSessionIdRoute
 }
 export interface FileRoutesByTo {
@@ -81,6 +88,7 @@ export interface FileRoutesByTo {
   '/practice': typeof AppPracticeRoute
   '/calm/delay': typeof CalmDelayRoute
   '/calm/now': typeof CalmNowRoute
+  '/focus/now': typeof FocusNowRoute
   '/session/$sessionId': typeof SessionSessionIdRoute
   '/': typeof AppIndexRoute
 }
@@ -93,6 +101,7 @@ export interface FileRoutesById {
   '/_app/practice': typeof AppPracticeRoute
   '/calm_/delay': typeof CalmDelayRoute
   '/calm_/now': typeof CalmNowRoute
+  '/focus_/now': typeof FocusNowRoute
   '/session/$sessionId': typeof SessionSessionIdRoute
   '/_app/': typeof AppIndexRoute
 }
@@ -106,6 +115,7 @@ export interface FileRouteTypes {
     | '/practice'
     | '/calm/delay'
     | '/calm/now'
+    | '/focus/now'
     | '/session/$sessionId'
   fileRoutesByTo: FileRoutesByTo
   to:
@@ -115,6 +125,7 @@ export interface FileRouteTypes {
     | '/practice'
     | '/calm/delay'
     | '/calm/now'
+    | '/focus/now'
     | '/session/$sessionId'
     | '/'
   id:
@@ -126,6 +137,7 @@ export interface FileRouteTypes {
     | '/_app/practice'
     | '/calm_/delay'
     | '/calm_/now'
+    | '/focus_/now'
     | '/session/$sessionId'
     | '/_app/'
   fileRoutesById: FileRoutesById
@@ -134,6 +146,7 @@ export interface RootRouteChildren {
   AppRouteRoute: typeof AppRouteRouteWithChildren
   CalmDelayRoute: typeof CalmDelayRoute
   CalmNowRoute: typeof CalmNowRoute
+  FocusNowRoute: typeof FocusNowRoute
   SessionSessionIdRoute: typeof SessionSessionIdRoute
 }
 
@@ -195,6 +208,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof CalmNowRouteImport
       parentRoute: typeof rootRouteImport
     }
+    '/focus_/now': {
+      id: '/focus_/now'
+      path: '/focus/now'
+      fullPath: '/focus/now'
+      preLoaderRoute: typeof FocusNowRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/session/$sessionId': {
       id: '/session/$sessionId'
       path: '/session/$sessionId'
@@ -229,6 +249,7 @@ const rootRouteChildren: RootRouteChildren = {
   AppRouteRoute: AppRouteRouteWithChildren,
   CalmDelayRoute: CalmDelayRoute,
   CalmNowRoute: CalmNowRoute,
+  FocusNowRoute: FocusNowRoute,
   SessionSessionIdRoute: SessionSessionIdRoute,
 }
 export const routeTree = rootRouteImport
