@@ -22,6 +22,7 @@ import { Route as FocusNowRouteImport } from './routes/focus_.now'
 import { Route as LadderStepIdRouteImport } from './routes/ladder_.$stepId'
 import { Route as SessionSessionIdRouteImport } from './routes/session.$sessionId'
 import { Route as AppPracticeWeekRouteImport } from './routes/_app/practice_.$week'
+import { Route as AppGitaChapterVerseRouteImport } from './routes/_app/gita_.$chapter.$verse'
 
 const AppRouteRoute = AppRouteRouteImport.update({
   id: '/_app',
@@ -87,6 +88,11 @@ const AppPracticeWeekRoute = AppPracticeWeekRouteImport.update({
   path: '/practice/$week',
   getParentRoute: () => AppRouteRoute,
 } as any)
+const AppGitaChapterVerseRoute = AppGitaChapterVerseRouteImport.update({
+  id: '/gita_/$chapter/$verse',
+  path: '/gita/$chapter/$verse',
+  getParentRoute: () => AppRouteRoute,
+} as any)
 
 export interface FileRoutesByFullPath {
   '/': typeof AppIndexRoute
@@ -101,6 +107,7 @@ export interface FileRoutesByFullPath {
   '/ladder/$stepId': typeof LadderStepIdRoute
   '/session/$sessionId': typeof SessionSessionIdRoute
   '/practice/$week': typeof AppPracticeWeekRoute
+  '/gita/$chapter/$verse': typeof AppGitaChapterVerseRoute
 }
 export interface FileRoutesByTo {
   '/calm': typeof AppCalmRoute
@@ -115,6 +122,7 @@ export interface FileRoutesByTo {
   '/session/$sessionId': typeof SessionSessionIdRoute
   '/': typeof AppIndexRoute
   '/practice/$week': typeof AppPracticeWeekRoute
+  '/gita/$chapter/$verse': typeof AppGitaChapterVerseRoute
 }
 export interface FileRoutesById {
   __root__: typeof rootRouteImport
@@ -131,6 +139,7 @@ export interface FileRoutesById {
   '/session/$sessionId': typeof SessionSessionIdRoute
   '/_app/': typeof AppIndexRoute
   '/_app/practice_/$week': typeof AppPracticeWeekRoute
+  '/_app/gita_/$chapter/$verse': typeof AppGitaChapterVerseRoute
 }
 export interface FileRouteTypes {
   fileRoutesByFullPath: FileRoutesByFullPath
@@ -147,6 +156,7 @@ export interface FileRouteTypes {
     | '/ladder/$stepId'
     | '/session/$sessionId'
     | '/practice/$week'
+    | '/gita/$chapter/$verse'
   fileRoutesByTo: FileRoutesByTo
   to:
     | '/calm'
@@ -161,6 +171,7 @@ export interface FileRouteTypes {
     | '/session/$sessionId'
     | '/'
     | '/practice/$week'
+    | '/gita/$chapter/$verse'
   id:
     | '__root__'
     | '/_app'
@@ -176,6 +187,7 @@ export interface FileRouteTypes {
     | '/session/$sessionId'
     | '/_app/'
     | '/_app/practice_/$week'
+    | '/_app/gita_/$chapter/$verse'
   fileRoutesById: FileRoutesById
 }
 export interface RootRouteChildren {
@@ -280,6 +292,13 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppPracticeWeekRouteImport
       parentRoute: typeof AppRouteRoute
     }
+    '/_app/gita_/$chapter/$verse': {
+      id: '/_app/gita_/$chapter/$verse'
+      path: '/gita/$chapter/$verse'
+      fullPath: '/gita/$chapter/$verse'
+      preLoaderRoute: typeof AppGitaChapterVerseRouteImport
+      parentRoute: typeof AppRouteRoute
+    }
   }
 }
 
@@ -291,6 +310,7 @@ interface AppRouteRouteChildren {
   AppPracticeRoute: typeof AppPracticeRoute
   AppIndexRoute: typeof AppIndexRoute
   AppPracticeWeekRoute: typeof AppPracticeWeekRoute
+  AppGitaChapterVerseRoute: typeof AppGitaChapterVerseRoute
 }
 
 const AppRouteRouteChildren: AppRouteRouteChildren = {
@@ -301,6 +321,7 @@ const AppRouteRouteChildren: AppRouteRouteChildren = {
   AppPracticeRoute: AppPracticeRoute,
   AppIndexRoute: AppIndexRoute,
   AppPracticeWeekRoute: AppPracticeWeekRoute,
+  AppGitaChapterVerseRoute: AppGitaChapterVerseRoute,
 }
 
 const AppRouteRouteWithChildren = AppRouteRoute._addFileChildren(
