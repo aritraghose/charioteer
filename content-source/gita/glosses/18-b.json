@@ -1,0 +1,455 @@
+{
+  "27": {
+    "words": [
+      { "sa": "rāgī", "en": "passionate" },
+      { "sa": "karma-phala-prepsuḥ", "en": "wishing to obtain the fruit of action", "term": "karma" },
+      { "sa": "lubdhaḥ", "en": "greedy" },
+      { "sa": "hiṁsā-ātmakaḥ", "en": "harmful in nature" },
+      { "sa": "aśuciḥ", "en": "impure" },
+      { "sa": "harṣa-śoka-anvitaḥ", "en": "filled with joy and grief" },
+      { "sa": "kartā", "en": "the doer" },
+      { "sa": "rājasaḥ", "en": "of rajas", "term": "guna" },
+      { "sa": "parikīrtitaḥ", "en": "is declared" }
+    ],
+    "translation": "Passionate, wishing to obtain the fruit of action, greedy, harmful in nature, impure, filled with joy and grief: such a doer is declared to be of rajas."
+  },
+  "28": {
+    "words": [
+      { "sa": "ayuktaḥ", "en": "undisciplined", "term": "yoga" },
+      { "sa": "prākṛtaḥ", "en": "coarse" },
+      { "sa": "stabdhaḥ", "en": "stubborn" },
+      { "sa": "śaṭhaḥ", "en": "deceitful" },
+      { "sa": "naiṣkṛtikaḥ", "en": "malicious" },
+      { "sa": "alasaḥ", "en": "lazy" },
+      { "sa": "viṣādī", "en": "despondent" },
+      { "sa": "dīrgha-sūtrī", "en": "procrastinating" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "kartā", "en": "the doer" },
+      { "sa": "tāmasaḥ", "en": "of tamas", "term": "guna" },
+      { "sa": "ucyate", "en": "is called" }
+    ],
+    "translation": "Undisciplined, coarse, stubborn, deceitful, malicious, lazy, despondent and procrastinating: such a doer is called of tamas."
+  },
+  "29": {
+    "words": [
+      { "sa": "buddheḥ", "en": "of buddhi", "term": "buddhi" },
+      { "sa": "bhedam", "en": "the division" },
+      { "sa": "dhṛteḥ", "en": "of firmness" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "also" },
+      { "sa": "guṇataḥ", "en": "according to the guṇas", "term": "guna" },
+      { "sa": "tri-vidham", "en": "threefold" },
+      { "sa": "śṛṇu", "en": "hear" },
+      { "sa": "procyamānam", "en": "being declared" },
+      { "sa": "aśeṣeṇa", "en": "without remainder" },
+      { "sa": "pṛthaktvena", "en": "separately" },
+      { "sa": "dhanañjaya", "en": "O winner of wealth" }
+    ],
+    "translation": "Hear the threefold division of buddhi and also of firmness according to the guṇas, being declared without remainder and separately, O winner of wealth."
+  },
+  "30": {
+    "words": [
+      { "sa": "pravṛttim", "en": "activity" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "nivṛttim", "en": "cessation" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "kārya-akārye", "en": "what is to be done and what is not to be done" },
+      { "sa": "bhaya-abhaye", "en": "fear and fearlessness" },
+      { "sa": "bandham", "en": "bondage" },
+      { "sa": "mokṣam", "en": "release" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "yā", "en": "which" },
+      { "sa": "vetti", "en": "knows" },
+      { "sa": "buddhiḥ", "en": "buddhi", "term": "buddhi" },
+      { "sa": "sā", "en": "that" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "sāttvikī", "en": "of sattva", "term": "guna" }
+    ],
+    "translation": "The buddhi which knows activity and cessation, what is to be done and what is not to be done, fear and fearlessness, bondage and release: that, O son of Pṛthā, is of sattva."
+  },
+  "31": {
+    "words": [
+      { "sa": "yayā", "en": "by which" },
+      { "sa": "dharmam", "en": "dharma", "term": "dharma" },
+      { "sa": "adharmam", "en": "what is not dharma", "term": "dharma" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "kāryam", "en": "what is to be done" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "akāryam", "en": "what is not to be done" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "ayathāvat", "en": "not as it is" },
+      { "sa": "prajānāti", "en": "one understands" },
+      { "sa": "buddhiḥ", "en": "buddhi", "term": "buddhi" },
+      { "sa": "sā", "en": "that" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "rājasī", "en": "of rajas", "term": "guna" }
+    ],
+    "translation": "The buddhi by which one understands dharma and what is not dharma, and indeed what is to be done and what is not to be done, not as it is: that, O son of Pṛthā, is of rajas."
+  },
+  "32": {
+    "words": [
+      { "sa": "adharmam", "en": "what is not dharma", "term": "dharma" },
+      { "sa": "dharmam", "en": "dharma", "term": "dharma" },
+      { "sa": "iti", "en": "as" },
+      { "sa": "yā", "en": "which" },
+      { "sa": "manyate", "en": "thinks" },
+      { "sa": "tamasā", "en": "by tamas", "term": "guna" },
+      { "sa": "āvṛtā", "en": "covered" },
+      { "sa": "sarva-arthān", "en": "all things" },
+      { "sa": "viparītān", "en": "reversed" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "buddhiḥ", "en": "buddhi", "term": "buddhi" },
+      { "sa": "sā", "en": "that" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "tāmasī", "en": "of tamas", "term": "guna" }
+    ],
+    "translation": "The buddhi which, covered by tamas, thinks what is not dharma as dharma, and all things reversed: that, O son of Pṛthā, is of tamas."
+  },
+  "33": {
+    "words": [
+      { "sa": "dhṛtyā", "en": "by firmness" },
+      { "sa": "yayā", "en": "by which" },
+      { "sa": "dhārayate", "en": "one holds" },
+      { "sa": "manaḥ-prāṇa-indriya-kriyāḥ", "en": "the activities of the mind, the breath and the senses", "term": "indriya" },
+      { "sa": "yogena", "en": "through yoga", "term": "yoga" },
+      { "sa": "avyabhicāriṇyā", "en": "unwavering" },
+      { "sa": "dhṛtiḥ", "en": "firmness" },
+      { "sa": "sā", "en": "that" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "sāttvikī", "en": "of sattva", "term": "guna" }
+    ],
+    "translation": "The firmness by which one holds the activities of the mind, the breath and the senses, a firmness unwavering through yoga: that firmness, O son of Pṛthā, is of sattva."
+  },
+  "34": {
+    "words": [
+      { "sa": "yayā", "en": "by which" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "dharma-kāma-arthān", "en": "dharma, desire and wealth", "term": "dharma" },
+      { "sa": "dhṛtyā", "en": "by firmness" },
+      { "sa": "dhārayate", "en": "one holds" },
+      { "sa": "arjuna", "en": "O Arjuna" },
+      { "sa": "prasaṅgena", "en": "with attachment", "term": "sanga" },
+      { "sa": "phala-ākāṅkṣī", "en": "longing for the fruit" },
+      { "sa": "dhṛtiḥ", "en": "firmness" },
+      { "sa": "sā", "en": "that" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "rājasī", "en": "of rajas", "term": "guna" }
+    ],
+    "translation": "But the firmness by which one holds to dharma, desire and wealth, O Arjuna, with attachment, longing for the fruit: that firmness, O son of Pṛthā, is of rajas."
+  },
+  "35": {
+    "words": [
+      { "sa": "yayā", "en": "by which" },
+      { "sa": "svapnam", "en": "sleep" },
+      { "sa": "bhayam", "en": "fear" },
+      { "sa": "śokam", "en": "grief" },
+      { "sa": "viṣādam", "en": "despondency" },
+      { "sa": "madam", "en": "intoxication" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "na", "en": "not" },
+      { "sa": "vimuñcati", "en": "lets go of" },
+      { "sa": "durmedhāḥ", "en": "the dull-witted one" },
+      { "sa": "dhṛtiḥ", "en": "firmness" },
+      { "sa": "sā", "en": "that" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "tāmasī", "en": "of tamas", "term": "guna" }
+    ],
+    "translation": "The firmness by which the dull-witted one does not let go of sleep, fear, grief, despondency and indeed intoxication: that firmness, O son of Pṛthā, is of tamas.",
+    "notes": ["\"Intoxication\" can also be read as \"pride\"."]
+  },
+  "36": {
+    "words": [
+      { "sa": "sukham", "en": "happiness" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "idānīm", "en": "now" },
+      { "sa": "tri-vidham", "en": "threefold" },
+      { "sa": "śṛṇu", "en": "hear" },
+      { "sa": "me", "en": "from me" },
+      { "sa": "bharata-ṛṣabha", "en": "O bull of the Bharatas" },
+      { "sa": "abhyāsāt", "en": "from practice", "term": "abhyasa" },
+      { "sa": "ramate", "en": "one delights" },
+      { "sa": "yatra", "en": "in which" },
+      { "sa": "duḥkha-antam", "en": "the end of suffering" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "nigacchati", "en": "one reaches" }
+    ],
+    "translation": "But now hear from me, O bull of the Bharatas, the threefold happiness. That in which one delights from practice and reaches the end of suffering,",
+    "notes": ["Verses 36 to 37 are one sentence in the Sanskrit."]
+  },
+  "37": {
+    "words": [
+      { "sa": "yat", "en": "which" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "agre", "en": "at first" },
+      { "sa": "viṣam", "en": "poison" },
+      { "sa": "iva", "en": "like" },
+      { "sa": "pariṇāme", "en": "in the end" },
+      { "sa": "amṛta-upamam", "en": "comparable to nectar" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "sukham", "en": "happiness" },
+      { "sa": "sāttvikam", "en": "of sattva", "term": "guna" },
+      { "sa": "proktam", "en": "is declared" },
+      { "sa": "ātma-buddhi-prasāda-jam", "en": "born of the clearness of the buddhi of the self", "term": "buddhi" }
+    ],
+    "translation": "that which is like poison at first and comparable to nectar in the end: that happiness is declared to be of sattva, born of the clearness of the buddhi of the self.",
+    "notes": ["\"Born of the clearness of the buddhi of the self\" can also be read as \"born of the clearness of the self and of buddhi\", or as \"born of the clearness of a buddhi turned to the self\"."]
+  },
+  "38": {
+    "words": [
+      { "sa": "viṣaya-indriya-saṁyogāt", "en": "from the contact of the senses with their objects", "term": "indriya" },
+      { "sa": "yat", "en": "which" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "agre", "en": "at first" },
+      { "sa": "amṛta-upamam", "en": "comparable to nectar" },
+      { "sa": "pariṇāme", "en": "in the end" },
+      { "sa": "viṣam", "en": "poison" },
+      { "sa": "iva", "en": "like" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "sukham", "en": "happiness" },
+      { "sa": "rājasam", "en": "of rajas", "term": "guna" },
+      { "sa": "smṛtam", "en": "is remembered" }
+    ],
+    "translation": "That which, from the contact of the senses with their objects, is comparable to nectar at first and like poison in the end: that happiness is remembered as of rajas."
+  },
+  "39": {
+    "words": [
+      { "sa": "yat", "en": "which" },
+      { "sa": "agre", "en": "at first" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "anubandhe", "en": "in what follows" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "sukham", "en": "happiness" },
+      { "sa": "mohanam", "en": "deluding" },
+      { "sa": "ātmanaḥ", "en": "of the self", "term": "atman" },
+      { "sa": "nidrā-ālasya-pramāda-uttham", "en": "arising from sleep, laziness and negligence" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "tāmasam", "en": "of tamas", "term": "guna" },
+      { "sa": "udāhṛtam", "en": "is called" }
+    ],
+    "translation": "The happiness which, both at first and in what follows, is deluding of the self, arising from sleep, laziness and negligence: that is called of tamas."
+  },
+  "40": {
+    "words": [
+      { "sa": "na", "en": "not" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "asti", "en": "there is" },
+      { "sa": "pṛthivyām", "en": "on earth" },
+      { "sa": "vā", "en": "or" },
+      { "sa": "divi", "en": "in heaven" },
+      { "sa": "deveṣu", "en": "among the gods" },
+      { "sa": "vā", "en": "or" },
+      { "sa": "punaḥ", "en": "again" },
+      { "sa": "sattvam", "en": "a being" },
+      { "sa": "prakṛti-jaiḥ", "en": "born of nature" },
+      { "sa": "muktam", "en": "free" },
+      { "sa": "yat", "en": "which" },
+      { "sa": "ebhiḥ", "en": "from these" },
+      { "sa": "syāt", "en": "would be" },
+      { "sa": "tribhiḥ", "en": "three" },
+      { "sa": "guṇaiḥ", "en": "from the guṇas", "term": "guna" }
+    ],
+    "translation": "There is not that being, on earth or again in heaven among the gods, which would be free from these three guṇas born of nature."
+  },
+  "41": {
+    "words": [
+      { "sa": "brāhmaṇa-kṣatriya-viśām", "en": "of brāhmaṇas, kṣatriyas and vaiśyas" },
+      { "sa": "śūdrāṇām", "en": "of śūdras" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "parantapa", "en": "O scorcher of foes" },
+      { "sa": "karmāṇi", "en": "the actions", "term": "karma" },
+      { "sa": "pravibhaktāni", "en": "are divided" },
+      { "sa": "svabhāva-prabhavaiḥ", "en": "arising from their own nature" },
+      { "sa": "guṇaiḥ", "en": "by the guṇas", "term": "guna" }
+    ],
+    "translation": "The actions of brāhmaṇas, kṣatriyas and vaiśyas, and of śūdras, O scorcher of foes, are divided by the guṇas arising from their own nature."
+  },
+  "42": {
+    "words": [
+      { "sa": "śamaḥ", "en": "calm" },
+      { "sa": "damaḥ", "en": "self-restraint" },
+      { "sa": "tapaḥ", "en": "austerity" },
+      { "sa": "śaucam", "en": "purity" },
+      { "sa": "kṣāntiḥ", "en": "forbearance" },
+      { "sa": "ārjavam", "en": "uprightness" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "vijñānam", "en": "discernment" },
+      { "sa": "āstikyam", "en": "faith" },
+      { "sa": "brahma-karma", "en": "the action of a brāhmaṇa", "term": "karma" },
+      { "sa": "svabhāva-jam", "en": "born of his own nature" }
+    ],
+    "translation": "Calm, self-restraint, austerity, purity, forbearance and indeed uprightness, knowledge, discernment and faith are the action of a brāhmaṇa, born of his own nature."
+  },
+  "43": {
+    "words": [
+      { "sa": "śauryam", "en": "heroism" },
+      { "sa": "tejaḥ", "en": "vigour" },
+      { "sa": "dhṛtiḥ", "en": "firmness" },
+      { "sa": "dākṣyam", "en": "skill" },
+      { "sa": "yuddhe", "en": "in battle" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "api", "en": "also" },
+      { "sa": "apalāyanam", "en": "not fleeing" },
+      { "sa": "dānam", "en": "giving" },
+      { "sa": "īśvara-bhāvaḥ", "en": "the bearing of a lord" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "kṣātram", "en": "of a kṣatriya" },
+      { "sa": "karma", "en": "the action", "term": "karma" },
+      { "sa": "svabhāva-jam", "en": "born of his own nature" }
+    ],
+    "translation": "Heroism, vigour, firmness, skill, and also not fleeing in battle, giving and the bearing of a lord are the action of a kṣatriya, born of his own nature."
+  },
+  "44": {
+    "words": [
+      { "sa": "kṛṣi-gaurakṣya-vāṇijyam", "en": "farming, protecting cows and trade" },
+      { "sa": "vaiśya-karma", "en": "the action of a vaiśya", "term": "karma" },
+      { "sa": "svabhāva-jam", "en": "born of his own nature" },
+      { "sa": "paricaryā-ātmakam", "en": "consisting of service" },
+      { "sa": "karma", "en": "action", "term": "karma" },
+      { "sa": "śūdrasya", "en": "of a śūdra" },
+      { "sa": "api", "en": "also" },
+      { "sa": "svabhāva-jam", "en": "born of his own nature" }
+    ],
+    "translation": "Farming, protecting cows and trade are the action of a vaiśya, born of his own nature. Action consisting of service is that of a śūdra, also born of his own nature."
+  },
+  "45": {
+    "words": [
+      { "sa": "sve", "en": "in his own" },
+      { "sa": "sve", "en": "in his own" },
+      { "sa": "karmaṇi", "en": "in action", "term": "karma" },
+      { "sa": "abhirataḥ", "en": "delighting" },
+      { "sa": "saṁsiddhim", "en": "full perfection" },
+      { "sa": "labhate", "en": "attains" },
+      { "sa": "naraḥ", "en": "a man" },
+      { "sa": "sva-karma-nirataḥ", "en": "devoted to his own action", "term": "karma" },
+      { "sa": "siddhim", "en": "perfection" },
+      { "sa": "yathā", "en": "how" },
+      { "sa": "vindati", "en": "he finds" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "śṛṇu", "en": "hear" }
+    ],
+    "translation": "Delighting each in his own action, a man attains full perfection. How one devoted to his own action finds perfection, hear that."
+  },
+  "46": {
+    "words": [
+      { "sa": "yataḥ", "en": "from whom" },
+      { "sa": "pravṛttiḥ", "en": "the coming forth" },
+      { "sa": "bhūtānām", "en": "of beings" },
+      { "sa": "yena", "en": "by whom" },
+      { "sa": "sarvam", "en": "all" },
+      { "sa": "idam", "en": "this" },
+      { "sa": "tatam", "en": "is pervaded" },
+      { "sa": "sva-karmaṇā", "en": "by his own action", "term": "karma" },
+      { "sa": "tam", "en": "him" },
+      { "sa": "abhyarcya", "en": "having worshipped" },
+      { "sa": "siddhim", "en": "perfection" },
+      { "sa": "vindati", "en": "finds" },
+      { "sa": "mānavaḥ", "en": "a human being" }
+    ],
+    "translation": "Having worshipped by his own action him from whom is the coming forth of beings, by whom all this is pervaded, a human being finds perfection.",
+    "notes": ["\"The coming forth\" can also be read as \"the activity\"."]
+  },
+  "47": {
+    "words": [
+      { "sa": "śreyān", "en": "better" },
+      { "sa": "sva-dharmaḥ", "en": "one's own dharma", "term": "dharma" },
+      { "sa": "viguṇaḥ", "en": "without merit" },
+      { "sa": "para-dharmāt", "en": "than another's dharma", "term": "dharma" },
+      { "sa": "svanuṣṭhitāt", "en": "well performed" },
+      { "sa": "svabhāva-niyatam", "en": "ordained by one's own nature" },
+      { "sa": "karma", "en": "action", "term": "karma" },
+      { "sa": "kurvan", "en": "doing" },
+      { "sa": "na", "en": "not" },
+      { "sa": "āpnoti", "en": "one incurs" },
+      { "sa": "kilbiṣam", "en": "fault" }
+    ],
+    "translation": "Better is one's own dharma without merit than another's dharma well performed. Doing the action ordained by one's own nature, one does not incur fault.",
+    "notes": ["\"Without merit\" can also be read as \"imperfectly done\"."]
+  },
+  "48": {
+    "words": [
+      { "sa": "saha-jam", "en": "inborn" },
+      { "sa": "karma", "en": "action", "term": "karma" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "sa-doṣam", "en": "with fault" },
+      { "sa": "api", "en": "even" },
+      { "sa": "na", "en": "not" },
+      { "sa": "tyajet", "en": "one should abandon" },
+      { "sa": "sarva-ārambhāḥ", "en": "all undertakings" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "doṣeṇa", "en": "by fault" },
+      { "sa": "dhūmena", "en": "by smoke" },
+      { "sa": "agniḥ", "en": "fire" },
+      { "sa": "iva", "en": "like" },
+      { "sa": "āvṛtāḥ", "en": "are covered" }
+    ],
+    "translation": "One should not abandon inborn action, O son of Kuntī, even with fault, for all undertakings are covered by fault, like fire by smoke."
+  },
+  "49": {
+    "words": [
+      { "sa": "asakta-buddhiḥ", "en": "whose buddhi is unattached", "term": "buddhi" },
+      { "sa": "sarvatra", "en": "everywhere" },
+      { "sa": "jita-ātmā", "en": "whose self is conquered", "term": "atman" },
+      { "sa": "vigata-spṛhaḥ", "en": "whose longing is gone" },
+      { "sa": "naiṣkarmya-siddhim", "en": "the perfection of actionlessness", "term": "karma" },
+      { "sa": "paramām", "en": "supreme" },
+      { "sa": "saṁnyāsena", "en": "by renunciation", "term": "sannyasa" },
+      { "sa": "adhigacchati", "en": "one reaches" }
+    ],
+    "translation": "One whose buddhi is unattached everywhere, whose self is conquered, whose longing is gone, reaches by renunciation the supreme perfection of actionlessness."
+  },
+  "50": {
+    "words": [
+      { "sa": "siddhim", "en": "perfection" },
+      { "sa": "prāptaḥ", "en": "one who has attained" },
+      { "sa": "yathā", "en": "how" },
+      { "sa": "brahma", "en": "brahman", "term": "brahman" },
+      { "sa": "tathā", "en": "so" },
+      { "sa": "āpnoti", "en": "attains" },
+      { "sa": "nibodha", "en": "learn" },
+      { "sa": "me", "en": "from me" },
+      { "sa": "samāsena", "en": "in brief" },
+      { "sa": "eva", "en": "only" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "niṣṭhā", "en": "the culmination" },
+      { "sa": "jñānasya", "en": "of knowledge" },
+      { "sa": "yā", "en": "which" },
+      { "sa": "parā", "en": "highest" }
+    ],
+    "translation": "How one who has attained perfection attains brahman, so learn from me, only in brief, O son of Kuntī: that which is the highest culmination of knowledge."
+  },
+  "51": {
+    "words": [
+      { "sa": "buddhyā", "en": "with buddhi", "term": "buddhi" },
+      { "sa": "viśuddhayā", "en": "purified" },
+      { "sa": "yuktaḥ", "en": "joined", "term": "yoga" },
+      { "sa": "dhṛtyā", "en": "with firmness" },
+      { "sa": "ātmānam", "en": "the self", "term": "atman" },
+      { "sa": "niyamya", "en": "having restrained" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "śabda-ādīn", "en": "beginning with sound" },
+      { "sa": "viṣayān", "en": "the objects of the senses" },
+      { "sa": "tyaktvā", "en": "having abandoned" },
+      { "sa": "rāga-dveṣau", "en": "attraction and aversion" },
+      { "sa": "vyudasya", "en": "having cast aside" },
+      { "sa": "ca", "en": "and" }
+    ],
+    "translation": "Joined with a purified buddhi, and having restrained the self with firmness, having abandoned the objects of the senses beginning with sound, and having cast aside attraction and aversion,",
+    "notes": ["Verses 51 to 53 are one sentence in the Sanskrit."]
+  },
+  "52": {
+    "words": [
+      { "sa": "vivikta-sevī", "en": "dwelling in solitude" },
+      { "sa": "laghu-āśī", "en": "eating lightly" },
+      { "sa": "yata-vāk-kāya-mānasaḥ", "en": "whose speech, body and mind are restrained", "term": "manas" },
+      { "sa": "dhyāna-yoga-paraḥ", "en": "intent on the yoga of meditation", "term": "yoga" },
+      { "sa": "nityam", "en": "always" },
+      { "sa": "vairāgyam", "en": "dispassion", "term": "vairagya" },
+      { "sa": "samupāśritaḥ", "en": "having taken refuge in" }
+    ],
+    "translation": "dwelling in solitude, eating lightly, with speech, body and mind restrained, always intent on the yoga of meditation, having taken refuge in dispassion,"
+  }
+}

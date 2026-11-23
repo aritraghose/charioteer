@@ -1,0 +1,418 @@
+{
+  "5": {
+    "words": [
+      {
+        "sa": "uddharet",
+        "en": "one should lift up"
+      },
+      {
+        "sa": "ātmanā",
+        "en": "by the self",
+        "term": "atman"
+      },
+      {
+        "sa": "ātmānam",
+        "en": "the self",
+        "term": "atman"
+      },
+      {
+        "sa": "na",
+        "en": "not"
+      },
+      {
+        "sa": "ātmānam",
+        "en": "the self",
+        "term": "atman"
+      },
+      {
+        "sa": "avasādayet",
+        "en": "one should let sink"
+      },
+      {
+        "sa": "ātmā",
+        "en": "the self",
+        "term": "atman"
+      },
+      {
+        "sa": "eva",
+        "en": "alone"
+      },
+      {
+        "sa": "hi",
+        "en": "for"
+      },
+      {
+        "sa": "ātmanaḥ",
+        "en": "of the self",
+        "term": "atman"
+      },
+      {
+        "sa": "bandhuḥ",
+        "en": "friend"
+      },
+      {
+        "sa": "ātmā",
+        "en": "the self",
+        "term": "atman"
+      },
+      {
+        "sa": "eva",
+        "en": "alone"
+      },
+      {
+        "sa": "ripuḥ",
+        "en": "enemy"
+      },
+      {
+        "sa": "ātmanaḥ",
+        "en": "of the self",
+        "term": "atman"
+      }
+    ],
+    "translation": "One should lift up the self by the self, and should not let the self sink. For the self alone is the friend of the self, and the self alone is the enemy of the self.",
+    "iast": [
+      "uddhared ātmanātmānaṁ nātmānam avasādayet",
+      "ātmaiva hy ātmano bandhur ātmaiva ripur ātmanaḥ"
+    ],
+    "practice": {
+      "sessionId": "kindness",
+      "label": "Kindness toward yourself"
+    }
+  },
+  "6": {
+    "words": [
+      {
+        "sa": "bandhuḥ",
+        "en": "friend"
+      },
+      {
+        "sa": "ātmā",
+        "en": "the self",
+        "term": "atman"
+      },
+      {
+        "sa": "ātmanaḥ",
+        "en": "of the self",
+        "term": "atman"
+      },
+      {
+        "sa": "tasya",
+        "en": "of that person"
+      },
+      {
+        "sa": "yena",
+        "en": "by whom"
+      },
+      {
+        "sa": "ātmā",
+        "en": "the self",
+        "term": "atman"
+      },
+      {
+        "sa": "eva",
+        "en": "indeed"
+      },
+      {
+        "sa": "ātmanā",
+        "en": "by the self",
+        "term": "atman"
+      },
+      {
+        "sa": "jitaḥ",
+        "en": "mastered"
+      },
+      {
+        "sa": "anātmanaḥ",
+        "en": "of one who has not mastered the self",
+        "term": "atman"
+      },
+      {
+        "sa": "tu",
+        "en": "but"
+      },
+      {
+        "sa": "śatrutve",
+        "en": "in enmity"
+      },
+      {
+        "sa": "varteta",
+        "en": "would act"
+      },
+      {
+        "sa": "ātmā",
+        "en": "the self",
+        "term": "atman"
+      },
+      {
+        "sa": "eva",
+        "en": "itself"
+      },
+      {
+        "sa": "śatru-vat",
+        "en": "like an enemy"
+      }
+    ],
+    "translation": "The self is the friend of the self for that person by whom the self has been mastered by the self. But for one who has not mastered the self, the self itself would act in enmity, like an enemy.",
+    "iast": [
+      "bandhur ātmātmanas tasya yenātmaivātmanā jitaḥ",
+      "anātmanas tu śatrutve vartetātmaiva śatruvat"
+    ]
+  },
+  "19": {
+    "words": [
+      {
+        "sa": "yathā",
+        "en": "as"
+      },
+      {
+        "sa": "dīpaḥ",
+        "en": "a lamp"
+      },
+      {
+        "sa": "nivāta-sthaḥ",
+        "en": "standing in a windless place"
+      },
+      {
+        "sa": "na",
+        "en": "not"
+      },
+      {
+        "sa": "iṅgate",
+        "en": "flickers"
+      },
+      {
+        "sa": "sā",
+        "en": "that"
+      },
+      {
+        "sa": "upamā",
+        "en": "comparison"
+      },
+      {
+        "sa": "smṛtā",
+        "en": "is remembered"
+      },
+      {
+        "sa": "yoginaḥ",
+        "en": "of the yogī",
+        "term": "yoga"
+      },
+      {
+        "sa": "yata-cittasya",
+        "en": "whose mind is restrained"
+      },
+      {
+        "sa": "yuñjataḥ",
+        "en": "practising"
+      },
+      {
+        "sa": "yogam",
+        "en": "yoga",
+        "term": "yoga"
+      },
+      {
+        "sa": "ātmanaḥ",
+        "en": "of the self",
+        "term": "atman"
+      }
+    ],
+    "translation": "As a lamp standing in a windless place does not flicker: that comparison is remembered for the yogī whose mind is restrained, practising the yoga of the self.",
+    "iast": [
+      "yathā dīpo nivāta-stho neṅgate sopamā smṛtā",
+      "yogino yata-cittasya yuñjato yogam ātmanaḥ"
+    ],
+    "practice": {
+      "sessionId": "breath-anchor",
+      "label": "Steady breath anchor"
+    }
+  },
+  "26": {
+    "words": [
+      {
+        "sa": "yataḥ yataḥ",
+        "en": "from wherever"
+      },
+      {
+        "sa": "niścarati",
+        "en": "wanders off"
+      },
+      {
+        "sa": "manaḥ",
+        "en": "the mind",
+        "term": "manas"
+      },
+      {
+        "sa": "cañcalam",
+        "en": "restless"
+      },
+      {
+        "sa": "asthiram",
+        "en": "unsteady"
+      },
+      {
+        "sa": "tataḥ tataḥ",
+        "en": "from there"
+      },
+      {
+        "sa": "niyamya",
+        "en": "having restrained"
+      },
+      {
+        "sa": "etat",
+        "en": "it"
+      },
+      {
+        "sa": "ātmani",
+        "en": "in the self",
+        "term": "atman"
+      },
+      {
+        "sa": "eva",
+        "en": "alone"
+      },
+      {
+        "sa": "vaśam",
+        "en": "under control"
+      },
+      {
+        "sa": "nayet",
+        "en": "one should bring"
+      }
+    ],
+    "translation": "From wherever the restless, unsteady mind wanders off, from there, having restrained it, one should bring it under control in the self alone.",
+    "iast": [
+      "yato yato niścarati manaś cañcalam asthiram",
+      "tatas tato niyamyaitad ātmany eva vaśaṁ nayet"
+    ],
+    "practice": {
+      "sessionId": "counting-returns",
+      "label": "Counting returns"
+    }
+  },
+  "34": {
+    "words": [
+      {
+        "sa": "cañcalam",
+        "en": "restless"
+      },
+      {
+        "sa": "hi",
+        "en": "for"
+      },
+      {
+        "sa": "manaḥ",
+        "en": "the mind",
+        "term": "manas"
+      },
+      {
+        "sa": "kṛṣṇa",
+        "en": "O Kṛṣṇa"
+      },
+      {
+        "sa": "pramāthi",
+        "en": "turbulent"
+      },
+      {
+        "sa": "balavat",
+        "en": "strong"
+      },
+      {
+        "sa": "dṛḍham",
+        "en": "stubborn"
+      },
+      {
+        "sa": "tasya",
+        "en": "of it"
+      },
+      {
+        "sa": "aham",
+        "en": "I"
+      },
+      {
+        "sa": "nigraham",
+        "en": "restraint"
+      },
+      {
+        "sa": "manye",
+        "en": "think"
+      },
+      {
+        "sa": "vāyoḥ",
+        "en": "of the wind"
+      },
+      {
+        "sa": "iva",
+        "en": "like"
+      },
+      {
+        "sa": "su-duṣkaram",
+        "en": "very hard to do"
+      }
+    ],
+    "translation": "For the mind is restless, O Kṛṣṇa, turbulent, strong and stubborn. I think the restraint of it is very hard to do, like that of the wind.",
+    "iast": [
+      "cañcalaṁ hi manaḥ kṛṣṇa pramāthi balavad dṛḍham",
+      "tasyāhaṁ nigrahaṁ manye vāyor iva suduṣkaram"
+    ]
+  },
+  "35": {
+    "words": [
+      {
+        "sa": "asaṁśayam",
+        "en": "without doubt"
+      },
+      {
+        "sa": "mahā-bāho",
+        "en": "O mighty-armed one"
+      },
+      {
+        "sa": "manaḥ",
+        "en": "the mind",
+        "term": "manas"
+      },
+      {
+        "sa": "durnigraham",
+        "en": "hard to restrain"
+      },
+      {
+        "sa": "calam",
+        "en": "moving"
+      },
+      {
+        "sa": "abhyāsena",
+        "en": "by practice",
+        "term": "abhyasa"
+      },
+      {
+        "sa": "tu",
+        "en": "but"
+      },
+      {
+        "sa": "kaunteya",
+        "en": "O son of Kuntī"
+      },
+      {
+        "sa": "vairāgyeṇa",
+        "en": "by dispassion",
+        "term": "vairagya"
+      },
+      {
+        "sa": "ca",
+        "en": "and"
+      },
+      {
+        "sa": "gṛhyate",
+        "en": "it is held"
+      }
+    ],
+    "translation": "Without doubt, O mighty-armed one, the mind is hard to restrain and moving. But by practice, O son of Kuntī, and by dispassion, it is held.",
+    "iast": [
+      "asaṁśayaṁ mahā-bāho mano durnigrahaṁ calam",
+      "abhyāsena tu kaunteya vairāgyeṇa ca gṛhyate"
+    ],
+    "practice": {
+      "sessionId": "breath-anchor",
+      "label": "Steady breath anchor"
+    }
+  }
+}

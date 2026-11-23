@@ -1,0 +1,397 @@
+{
+  "19": {
+    "words": [
+      { "sa": "yaḥ", "en": "he who" },
+      { "sa": "enam", "en": "this one" },
+      { "sa": "vetti", "en": "knows" },
+      { "sa": "hantāram", "en": "as the slayer" },
+      { "sa": "yaḥ", "en": "he who" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "enam", "en": "this one" },
+      { "sa": "manyate", "en": "thinks" },
+      { "sa": "hatam", "en": "slain" },
+      { "sa": "ubhau", "en": "both" },
+      { "sa": "tau", "en": "those two" },
+      { "sa": "na", "en": "not" },
+      { "sa": "vijānītaḥ", "en": "they two understand" },
+      { "sa": "na", "en": "not" },
+      { "sa": "ayam", "en": "this one" },
+      { "sa": "hanti", "en": "slays" },
+      { "sa": "na", "en": "not" },
+      { "sa": "hanyate", "en": "is slain" }
+    ],
+    "translation": "He who knows this one as the slayer, and he who thinks this one slain, both of those two do not understand. This one does not slay and is not slain."
+  },
+  "20": {
+    "words": [
+      { "sa": "na", "en": "not" },
+      { "sa": "jāyate", "en": "is born" },
+      { "sa": "mriyate", "en": "dies" },
+      { "sa": "vā", "en": "or" },
+      { "sa": "kadācit", "en": "at any time" },
+      { "sa": "na", "en": "not" },
+      { "sa": "ayam", "en": "this one" },
+      { "sa": "bhūtvā", "en": "having been" },
+      { "sa": "bhavitā", "en": "will be" },
+      { "sa": "vā", "en": "or" },
+      { "sa": "na", "en": "not" },
+      { "sa": "bhūyaḥ", "en": "again" },
+      { "sa": "ajaḥ", "en": "unborn" },
+      { "sa": "nityaḥ", "en": "eternal" },
+      { "sa": "śāśvataḥ", "en": "everlasting" },
+      { "sa": "ayam", "en": "this one" },
+      { "sa": "purāṇaḥ", "en": "ancient" },
+      { "sa": "na", "en": "not" },
+      { "sa": "hanyate", "en": "is slain" },
+      { "sa": "hanyamāne", "en": "being slain" },
+      { "sa": "śarīre", "en": "when the body" }
+    ],
+    "translation": "This one is not born, or dies, at any time. Nor, having been, will this one again not be. Unborn, eternal, everlasting, ancient, this one is not slain when the body is being slain."
+  },
+  "21": {
+    "words": [
+      { "sa": "veda", "en": "knows" },
+      { "sa": "avināśinam", "en": "indestructible" },
+      { "sa": "nityam", "en": "eternal" },
+      { "sa": "yaḥ", "en": "he who" },
+      { "sa": "enam", "en": "this one" },
+      { "sa": "ajam", "en": "unborn" },
+      { "sa": "avyayam", "en": "undecaying" },
+      { "sa": "katham", "en": "how" },
+      { "sa": "saḥ", "en": "that" },
+      { "sa": "puruṣaḥ", "en": "person" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "kam", "en": "whom" },
+      { "sa": "ghātayati", "en": "causes to be slain" },
+      { "sa": "hanti", "en": "slays" },
+      { "sa": "kam", "en": "whom" }
+    ],
+    "translation": "He who knows this one as indestructible, eternal, unborn, undecaying: how, O son of Pṛthā, does that person cause whom to be slain, and whom does he slay?"
+  },
+  "22": {
+    "words": [
+      { "sa": "vāsāṁsi", "en": "garments" },
+      { "sa": "jīrṇāni", "en": "worn out" },
+      { "sa": "yathā", "en": "just as" },
+      { "sa": "vihāya", "en": "having cast off" },
+      { "sa": "navāni", "en": "new" },
+      { "sa": "gṛhṇāti", "en": "takes" },
+      { "sa": "naraḥ", "en": "a man" },
+      { "sa": "aparāṇi", "en": "others" },
+      { "sa": "tathā", "en": "so" },
+      { "sa": "śarīrāṇi", "en": "bodies" },
+      { "sa": "vihāya", "en": "having cast off" },
+      { "sa": "jīrṇāni", "en": "worn out" },
+      { "sa": "anyāni", "en": "others" },
+      { "sa": "saṁyāti", "en": "goes to" },
+      { "sa": "navāni", "en": "new" },
+      { "sa": "dehī", "en": "the embodied one", "term": "dehin" }
+    ],
+    "translation": "Just as a man, having cast off worn out garments, takes others that are new, so the embodied one, having cast off worn out bodies, goes to others that are new."
+  },
+  "23": {
+    "words": [
+      { "sa": "na", "en": "not" },
+      { "sa": "enam", "en": "this one" },
+      { "sa": "chindanti", "en": "cut" },
+      { "sa": "śastrāṇi", "en": "weapons" },
+      { "sa": "na", "en": "not" },
+      { "sa": "enam", "en": "this one" },
+      { "sa": "dahati", "en": "burns" },
+      { "sa": "pāvakaḥ", "en": "fire" },
+      { "sa": "na", "en": "not" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "enam", "en": "this one" },
+      { "sa": "kledayanti", "en": "wet" },
+      { "sa": "āpaḥ", "en": "the waters" },
+      { "sa": "na", "en": "not" },
+      { "sa": "śoṣayati", "en": "dries" },
+      { "sa": "mārutaḥ", "en": "the wind" }
+    ],
+    "translation": "Weapons do not cut this one, fire does not burn this one, and the waters do not wet this one, the wind does not dry it."
+  },
+  "24": {
+    "words": [
+      { "sa": "acchedyaḥ", "en": "not to be cut" },
+      { "sa": "ayam", "en": "this one" },
+      { "sa": "adāhyaḥ", "en": "not to be burned" },
+      { "sa": "ayam", "en": "this one" },
+      { "sa": "akledyaḥ", "en": "not to be wetted" },
+      { "sa": "aśoṣyaḥ", "en": "not to be dried" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "nityaḥ", "en": "eternal" },
+      { "sa": "sarva-gataḥ", "en": "gone everywhere" },
+      { "sa": "sthāṇuḥ", "en": "standing firm" },
+      { "sa": "acalaḥ", "en": "unmoving" },
+      { "sa": "ayam", "en": "this one" },
+      { "sa": "sanātanaḥ", "en": "primeval" }
+    ],
+    "translation": "This one is not to be cut, this one is not to be burned, not to be wetted, and indeed not to be dried. This one is eternal, gone everywhere, standing firm, unmoving, primeval."
+  },
+  "25": {
+    "words": [
+      { "sa": "avyaktaḥ", "en": "unmanifest" },
+      { "sa": "ayam", "en": "this one" },
+      { "sa": "acintyaḥ", "en": "unthinkable" },
+      { "sa": "ayam", "en": "this one" },
+      { "sa": "avikāryaḥ", "en": "unchangeable" },
+      { "sa": "ayam", "en": "this one" },
+      { "sa": "ucyate", "en": "is said to be" },
+      { "sa": "tasmāt", "en": "therefore" },
+      { "sa": "evam", "en": "thus" },
+      { "sa": "viditvā", "en": "having known" },
+      { "sa": "enam", "en": "this one" },
+      { "sa": "na", "en": "not" },
+      { "sa": "anuśocitum", "en": "to grieve over" },
+      { "sa": "arhasi", "en": "you ought" }
+    ],
+    "translation": "This one is said to be unmanifest, this one unthinkable, this one unchangeable. Therefore, having known this one thus, you ought not to grieve over it."
+  },
+  "26": {
+    "words": [
+      { "sa": "atha", "en": "now if" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "enam", "en": "this one" },
+      { "sa": "nitya-jātam", "en": "constantly born" },
+      { "sa": "nityam", "en": "constantly" },
+      { "sa": "vā", "en": "or" },
+      { "sa": "manyase", "en": "you think" },
+      { "sa": "mṛtam", "en": "dead" },
+      { "sa": "tathā", "en": "so" },
+      { "sa": "api", "en": "even" },
+      { "sa": "tvam", "en": "you" },
+      { "sa": "mahā-bāho", "en": "O mighty-armed one" },
+      { "sa": "na", "en": "not" },
+      { "sa": "evam", "en": "thus" },
+      { "sa": "śocitum", "en": "to grieve" },
+      { "sa": "arhasi", "en": "you ought" }
+    ],
+    "translation": "And now if you think this one constantly born, or constantly dead, even so, O mighty-armed one, you ought not to grieve thus."
+  },
+  "27": {
+    "words": [
+      { "sa": "jātasya", "en": "of one who is born" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "dhruvaḥ", "en": "certain" },
+      { "sa": "mṛtyuḥ", "en": "death" },
+      { "sa": "dhruvam", "en": "certain" },
+      { "sa": "janma", "en": "birth" },
+      { "sa": "mṛtasya", "en": "of one who is dead" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "tasmāt", "en": "therefore" },
+      { "sa": "aparihārye", "en": "unavoidable" },
+      { "sa": "arthe", "en": "over a matter" },
+      { "sa": "na", "en": "not" },
+      { "sa": "tvam", "en": "you" },
+      { "sa": "śocitum", "en": "to grieve" },
+      { "sa": "arhasi", "en": "you ought" }
+    ],
+    "translation": "For death is certain of one who is born, and birth is certain of one who is dead. Therefore you ought not to grieve over an unavoidable matter."
+  },
+  "28": {
+    "words": [
+      { "sa": "avyakta-ādīni", "en": "unmanifest in their beginning" },
+      { "sa": "bhūtāni", "en": "beings" },
+      { "sa": "vyakta-madhyāni", "en": "manifest in their middle" },
+      { "sa": "bhārata", "en": "O descendant of Bharata" },
+      { "sa": "avyakta-nidhanāni", "en": "unmanifest in their end" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "tatra", "en": "in that" },
+      { "sa": "kā", "en": "what" },
+      { "sa": "paridevanā", "en": "lamentation" }
+    ],
+    "translation": "Beings are unmanifest in their beginning, manifest in their middle, O descendant of Bharata, and indeed unmanifest in their end. What lamentation is there in that?"
+  },
+  "29": {
+    "words": [
+      { "sa": "āścarya-vat", "en": "as a wonder" },
+      { "sa": "paśyati", "en": "sees" },
+      { "sa": "kaścit", "en": "someone" },
+      { "sa": "enam", "en": "this one" },
+      { "sa": "āścarya-vat", "en": "as a wonder" },
+      { "sa": "vadati", "en": "speaks of" },
+      { "sa": "tathā", "en": "so" },
+      { "sa": "eva", "en": "just" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "anyaḥ", "en": "another" },
+      { "sa": "āścarya-vat", "en": "as a wonder" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "enam", "en": "this one" },
+      { "sa": "anyaḥ", "en": "another" },
+      { "sa": "śṛṇoti", "en": "hears of" },
+      { "sa": "śrutvā", "en": "having heard" },
+      { "sa": "api", "en": "even" },
+      { "sa": "enam", "en": "this one" },
+      { "sa": "veda", "en": "knows" },
+      { "sa": "na", "en": "not" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "at all" },
+      { "sa": "kaścit", "en": "anyone" }
+    ],
+    "translation": "Someone sees this one as a wonder, and just so another speaks of it as a wonder, and another hears of this one as a wonder. And even having heard, not anyone at all knows this one."
+  },
+  "30": {
+    "words": [
+      { "sa": "dehī", "en": "the embodied one", "term": "dehin" },
+      { "sa": "nityam", "en": "always" },
+      { "sa": "avadhyaḥ", "en": "not to be slain" },
+      { "sa": "ayam", "en": "this" },
+      { "sa": "dehe", "en": "in the body" },
+      { "sa": "sarvasya", "en": "of everyone" },
+      { "sa": "bhārata", "en": "O descendant of Bharata" },
+      { "sa": "tasmāt", "en": "therefore" },
+      { "sa": "sarvāṇi", "en": "all" },
+      { "sa": "bhūtāni", "en": "beings" },
+      { "sa": "na", "en": "not" },
+      { "sa": "tvam", "en": "you" },
+      { "sa": "śocitum", "en": "to grieve for" },
+      { "sa": "arhasi", "en": "you ought" }
+    ],
+    "translation": "This embodied one in the body of everyone is always not to be slain, O descendant of Bharata. Therefore you ought not to grieve for all beings."
+  },
+  "31": {
+    "words": [
+      { "sa": "sva-dharmam", "en": "your own dharma", "term": "dharma" },
+      { "sa": "api", "en": "also" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "avekṣya", "en": "having looked at" },
+      { "sa": "na", "en": "not" },
+      { "sa": "vikampitum", "en": "to waver" },
+      { "sa": "arhasi", "en": "you ought" },
+      { "sa": "dharmyāt", "en": "than one in accord with dharma", "term": "dharma" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "yuddhāt", "en": "than a battle" },
+      { "sa": "śreyaḥ", "en": "better" },
+      { "sa": "anyat", "en": "anything else" },
+      { "sa": "kṣatriyasya", "en": "for a warrior" },
+      { "sa": "na", "en": "not" },
+      { "sa": "vidyate", "en": "is found" }
+    ],
+    "translation": "And having looked at your own dharma also, you ought not to waver. For anything else better for a warrior than a battle in accord with dharma is not found."
+  },
+  "32": {
+    "words": [
+      { "sa": "yadṛcchayā", "en": "by chance" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "upapannam", "en": "arrived" },
+      { "sa": "svarga-dvāram", "en": "a door of heaven" },
+      { "sa": "apāvṛtam", "en": "opened" },
+      { "sa": "sukhinaḥ", "en": "happy" },
+      { "sa": "kṣatriyāḥ", "en": "warriors" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "labhante", "en": "obtain" },
+      { "sa": "yuddham", "en": "a battle" },
+      { "sa": "īdṛśam", "en": "such as this" }
+    ],
+    "translation": "And happy warriors, O son of Pṛthā, obtain a battle such as this, arrived by chance, an opened door of heaven."
+  },
+  "33": {
+    "words": [
+      { "sa": "atha", "en": "now" },
+      { "sa": "cet", "en": "if" },
+      { "sa": "tvam", "en": "you" },
+      { "sa": "imam", "en": "this" },
+      { "sa": "dharmyam", "en": "in accord with dharma", "term": "dharma" },
+      { "sa": "saṅgrāmam", "en": "combat" },
+      { "sa": "na", "en": "not" },
+      { "sa": "kariṣyasi", "en": "you will do" },
+      { "sa": "tataḥ", "en": "then" },
+      { "sa": "sva-dharmam", "en": "your own dharma", "term": "dharma" },
+      { "sa": "kīrtim", "en": "fame" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "hitvā", "en": "having abandoned" },
+      { "sa": "pāpam", "en": "evil" },
+      { "sa": "avāpsyasi", "en": "you will incur" }
+    ],
+    "translation": "Now if you will not do this combat in accord with dharma, then, having abandoned your own dharma and fame, you will incur evil."
+  },
+  "34": {
+    "words": [
+      { "sa": "akīrtim", "en": "ill fame" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "api", "en": "also" },
+      { "sa": "bhūtāni", "en": "beings" },
+      { "sa": "kathayiṣyanti", "en": "will tell of" },
+      { "sa": "te", "en": "your" },
+      { "sa": "avyayām", "en": "undecaying" },
+      { "sa": "sambhāvitasya", "en": "for one who has been honoured" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "akīrtiḥ", "en": "ill fame" },
+      { "sa": "maraṇāt", "en": "than death" },
+      { "sa": "atiricyate", "en": "is more" }
+    ],
+    "translation": "And beings will also tell of your undecaying ill fame. And for one who has been honoured, ill fame is more than death."
+  },
+  "35": {
+    "words": [
+      { "sa": "bhayāt", "en": "out of fear" },
+      { "sa": "raṇāt", "en": "from the battle" },
+      { "sa": "uparatam", "en": "withdrawn" },
+      { "sa": "maṁsyante", "en": "they will think" },
+      { "sa": "tvām", "en": "you" },
+      { "sa": "mahā-rathāḥ", "en": "the great chariot warriors" },
+      { "sa": "yeṣām", "en": "of whom" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "tvam", "en": "you" },
+      { "sa": "bahu-mataḥ", "en": "much esteemed" },
+      { "sa": "bhūtvā", "en": "having been" },
+      { "sa": "yāsyasi", "en": "you will go" },
+      { "sa": "lāghavam", "en": "to lightness" }
+    ],
+    "translation": "The great chariot warriors will think you withdrawn from the battle out of fear. And you, having been much esteemed of them, will go to lightness."
+  },
+  "36": {
+    "words": [
+      { "sa": "avācya-vādān", "en": "words not to be spoken" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "bahūn", "en": "many" },
+      { "sa": "vadiṣyanti", "en": "they will speak" },
+      { "sa": "tava", "en": "your" },
+      { "sa": "ahitāḥ", "en": "ill-wishers" },
+      { "sa": "nindantaḥ", "en": "blaming" },
+      { "sa": "tava", "en": "your" },
+      { "sa": "sāmarthyam", "en": "ability" },
+      { "sa": "tataḥ", "en": "than that" },
+      { "sa": "duḥkha-taram", "en": "more painful" },
+      { "sa": "nu", "en": "indeed" },
+      { "sa": "kim", "en": "what" }
+    ],
+    "translation": "And your ill-wishers will speak many words not to be spoken, blaming your ability. What indeed is more painful than that?"
+  },
+  "37": {
+    "words": [
+      { "sa": "hataḥ", "en": "slain" },
+      { "sa": "vā", "en": "either" },
+      { "sa": "prāpsyasi", "en": "you will reach" },
+      { "sa": "svargam", "en": "heaven" },
+      { "sa": "jitvā", "en": "having conquered" },
+      { "sa": "vā", "en": "or" },
+      { "sa": "bhokṣyase", "en": "you will enjoy" },
+      { "sa": "mahīm", "en": "the earth" },
+      { "sa": "tasmāt", "en": "therefore" },
+      { "sa": "uttiṣṭha", "en": "stand up" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "yuddhāya", "en": "for battle" },
+      { "sa": "kṛta-niścayaḥ", "en": "with resolve made" }
+    ],
+    "translation": "Either, slain, you will reach heaven, or, having conquered, you will enjoy the earth. Therefore stand up, O son of Kuntī, with resolve made for battle."
+  },
+  "38": {
+    "words": [
+      { "sa": "sukha-duḥkhe", "en": "pleasure and pain" },
+      { "sa": "same", "en": "the same", "term": "samatva" },
+      { "sa": "kṛtvā", "en": "having made" },
+      { "sa": "lābha-alābhau", "en": "gain and loss" },
+      { "sa": "jaya-ajayau", "en": "victory and defeat" },
+      { "sa": "tataḥ", "en": "then" },
+      { "sa": "yuddhāya", "en": "for battle" },
+      { "sa": "yujyasva", "en": "yoke yourself", "term": "yoga" },
+      { "sa": "na", "en": "not" },
+      { "sa": "evam", "en": "thus" },
+      { "sa": "pāpam", "en": "evil" },
+      { "sa": "avāpsyasi", "en": "you will incur" }
+    ],
+    "translation": "Having made pleasure and pain the same, gain and loss, victory and defeat, then yoke yourself for battle. Thus you will not incur evil."
+  }
+}

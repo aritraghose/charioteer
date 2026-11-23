@@ -24,13 +24,15 @@ export type Verse = {
   chapter: number
   verse: number
   speaker: Speaker
-  /** The verse in Devanagari, one string per line (pāda pair). */
-  devanagari: [string, string]
-  /** The same two lines in IAST transliteration. */
-  iast: [string, string]
+  /** The verse in Devanagari, one string per printed line (two or four). */
+  devanagari: string[]
+  /** The same lines in IAST transliteration. */
+  iast: string[]
   words: VerseWord[]
   /** Literal translation, built from the word glosses. */
   translation: string
+  /** Where the Sanskrit can be read another way, said plainly. */
+  notes?: string[]
   /** A session id that puts this verse into practice, if there is one. */
   practice?: { sessionId: string; label: string }
 }

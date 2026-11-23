@@ -1,0 +1,336 @@
+{
+  "14": {
+    "words": [
+      {
+        "sa": "mātrā-sparśāḥ",
+        "en": "the contacts of the senses with their objects"
+      },
+      {
+        "sa": "tu",
+        "en": "but"
+      },
+      {
+        "sa": "kaunteya",
+        "en": "O son of Kuntī"
+      },
+      {
+        "sa": "śīta-uṣṇa-sukha-duḥkha-dāḥ",
+        "en": "givers of cold and heat, pleasure and pain"
+      },
+      {
+        "sa": "āgama-apāyinaḥ",
+        "en": "coming and going"
+      },
+      {
+        "sa": "anityāḥ",
+        "en": "not lasting"
+      },
+      {
+        "sa": "tān",
+        "en": "them"
+      },
+      {
+        "sa": "titikṣasva",
+        "en": "endure",
+        "term": "titiksha"
+      },
+      {
+        "sa": "bhārata",
+        "en": "O descendant of Bharata"
+      }
+    ],
+    "translation": "The contacts of the senses with their objects, O son of Kuntī, give cold and heat, pleasure and pain. They come and go and do not last. Endure them, O descendant of Bharata.",
+    "iast": [
+      "mātrā-sparśās tu kaunteya śītoṣṇa-sukha-duḥkha-dāḥ",
+      "āgamāpāyino 'nityās tāṁs titikṣasva bhārata"
+    ],
+    "practice": {
+      "sessionId": "letting-it-be",
+      "label": "Letting it be"
+    }
+  },
+  "47": {
+    "words": [
+      {
+        "sa": "karmaṇi",
+        "en": "in action",
+        "term": "karma"
+      },
+      {
+        "sa": "eva",
+        "en": "only"
+      },
+      {
+        "sa": "adhikāraḥ",
+        "en": "rightful claim"
+      },
+      {
+        "sa": "te",
+        "en": "your"
+      },
+      {
+        "sa": "mā",
+        "en": "not"
+      },
+      {
+        "sa": "phaleṣu",
+        "en": "in the fruits"
+      },
+      {
+        "sa": "kadācana",
+        "en": "ever"
+      },
+      {
+        "sa": "mā",
+        "en": "do not"
+      },
+      {
+        "sa": "karma-phala-hetuḥ",
+        "en": "one whose motive is the fruit of action"
+      },
+      {
+        "sa": "bhūḥ",
+        "en": "be"
+      },
+      {
+        "sa": "mā",
+        "en": "not"
+      },
+      {
+        "sa": "te",
+        "en": "your"
+      },
+      {
+        "sa": "saṅgaḥ",
+        "en": "attachment",
+        "term": "sanga"
+      },
+      {
+        "sa": "astu",
+        "en": "let there be"
+      },
+      {
+        "sa": "akarmaṇi",
+        "en": "to inaction"
+      }
+    ],
+    "translation": "Your rightful claim is to action only, never to its fruits. Do not be one whose motive is the fruit of action, and let there be no attachment in you to inaction.",
+    "iast": [
+      "karmaṇy evādhikāras te mā phaleṣu kadācana",
+      "mā karma-phala-hetur bhūr mā te saṅgo 'stv akarmaṇi"
+    ]
+  },
+  "48": {
+    "words": [
+      {
+        "sa": "yoga-sthaḥ",
+        "en": "established in yoga",
+        "term": "yoga"
+      },
+      {
+        "sa": "kuru",
+        "en": "do"
+      },
+      {
+        "sa": "karmāṇi",
+        "en": "actions",
+        "term": "karma"
+      },
+      {
+        "sa": "saṅgam",
+        "en": "attachment",
+        "term": "sanga"
+      },
+      {
+        "sa": "tyaktvā",
+        "en": "having given up"
+      },
+      {
+        "sa": "dhanañjaya",
+        "en": "O Dhanañjaya (Arjuna)"
+      },
+      {
+        "sa": "siddhi-asiddhyoḥ",
+        "en": "in success and failure"
+      },
+      {
+        "sa": "samaḥ",
+        "en": "even, the same"
+      },
+      {
+        "sa": "bhūtvā",
+        "en": "having become"
+      },
+      {
+        "sa": "samatvam",
+        "en": "evenness",
+        "term": "samatva"
+      },
+      {
+        "sa": "yogaḥ",
+        "en": "yoga",
+        "term": "yoga"
+      },
+      {
+        "sa": "ucyate",
+        "en": "is called"
+      }
+    ],
+    "translation": "Established in yoga, do your actions, O Dhanañjaya, having given up attachment and having become even in success and failure. Evenness is called yoga.",
+    "iast": [
+      "yoga-sthaḥ kuru karmāṇi saṅgaṁ tyaktvā dhanañjaya",
+      "siddhy-asiddhyoḥ samo bhūtvā samatvaṁ yoga ucyate"
+    ]
+  },
+  "56": {
+    "words": [
+      {
+        "sa": "duḥkheṣu",
+        "en": "in sorrows"
+      },
+      {
+        "sa": "anudvigna-manāḥ",
+        "en": "whose mind is not shaken",
+        "term": "manas"
+      },
+      {
+        "sa": "sukheṣu",
+        "en": "in pleasures"
+      },
+      {
+        "sa": "vigata-spṛhaḥ",
+        "en": "whose craving is gone"
+      },
+      {
+        "sa": "vīta-rāga-bhaya-krodhaḥ",
+        "en": "from whom passion, fear and anger have gone"
+      },
+      {
+        "sa": "sthita-dhīḥ",
+        "en": "of steady understanding",
+        "term": "sthitadhi"
+      },
+      {
+        "sa": "muniḥ",
+        "en": "a sage"
+      },
+      {
+        "sa": "ucyate",
+        "en": "is called"
+      }
+    ],
+    "translation": "One whose mind is not shaken in sorrows, whose craving for pleasures is gone, from whom passion, fear and anger have gone, is called a sage of steady understanding.",
+    "iast": [
+      "duḥkheṣv anudvigna-manāḥ sukheṣu vigata-spṛhaḥ",
+      "vīta-rāga-bhaya-krodhaḥ sthita-dhīr munir ucyate"
+    ]
+  },
+  "62": {
+    "words": [
+      {
+        "sa": "dhyāyataḥ",
+        "en": "of one who dwells on"
+      },
+      {
+        "sa": "viṣayān",
+        "en": "the objects of the senses"
+      },
+      {
+        "sa": "puṁsaḥ",
+        "en": "of a person"
+      },
+      {
+        "sa": "saṅgaḥ",
+        "en": "attachment",
+        "term": "sanga"
+      },
+      {
+        "sa": "teṣu",
+        "en": "to them"
+      },
+      {
+        "sa": "upajāyate",
+        "en": "arises"
+      },
+      {
+        "sa": "saṅgāt",
+        "en": "from attachment",
+        "term": "sanga"
+      },
+      {
+        "sa": "sañjāyate",
+        "en": "is born"
+      },
+      {
+        "sa": "kāmaḥ",
+        "en": "desire",
+        "term": "kama"
+      },
+      {
+        "sa": "kāmāt",
+        "en": "from desire",
+        "term": "kama"
+      },
+      {
+        "sa": "krodhaḥ",
+        "en": "anger"
+      },
+      {
+        "sa": "abhijāyate",
+        "en": "arises"
+      }
+    ],
+    "translation": "For a person who dwells on the objects of the senses, attachment to them arises. From attachment desire is born. From desire anger arises.",
+    "iast": [
+      "dhyāyato viṣayān puṁsaḥ saṅgas teṣūpajāyate",
+      "saṅgāt sañjāyate kāmaḥ kāmāt krodho 'bhijāyate"
+    ]
+  },
+  "63": {
+    "words": [
+      {
+        "sa": "krodhāt",
+        "en": "from anger"
+      },
+      {
+        "sa": "bhavati",
+        "en": "comes"
+      },
+      {
+        "sa": "sammohaḥ",
+        "en": "delusion"
+      },
+      {
+        "sa": "sammohāt",
+        "en": "from delusion"
+      },
+      {
+        "sa": "smṛti-vibhramaḥ",
+        "en": "confusion of memory"
+      },
+      {
+        "sa": "smṛti-bhraṁśāt",
+        "en": "from the loss of memory"
+      },
+      {
+        "sa": "buddhi-nāśaḥ",
+        "en": "the ruin of buddhi",
+        "term": "buddhi"
+      },
+      {
+        "sa": "buddhi-nāśāt",
+        "en": "from the ruin of buddhi",
+        "term": "buddhi"
+      },
+      {
+        "sa": "praṇaśyati",
+        "en": "one is lost"
+      }
+    ],
+    "translation": "From anger comes delusion. From delusion, confusion of memory. From the loss of memory, the ruin of buddhi. From the ruin of buddhi, one is lost.",
+    "iast": [
+      "krodhād bhavati sammohaḥ sammohāt smṛti-vibhramaḥ",
+      "smṛti-bhraṁśād buddhi-nāśo buddhi-nāśāt praṇaśyati"
+    ]
+  }
+}

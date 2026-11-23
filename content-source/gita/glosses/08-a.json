@@ -1,0 +1,527 @@
+{
+  "1": {
+    "words": [
+      { "sa": "kim", "en": "what" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "brahma", "en": "brahman", "term": "brahman" },
+      { "sa": "kim", "en": "what" },
+      { "sa": "adhyātmam", "en": "what concerns the self", "term": "atman" },
+      { "sa": "kim", "en": "what" },
+      { "sa": "karma", "en": "action", "term": "karma" },
+      { "sa": "puruṣa-uttama", "en": "O highest of persons" },
+      { "sa": "adhibhūtam", "en": "what concerns beings" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "kim", "en": "what" },
+      { "sa": "proktam", "en": "declared" },
+      { "sa": "adhidaivam", "en": "what concerns the gods" },
+      { "sa": "kim", "en": "what" },
+      { "sa": "ucyate", "en": "is called" }
+    ],
+    "translation": "What is that brahman? What is that which concerns the self? What is action, O highest of persons? And what is declared to be that which concerns beings? What is called that which concerns the gods?"
+  },
+  "2": {
+    "words": [
+      { "sa": "adhiyajñaḥ", "en": "what concerns sacrifice" },
+      { "sa": "katham", "en": "how" },
+      { "sa": "kaḥ", "en": "who" },
+      { "sa": "atra", "en": "here" },
+      { "sa": "dehe", "en": "in the body" },
+      { "sa": "asmin", "en": "in this" },
+      { "sa": "madhu-sūdana", "en": "O slayer of Madhu" },
+      { "sa": "prayāṇa-kāle", "en": "at the time of departure" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "katham", "en": "how" },
+      { "sa": "jñeyaḥ", "en": "to be known" },
+      { "sa": "asi", "en": "you are" },
+      { "sa": "niyata-ātmabhiḥ", "en": "by those of controlled self", "term": "atman" }
+    ],
+    "translation": "Who is that which concerns sacrifice, and how is it here in this body, O slayer of Madhu? And how are you to be known at the time of departure by those of controlled self?"
+  },
+  "3": {
+    "words": [
+      { "sa": "akṣaram", "en": "the imperishable" },
+      { "sa": "brahma", "en": "brahman", "term": "brahman" },
+      { "sa": "paramam", "en": "the highest" },
+      { "sa": "svabhāvaḥ", "en": "one's own nature" },
+      { "sa": "adhyātmam", "en": "what concerns the self", "term": "atman" },
+      { "sa": "ucyate", "en": "is called" },
+      { "sa": "bhūta-bhāva-udbhava-karaḥ", "en": "causing the arising of the states of beings" },
+      { "sa": "visargaḥ", "en": "the sending forth" },
+      { "sa": "karma-saṁjñitaḥ", "en": "named action", "term": "karma" }
+    ],
+    "translation": "Brahman is the imperishable, the highest. One's own nature is called that which concerns the self. The sending forth that causes the arising of the states of beings is named action.",
+    "notes": ["\"The sending forth\" can also be read as \"the offering\", meaning the act of giving in sacrifice."]
+  },
+  "4": {
+    "words": [
+      { "sa": "adhibhūtam", "en": "what concerns beings" },
+      { "sa": "kṣaraḥ", "en": "perishable" },
+      { "sa": "bhāvaḥ", "en": "existence" },
+      { "sa": "puruṣaḥ", "en": "the person" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "adhidaivatam", "en": "what concerns the gods" },
+      { "sa": "adhiyajñaḥ", "en": "what concerns sacrifice" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "eva", "en": "alone" },
+      { "sa": "atra", "en": "here" },
+      { "sa": "dehe", "en": "in the body" },
+      { "sa": "deha-bhṛtām", "en": "of those who bear a body" },
+      { "sa": "vara", "en": "O best" }
+    ],
+    "translation": "That which concerns beings is perishable existence, and the person is that which concerns the gods. That which concerns sacrifice is I alone, here in the body, O best of those who bear a body."
+  },
+  "5": {
+    "words": [
+      { "sa": "anta-kāle", "en": "at the time of the end" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "eva", "en": "alone" },
+      { "sa": "smaran", "en": "remembering" },
+      { "sa": "muktvā", "en": "having let go of" },
+      { "sa": "kalevaram", "en": "the body" },
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "prayāti", "en": "departs" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "mad-bhāvam", "en": "to my state of being" },
+      { "sa": "yāti", "en": "goes" },
+      { "sa": "na", "en": "not" },
+      { "sa": "asti", "en": "there is" },
+      { "sa": "atra", "en": "here" },
+      { "sa": "saṁśayaḥ", "en": "doubt" }
+    ],
+    "translation": "And he who departs at the time of the end, remembering me alone, having let go of the body, goes to my state of being. There is no doubt here."
+  },
+  "6": {
+    "words": [
+      { "sa": "yam", "en": "whichever" },
+      { "sa": "yam", "en": "whichever" },
+      { "sa": "vā", "en": "or" },
+      { "sa": "api", "en": "also" },
+      { "sa": "smaran", "en": "remembering" },
+      { "sa": "bhāvam", "en": "state of being" },
+      { "sa": "tyajati", "en": "one gives up" },
+      { "sa": "ante", "en": "at the end" },
+      { "sa": "kalevaram", "en": "the body" },
+      { "sa": "tam", "en": "to that" },
+      { "sa": "tam", "en": "to that" },
+      { "sa": "eva", "en": "very" },
+      { "sa": "eti", "en": "one goes" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "sadā", "en": "always" },
+      { "sa": "tad-bhāva-bhāvitaḥ", "en": "made to become that state of being" }
+    ],
+    "translation": "Or also, whichever state of being one remembers when one gives up the body at the end, to that very one one goes, O son of Kuntī, always made to become that state of being."
+  },
+  "7": {
+    "words": [
+      { "sa": "tasmāt", "en": "therefore" },
+      { "sa": "sarveṣu", "en": "at all" },
+      { "sa": "kāleṣu", "en": "at times" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "anusmara", "en": "remember" },
+      { "sa": "yudhya", "en": "fight" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "mayi", "en": "on me" },
+      { "sa": "arpita-manaḥ-buddhiḥ", "en": "with mind and buddhi fixed", "term": "manas" },
+      { "sa": "mām", "en": "to me" },
+      { "sa": "eva", "en": "alone" },
+      { "sa": "eṣyasi", "en": "you will come" },
+      { "sa": "asaṁśayaḥ", "en": "without doubt" }
+    ],
+    "translation": "Therefore at all times remember me and fight. With mind and buddhi fixed on me, you will come to me alone, without doubt.",
+    "notes": ["\"Without doubt\" can be read either as \"it is certain that you will come\" or as \"you, being free of doubt, will come\"."]
+  },
+  "8": {
+    "words": [
+      { "sa": "abhyāsa-yoga-yuktena", "en": "yoked by the yoga of practice", "term": "yoga" },
+      { "sa": "cetasā", "en": "with a mind" },
+      { "sa": "na", "en": "not" },
+      { "sa": "anya-gāminā", "en": "going to another" },
+      { "sa": "paramam", "en": "the highest" },
+      { "sa": "puruṣam", "en": "to the person" },
+      { "sa": "divyam", "en": "divine" },
+      { "sa": "yāti", "en": "one goes" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "anucintayan", "en": "thinking on" }
+    ],
+    "translation": "With a mind yoked by the yoga of practice, not going to another, one goes to the highest divine person, O son of Pṛthā, thinking on him."
+  },
+  "9": {
+    "words": [
+      { "sa": "kavim", "en": "the seer" },
+      { "sa": "purāṇam", "en": "the ancient one" },
+      { "sa": "anuśāsitāram", "en": "the ruler" },
+      { "sa": "aṇoḥ", "en": "than the small" },
+      { "sa": "aṇīyāṁsam", "en": "smaller" },
+      { "sa": "anusmaret", "en": "would remember" },
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "sarvasya", "en": "of all" },
+      { "sa": "dhātāram", "en": "the supporter" },
+      { "sa": "acintya-rūpam", "en": "of unthinkable form" },
+      { "sa": "āditya-varṇam", "en": "of the colour of the sun" },
+      { "sa": "tamasaḥ", "en": "of darkness" },
+      { "sa": "parastāt", "en": "beyond" }
+    ],
+    "translation": "He who would remember the seer, the ancient one, the ruler, smaller than the small, the supporter of all, of unthinkable form, of the colour of the sun, beyond darkness,",
+    "notes": ["Verses 9 to 10 are one sentence in the Sanskrit."]
+  },
+  "10": {
+    "words": [
+      { "sa": "prayāṇa-kāle", "en": "at the time of departure" },
+      { "sa": "manasā", "en": "with mind", "term": "manas" },
+      { "sa": "acalena", "en": "unmoving" },
+      { "sa": "bhaktyā", "en": "with devotion" },
+      { "sa": "yuktaḥ", "en": "yoked", "term": "yoga" },
+      { "sa": "yoga-balena", "en": "with the strength of yoga", "term": "yoga" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "bhruvoḥ", "en": "of the two eyebrows" },
+      { "sa": "madhye", "en": "in the middle" },
+      { "sa": "prāṇam", "en": "the breath" },
+      { "sa": "āveśya", "en": "having made enter" },
+      { "sa": "samyak", "en": "rightly" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "tam", "en": "that" },
+      { "sa": "param", "en": "highest" },
+      { "sa": "puruṣam", "en": "to the person" },
+      { "sa": "upaiti", "en": "goes" },
+      { "sa": "divyam", "en": "divine" }
+    ],
+    "translation": "at the time of departure, with unmoving mind, yoked with devotion and indeed with the strength of yoga, having rightly made the breath enter in the middle of the two eyebrows, he goes to that highest divine person."
+  },
+  "11": {
+    "words": [
+      { "sa": "yat", "en": "which" },
+      { "sa": "akṣaram", "en": "the imperishable" },
+      { "sa": "veda-vidaḥ", "en": "knowers of the Vedas" },
+      { "sa": "vadanti", "en": "they speak of" },
+      { "sa": "viśanti", "en": "they enter" },
+      { "sa": "yat", "en": "which" },
+      { "sa": "yatayaḥ", "en": "strivers" },
+      { "sa": "vīta-rāgāḥ", "en": "whose passion is gone" },
+      { "sa": "yat", "en": "which" },
+      { "sa": "icchantaḥ", "en": "desiring" },
+      { "sa": "brahma-caryam", "en": "the life of a student of brahman", "term": "brahman" },
+      { "sa": "caranti", "en": "they live" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "te", "en": "to you" },
+      { "sa": "padam", "en": "state" },
+      { "sa": "saṅgraheṇa", "en": "in brief" },
+      { "sa": "pravakṣye", "en": "I will declare" }
+    ],
+    "translation": "That which knowers of the Vedas speak of as the imperishable, which strivers whose passion is gone enter, desiring which they live the life of a student of brahman: that state I will declare to you in brief.",
+    "notes": ["\"That state\" can also be read as \"that word\", pointing ahead to the syllable Om in verse 13."]
+  },
+  "12": {
+    "words": [
+      { "sa": "sarva-dvārāṇi", "en": "all the gates" },
+      { "sa": "saṁyamya", "en": "having restrained" },
+      { "sa": "manaḥ", "en": "the mind", "term": "manas" },
+      { "sa": "hṛdi", "en": "in the heart" },
+      { "sa": "nirudhya", "en": "having confined" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "mūrdhni", "en": "in the head" },
+      { "sa": "ādhāya", "en": "having placed" },
+      { "sa": "ātmanaḥ", "en": "of the self", "term": "atman" },
+      { "sa": "prāṇam", "en": "the breath" },
+      { "sa": "āsthitaḥ", "en": "established in" },
+      { "sa": "yoga-dhāraṇām", "en": "the holding of yoga", "term": "yoga" }
+    ],
+    "translation": "Having restrained all the gates and having confined the mind in the heart, having placed the breath of the self in the head, established in the holding of yoga,",
+    "notes": ["Verses 12 to 13 are one sentence in the Sanskrit."]
+  },
+  "13": {
+    "words": [
+      { "sa": "om", "en": "Om" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "eka-akṣaram", "en": "of one syllable" },
+      { "sa": "brahma", "en": "brahman", "term": "brahman" },
+      { "sa": "vyāharan", "en": "uttering" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "anusmaran", "en": "remembering" },
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "prayāti", "en": "departs" },
+      { "sa": "tyajan", "en": "giving up" },
+      { "sa": "deham", "en": "the body" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "yāti", "en": "goes" },
+      { "sa": "paramām", "en": "to the highest" },
+      { "sa": "gatim", "en": "goal" }
+    ],
+    "translation": "uttering thus \"Om\", the brahman of one syllable, remembering me, he who departs, giving up the body, goes to the highest goal.",
+    "notes": ["\"The brahman of one syllable\" can also be read as \"the one imperishable brahman\"."]
+  },
+  "14": {
+    "words": [
+      { "sa": "ananya-cetāḥ", "en": "with a mind on no other" },
+      { "sa": "satatam", "en": "continually" },
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "smarati", "en": "remembers" },
+      { "sa": "nityaśaḥ", "en": "always" },
+      { "sa": "tasya", "en": "for him" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "sulabhaḥ", "en": "easy to reach" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "nitya-yuktasya", "en": "for the ever-yoked", "term": "yoga" },
+      { "sa": "yoginaḥ", "en": "for the yogī", "term": "yoga" }
+    ],
+    "translation": "He who, with a mind on no other, continually and always remembers me: for him, the ever-yoked yogī, I am easy to reach, O son of Pṛthā."
+  },
+  "15": {
+    "words": [
+      { "sa": "mām", "en": "to me" },
+      { "sa": "upetya", "en": "having come" },
+      { "sa": "punar-janma", "en": "rebirth" },
+      { "sa": "duḥkha-ālayam", "en": "the home of suffering" },
+      { "sa": "aśāśvatam", "en": "not lasting" },
+      { "sa": "na", "en": "not" },
+      { "sa": "āpnuvanti", "en": "they obtain" },
+      { "sa": "mahā-ātmānaḥ", "en": "those of great self", "term": "atman" },
+      { "sa": "saṁsiddhim", "en": "to perfection" },
+      { "sa": "paramām", "en": "highest" },
+      { "sa": "gatāḥ", "en": "gone" }
+    ],
+    "translation": "Having come to me, those of great self, gone to the highest perfection, do not obtain rebirth, the home of suffering, which does not last."
+  },
+  "16": {
+    "words": [
+      { "sa": "ā-brahma-bhuvanāt", "en": "up to the realm of Brahmā" },
+      { "sa": "lokāḥ", "en": "the worlds" },
+      { "sa": "punaḥ-āvartinaḥ", "en": "returning again" },
+      { "sa": "arjuna", "en": "O Arjuna" },
+      { "sa": "mām", "en": "to me" },
+      { "sa": "upetya", "en": "having come" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "punar-janma", "en": "rebirth" },
+      { "sa": "na", "en": "not" },
+      { "sa": "vidyate", "en": "there is" }
+    ],
+    "translation": "The worlds, up to the realm of Brahmā, return again, O Arjuna. But having come to me, O son of Kuntī, there is no rebirth.",
+    "notes": ["\"The worlds, up to the realm of Brahmā, return again\" can also be read as \"the worlds, up to the realm of Brahmā, are places from which one returns again\"."]
+  },
+  "17": {
+    "words": [
+      { "sa": "sahasra-yuga-paryantam", "en": "reaching to a thousand ages" },
+      { "sa": "ahaḥ", "en": "the day" },
+      { "sa": "yat", "en": "which" },
+      { "sa": "brahmaṇaḥ", "en": "of Brahmā" },
+      { "sa": "viduḥ", "en": "they know" },
+      { "sa": "rātrim", "en": "the night" },
+      { "sa": "yuga-sahasra-antām", "en": "ending in a thousand ages" },
+      { "sa": "te", "en": "those" },
+      { "sa": "ahaḥ-rātra-vidaḥ", "en": "knowers of day and night" },
+      { "sa": "janāḥ", "en": "people" }
+    ],
+    "translation": "Those who know the day of Brahmā, which reaches to a thousand ages, and the night, ending in a thousand ages: those people are knowers of day and night."
+  },
+  "18": {
+    "words": [
+      { "sa": "avyaktāt", "en": "from the unmanifest" },
+      { "sa": "vyaktayaḥ", "en": "manifest things" },
+      { "sa": "sarvāḥ", "en": "all" },
+      { "sa": "prabhavanti", "en": "they come forth" },
+      { "sa": "ahaḥ-āgame", "en": "at the coming of the day" },
+      { "sa": "rātri-āgame", "en": "at the coming of the night" },
+      { "sa": "pralīyante", "en": "they dissolve" },
+      { "sa": "tatra", "en": "into that" },
+      { "sa": "eva", "en": "very" },
+      { "sa": "avyakta-saṁjñake", "en": "into what is named the unmanifest" }
+    ],
+    "translation": "From the unmanifest all manifest things come forth at the coming of the day. At the coming of the night they dissolve into that very thing which is named the unmanifest."
+  },
+  "19": {
+    "words": [
+      { "sa": "bhūta-grāmaḥ", "en": "the multitude of beings" },
+      { "sa": "saḥ", "en": "that" },
+      { "sa": "eva", "en": "very same" },
+      { "sa": "ayam", "en": "this" },
+      { "sa": "bhūtvā", "en": "having come to be" },
+      { "sa": "bhūtvā", "en": "having come to be" },
+      { "sa": "pralīyate", "en": "it dissolves" },
+      { "sa": "rātri-āgame", "en": "at the coming of the night" },
+      { "sa": "avaśaḥ", "en": "without will" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "prabhavati", "en": "it comes forth" },
+      { "sa": "ahaḥ-āgame", "en": "at the coming of the day" }
+    ],
+    "translation": "This very same multitude of beings, having come to be again and again, dissolves without will at the coming of the night, O son of Pṛthā. It comes forth at the coming of the day."
+  },
+  "20": {
+    "words": [
+      { "sa": "paraḥ", "en": "higher" },
+      { "sa": "tasmāt", "en": "than that" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "bhāvaḥ", "en": "existence" },
+      { "sa": "anyaḥ", "en": "another" },
+      { "sa": "avyaktaḥ", "en": "unmanifest" },
+      { "sa": "avyaktāt", "en": "than the unmanifest" },
+      { "sa": "sanātanaḥ", "en": "eternal" },
+      { "sa": "yaḥ", "en": "which" },
+      { "sa": "saḥ", "en": "that" },
+      { "sa": "sarveṣu", "en": "when all" },
+      { "sa": "bhūteṣu", "en": "when beings" },
+      { "sa": "naśyatsu", "en": "are perishing" },
+      { "sa": "na", "en": "not" },
+      { "sa": "vinaśyati", "en": "it perishes" }
+    ],
+    "translation": "But higher than that, than the unmanifest, there is another existence, unmanifest and eternal: that which does not perish when all beings are perishing."
+  },
+  "21": {
+    "words": [
+      { "sa": "avyaktaḥ", "en": "the unmanifest" },
+      { "sa": "akṣaraḥ", "en": "the imperishable" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "uktaḥ", "en": "it is called" },
+      { "sa": "tam", "en": "it" },
+      { "sa": "āhuḥ", "en": "they call" },
+      { "sa": "paramām", "en": "the highest" },
+      { "sa": "gatim", "en": "goal" },
+      { "sa": "yam", "en": "which" },
+      { "sa": "prāpya", "en": "having reached" },
+      { "sa": "na", "en": "not" },
+      { "sa": "nivartante", "en": "they return" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "dhāma", "en": "abode" },
+      { "sa": "paramam", "en": "highest" },
+      { "sa": "mama", "en": "my" }
+    ],
+    "translation": "It is called thus: the unmanifest, the imperishable. They call it the highest goal. Having reached it, they do not return. That is my highest abode."
+  },
+  "22": {
+    "words": [
+      { "sa": "puruṣaḥ", "en": "the person" },
+      { "sa": "saḥ", "en": "that" },
+      { "sa": "paraḥ", "en": "highest" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "bhaktyā", "en": "by devotion" },
+      { "sa": "labhyaḥ", "en": "to be gained" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "ananyayā", "en": "to no other" },
+      { "sa": "yasya", "en": "of whom" },
+      { "sa": "antaḥ-sthāni", "en": "standing within" },
+      { "sa": "bhūtāni", "en": "beings" },
+      { "sa": "yena", "en": "by whom" },
+      { "sa": "sarvam", "en": "all" },
+      { "sa": "idam", "en": "this" },
+      { "sa": "tatam", "en": "spread out" }
+    ],
+    "translation": "But that highest person, O son of Pṛthā, within whom beings stand and by whom all this is spread out, is to be gained by devotion to no other."
+  },
+  "23": {
+    "words": [
+      { "sa": "yatra", "en": "at which" },
+      { "sa": "kāle", "en": "at the time" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "anāvṛttim", "en": "to non-return" },
+      { "sa": "āvṛttim", "en": "to return" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "yoginaḥ", "en": "yogīs", "term": "yoga" },
+      { "sa": "prayātāḥ", "en": "having departed" },
+      { "sa": "yānti", "en": "they go" },
+      { "sa": "tam", "en": "that" },
+      { "sa": "kālam", "en": "time" },
+      { "sa": "vakṣyāmi", "en": "I will tell" },
+      { "sa": "bharata-ṛṣabha", "en": "O bull of the Bharatas" }
+    ],
+    "translation": "But the time at which yogīs, having departed, go to non-return, and indeed to return, that time I will tell, O bull of the Bharatas."
+  },
+  "24": {
+    "words": [
+      { "sa": "agniḥ", "en": "fire" },
+      { "sa": "jyotiḥ", "en": "light" },
+      { "sa": "ahaḥ", "en": "day" },
+      { "sa": "śuklaḥ", "en": "the bright fortnight" },
+      { "sa": "ṣaṭ-māsāḥ", "en": "the six months" },
+      { "sa": "uttara-ayanam", "en": "the sun's northern course" },
+      { "sa": "tatra", "en": "then" },
+      { "sa": "prayātāḥ", "en": "having departed" },
+      { "sa": "gacchanti", "en": "they go" },
+      { "sa": "brahma", "en": "to brahman", "term": "brahman" },
+      { "sa": "brahma-vidaḥ", "en": "knowers of brahman", "term": "brahman" },
+      { "sa": "janāḥ", "en": "people" }
+    ],
+    "translation": "Fire, light, day, the bright fortnight, the six months of the sun's northern course: having departed then, people who are knowers of brahman go to brahman."
+  },
+  "25": {
+    "words": [
+      { "sa": "dhūmaḥ", "en": "smoke" },
+      { "sa": "rātriḥ", "en": "night" },
+      { "sa": "tathā", "en": "likewise" },
+      { "sa": "kṛṣṇaḥ", "en": "the dark fortnight" },
+      { "sa": "ṣaṭ-māsāḥ", "en": "the six months" },
+      { "sa": "dakṣiṇa-ayanam", "en": "the sun's southern course" },
+      { "sa": "tatra", "en": "then" },
+      { "sa": "cāndramasam", "en": "of the moon" },
+      { "sa": "jyotiḥ", "en": "the light" },
+      { "sa": "yogī", "en": "the yogī", "term": "yoga" },
+      { "sa": "prāpya", "en": "having reached" },
+      { "sa": "nivartate", "en": "he returns" }
+    ],
+    "translation": "Smoke, night, likewise the dark fortnight, the six months of the sun's southern course: then the yogī, having reached the light of the moon, returns."
+  },
+  "26": {
+    "words": [
+      { "sa": "śukla-kṛṣṇe", "en": "the bright and the dark" },
+      { "sa": "gatī", "en": "two paths" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "ete", "en": "these two" },
+      { "sa": "jagataḥ", "en": "of the world" },
+      { "sa": "śāśvate", "en": "everlasting" },
+      { "sa": "mate", "en": "held to be" },
+      { "sa": "ekayā", "en": "by one" },
+      { "sa": "yāti", "en": "one goes" },
+      { "sa": "anāvṛttim", "en": "to non-return" },
+      { "sa": "anyayā", "en": "by the other" },
+      { "sa": "āvartate", "en": "one returns" },
+      { "sa": "punaḥ", "en": "again" }
+    ],
+    "translation": "For these two paths of the world, the bright and the dark, are held to be everlasting. By one, one goes to non-return. By the other, one returns again."
+  },
+  "27": {
+    "words": [
+      { "sa": "na", "en": "not" },
+      { "sa": "ete", "en": "these two" },
+      { "sa": "sṛtī", "en": "paths" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "jānan", "en": "knowing" },
+      { "sa": "yogī", "en": "a yogī", "term": "yoga" },
+      { "sa": "muhyati", "en": "is confused" },
+      { "sa": "kaścana", "en": "any at all" },
+      { "sa": "tasmāt", "en": "therefore" },
+      { "sa": "sarveṣu", "en": "at all" },
+      { "sa": "kāleṣu", "en": "at times" },
+      { "sa": "yoga-yuktaḥ", "en": "yoked in yoga", "term": "yoga" },
+      { "sa": "bhava", "en": "be" },
+      { "sa": "arjuna", "en": "O Arjuna" }
+    ],
+    "translation": "Knowing these two paths, O son of Pṛthā, no yogī at all is confused. Therefore at all times be yoked in yoga, O Arjuna."
+  },
+  "28": {
+    "words": [
+      { "sa": "vedeṣu", "en": "in the Vedas" },
+      { "sa": "yajñeṣu", "en": "in sacrifices" },
+      { "sa": "tapaḥsu", "en": "in austerities" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "dāneṣu", "en": "in gifts" },
+      { "sa": "yat", "en": "whatever" },
+      { "sa": "puṇya-phalam", "en": "fruit of merit" },
+      { "sa": "pradiṣṭam", "en": "declared" },
+      { "sa": "atyeti", "en": "he goes beyond" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "sarvam", "en": "all" },
+      { "sa": "idam", "en": "this" },
+      { "sa": "viditvā", "en": "having known" },
+      { "sa": "yogī", "en": "the yogī", "term": "yoga" },
+      { "sa": "param", "en": "the highest" },
+      { "sa": "sthānam", "en": "place" },
+      { "sa": "upaiti", "en": "he reaches" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "ādyam", "en": "the first" }
+    ],
+    "translation": "Whatever fruit of merit is declared in the Vedas, in sacrifices, in austerities and indeed in gifts, the yogī, having known this, goes beyond all that and reaches the highest place, the first."
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "1": {
+    "words": [
+      { "sa": "idam", "en": "this" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "te", "en": "to you" },
+      { "sa": "guhyatamam", "en": "most secret" },
+      { "sa": "pravakṣyāmi", "en": "I will declare" },
+      { "sa": "anasūyave", "en": "to one who does not find fault" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "vijñāna-sahitam", "en": "together with realization" },
+      { "sa": "yat", "en": "which" },
+      { "sa": "jñātvā", "en": "having known" },
+      { "sa": "mokṣyase", "en": "you will be freed" },
+      { "sa": "aśubhāt", "en": "from the inauspicious" }
+    ],
+    "translation": "But to you, who do not find fault, I will declare this most secret knowledge, together with realization, having known which you will be freed from the inauspicious."
+  },
+  "2": {
+    "words": [
+      { "sa": "rāja-vidyā", "en": "the king of knowledge" },
+      { "sa": "rāja-guhyam", "en": "the king of secrets" },
+      { "sa": "pavitram", "en": "purifier" },
+      { "sa": "idam", "en": "this" },
+      { "sa": "uttamam", "en": "highest" },
+      { "sa": "pratyakṣa-avagamam", "en": "understood by direct perception" },
+      { "sa": "dharmyam", "en": "in accord with dharma", "term": "dharma" },
+      { "sa": "su-sukham", "en": "very easy" },
+      { "sa": "kartum", "en": "to do" },
+      { "sa": "avyayam", "en": "imperishable" }
+    ],
+    "translation": "This is the king of knowledge, the king of secrets, the highest purifier, understood by direct perception, in accord with dharma, very easy to do, imperishable.",
+    "notes": ["\"The king of knowledge, the king of secrets\" can also be read as \"the knowledge of kings, the secret of kings\"."]
+  },
+  "3": {
+    "words": [
+      { "sa": "aśraddadhānāḥ", "en": "having no faith" },
+      { "sa": "puruṣāḥ", "en": "men" },
+      { "sa": "dharmasya", "en": "in dharma", "term": "dharma" },
+      { "sa": "asya", "en": "in this" },
+      { "sa": "parantapa", "en": "O scorcher of foes" },
+      { "sa": "aprāpya", "en": "not having reached" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "nivartante", "en": "they turn back" },
+      { "sa": "mṛtyu-saṁsāra-vartmani", "en": "on the path of death and the round of rebirth" }
+    ],
+    "translation": "Men who have no faith in this dharma, O scorcher of foes, not having reached me, turn back on the path of death and the round of rebirth."
+  },
+  "4": {
+    "words": [
+      { "sa": "mayā", "en": "by me" },
+      { "sa": "tatam", "en": "pervaded" },
+      { "sa": "idam", "en": "this" },
+      { "sa": "sarvam", "en": "all" },
+      { "sa": "jagat", "en": "world" },
+      { "sa": "avyakta-mūrtinā", "en": "by the one of unmanifest form" },
+      { "sa": "mat-sthāni", "en": "standing in me" },
+      { "sa": "sarva-bhūtāni", "en": "all beings" },
+      { "sa": "na", "en": "not" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "teṣu", "en": "in them" },
+      { "sa": "avasthitaḥ", "en": "standing" }
+    ],
+    "translation": "All this world is pervaded by me, the one of unmanifest form. All beings stand in me, and I do not stand in them."
+  },
+  "5": {
+    "words": [
+      { "sa": "na", "en": "not" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "mat-sthāni", "en": "standing in me" },
+      { "sa": "bhūtāni", "en": "beings" },
+      { "sa": "paśya", "en": "see" },
+      { "sa": "me", "en": "my" },
+      { "sa": "yogam", "en": "yoga", "term": "yoga" },
+      { "sa": "aiśvaram", "en": "lordly" },
+      { "sa": "bhūta-bhṛt", "en": "bearing beings" },
+      { "sa": "na", "en": "not" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "bhūta-sthaḥ", "en": "standing in beings" },
+      { "sa": "mama", "en": "my" },
+      { "sa": "ātmā", "en": "the self", "term": "atman" },
+      { "sa": "bhūta-bhāvanaḥ", "en": "bringing beings into being" }
+    ],
+    "translation": "And beings do not stand in me. See my lordly yoga. Bearing beings and not standing in beings, my self brings beings into being.",
+    "notes": ["\"My self brings beings into being\" can also be read as \"I myself bring beings into being\"."]
+  },
+  "6": {
+    "words": [
+      { "sa": "yathā", "en": "as" },
+      { "sa": "ākāśa-sthitaḥ", "en": "standing in space" },
+      { "sa": "nityam", "en": "always" },
+      { "sa": "vāyuḥ", "en": "the wind" },
+      { "sa": "sarvatra-gaḥ", "en": "going everywhere" },
+      { "sa": "mahān", "en": "great" },
+      { "sa": "tathā", "en": "so" },
+      { "sa": "sarvāṇi", "en": "all" },
+      { "sa": "bhūtāni", "en": "beings" },
+      { "sa": "mat-sthāni", "en": "standing in me" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "upadhāraya", "en": "understand" }
+    ],
+    "translation": "As the great wind, going everywhere, always stands in space, so all beings stand in me. Understand it thus."
+  },
+  "7": {
+    "words": [
+      { "sa": "sarva-bhūtāni", "en": "all beings" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "prakṛtim", "en": "to nature" },
+      { "sa": "yānti", "en": "they go" },
+      { "sa": "māmikām", "en": "my own" },
+      { "sa": "kalpa-kṣaye", "en": "at the end of an aeon" },
+      { "sa": "punaḥ", "en": "again" },
+      { "sa": "tāni", "en": "them" },
+      { "sa": "kalpa-ādau", "en": "at the beginning of an aeon" },
+      { "sa": "visṛjāmi", "en": "I send forth" },
+      { "sa": "aham", "en": "I" }
+    ],
+    "translation": "All beings, O son of Kuntī, go to my own nature at the end of an aeon. At the beginning of an aeon I send them forth again."
+  },
+  "8": {
+    "words": [
+      { "sa": "prakṛtim", "en": "nature" },
+      { "sa": "svām", "en": "my own" },
+      { "sa": "avaṣṭabhya", "en": "resting on" },
+      { "sa": "visṛjāmi", "en": "I send forth" },
+      { "sa": "punaḥ", "en": "again" },
+      { "sa": "punaḥ", "en": "again" },
+      { "sa": "bhūta-grāmam", "en": "multitude of beings" },
+      { "sa": "imam", "en": "this" },
+      { "sa": "kṛtsnam", "en": "whole" },
+      { "sa": "avaśam", "en": "powerless" },
+      { "sa": "prakṛteḥ", "en": "of nature" },
+      { "sa": "vaśāt", "en": "by the power" }
+    ],
+    "translation": "Resting on my own nature, I send forth again and again this whole multitude of beings, powerless, by the power of nature.",
+    "notes": ["\"Resting on\" can also be read as \"taking control of\"."]
+  },
+  "9": {
+    "words": [
+      { "sa": "na", "en": "not" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "tāni", "en": "those" },
+      { "sa": "karmāṇi", "en": "actions", "term": "karma" },
+      { "sa": "nibadhnanti", "en": "they bind" },
+      { "sa": "dhanañjaya", "en": "O winner of wealth" },
+      { "sa": "udāsīna-vat", "en": "like one indifferent" },
+      { "sa": "āsīnam", "en": "seated" },
+      { "sa": "asaktam", "en": "unattached", "term": "sanga" },
+      { "sa": "teṣu", "en": "to those" },
+      { "sa": "karmasu", "en": "to actions", "term": "karma" }
+    ],
+    "translation": "And those actions do not bind me, O winner of wealth, seated like one indifferent, unattached to those actions."
+  },
+  "10": {
+    "words": [
+      { "sa": "mayā", "en": "with me" },
+      { "sa": "adhyakṣeṇa", "en": "as overseer" },
+      { "sa": "prakṛtiḥ", "en": "nature" },
+      { "sa": "sūyate", "en": "gives birth to" },
+      { "sa": "sa-cara-acaram", "en": "the moving together with the unmoving" },
+      { "sa": "hetunā", "en": "by cause" },
+      { "sa": "anena", "en": "by this" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "jagat", "en": "the world" },
+      { "sa": "viparivartate", "en": "revolves" }
+    ],
+    "translation": "With me as overseer, nature gives birth to the moving together with the unmoving. By this cause, O son of Kuntī, the world revolves."
+  },
+  "11": {
+    "words": [
+      { "sa": "avajānanti", "en": "they despise" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "mūḍhāḥ", "en": "the deluded" },
+      { "sa": "mānuṣīm", "en": "human" },
+      { "sa": "tanum", "en": "a body" },
+      { "sa": "āśritam", "en": "having resorted to" },
+      { "sa": "param", "en": "higher" },
+      { "sa": "bhāvam", "en": "being" },
+      { "sa": "ajānantaḥ", "en": "not knowing" },
+      { "sa": "mama", "en": "my" },
+      { "sa": "bhūta-mahā-īśvaram", "en": "the great lord of beings" }
+    ],
+    "translation": "The deluded despise me, who have resorted to a human body, not knowing my higher being as the great lord of beings."
+  },
+  "12": {
+    "words": [
+      { "sa": "mogha-āśāḥ", "en": "of vain hopes" },
+      { "sa": "mogha-karmāṇaḥ", "en": "of vain actions", "term": "karma" },
+      { "sa": "mogha-jñānāḥ", "en": "of vain knowledge" },
+      { "sa": "vicetasaḥ", "en": "without sense" },
+      { "sa": "rākṣasīm", "en": "fiendish" },
+      { "sa": "āsurīm", "en": "demonic" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "prakṛtim", "en": "nature" },
+      { "sa": "mohinīm", "en": "deluding" },
+      { "sa": "śritāḥ", "en": "having resorted to" }
+    ],
+    "translation": "Of vain hopes, of vain actions, of vain knowledge, without sense, they have resorted to the deluding nature, fiendish and indeed demonic."
+  },
+  "13": {
+    "words": [
+      { "sa": "mahā-ātmānaḥ", "en": "those of great self", "term": "atman" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "daivīm", "en": "divine" },
+      { "sa": "prakṛtim", "en": "nature" },
+      { "sa": "āśritāḥ", "en": "having resorted to" },
+      { "sa": "bhajanti", "en": "they worship" },
+      { "sa": "ananya-manasaḥ", "en": "with mind on nothing else", "term": "manas" },
+      { "sa": "jñātvā", "en": "having known" },
+      { "sa": "bhūta-ādim", "en": "the beginning of beings" },
+      { "sa": "avyayam", "en": "imperishable" }
+    ],
+    "translation": "But those of great self, O son of Pṛthā, having resorted to the divine nature, worship me with mind on nothing else, having known the imperishable beginning of beings."
+  },
+  "14": {
+    "words": [
+      { "sa": "satatam", "en": "constantly" },
+      { "sa": "kīrtayantaḥ", "en": "glorifying" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "yatantaḥ", "en": "striving" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "dṛḍha-vratāḥ", "en": "firm in vows" },
+      { "sa": "namasyantaḥ", "en": "bowing" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "mām", "en": "to me" },
+      { "sa": "bhaktyā", "en": "with devotion" },
+      { "sa": "nitya-yuktāḥ", "en": "always yoked", "term": "yoga" },
+      { "sa": "upāsate", "en": "they worship" }
+    ],
+    "translation": "Constantly glorifying me and striving, firm in vows, and bowing to me with devotion, always yoked, they worship."
+  },
+  "15": {
+    "words": [
+      { "sa": "jñāna-yajñena", "en": "with the sacrifice of knowledge" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "api", "en": "also" },
+      { "sa": "anye", "en": "others" },
+      { "sa": "yajantaḥ", "en": "sacrificing" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "upāsate", "en": "they worship" },
+      { "sa": "ekatvena", "en": "as oneness" },
+      { "sa": "pṛthaktvena", "en": "as separateness" },
+      { "sa": "bahudhā", "en": "in many ways" },
+      { "sa": "viśvataḥ-mukham", "en": "facing everywhere" }
+    ],
+    "translation": "And others also, sacrificing with the sacrifice of knowledge, worship me, who face everywhere, as oneness, as separateness, in many ways."
+  },
+  "16": {
+    "words": [
+      { "sa": "aham", "en": "I" },
+      { "sa": "kratuḥ", "en": "the rite" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "yajñaḥ", "en": "the sacrifice" },
+      { "sa": "svadhā", "en": "the offering to the ancestors" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "auṣadham", "en": "the healing herb" },
+      { "sa": "mantraḥ", "en": "the sacred formula" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "eva", "en": "alone" },
+      { "sa": "ājyam", "en": "the clarified butter" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "agniḥ", "en": "the fire" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "hutam", "en": "what is offered" }
+    ],
+    "translation": "I am the rite, I am the sacrifice, I am the offering to the ancestors, I am the healing herb. I am the sacred formula, I alone am the clarified butter, I am the fire, I am what is offered."
+  },
+  "17": {
+    "words": [
+      { "sa": "pitā", "en": "the father" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "asya", "en": "of this" },
+      { "sa": "jagataḥ", "en": "of the world" },
+      { "sa": "mātā", "en": "the mother" },
+      { "sa": "dhātā", "en": "the ordainer" },
+      { "sa": "pitāmahaḥ", "en": "the grandfather" },
+      { "sa": "vedyam", "en": "what is to be known" },
+      { "sa": "pavitram", "en": "the purifier" },
+      { "sa": "oṁkāraḥ", "en": "the syllable Oṁ" },
+      { "sa": "ṛk", "en": "the Ṛg Veda" },
+      { "sa": "sāma", "en": "the Sāma Veda" },
+      { "sa": "yajuḥ", "en": "the Yajur Veda" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" }
+    ],
+    "translation": "I am the father of this world, the mother, the ordainer, the grandfather, what is to be known, the purifier, the syllable Oṁ, the Ṛg Veda, the Sāma Veda and indeed the Yajur Veda.",
+    "notes": ["\"The ordainer\" can also be read as \"the supporter\"."]
+  }
+}

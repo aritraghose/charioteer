@@ -1,0 +1,468 @@
+{
+  "1": {
+    "words": [
+      { "sa": "param", "en": "supreme" },
+      { "sa": "bhūyaḥ", "en": "again" },
+      { "sa": "pravakṣyāmi", "en": "I shall declare" },
+      { "sa": "jñānānām", "en": "of knowledges" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "uttamam", "en": "the highest" },
+      { "sa": "yat", "en": "which" },
+      { "sa": "jñātvā", "en": "having known" },
+      { "sa": "munayaḥ", "en": "the sages" },
+      { "sa": "sarve", "en": "all" },
+      { "sa": "parām", "en": "supreme" },
+      { "sa": "siddhim", "en": "to perfection" },
+      { "sa": "itaḥ", "en": "from here" },
+      { "sa": "gatāḥ", "en": "gone" }
+    ],
+    "translation": "Again I shall declare the supreme knowledge, the highest of knowledges, having known which all the sages have gone from here to supreme perfection.",
+    "notes": ["\"Again I shall declare the supreme knowledge\" can also be read as \"I shall declare further, once again, the knowledge\", with the first word meaning \"further\" rather than \"supreme\"."]
+  },
+  "2": {
+    "words": [
+      { "sa": "idam", "en": "this" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "upāśritya", "en": "having resorted to" },
+      { "sa": "mama", "en": "of me" },
+      { "sa": "sādharmyam", "en": "to sameness of nature" },
+      { "sa": "āgatāḥ", "en": "having come" },
+      { "sa": "sarge", "en": "at creation" },
+      { "sa": "api", "en": "even" },
+      { "sa": "na", "en": "not" },
+      { "sa": "upajāyante", "en": "they are born" },
+      { "sa": "pralaye", "en": "at dissolution" },
+      { "sa": "na", "en": "not" },
+      { "sa": "vyathanti", "en": "they are disturbed" },
+      { "sa": "ca", "en": "and" }
+    ],
+    "translation": "Having resorted to this knowledge and having come to sameness of nature with me, they are not born even at creation, and at dissolution they are not disturbed."
+  },
+  "3": {
+    "words": [
+      { "sa": "mama", "en": "my" },
+      { "sa": "yoniḥ", "en": "the womb" },
+      { "sa": "mahat", "en": "great" },
+      { "sa": "brahma", "en": "brahman", "term": "brahman" },
+      { "sa": "tasmin", "en": "in that" },
+      { "sa": "garbham", "en": "the embryo" },
+      { "sa": "dadhāmi", "en": "I place" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "sambhavaḥ", "en": "the coming into being" },
+      { "sa": "sarva-bhūtānām", "en": "of all beings" },
+      { "sa": "tataḥ", "en": "from that" },
+      { "sa": "bhavati", "en": "comes to be" },
+      { "sa": "bhārata", "en": "O descendant of Bharata" }
+    ],
+    "translation": "My womb is the great brahman. In that I place the embryo. From that comes the coming into being of all beings, O descendant of Bharata."
+  },
+  "4": {
+    "words": [
+      { "sa": "sarva-yoniṣu", "en": "in all wombs" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "mūrtayaḥ", "en": "forms" },
+      { "sa": "sambhavanti", "en": "come into being" },
+      { "sa": "yāḥ", "en": "whichever" },
+      { "sa": "tāsām", "en": "of them" },
+      { "sa": "brahma", "en": "brahman", "term": "brahman" },
+      { "sa": "mahat", "en": "great" },
+      { "sa": "yoniḥ", "en": "the womb" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "bīja-pradaḥ", "en": "seed-giving" },
+      { "sa": "pitā", "en": "the father" }
+    ],
+    "translation": "Whichever forms come into being in all wombs, O son of Kuntī, of them the great brahman is the womb, and I am the seed-giving father."
+  },
+  "5": {
+    "words": [
+      { "sa": "sattvam", "en": "sattva", "term": "guna" },
+      { "sa": "rajaḥ", "en": "rajas", "term": "guna" },
+      { "sa": "tamaḥ", "en": "tamas", "term": "guna" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "guṇāḥ", "en": "the guṇas", "term": "guna" },
+      { "sa": "prakṛti-sambhavāḥ", "en": "born of nature" },
+      { "sa": "nibadhnanti", "en": "they bind" },
+      { "sa": "mahā-bāho", "en": "O mighty-armed one" },
+      { "sa": "dehe", "en": "in the body" },
+      { "sa": "dehinam", "en": "the embodied one", "term": "dehin" },
+      { "sa": "avyayam", "en": "imperishable" }
+    ],
+    "translation": "Sattva, rajas and tamas: thus the guṇas, born of nature, bind the imperishable embodied one in the body, O mighty-armed one."
+  },
+  "6": {
+    "words": [
+      { "sa": "tatra", "en": "there" },
+      { "sa": "sattvam", "en": "sattva", "term": "guna" },
+      { "sa": "nirmalatvāt", "en": "from stainlessness" },
+      { "sa": "prakāśakam", "en": "illuminating" },
+      { "sa": "anāmayam", "en": "free from ill" },
+      { "sa": "sukha-saṅgena", "en": "by attachment to happiness", "term": "sanga" },
+      { "sa": "badhnāti", "en": "it binds" },
+      { "sa": "jñāna-saṅgena", "en": "by attachment to knowledge", "term": "sanga" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "anagha", "en": "O sinless one" }
+    ],
+    "translation": "There, sattva, illuminating and free from ill from its stainlessness, binds by attachment to happiness and by attachment to knowledge, O sinless one."
+  },
+  "7": {
+    "words": [
+      { "sa": "rajaḥ", "en": "rajas", "term": "guna" },
+      { "sa": "rāga-ātmakam", "en": "having the nature of passion" },
+      { "sa": "viddhi", "en": "know" },
+      { "sa": "tṛṣṇā-saṅga-samudbhavam", "en": "arising from thirst and attachment", "term": "sanga" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "nibadhnāti", "en": "binds" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "karma-saṅgena", "en": "by attachment to action", "term": "karma" },
+      { "sa": "dehinam", "en": "the embodied one", "term": "dehin" }
+    ],
+    "translation": "Know rajas as having the nature of passion, arising from thirst and attachment. That binds the embodied one, O son of Kuntī, by attachment to action.",
+    "notes": ["\"Arising from thirst and attachment\" can also be read as \"the source of thirst and attachment\", so that rajas produces them rather than comes from them."]
+  },
+  "8": {
+    "words": [
+      { "sa": "tamaḥ", "en": "tamas", "term": "guna" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "ajñāna-jam", "en": "born of ignorance" },
+      { "sa": "viddhi", "en": "know" },
+      { "sa": "mohanam", "en": "the deluding" },
+      { "sa": "sarva-dehinām", "en": "of all embodied ones", "term": "dehin" },
+      { "sa": "pramāda-ālasya-nidrābhiḥ", "en": "by heedlessness, laziness and sleep" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "nibadhnāti", "en": "binds" },
+      { "sa": "bhārata", "en": "O descendant of Bharata" }
+    ],
+    "translation": "But know tamas as born of ignorance, the deluding of all embodied ones. That binds by heedlessness, laziness and sleep, O descendant of Bharata."
+  },
+  "9": {
+    "words": [
+      { "sa": "sattvam", "en": "sattva", "term": "guna" },
+      { "sa": "sukhe", "en": "to happiness" },
+      { "sa": "sañjayati", "en": "it attaches" },
+      { "sa": "rajaḥ", "en": "rajas", "term": "guna" },
+      { "sa": "karmaṇi", "en": "to action", "term": "karma" },
+      { "sa": "bhārata", "en": "O descendant of Bharata" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "āvṛtya", "en": "having veiled" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "tamaḥ", "en": "tamas", "term": "guna" },
+      { "sa": "pramāde", "en": "to heedlessness" },
+      { "sa": "sañjayati", "en": "it attaches" },
+      { "sa": "uta", "en": "indeed" }
+    ],
+    "translation": "Sattva attaches one to happiness, rajas to action, O descendant of Bharata, but tamas, having veiled knowledge, attaches one to heedlessness indeed."
+  },
+  "10": {
+    "words": [
+      { "sa": "rajaḥ", "en": "rajas", "term": "guna" },
+      { "sa": "tamaḥ", "en": "tamas", "term": "guna" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "abhibhūya", "en": "having overpowered" },
+      { "sa": "sattvam", "en": "sattva", "term": "guna" },
+      { "sa": "bhavati", "en": "comes to be" },
+      { "sa": "bhārata", "en": "O descendant of Bharata" },
+      { "sa": "rajaḥ", "en": "rajas", "term": "guna" },
+      { "sa": "sattvam", "en": "sattva", "term": "guna" },
+      { "sa": "tamaḥ", "en": "tamas", "term": "guna" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "tamaḥ", "en": "tamas", "term": "guna" },
+      { "sa": "sattvam", "en": "sattva", "term": "guna" },
+      { "sa": "rajaḥ", "en": "rajas", "term": "guna" },
+      { "sa": "tathā", "en": "likewise" }
+    ],
+    "translation": "Having overpowered rajas and tamas, sattva comes to be, O descendant of Bharata. Rajas indeed comes to be having overpowered sattva and tamas, and likewise tamas having overpowered sattva and rajas."
+  },
+  "11": {
+    "words": [
+      { "sa": "sarva-dvāreṣu", "en": "in all the gates" },
+      { "sa": "dehe", "en": "in the body" },
+      { "sa": "asmin", "en": "in this" },
+      { "sa": "prakāśaḥ", "en": "light" },
+      { "sa": "upajāyate", "en": "is born" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "yadā", "en": "when" },
+      { "sa": "tadā", "en": "then" },
+      { "sa": "vidyāt", "en": "one should know" },
+      { "sa": "vivṛddham", "en": "increased" },
+      { "sa": "sattvam", "en": "sattva", "term": "guna" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "uta", "en": "indeed" }
+    ],
+    "translation": "When light, which is knowledge, is born in all the gates in this body, then indeed one should know thus: sattva has increased."
+  },
+  "12": {
+    "words": [
+      { "sa": "lobhaḥ", "en": "greed" },
+      { "sa": "pravṛttiḥ", "en": "activity" },
+      { "sa": "ārambhaḥ", "en": "the undertaking" },
+      { "sa": "karmaṇām", "en": "of actions", "term": "karma" },
+      { "sa": "aśamaḥ", "en": "restlessness" },
+      { "sa": "spṛhā", "en": "longing" },
+      { "sa": "rajasi", "en": "when rajas", "term": "guna" },
+      { "sa": "etāni", "en": "these" },
+      { "sa": "jāyante", "en": "are born" },
+      { "sa": "vivṛddhe", "en": "has increased" },
+      { "sa": "bharata-ṛṣabha", "en": "O bull of the Bharatas" }
+    ],
+    "translation": "Greed, activity, the undertaking of actions, restlessness, longing: these are born when rajas has increased, O bull of the Bharatas."
+  },
+  "13": {
+    "words": [
+      { "sa": "aprakāśaḥ", "en": "absence of light" },
+      { "sa": "apravṛttiḥ", "en": "inactivity" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "pramādaḥ", "en": "heedlessness" },
+      { "sa": "mohaḥ", "en": "delusion" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "tamasi", "en": "when tamas", "term": "guna" },
+      { "sa": "etāni", "en": "these" },
+      { "sa": "jāyante", "en": "are born" },
+      { "sa": "vivṛddhe", "en": "has increased" },
+      { "sa": "kuru-nandana", "en": "O joy of the Kurus" }
+    ],
+    "translation": "Absence of light and inactivity, heedlessness and indeed delusion: these are born when tamas has increased, O joy of the Kurus."
+  },
+  "14": {
+    "words": [
+      { "sa": "yadā", "en": "when" },
+      { "sa": "sattve", "en": "when sattva", "term": "guna" },
+      { "sa": "pravṛddhe", "en": "has grown strong" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "pralayam", "en": "to dissolution" },
+      { "sa": "yāti", "en": "goes" },
+      { "sa": "deha-bhṛt", "en": "the bearer of a body" },
+      { "sa": "tadā", "en": "then" },
+      { "sa": "uttama-vidām", "en": "of the knowers of the highest" },
+      { "sa": "lokān", "en": "the worlds" },
+      { "sa": "amalān", "en": "stainless" },
+      { "sa": "pratipadyate", "en": "he reaches" }
+    ],
+    "translation": "But when the bearer of a body goes to dissolution when sattva has grown strong, then he reaches the stainless worlds of the knowers of the highest."
+  },
+  "15": {
+    "words": [
+      { "sa": "rajasi", "en": "in rajas", "term": "guna" },
+      { "sa": "pralayam", "en": "to dissolution" },
+      { "sa": "gatvā", "en": "having gone" },
+      { "sa": "karma-saṅgiṣu", "en": "among those attached to action", "term": "karma" },
+      { "sa": "jāyate", "en": "he is born" },
+      { "sa": "tathā", "en": "likewise" },
+      { "sa": "pralīnaḥ", "en": "dissolved" },
+      { "sa": "tamasi", "en": "in tamas", "term": "guna" },
+      { "sa": "mūḍha-yoniṣu", "en": "in the wombs of the deluded" },
+      { "sa": "jāyate", "en": "he is born" }
+    ],
+    "translation": "Having gone to dissolution in rajas, he is born among those attached to action. Likewise, dissolved in tamas, he is born in the wombs of the deluded."
+  },
+  "16": {
+    "words": [
+      { "sa": "karmaṇaḥ", "en": "of action", "term": "karma" },
+      { "sa": "sukṛtasya", "en": "well done" },
+      { "sa": "āhuḥ", "en": "they say" },
+      { "sa": "sāttvikam", "en": "of the nature of sattva", "term": "guna" },
+      { "sa": "nirmalam", "en": "stainless" },
+      { "sa": "phalam", "en": "the fruit" },
+      { "sa": "rajasaḥ", "en": "of rajas", "term": "guna" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "phalam", "en": "the fruit" },
+      { "sa": "duḥkham", "en": "sorrow" },
+      { "sa": "ajñānam", "en": "ignorance" },
+      { "sa": "tamasaḥ", "en": "of tamas", "term": "guna" },
+      { "sa": "phalam", "en": "the fruit" }
+    ],
+    "translation": "They say the fruit of action well done is of the nature of sattva and stainless, but the fruit of rajas is sorrow, and the fruit of tamas is ignorance."
+  },
+  "17": {
+    "words": [
+      { "sa": "sattvāt", "en": "from sattva", "term": "guna" },
+      { "sa": "sañjāyate", "en": "is born" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "rajasaḥ", "en": "from rajas", "term": "guna" },
+      { "sa": "lobhaḥ", "en": "greed" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "pramāda-mohau", "en": "heedlessness and delusion" },
+      { "sa": "tamasaḥ", "en": "from tamas", "term": "guna" },
+      { "sa": "bhavataḥ", "en": "the two come to be" },
+      { "sa": "ajñānam", "en": "ignorance" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" }
+    ],
+    "translation": "From sattva knowledge is born, and from rajas indeed greed. Heedlessness and delusion come to be from tamas, and indeed ignorance."
+  },
+  "18": {
+    "words": [
+      { "sa": "ūrdhvam", "en": "upward" },
+      { "sa": "gacchanti", "en": "they go" },
+      { "sa": "sattva-sthāḥ", "en": "those standing in sattva", "term": "guna" },
+      { "sa": "madhye", "en": "in the middle" },
+      { "sa": "tiṣṭhanti", "en": "they stay" },
+      { "sa": "rājasāḥ", "en": "those of rajas", "term": "guna" },
+      { "sa": "jaghanya-guṇa-vṛtti-sthāḥ", "en": "standing in the workings of the lowest guṇa", "term": "guna" },
+      { "sa": "adhaḥ", "en": "downward" },
+      { "sa": "gacchanti", "en": "they go" },
+      { "sa": "tāmasāḥ", "en": "those of tamas", "term": "guna" }
+    ],
+    "translation": "Those standing in sattva go upward. Those of rajas stay in the middle. Those of tamas, standing in the workings of the lowest guṇa, go downward."
+  },
+  "19": {
+    "words": [
+      { "sa": "na", "en": "not" },
+      { "sa": "anyam", "en": "other" },
+      { "sa": "guṇebhyaḥ", "en": "than the guṇas", "term": "guna" },
+      { "sa": "kartāram", "en": "a doer" },
+      { "sa": "yadā", "en": "when" },
+      { "sa": "draṣṭā", "en": "the seer" },
+      { "sa": "anupaśyati", "en": "sees" },
+      { "sa": "guṇebhyaḥ", "en": "than the guṇas", "term": "guna" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "param", "en": "what is higher" },
+      { "sa": "vetti", "en": "he knows" },
+      { "sa": "mat-bhāvam", "en": "my state of being" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "adhigacchati", "en": "reaches" }
+    ],
+    "translation": "When the seer sees no doer other than the guṇas, and knows what is higher than the guṇas, he reaches my state of being."
+  },
+  "20": {
+    "words": [
+      { "sa": "guṇān", "en": "the guṇas", "term": "guna" },
+      { "sa": "etān", "en": "these" },
+      { "sa": "atītya", "en": "having gone beyond" },
+      { "sa": "trīn", "en": "three" },
+      { "sa": "dehī", "en": "the embodied one", "term": "dehin" },
+      { "sa": "deha-samudbhavān", "en": "arising from the body" },
+      { "sa": "janma-mṛtyu-jarā-duḥkhaiḥ", "en": "from the sorrows of birth, death and old age" },
+      { "sa": "vimuktaḥ", "en": "freed" },
+      { "sa": "amṛtam", "en": "the deathless" },
+      { "sa": "aśnute", "en": "he attains" }
+    ],
+    "translation": "Having gone beyond these three guṇas, arising from the body, the embodied one, freed from the sorrows of birth, death and old age, attains the deathless.",
+    "notes": [
+      "\"Arising from the body\" can also be read as \"from which the body arises\", so that the guṇas are the source of the body rather than the reverse.",
+      "\"From the sorrows of birth, death and old age\" can also be read as \"from birth, death, old age and sorrow\", four separate things."
+    ]
+  },
+  "21": {
+    "words": [
+      { "sa": "kaiḥ", "en": "by what" },
+      { "sa": "liṅgaiḥ", "en": "by marks" },
+      { "sa": "trīn", "en": "three" },
+      { "sa": "guṇān", "en": "the guṇas", "term": "guna" },
+      { "sa": "etān", "en": "these" },
+      { "sa": "atītaḥ", "en": "one who has gone beyond" },
+      { "sa": "bhavati", "en": "he is" },
+      { "sa": "prabho", "en": "O lord" },
+      { "sa": "kim-ācāraḥ", "en": "of what conduct" },
+      { "sa": "katham", "en": "how" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "etān", "en": "these" },
+      { "sa": "trīn", "en": "three" },
+      { "sa": "guṇān", "en": "the guṇas", "term": "guna" },
+      { "sa": "ativartate", "en": "he passes beyond" }
+    ],
+    "translation": "By what marks is he one who has gone beyond these three guṇas, O lord? Of what conduct is he, and how does he pass beyond these three guṇas?"
+  },
+  "22": {
+    "words": [
+      { "sa": "prakāśam", "en": "light" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "pravṛttim", "en": "activity" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "moham", "en": "delusion" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "pāṇḍava", "en": "O son of Pāṇḍu" },
+      { "sa": "na", "en": "not" },
+      { "sa": "dveṣṭi", "en": "he hates" },
+      { "sa": "sampravṛttāni", "en": "when they have come forth" },
+      { "sa": "na", "en": "not" },
+      { "sa": "nivṛttāni", "en": "when they have ceased" },
+      { "sa": "kāṅkṣati", "en": "he longs for" }
+    ],
+    "translation": "Light and activity and indeed delusion, O son of Pāṇḍu: he does not hate them when they have come forth, and does not long for them when they have ceased."
+  },
+  "23": {
+    "words": [
+      { "sa": "udāsīna-vat", "en": "like one unconcerned" },
+      { "sa": "āsīnaḥ", "en": "seated" },
+      { "sa": "guṇaiḥ", "en": "by the guṇas", "term": "guna" },
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "na", "en": "not" },
+      { "sa": "vicālyate", "en": "is shaken" },
+      { "sa": "guṇāḥ", "en": "the guṇas", "term": "guna" },
+      { "sa": "vartante", "en": "they act" },
+      { "sa": "iti", "en": "so" },
+      { "sa": "evam", "en": "thus" },
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "avatiṣṭhati", "en": "stands firm" },
+      { "sa": "na", "en": "not" },
+      { "sa": "iṅgate", "en": "he wavers" }
+    ],
+    "translation": "He who, seated like one unconcerned, is not shaken by the guṇas, who stands firm thus, \"the guṇas act\", and does not waver,",
+    "notes": ["Verses 23 to 25 are one sentence in the Sanskrit."]
+  },
+  "24": {
+    "words": [
+      { "sa": "sama-duḥkha-sukhaḥ", "en": "the same in sorrow and happiness", "term": "samatva" },
+      { "sa": "sva-sthaḥ", "en": "abiding in himself" },
+      { "sa": "sama-loṣṭa-aśma-kāñcanaḥ", "en": "to whom a clod, a stone and gold are the same", "term": "samatva" },
+      { "sa": "tulya-priya-apriyaḥ", "en": "to whom the dear and the not dear are equal" },
+      { "sa": "dhīraḥ", "en": "steady" },
+      { "sa": "tulya-nindā-ātma-saṁstutiḥ", "en": "to whom blame and praise of himself are equal" }
+    ],
+    "translation": "who is the same in sorrow and happiness, abiding in himself, to whom a clod, a stone and gold are the same, to whom the dear and the not dear are equal, who is steady, to whom blame and praise of himself are equal,",
+    "notes": ["\"Steady\" can also be read as \"wise\"."]
+  },
+  "25": {
+    "words": [
+      { "sa": "māna-apamānayoḥ", "en": "in honour and dishonour" },
+      { "sa": "tulyaḥ", "en": "equal" },
+      { "sa": "tulyaḥ", "en": "equal" },
+      { "sa": "mitra-ari-pakṣayoḥ", "en": "toward the sides of friend and enemy" },
+      { "sa": "sarva-ārambha-parityāgī", "en": "giving up all undertakings" },
+      { "sa": "guṇa-atītaḥ", "en": "gone beyond the guṇas", "term": "guna" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "ucyate", "en": "is said to be" }
+    ],
+    "translation": "who is equal in honour and dishonour, equal toward the sides of friend and enemy, giving up all undertakings: he is said to be gone beyond the guṇas."
+  },
+  "26": {
+    "words": [
+      { "sa": "mām", "en": "me" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "avyabhicāreṇa", "en": "by unswerving" },
+      { "sa": "bhakti-yogena", "en": "by the yoga of devotion", "term": "yoga" },
+      { "sa": "sevate", "en": "serves" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "guṇān", "en": "the guṇas", "term": "guna" },
+      { "sa": "samatītya", "en": "having gone fully beyond" },
+      { "sa": "etān", "en": "these" },
+      { "sa": "brahma-bhūyāya", "en": "for becoming brahman", "term": "brahman" },
+      { "sa": "kalpate", "en": "he is fit" }
+    ],
+    "translation": "And he who serves me by the unswerving yoga of devotion, having gone fully beyond these guṇas, is fit for becoming brahman."
+  },
+  "27": {
+    "words": [
+      { "sa": "brahmaṇaḥ", "en": "of brahman", "term": "brahman" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "pratiṣṭhā", "en": "the foundation" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "amṛtasya", "en": "of the deathless" },
+      { "sa": "avyayasya", "en": "of the imperishable" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "śāśvatasya", "en": "of the everlasting" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "dharmasya", "en": "of dharma", "term": "dharma" },
+      { "sa": "sukhasya", "en": "of happiness" },
+      { "sa": "aikāntikasya", "en": "of the absolute" },
+      { "sa": "ca", "en": "and" }
+    ],
+    "translation": "For I am the foundation of brahman, of the deathless and the imperishable, and of the everlasting dharma, and of the absolute happiness.",
+    "notes": ["\"Of brahman, of the deathless and the imperishable\" can also be read as \"of the deathless and imperishable brahman\", with both words describing brahman rather than naming something separate."]
+  }
+}

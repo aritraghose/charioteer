@@ -1,0 +1,318 @@
+{
+  "1": {
+    "words": [
+      { "sa": "prakṛtim", "en": "nature" },
+      { "sa": "puruṣam", "en": "the person" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "kṣetram", "en": "the field" },
+      { "sa": "kṣetra-jñam", "en": "the knower of the field" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "etat", "en": "this" },
+      { "sa": "veditum", "en": "to know" },
+      { "sa": "icchāmi", "en": "I wish" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "jñeyam", "en": "what is to be known" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "keśava", "en": "O Keśava" }
+    ],
+    "translation": "Nature and the person, and indeed the field and the knower of the field, knowledge and what is to be known: this I wish to know, O Keśava."
+  },
+  "2": {
+    "words": [
+      { "sa": "idam", "en": "this" },
+      { "sa": "śarīram", "en": "body" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "kṣetram", "en": "the field" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "abhidhīyate", "en": "is called" },
+      { "sa": "etat", "en": "this" },
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "vetti", "en": "knows" },
+      { "sa": "tam", "en": "him" },
+      { "sa": "prāhuḥ", "en": "they call" },
+      { "sa": "kṣetra-jñaḥ", "en": "the knower of the field" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "tat-vidaḥ", "en": "those who know that" }
+    ],
+    "translation": "This body, O son of Kuntī, is called the field. He who knows this, those who know that call him the knower of the field."
+  },
+  "3": {
+    "words": [
+      { "sa": "kṣetra-jñam", "en": "the knower of the field" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "api", "en": "also" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "viddhi", "en": "know" },
+      { "sa": "sarva-kṣetreṣu", "en": "in all fields" },
+      { "sa": "bhārata", "en": "O descendant of Bharata" },
+      { "sa": "kṣetra-kṣetrajñayoḥ", "en": "of the field and the knower of the field" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "yat", "en": "which" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "matam", "en": "held" },
+      { "sa": "mama", "en": "by me" }
+    ],
+    "translation": "And know me also as the knower of the field in all fields, O descendant of Bharata. The knowledge of the field and the knower of the field, that is held by me to be knowledge.",
+    "notes": ["\"That is held by me to be knowledge\" can also be read as \"that is held to be knowledge of me\"."]
+  },
+  "4": {
+    "words": [
+      { "sa": "tat", "en": "that" },
+      { "sa": "kṣetram", "en": "field" },
+      { "sa": "yat", "en": "what" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "yādṛk", "en": "of what kind" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "yat-vikāri", "en": "having what changes" },
+      { "sa": "yataḥ", "en": "from what" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "yat", "en": "what" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "yat-prabhāvaḥ", "en": "having what power" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "samāsena", "en": "in brief" },
+      { "sa": "me", "en": "from me" },
+      { "sa": "śṛṇu", "en": "hear" }
+    ],
+    "translation": "What that field is, and of what kind, and what changes it has, and what comes from what, and who he is, and what power he has: hear that from me in brief."
+  },
+  "5": {
+    "words": [
+      { "sa": "ṛṣibhiḥ", "en": "by the seers" },
+      { "sa": "bahudhā", "en": "in many ways" },
+      { "sa": "gītam", "en": "sung" },
+      { "sa": "chandobhiḥ", "en": "by hymns" },
+      { "sa": "vividhaiḥ", "en": "by various" },
+      { "sa": "pṛthak", "en": "separately" },
+      { "sa": "brahma-sūtra-padaiḥ", "en": "by the words of the aphorisms on brahman", "term": "brahman" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "hetumadbhiḥ", "en": "by reasoned" },
+      { "sa": "viniścitaiḥ", "en": "by settled" }
+    ],
+    "translation": "It has been sung by the seers in many ways, separately, by various hymns, and indeed by the words of the aphorisms on brahman, which are reasoned and settled.",
+    "notes": ["\"The aphorisms on brahman\" can also be read as the name of a particular text, the Brahma-sūtras."]
+  },
+  "6": {
+    "words": [
+      { "sa": "mahā-bhūtāni", "en": "the great elements" },
+      { "sa": "ahaṅkāraḥ", "en": "the sense of I" },
+      { "sa": "buddhiḥ", "en": "buddhi", "term": "buddhi" },
+      { "sa": "avyaktam", "en": "the unmanifest" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "indriyāṇi", "en": "the senses", "term": "indriya" },
+      { "sa": "daśa", "en": "ten" },
+      { "sa": "ekam", "en": "the one" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "pañca", "en": "five" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "indriya-gocarāḥ", "en": "the fields of the senses", "term": "indriya" }
+    ],
+    "translation": "The great elements, the sense of I, buddhi, and indeed the unmanifest, the ten senses and the one, and the five fields of the senses,",
+    "notes": ["Verses 6 to 7 are one sentence in the Sanskrit."]
+  },
+  "7": {
+    "words": [
+      { "sa": "icchā", "en": "desire" },
+      { "sa": "dveṣaḥ", "en": "aversion" },
+      { "sa": "sukham", "en": "pleasure" },
+      { "sa": "duḥkham", "en": "pain" },
+      { "sa": "saṅghātaḥ", "en": "the aggregate" },
+      { "sa": "cetanā", "en": "awareness" },
+      { "sa": "dhṛtiḥ", "en": "firmness" },
+      { "sa": "etat", "en": "this" },
+      { "sa": "kṣetram", "en": "the field" },
+      { "sa": "samāsena", "en": "in brief" },
+      { "sa": "sa-vikāram", "en": "with its changes" },
+      { "sa": "udāhṛtam", "en": "declared" }
+    ],
+    "translation": "desire, aversion, pleasure, pain, the aggregate, awareness, firmness: this is declared in brief as the field, with its changes."
+  },
+  "8": {
+    "words": [
+      { "sa": "amānitvam", "en": "absence of pride" },
+      { "sa": "adambhitvam", "en": "absence of deceit" },
+      { "sa": "ahiṁsā", "en": "non-injury" },
+      { "sa": "kṣāntiḥ", "en": "patience" },
+      { "sa": "ārjavam", "en": "uprightness" },
+      { "sa": "ācārya-upāsanam", "en": "service of the teacher" },
+      { "sa": "śaucam", "en": "purity" },
+      { "sa": "sthairyam", "en": "steadiness" },
+      { "sa": "ātma-vinigrahaḥ", "en": "restraint of the self", "term": "atman" }
+    ],
+    "translation": "Absence of pride, absence of deceit, non-injury, patience, uprightness, service of the teacher, purity, steadiness, restraint of the self,",
+    "notes": ["Verses 8 to 12 are one sentence in the Sanskrit."]
+  },
+  "9": {
+    "words": [
+      { "sa": "indriya-artheṣu", "en": "toward the objects of the senses", "term": "indriya" },
+      { "sa": "vairāgyam", "en": "dispassion", "term": "vairagya" },
+      { "sa": "anahaṅkāraḥ", "en": "absence of the sense of I" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "janma-mṛtyu-jarā-vyādhi-duḥkha-doṣa-anudarśanam", "en": "seeing the fault of pain in birth, death, old age and sickness" }
+    ],
+    "translation": "dispassion toward the objects of the senses, and indeed absence of the sense of I, seeing the fault of pain in birth, death, old age and sickness,",
+    "notes": ["\"Seeing the fault of pain in birth, death, old age and sickness\" can also be read as \"seeing the faults of birth, death, old age, sickness and pain\"."]
+  },
+  "10": {
+    "words": [
+      { "sa": "asaktiḥ", "en": "non-attachment" },
+      { "sa": "anabhiṣvaṅgaḥ", "en": "no clinging" },
+      { "sa": "putra-dāra-gṛha-ādiṣu", "en": "to sons, wife, home and the rest" },
+      { "sa": "nityam", "en": "always" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "sama-cittatvam", "en": "evenness of mind", "term": "samatva" },
+      { "sa": "iṣṭa-aniṣṭa-upapattiṣu", "en": "in the arrival of the wished for and the unwished for" }
+    ],
+    "translation": "non-attachment, no clinging to sons, wife, home and the rest, and always evenness of mind in the arrival of the wished for and the unwished for,"
+  },
+  "11": {
+    "words": [
+      { "sa": "mayi", "en": "to me" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "ananya-yogena", "en": "by yoga with no other", "term": "yoga" },
+      { "sa": "bhaktiḥ", "en": "devotion" },
+      { "sa": "avyabhicāriṇī", "en": "unswerving" },
+      { "sa": "vivikta-deśa-sevitvam", "en": "resorting to secluded places" },
+      { "sa": "aratiḥ", "en": "no delight" },
+      { "sa": "jana-saṁsadi", "en": "in a gathering of people" }
+    ],
+    "translation": "and unswerving devotion to me by yoga with no other, resorting to secluded places, no delight in a gathering of people,"
+  },
+  "12": {
+    "words": [
+      { "sa": "adhyātma-jñāna-nityatvam", "en": "constancy in knowledge concerning the self", "term": "atman" },
+      { "sa": "tattva-jñāna-artha-darśanam", "en": "seeing the purpose of knowledge of the truth" },
+      { "sa": "etat", "en": "this" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "proktam", "en": "declared" },
+      { "sa": "ajñānam", "en": "ignorance" },
+      { "sa": "yat", "en": "what" },
+      { "sa": "ataḥ", "en": "than this" },
+      { "sa": "anyathā", "en": "otherwise" }
+    ],
+    "translation": "constancy in knowledge concerning the self, seeing the purpose of knowledge of the truth: this is declared to be knowledge. What is otherwise than this is ignorance."
+  },
+  "13": {
+    "words": [
+      { "sa": "jñeyam", "en": "to be known" },
+      { "sa": "yat", "en": "what" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "pravakṣyāmi", "en": "I will declare" },
+      { "sa": "yat", "en": "which" },
+      { "sa": "jñātvā", "en": "having known" },
+      { "sa": "amṛtam", "en": "the deathless" },
+      { "sa": "aśnute", "en": "one attains" },
+      { "sa": "anādimat", "en": "beginningless" },
+      { "sa": "param", "en": "supreme" },
+      { "sa": "brahma", "en": "brahman", "term": "brahman" },
+      { "sa": "na", "en": "not" },
+      { "sa": "sat", "en": "being" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "na", "en": "not" },
+      { "sa": "asat", "en": "non-being" },
+      { "sa": "ucyate", "en": "is said" }
+    ],
+    "translation": "I will declare that which is to be known, having known which one attains the deathless: the beginningless supreme brahman. That is said to be neither being nor non-being.",
+    "notes": ["\"The beginningless supreme brahman\" can also be read as \"the beginningless brahman, which has me as its highest\", because the Sanskrit letters can be divided in two ways."]
+  },
+  "14": {
+    "words": [
+      { "sa": "sarvataḥ", "en": "everywhere" },
+      { "sa": "pāṇi-pādam", "en": "having hands and feet" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "sarvataḥ", "en": "everywhere" },
+      { "sa": "akṣi-śiraḥ-mukham", "en": "having eyes, heads and faces" },
+      { "sa": "sarvataḥ", "en": "everywhere" },
+      { "sa": "śrutimat", "en": "having hearing" },
+      { "sa": "loke", "en": "in the world" },
+      { "sa": "sarvam", "en": "everything" },
+      { "sa": "āvṛtya", "en": "having covered" },
+      { "sa": "tiṣṭhati", "en": "it stands" }
+    ],
+    "translation": "Having hands and feet everywhere, having eyes, heads and faces everywhere, having hearing everywhere, that stands in the world, having covered everything."
+  },
+  "15": {
+    "words": [
+      { "sa": "sarva-indriya-guṇa-ābhāsam", "en": "having the appearance of the qualities of all the senses", "term": "indriya" },
+      { "sa": "sarva-indriya-vivarjitam", "en": "devoid of all the senses", "term": "indriya" },
+      { "sa": "asaktam", "en": "unattached" },
+      { "sa": "sarva-bhṛt", "en": "bearing all" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "nirguṇam", "en": "without guṇas", "term": "guna" },
+      { "sa": "guṇa-bhoktṛ", "en": "the enjoyer of the guṇas", "term": "guna" },
+      { "sa": "ca", "en": "and" }
+    ],
+    "translation": "It has the appearance of the qualities of all the senses and is devoid of all the senses. It is unattached and indeed bears all. It is without guṇas and is the enjoyer of the guṇas.",
+    "notes": ["\"It has the appearance of the qualities of all the senses\" can also be read as \"it shines through the workings of all the senses\"."]
+  },
+  "16": {
+    "words": [
+      { "sa": "bahiḥ", "en": "outside" },
+      { "sa": "antaḥ", "en": "inside" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "bhūtānām", "en": "of beings" },
+      { "sa": "acaram", "en": "unmoving" },
+      { "sa": "caram", "en": "moving" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "sūkṣmatvāt", "en": "because of subtlety" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "avijñeyam", "en": "not to be understood" },
+      { "sa": "dūra-stham", "en": "standing far away" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "antike", "en": "near" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "tat", "en": "that" }
+    ],
+    "translation": "It is outside and inside of beings, unmoving and indeed moving. Because of subtlety that is not to be understood, and that stands far away and near."
+  },
+  "17": {
+    "words": [
+      { "sa": "avibhaktam", "en": "undivided" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "bhūteṣu", "en": "in beings" },
+      { "sa": "vibhaktam", "en": "divided" },
+      { "sa": "iva", "en": "as if" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "sthitam", "en": "standing" },
+      { "sa": "bhūta-bhartṛ", "en": "the bearer of beings" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "jñeyam", "en": "to be known" },
+      { "sa": "grasiṣṇu", "en": "devouring" },
+      { "sa": "prabhaviṣṇu", "en": "bringing forth" },
+      { "sa": "ca", "en": "and" }
+    ],
+    "translation": "Undivided, and standing in beings as if divided, that is to be known as the bearer of beings, and as devouring and bringing forth.",
+    "notes": ["\"That is to be known as the bearer of beings\" can also be read as \"that which is to be known is the bearer of beings\"."]
+  },
+  "18": {
+    "words": [
+      { "sa": "jyotiṣām", "en": "of lights" },
+      { "sa": "api", "en": "even" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "jyotiḥ", "en": "the light" },
+      { "sa": "tamasaḥ", "en": "than darkness" },
+      { "sa": "param", "en": "beyond" },
+      { "sa": "ucyate", "en": "is said" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "jñeyam", "en": "what is to be known" },
+      { "sa": "jñāna-gamyam", "en": "to be reached by knowledge" },
+      { "sa": "hṛdi", "en": "in the heart" },
+      { "sa": "sarvasya", "en": "of all" },
+      { "sa": "viṣṭhitam", "en": "seated" }
+    ],
+    "translation": "That is said to be the light even of lights, beyond darkness. It is knowledge, what is to be known, and to be reached by knowledge, seated in the heart of all."
+  }
+}

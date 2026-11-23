@@ -1,0 +1,407 @@
+{
+  "1": {
+    "words": [
+      { "sa": "dharma-kṣetre", "en": "on the field of dharma", "term": "dharma" },
+      { "sa": "kuru-kṣetre", "en": "on the field of the Kurus" },
+      { "sa": "samavetāḥ", "en": "assembled" },
+      { "sa": "yuyutsavaḥ", "en": "eager to fight" },
+      { "sa": "māmakāḥ", "en": "my own" },
+      { "sa": "pāṇḍavāḥ", "en": "the sons of Pāṇḍu" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "as well" },
+      { "sa": "kim", "en": "what" },
+      { "sa": "akurvata", "en": "they did" },
+      { "sa": "sañjaya", "en": "O Sañjaya" }
+    ],
+    "translation": "On the field of dharma, on the field of the Kurus, assembled and eager to fight, what did my own and the sons of Pāṇḍu as well do, O Sañjaya?"
+  },
+  "2": {
+    "words": [
+      { "sa": "dṛṣṭvā", "en": "having seen" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "pāṇḍava-anīkam", "en": "the army of the sons of Pāṇḍu" },
+      { "sa": "vyūḍham", "en": "arrayed" },
+      { "sa": "duryodhanaḥ", "en": "Duryodhana" },
+      { "sa": "tadā", "en": "then" },
+      { "sa": "ācāryam", "en": "the teacher" },
+      { "sa": "upasaṅgamya", "en": "having approached" },
+      { "sa": "rājā", "en": "the king" },
+      { "sa": "vacanam", "en": "a word" },
+      { "sa": "abravīt", "en": "he spoke" }
+    ],
+    "translation": "But having seen the army of the sons of Pāṇḍu arrayed, King Duryodhana then, having approached the teacher, spoke a word."
+  },
+  "3": {
+    "words": [
+      { "sa": "paśya", "en": "behold" },
+      { "sa": "etām", "en": "this" },
+      { "sa": "pāṇḍu-putrāṇām", "en": "of the sons of Pāṇḍu" },
+      { "sa": "ācārya", "en": "O teacher" },
+      { "sa": "mahatīm", "en": "great" },
+      { "sa": "camūm", "en": "army" },
+      { "sa": "vyūḍhām", "en": "arrayed" },
+      { "sa": "drupada-putreṇa", "en": "by the son of Drupada" },
+      { "sa": "tava", "en": "your" },
+      { "sa": "śiṣyeṇa", "en": "by the pupil" },
+      { "sa": "dhīmatā", "en": "by the wise one" }
+    ],
+    "translation": "Behold, O teacher, this great army of the sons of Pāṇḍu, arrayed by the son of Drupada, your wise pupil."
+  },
+  "4": {
+    "words": [
+      { "sa": "atra", "en": "here" },
+      { "sa": "śūrāḥ", "en": "heroes" },
+      { "sa": "mahā-iṣu-āsāḥ", "en": "great archers" },
+      { "sa": "bhīma-arjuna-samāḥ", "en": "equal to Bhīma and Arjuna" },
+      { "sa": "yudhi", "en": "in battle" },
+      { "sa": "yuyudhānaḥ", "en": "Yuyudhāna (Sātyaki)" },
+      { "sa": "virāṭaḥ", "en": "Virāṭa" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "drupadaḥ", "en": "Drupada" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "mahā-rathaḥ", "en": "the great chariot-warrior" }
+    ],
+    "translation": "Here are heroes, great archers, equal to Bhīma and Arjuna in battle: Yuyudhāna and Virāṭa and Drupada, the great chariot-warrior,",
+    "notes": ["Verses 4 to 6 are one sentence in the Sanskrit."]
+  },
+  "5": {
+    "words": [
+      { "sa": "dhṛṣṭaketuḥ", "en": "Dhṛṣṭaketu" },
+      { "sa": "cekitānaḥ", "en": "Cekitāna" },
+      { "sa": "kāśi-rājaḥ", "en": "the king of Kāśi" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "vīryavān", "en": "valiant" },
+      { "sa": "purujit", "en": "Purujit" },
+      { "sa": "kuntibhojaḥ", "en": "Kuntibhoja" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "śaibyaḥ", "en": "Śaibya, the king of the Śibis" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "nara-puṅgavaḥ", "en": "bull among men" }
+    ],
+    "translation": "Dhṛṣṭaketu, Cekitāna and the valiant king of Kāśi, Purujit and Kuntibhoja and Śaibya, bull among men,"
+  },
+  "6": {
+    "words": [
+      { "sa": "yudhāmanyuḥ", "en": "Yudhāmanyu" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "vikrāntaḥ", "en": "bold" },
+      { "sa": "uttamaujāḥ", "en": "Uttamaujas" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "vīryavān", "en": "valiant" },
+      { "sa": "saubhadraḥ", "en": "the son of Subhadrā (Abhimanyu)" },
+      { "sa": "draupadeyāḥ", "en": "the sons of Draupadī" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "sarve", "en": "all" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "mahā-rathāḥ", "en": "great chariot-warriors" }
+    ],
+    "translation": "and the bold Yudhāmanyu and the valiant Uttamaujas, the son of Subhadrā and the sons of Draupadī, all indeed great chariot-warriors."
+  },
+  "7": {
+    "words": [
+      { "sa": "asmākam", "en": "of ours" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "viśiṣṭāḥ", "en": "distinguished" },
+      { "sa": "ye", "en": "those who" },
+      { "sa": "tān", "en": "them" },
+      { "sa": "nibodha", "en": "know" },
+      { "sa": "dvija-uttama", "en": "O best of the twice-born" },
+      { "sa": "nāyakāḥ", "en": "the leaders" },
+      { "sa": "mama", "en": "my" },
+      { "sa": "sainyasya", "en": "of the army" },
+      { "sa": "saṁjñā-artham", "en": "for the sake of recognition" },
+      { "sa": "tān", "en": "them" },
+      { "sa": "bravīmi", "en": "I tell" },
+      { "sa": "te", "en": "to you" }
+    ],
+    "translation": "But those of ours who are distinguished, know them, O best of the twice-born. The leaders of my army: I tell them to you for the sake of recognition."
+  },
+  "8": {
+    "words": [
+      { "sa": "bhavān", "en": "your honour" },
+      { "sa": "bhīṣmaḥ", "en": "Bhīṣma" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "karṇaḥ", "en": "Karṇa" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "kṛpaḥ", "en": "Kṛpa" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "samitiñjayaḥ", "en": "victorious in battle" },
+      { "sa": "aśvatthāmā", "en": "Aśvatthāman" },
+      { "sa": "vikarṇaḥ", "en": "Vikarṇa" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "saumadattiḥ", "en": "the son of Somadatta" },
+      { "sa": "tathā", "en": "likewise" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" }
+    ],
+    "translation": "Your honour and Bhīṣma and Karṇa and Kṛpa, victorious in battle, Aśvatthāman and Vikarṇa, and likewise indeed the son of Somadatta,",
+    "notes": ["Verses 8 to 9 are one sentence in the Sanskrit."]
+  },
+  "9": {
+    "words": [
+      { "sa": "anye", "en": "others" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "bahavaḥ", "en": "many" },
+      { "sa": "śūrāḥ", "en": "heroes" },
+      { "sa": "mat-arthe", "en": "for my sake" },
+      { "sa": "tyakta-jīvitāḥ", "en": "having given up their lives" },
+      { "sa": "nānā-śastra-praharaṇāḥ", "en": "having various weapons to strike with" },
+      { "sa": "sarve", "en": "all" },
+      { "sa": "yuddha-viśāradāḥ", "en": "skilled in war" }
+    ],
+    "translation": "and many other heroes, having given up their lives for my sake, having various weapons to strike with, are all skilled in war."
+  },
+  "10": {
+    "words": [
+      { "sa": "aparyāptam", "en": "insufficient" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "asmākam", "en": "of ours" },
+      { "sa": "balam", "en": "force" },
+      { "sa": "bhīṣma-abhirakṣitam", "en": "guarded by Bhīṣma" },
+      { "sa": "paryāptam", "en": "sufficient" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "idam", "en": "this" },
+      { "sa": "eteṣām", "en": "of these" },
+      { "sa": "balam", "en": "force" },
+      { "sa": "bhīma-abhirakṣitam", "en": "guarded by Bhīma" }
+    ],
+    "translation": "That force of ours, guarded by Bhīṣma, is insufficient. But this force of these, guarded by Bhīma, is sufficient.",
+    "notes": ["\"Insufficient\" can also be read as \"unlimited\", and \"sufficient\" as \"limited\", which makes Duryodhana confident in his own army rather than anxious about it."]
+  },
+  "11": {
+    "words": [
+      { "sa": "ayaneṣu", "en": "in the lines of advance" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "sarveṣu", "en": "in all" },
+      { "sa": "yathā-bhāgam", "en": "according to your shares" },
+      { "sa": "avasthitāḥ", "en": "stationed" },
+      { "sa": "bhīṣmam", "en": "Bhīṣma" },
+      { "sa": "eva", "en": "alone" },
+      { "sa": "abhirakṣantu", "en": "let them guard" },
+      { "sa": "bhavantaḥ", "en": "your honours" },
+      { "sa": "sarve", "en": "all" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "hi", "en": "surely" }
+    ],
+    "translation": "And stationed in all the lines of advance according to your shares, let all your honours indeed surely guard Bhīṣma alone."
+  },
+  "12": {
+    "words": [
+      { "sa": "tasya", "en": "of him" },
+      { "sa": "sañjanayan", "en": "producing" },
+      { "sa": "harṣam", "en": "joy" },
+      { "sa": "kuru-vṛddhaḥ", "en": "the eldest of the Kurus" },
+      { "sa": "pitāmahaḥ", "en": "the grandfather (Bhīṣma)" },
+      { "sa": "siṁha-nādam", "en": "a lion's roar" },
+      { "sa": "vinadya", "en": "having roared" },
+      { "sa": "uccaiḥ", "en": "loudly" },
+      { "sa": "śaṅkham", "en": "a conch" },
+      { "sa": "dadhmau", "en": "he blew" },
+      { "sa": "pratāpavān", "en": "the mighty one" }
+    ],
+    "translation": "Producing joy of him, the eldest of the Kurus, the grandfather, the mighty one, having loudly roared a lion's roar, blew a conch."
+  },
+  "13": {
+    "words": [
+      { "sa": "tataḥ", "en": "then" },
+      { "sa": "śaṅkhāḥ", "en": "conches" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "bheryaḥ", "en": "kettledrums" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "paṇava-ānaka-gomukhāḥ", "en": "tabors, drums and cow-horns" },
+      { "sa": "sahasā", "en": "all at once" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "abhyahanyanta", "en": "they were struck" },
+      { "sa": "saḥ", "en": "that" },
+      { "sa": "śabdaḥ", "en": "sound" },
+      { "sa": "tumulaḥ", "en": "tumultuous" },
+      { "sa": "abhavat", "en": "it became" }
+    ],
+    "translation": "Then conches and kettledrums, tabors, drums and cow-horns were indeed struck all at once. That sound became tumultuous."
+  },
+  "14": {
+    "words": [
+      { "sa": "tataḥ", "en": "then" },
+      { "sa": "śvetaiḥ", "en": "with white" },
+      { "sa": "hayaiḥ", "en": "with horses" },
+      { "sa": "yukte", "en": "in the yoked" },
+      { "sa": "mahati", "en": "in the great" },
+      { "sa": "syandane", "en": "in the chariot" },
+      { "sa": "sthitau", "en": "the two standing" },
+      { "sa": "mādhavaḥ", "en": "the descendant of Madhu (Kṛṣṇa)" },
+      { "sa": "pāṇḍavaḥ", "en": "the son of Pāṇḍu (Arjuna)" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "also" },
+      { "sa": "divyau", "en": "two divine" },
+      { "sa": "śaṅkhau", "en": "two conches" },
+      { "sa": "pradadhmatuḥ", "en": "the two blew" }
+    ],
+    "translation": "Then, standing in the great chariot yoked with white horses, the descendant of Madhu and also the son of Pāṇḍu blew two divine conches."
+  },
+  "15": {
+    "words": [
+      { "sa": "pāñcajanyam", "en": "Pāñcajanya (Kṛṣṇa's conch)" },
+      { "sa": "hṛṣīkeśaḥ", "en": "the lord of the senses (Kṛṣṇa)" },
+      { "sa": "devadattam", "en": "Devadatta (Arjuna's conch)" },
+      { "sa": "dhanañjayaḥ", "en": "the winner of wealth (Arjuna)" },
+      { "sa": "pauṇḍram", "en": "Pauṇḍra (Bhīma's conch)" },
+      { "sa": "dadhmau", "en": "he blew" },
+      { "sa": "mahā-śaṅkham", "en": "the great conch" },
+      { "sa": "bhīma-karmā", "en": "of terrible deeds", "term": "karma" },
+      { "sa": "vṛka-udaraḥ", "en": "the wolf-bellied one (Bhīma)" }
+    ],
+    "translation": "The lord of the senses blew Pāñcajanya, the winner of wealth Devadatta, and the wolf-bellied one, of terrible deeds, blew the great conch Pauṇḍra,",
+    "notes": ["Verses 15 to 16 are one sentence in the Sanskrit."]
+  },
+  "16": {
+    "words": [
+      { "sa": "anantavijayam", "en": "Anantavijaya (Yudhiṣṭhira's conch)" },
+      { "sa": "rājā", "en": "the king" },
+      { "sa": "kuntī-putraḥ", "en": "the son of Kuntī" },
+      { "sa": "yudhiṣṭhiraḥ", "en": "Yudhiṣṭhira" },
+      { "sa": "nakulaḥ", "en": "Nakula" },
+      { "sa": "sahadevaḥ", "en": "Sahadeva" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "sughoṣa-maṇipuṣpakau", "en": "Sughoṣa and Maṇipuṣpaka (their conches)" }
+    ],
+    "translation": "the king Yudhiṣṭhira, the son of Kuntī, Anantavijaya, and Nakula and Sahadeva Sughoṣa and Maṇipuṣpaka."
+  },
+  "17": {
+    "words": [
+      { "sa": "kāśyaḥ", "en": "the king of Kāśi" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "parama-iṣu-āsaḥ", "en": "the supreme archer" },
+      { "sa": "śikhaṇḍī", "en": "Śikhaṇḍin" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "mahā-rathaḥ", "en": "the great chariot-warrior" },
+      { "sa": "dhṛṣṭadyumnaḥ", "en": "Dhṛṣṭadyumna" },
+      { "sa": "virāṭaḥ", "en": "Virāṭa" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "sātyakiḥ", "en": "Sātyaki" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "aparājitaḥ", "en": "unconquered" }
+    ],
+    "translation": "And the king of Kāśi, the supreme archer, and Śikhaṇḍin, the great chariot-warrior, Dhṛṣṭadyumna and Virāṭa and the unconquered Sātyaki,",
+    "notes": ["Verses 17 to 18 are one sentence in the Sanskrit."]
+  },
+  "18": {
+    "words": [
+      { "sa": "drupadaḥ", "en": "Drupada" },
+      { "sa": "draupadeyāḥ", "en": "the sons of Draupadī" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "sarvaśaḥ", "en": "on all sides" },
+      { "sa": "pṛthivī-pate", "en": "O lord of the earth" },
+      { "sa": "saubhadraḥ", "en": "the son of Subhadrā (Abhimanyu)" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "mahā-bāhuḥ", "en": "mighty-armed" },
+      { "sa": "śaṅkhān", "en": "conches" },
+      { "sa": "dadhmuḥ", "en": "they blew" },
+      { "sa": "pṛthak", "en": "separately" },
+      { "sa": "pṛthak", "en": "separately" }
+    ],
+    "translation": "Drupada and the sons of Draupadī, and the mighty-armed son of Subhadrā, on all sides, O lord of the earth, blew conches, each separately."
+  },
+  "19": {
+    "words": [
+      { "sa": "saḥ", "en": "that" },
+      { "sa": "ghoṣaḥ", "en": "noise" },
+      { "sa": "dhārtarāṣṭrāṇām", "en": "of the sons of Dhṛtarāṣṭra" },
+      { "sa": "hṛdayāni", "en": "the hearts" },
+      { "sa": "vyadārayat", "en": "it tore apart" },
+      { "sa": "nabhaḥ", "en": "the sky" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "pṛthivīm", "en": "the earth" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "tumulaḥ", "en": "tumultuous" },
+      { "sa": "abhyanunādayan", "en": "making resound" }
+    ],
+    "translation": "That tumultuous noise tore apart the hearts of the sons of Dhṛtarāṣṭra, making the sky and indeed the earth resound."
+  },
+  "20": {
+    "words": [
+      { "sa": "atha", "en": "then" },
+      { "sa": "vyavasthitān", "en": "arrayed" },
+      { "sa": "dṛṣṭvā", "en": "having seen" },
+      { "sa": "dhārtarāṣṭrān", "en": "the sons of Dhṛtarāṣṭra" },
+      { "sa": "kapi-dhvajaḥ", "en": "he whose banner is the monkey" },
+      { "sa": "pravṛtte", "en": "when it had begun" },
+      { "sa": "śastra-sampāte", "en": "when the clash of weapons" },
+      { "sa": "dhanuḥ", "en": "the bow" },
+      { "sa": "udyamya", "en": "having raised" },
+      { "sa": "pāṇḍavaḥ", "en": "the son of Pāṇḍu (Arjuna)" }
+    ],
+    "translation": "Then, having seen the sons of Dhṛtarāṣṭra arrayed, when the clash of weapons had begun, the son of Pāṇḍu, he whose banner is the monkey, having raised the bow,",
+    "notes": ["Verses 20 to 22 are one sentence in the Sanskrit."]
+  },
+  "21": {
+    "words": [
+      { "sa": "hṛṣīkeśam", "en": "to the lord of the senses (Kṛṣṇa)" },
+      { "sa": "tadā", "en": "then" },
+      { "sa": "vākyam", "en": "speech" },
+      { "sa": "idam", "en": "this" },
+      { "sa": "āha", "en": "he said" },
+      { "sa": "mahī-pate", "en": "O lord of the earth" },
+      { "sa": "senayoḥ", "en": "of the two armies" },
+      { "sa": "ubhayoḥ", "en": "of both" },
+      { "sa": "madhye", "en": "in the middle" },
+      { "sa": "ratham", "en": "the chariot" },
+      { "sa": "sthāpaya", "en": "station" },
+      { "sa": "me", "en": "my" },
+      { "sa": "acyuta", "en": "O unfallen one" }
+    ],
+    "translation": "then said this speech to the lord of the senses, O lord of the earth: station my chariot in the middle of both armies, O unfallen one,"
+  },
+  "22": {
+    "words": [
+      { "sa": "yāvat", "en": "while" },
+      { "sa": "etān", "en": "these" },
+      { "sa": "nirīkṣe", "en": "I look at" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "yoddhu-kāmān", "en": "desiring to fight", "term": "kama" },
+      { "sa": "avasthitān", "en": "standing" },
+      { "sa": "kaiḥ", "en": "with whom" },
+      { "sa": "mayā", "en": "by me" },
+      { "sa": "saha", "en": "together" },
+      { "sa": "yoddhavyam", "en": "it is to be fought" },
+      { "sa": "asmin", "en": "in this" },
+      { "sa": "raṇa-samudyame", "en": "in the undertaking of battle" }
+    ],
+    "translation": "while I look at these who are standing, desiring to fight, together with whom it is to be fought by me in this undertaking of battle."
+  },
+  "23": {
+    "words": [
+      { "sa": "yotsyamānān", "en": "those about to fight" },
+      { "sa": "avekṣe", "en": "I look upon" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "ye", "en": "who" },
+      { "sa": "ete", "en": "these" },
+      { "sa": "atra", "en": "here" },
+      { "sa": "samāgatāḥ", "en": "come together" },
+      { "sa": "dhārtarāṣṭrasya", "en": "of the son of Dhṛtarāṣṭra (Duryodhana)" },
+      { "sa": "durbuddheḥ", "en": "of the one whose buddhi is bad", "term": "buddhi" },
+      { "sa": "yuddhe", "en": "in war" },
+      { "sa": "priya-cikīrṣavaḥ", "en": "wishing to do what is dear" }
+    ],
+    "translation": "I look upon those about to fight, these who have come together here, wishing to do in war what is dear to the son of Dhṛtarāṣṭra, whose buddhi is bad."
+  },
+  "24": {
+    "words": [
+      { "sa": "evam", "en": "thus" },
+      { "sa": "uktaḥ", "en": "addressed" },
+      { "sa": "hṛṣīkeśaḥ", "en": "the lord of the senses (Kṛṣṇa)" },
+      { "sa": "guḍākeśena", "en": "by the thick-haired one (Arjuna)" },
+      { "sa": "bhārata", "en": "O descendant of Bharata" },
+      { "sa": "senayoḥ", "en": "of the two armies" },
+      { "sa": "ubhayoḥ", "en": "of both" },
+      { "sa": "madhye", "en": "in the middle" },
+      { "sa": "sthāpayitvā", "en": "having stationed" },
+      { "sa": "ratha-uttamam", "en": "the best of chariots" }
+    ],
+    "translation": "Thus addressed by the thick-haired one, O descendant of Bharata, the lord of the senses, having stationed the best of chariots in the middle of both armies,",
+    "notes": [
+      "Verses 24 to 25 are one sentence in the Sanskrit.",
+      "\"The thick-haired one\" can also be read as \"the lord of sleep\", that is, one who has mastered sleep."
+    ]
+  }
+}

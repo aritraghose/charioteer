@@ -1,0 +1,332 @@
+{
+  "18": {
+    "words": [
+      { "sa": "gatiḥ", "en": "the goal" },
+      { "sa": "bhartā", "en": "the supporter" },
+      { "sa": "prabhuḥ", "en": "the lord" },
+      { "sa": "sākṣī", "en": "the witness" },
+      { "sa": "nivāsaḥ", "en": "the dwelling" },
+      { "sa": "śaraṇam", "en": "the refuge" },
+      { "sa": "suhṛt", "en": "the friend" },
+      { "sa": "prabhavaḥ", "en": "the origin" },
+      { "sa": "pralayaḥ", "en": "the dissolution" },
+      { "sa": "sthānam", "en": "the ground" },
+      { "sa": "nidhānam", "en": "the storehouse" },
+      { "sa": "bījam", "en": "the seed" },
+      { "sa": "avyayam", "en": "imperishable" }
+    ],
+    "translation": "The goal, the supporter, the lord, the witness, the dwelling, the refuge, the friend, the origin, the dissolution, the ground, the storehouse, the imperishable seed."
+  },
+  "19": {
+    "words": [
+      { "sa": "tapāmi", "en": "I give heat" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "varṣam", "en": "the rain" },
+      { "sa": "nigṛhṇāmi", "en": "I hold back" },
+      { "sa": "utsṛjāmi", "en": "I send forth" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "amṛtam", "en": "deathlessness" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "mṛtyuḥ", "en": "death" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "sat", "en": "what is" },
+      { "sa": "asat", "en": "what is not" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "arjuna", "en": "O Arjuna" }
+    ],
+    "translation": "I give heat. I hold back and send forth the rain. I am indeed deathlessness and death, and what is and what is not, O Arjuna."
+  },
+  "20": {
+    "words": [
+      { "sa": "trai-vidyāḥ", "en": "those who know the three Vedas" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "soma-pāḥ", "en": "drinkers of soma" },
+      { "sa": "pūta-pāpāḥ", "en": "cleansed of evil" },
+      { "sa": "yajñaiḥ", "en": "with sacrifices" },
+      { "sa": "iṣṭvā", "en": "having worshipped" },
+      { "sa": "svar-gatim", "en": "the way to heaven" },
+      { "sa": "prārthayante", "en": "they pray for" },
+      { "sa": "te", "en": "they" },
+      { "sa": "puṇyam", "en": "meritorious" },
+      { "sa": "āsādya", "en": "having reached" },
+      { "sa": "sura-indra-lokam", "en": "the world of the lord of the gods" },
+      { "sa": "aśnanti", "en": "they eat" },
+      { "sa": "divyān", "en": "heavenly" },
+      { "sa": "divi", "en": "in heaven" },
+      { "sa": "deva-bhogān", "en": "the enjoyments of the gods" }
+    ],
+    "translation": "Those who know the three Vedas, drinkers of soma, cleansed of evil, having worshipped me with sacrifices, pray for the way to heaven. Having reached the meritorious world of the lord of the gods, they eat in heaven the heavenly enjoyments of the gods.",
+    "notes": ["\"The meritorious world of the lord of the gods\" can also be read as \"the world of the lord of the gods, the reward of their merit\"."]
+  },
+  "21": {
+    "words": [
+      { "sa": "te", "en": "they" },
+      { "sa": "tam", "en": "that" },
+      { "sa": "bhuktvā", "en": "having enjoyed" },
+      { "sa": "svarga-lokam", "en": "the world of heaven" },
+      { "sa": "viśālam", "en": "wide" },
+      { "sa": "kṣīṇe", "en": "when spent" },
+      { "sa": "puṇye", "en": "when merit" },
+      { "sa": "martya-lokam", "en": "the world of mortals" },
+      { "sa": "viśanti", "en": "they enter" },
+      { "sa": "evam", "en": "thus" },
+      { "sa": "trayī-dharmam", "en": "the dharma of the three Vedas", "term": "dharma" },
+      { "sa": "anuprapannāḥ", "en": "following" },
+      { "sa": "gata-āgatam", "en": "going and coming" },
+      { "sa": "kāma-kāmāḥ", "en": "desiring desires", "term": "kama" },
+      { "sa": "labhante", "en": "they get" }
+    ],
+    "translation": "Having enjoyed that wide world of heaven, when merit is spent they enter the world of mortals. Thus, following the dharma of the three Vedas, desiring desires, they get going and coming."
+  },
+  "22": {
+    "words": [
+      { "sa": "ananyāḥ", "en": "having no other" },
+      { "sa": "cintayantaḥ", "en": "thinking of" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "ye", "en": "who" },
+      { "sa": "janāḥ", "en": "people" },
+      { "sa": "paryupāsate", "en": "they worship fully" },
+      { "sa": "teṣām", "en": "of them" },
+      { "sa": "nitya-abhiyuktānām", "en": "of the ever joined", "term": "yoga" },
+      { "sa": "yoga-kṣemam", "en": "gaining and keeping", "term": "yoga" },
+      { "sa": "vahāmi", "en": "I carry" },
+      { "sa": "aham", "en": "I" }
+    ],
+    "translation": "The people who, having no other, thinking of me, worship me fully: of them, the ever joined, I carry the gaining and keeping.",
+    "notes": ["\"The gaining and keeping\" can also be read as \"the yoga and the safety\"."]
+  },
+  "23": {
+    "words": [
+      { "sa": "ye", "en": "who" },
+      { "sa": "api", "en": "even" },
+      { "sa": "anya-devatāḥ", "en": "other gods" },
+      { "sa": "bhaktāḥ", "en": "devotees" },
+      { "sa": "yajante", "en": "they worship" },
+      { "sa": "śraddhayā", "en": "with faith" },
+      { "sa": "anvitāḥ", "en": "filled" },
+      { "sa": "te", "en": "they" },
+      { "sa": "api", "en": "too" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "eva", "en": "only" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "yajanti", "en": "they worship" },
+      { "sa": "avidhi-pūrvakam", "en": "not according to rule" }
+    ],
+    "translation": "Even the devotees who, filled with faith, worship other gods, they too worship only me, O son of Kuntī, not according to rule.",
+    "notes": ["\"The devotees who, filled with faith, worship other gods\" can also be read as \"those who are devoted to other gods and worship filled with faith\"."]
+  },
+  "24": {
+    "words": [
+      { "sa": "aham", "en": "I" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "sarva-yajñānām", "en": "of all sacrifices" },
+      { "sa": "bhoktā", "en": "the enjoyer" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "prabhuḥ", "en": "the lord" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "na", "en": "not" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "abhijānanti", "en": "they know" },
+      { "sa": "tattvena", "en": "in truth" },
+      { "sa": "ataḥ", "en": "therefore" },
+      { "sa": "cyavanti", "en": "they fall" },
+      { "sa": "te", "en": "they" }
+    ],
+    "translation": "For I am the enjoyer and indeed the lord of all sacrifices. But they do not know me in truth, therefore they fall."
+  },
+  "25": {
+    "words": [
+      { "sa": "yānti", "en": "they go" },
+      { "sa": "deva-vratāḥ", "en": "those vowed to the gods" },
+      { "sa": "devān", "en": "to the gods" },
+      { "sa": "pitṝn", "en": "to the ancestors" },
+      { "sa": "yānti", "en": "they go" },
+      { "sa": "pitṛ-vratāḥ", "en": "those vowed to the ancestors" },
+      { "sa": "bhūtāni", "en": "to the spirits" },
+      { "sa": "yānti", "en": "they go" },
+      { "sa": "bhūta-ijyāḥ", "en": "those who sacrifice to the spirits" },
+      { "sa": "yānti", "en": "they go" },
+      { "sa": "mat-yājinaḥ", "en": "those who sacrifice to me" },
+      { "sa": "api", "en": "also" },
+      { "sa": "mām", "en": "to me" }
+    ],
+    "translation": "Those vowed to the gods go to the gods. Those vowed to the ancestors go to the ancestors. Those who sacrifice to the spirits go to the spirits. Those who sacrifice to me also go to me."
+  },
+  "26": {
+    "words": [
+      { "sa": "patram", "en": "a leaf" },
+      { "sa": "puṣpam", "en": "a flower" },
+      { "sa": "phalam", "en": "a fruit" },
+      { "sa": "toyam", "en": "water" },
+      { "sa": "yaḥ", "en": "whoever" },
+      { "sa": "me", "en": "to me" },
+      { "sa": "bhaktyā", "en": "with devotion" },
+      { "sa": "prayacchati", "en": "offers" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "bhakti-upahṛtam", "en": "brought with devotion" },
+      { "sa": "aśnāmi", "en": "I eat" },
+      { "sa": "prayata-ātmanaḥ", "en": "of the one whose self is pure", "term": "atman" }
+    ],
+    "translation": "Whoever offers to me with devotion a leaf, a flower, a fruit, water: that, brought with devotion, I eat, the offering of the one whose self is pure."
+  },
+  "27": {
+    "words": [
+      { "sa": "yat", "en": "whatever" },
+      { "sa": "karoṣi", "en": "you do" },
+      { "sa": "yat", "en": "whatever" },
+      { "sa": "aśnāsi", "en": "you eat" },
+      { "sa": "yat", "en": "whatever" },
+      { "sa": "juhoṣi", "en": "you pour in sacrifice" },
+      { "sa": "dadāsi", "en": "you give" },
+      { "sa": "yat", "en": "whatever" },
+      { "sa": "yat", "en": "whatever" },
+      { "sa": "tapasyasi", "en": "you practise as austerity" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "kuruṣva", "en": "do" },
+      { "sa": "mat-arpaṇam", "en": "as an offering to me" }
+    ],
+    "translation": "Whatever you do, whatever you eat, whatever you pour in sacrifice, whatever you give, whatever you practise as austerity, O son of Kuntī, do that as an offering to me."
+  },
+  "28": {
+    "words": [
+      { "sa": "śubha-aśubha-phalaiḥ", "en": "having good and bad fruits" },
+      { "sa": "evam", "en": "thus" },
+      { "sa": "mokṣyase", "en": "you will be freed" },
+      { "sa": "karma-bandhanaiḥ", "en": "from the bonds of action", "term": "karma" },
+      { "sa": "saṁnyāsa-yoga-yukta-ātmā", "en": "with the self joined to the yoga of renunciation", "term": "sannyasa" },
+      { "sa": "vimuktaḥ", "en": "set free" },
+      { "sa": "mām", "en": "to me" },
+      { "sa": "upaiṣyasi", "en": "you will come" }
+    ],
+    "translation": "Thus you will be freed from the bonds of action, which have good and bad fruits. With the self joined to the yoga of renunciation, set free, you will come to me."
+  },
+  "29": {
+    "words": [
+      { "sa": "samaḥ", "en": "the same", "term": "samatva" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "sarva-bhūteṣu", "en": "toward all beings" },
+      { "sa": "na", "en": "not" },
+      { "sa": "me", "en": "to me" },
+      { "sa": "dveṣyaḥ", "en": "hateful" },
+      { "sa": "asti", "en": "there is" },
+      { "sa": "na", "en": "not" },
+      { "sa": "priyaḥ", "en": "dear" },
+      { "sa": "ye", "en": "who" },
+      { "sa": "bhajanti", "en": "they worship" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "bhaktyā", "en": "with devotion" },
+      { "sa": "mayi", "en": "in me" },
+      { "sa": "te", "en": "they" },
+      { "sa": "teṣu", "en": "in them" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "api", "en": "too" },
+      { "sa": "aham", "en": "I" }
+    ],
+    "translation": "I am the same toward all beings. There is none hateful to me, none dear. But those who worship me with devotion are in me, and I too am in them."
+  },
+  "30": {
+    "words": [
+      { "sa": "api", "en": "even" },
+      { "sa": "cet", "en": "if" },
+      { "sa": "su-durācāraḥ", "en": "one of very bad conduct" },
+      { "sa": "bhajate", "en": "worships" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "ananya-bhāk", "en": "devoted to no other" },
+      { "sa": "sādhuḥ", "en": "good" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "mantavyaḥ", "en": "to be thought of" },
+      { "sa": "samyak", "en": "rightly" },
+      { "sa": "vyavasitaḥ", "en": "resolved" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "saḥ", "en": "he" }
+    ],
+    "translation": "Even if one of very bad conduct worships me, devoted to no other, he is to be thought of as good indeed, for he is rightly resolved."
+  },
+  "31": {
+    "words": [
+      { "sa": "kṣipram", "en": "quickly" },
+      { "sa": "bhavati", "en": "he becomes" },
+      { "sa": "dharma-ātmā", "en": "one whose self is dharma", "term": "dharma" },
+      { "sa": "śaśvat", "en": "everlasting" },
+      { "sa": "śāntim", "en": "peace", "term": "shanti" },
+      { "sa": "nigacchati", "en": "he reaches" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "pratijānīhi", "en": "declare" },
+      { "sa": "na", "en": "not" },
+      { "sa": "me", "en": "my" },
+      { "sa": "bhaktaḥ", "en": "devotee" },
+      { "sa": "praṇaśyati", "en": "perishes" }
+    ],
+    "translation": "Quickly he becomes one whose self is dharma, and he reaches everlasting peace. O son of Kuntī, declare: my devotee does not perish.",
+    "notes": ["\"Declare\" can also be read as \"know for certain\"."]
+  },
+  "32": {
+    "words": [
+      { "sa": "mām", "en": "in me" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "vyapāśritya", "en": "having taken refuge" },
+      { "sa": "ye", "en": "who" },
+      { "sa": "api", "en": "even" },
+      { "sa": "syuḥ", "en": "they may be" },
+      { "sa": "pāpa-yonayaḥ", "en": "of evil birth" },
+      { "sa": "striyaḥ", "en": "women" },
+      { "sa": "vaiśyāḥ", "en": "merchants" },
+      { "sa": "tathā", "en": "and also" },
+      { "sa": "śūdrāḥ", "en": "servants" },
+      { "sa": "te", "en": "they" },
+      { "sa": "api", "en": "too" },
+      { "sa": "yānti", "en": "they go" },
+      { "sa": "parām", "en": "highest" },
+      { "sa": "gatim", "en": "to the goal" }
+    ],
+    "translation": "For having taken refuge in me, O son of Pṛthā, even those who may be of evil birth, women, merchants and also servants, they too go to the highest goal.",
+    "notes": ["\"Those who may be of evil birth, women, merchants and also servants\" can be read as one group described by the three names that follow, or as four separate groups, with those of evil birth standing apart from the women, merchants and servants."]
+  },
+  "33": {
+    "words": [
+      { "sa": "kim", "en": "how much" },
+      { "sa": "punaḥ", "en": "more then" },
+      { "sa": "brāhmaṇāḥ", "en": "brahmins" },
+      { "sa": "puṇyāḥ", "en": "pure" },
+      { "sa": "bhaktāḥ", "en": "devoted" },
+      { "sa": "rāja-ṛṣayaḥ", "en": "royal seers" },
+      { "sa": "tathā", "en": "and also" },
+      { "sa": "anityam", "en": "impermanent" },
+      { "sa": "asukham", "en": "joyless" },
+      { "sa": "lokam", "en": "world" },
+      { "sa": "imam", "en": "this" },
+      { "sa": "prāpya", "en": "having come to" },
+      { "sa": "bhajasva", "en": "worship" },
+      { "sa": "mām", "en": "me" }
+    ],
+    "translation": "How much more then the pure brahmins, and also the devoted royal seers. Having come to this impermanent, joyless world, worship me."
+  },
+  "34": {
+    "words": [
+      { "sa": "mat-manāḥ", "en": "with the mind on me", "term": "manas" },
+      { "sa": "bhava", "en": "be" },
+      { "sa": "mat-bhaktaḥ", "en": "devoted to me" },
+      { "sa": "mat-yājī", "en": "sacrificing to me" },
+      { "sa": "mām", "en": "to me" },
+      { "sa": "namaskuru", "en": "bow" },
+      { "sa": "mām", "en": "to me" },
+      { "sa": "eva", "en": "alone" },
+      { "sa": "eṣyasi", "en": "you will come" },
+      { "sa": "yuktvā", "en": "having joined", "term": "yoga" },
+      { "sa": "evam", "en": "thus" },
+      { "sa": "ātmānam", "en": "the self", "term": "atman" },
+      { "sa": "mat-parāyaṇaḥ", "en": "having me as the highest goal" }
+    ],
+    "translation": "Be with the mind on me, devoted to me, sacrificing to me. Bow to me. Having thus joined the self, having me as the highest goal, you will come to me alone."
+  }
+}

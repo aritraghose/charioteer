@@ -1,12 +1,17 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
 import { ChevronRight } from 'lucide-react'
 import { Page } from '@/components/page'
+import { useState } from 'react'
 import {
   CHAPTERS,
+  type Chapter,
   FACING,
   GLOSSARY,
-  VERSES,
-  getVerseByRef,
+  TOTAL_VERSES,
+  type Verse,
+  hasVerse,
+  loadChapter,
+  parseRef,
 } from '@/content/gita'
 import { NAV_ITEMS } from '@/lib/nav'
 import { SITE_NAME, seo } from '@/lib/seo'
@@ -26,8 +31,8 @@ const sectionNote =
   'max-w-[56ch] text-sm leading-relaxed text-pretty text-muted-foreground sm:text-base'
 
 function VerseChip({ reference }: Readonly<{ reference: string }>) {
-  const verse = getVerseByRef(reference)
-  if (!verse) return null
+  const verse = parseRef(reference)
+  if (!hasVerse(verse)) return null
   return (
     <Link
       to="/gita/$chapter/$verse"
@@ -36,6 +41,79 @@ function VerseChip({ reference }: Readonly<{ reference: string }>) {
     >
       {reference}
     </Link>
+  )
+}
+
+/** One chapter row. Its verses load the first time it is opened. */
+function ChapterVerses({ chapter }: Readonly<{ chapter: Chapter }>) {
+  const [verses, setVerses] = useState<Verse[] | null>(null)
+
+  return (
+    <details
+      className="group overflow-hidden rounded-[28px] border border-border bg-card shadow-(--surface-shadow)"
+      onToggle={(event) => {
+        if (event.currentTarget.open && !verses) {
+          void loadChapter(chapter.chapter).then(setVerses)
+        }
+      }}
+    >
+      <summary className="flex cursor-pointer list-none items-center gap-3 px-5 py-4 transition-colors hover:bg-surface-blush-hover sm:px-6 [&::-webkit-details-marker]:hidden">
+        <span className="w-6 shrink-0 text-sm font-medium text-peach-ink tabular-nums">
+          {chapter.chapter}
+        </span>
+        <h3 className="flex flex-1 flex-wrap items-baseline gap-x-3 text-lg font-medium">
+          {chapter.name}
+          <span className="text-sm font-normal text-muted-foreground">
+            {chapter.about}. {chapter.length} verses.
+          </span>
+        </h3>
+        <ChevronRight
+          aria-hidden
+          className="size-4 shrink-0 text-muted-foreground/60 transition-transform group-open:rotate-90 motion-reduce:transition-none"
+          strokeWidth={2}
+        />
+      </summary>
+      {!verses ? (
+        <p className="border-t border-border px-5 py-4 text-sm text-muted-foreground sm:px-6">
+          Loading verses.
+        </p>
+      ) : (
+        <ol className="divide-y divide-border border-t border-border">
+          {verses.map((verse) => (
+            <li key={verse.verse}>
+              <Link
+                to="/gita/$chapter/$verse"
+                params={{
+                  chapter: String(verse.chapter),
+                  verse: String(verse.verse),
+                }}
+                className="group/row flex items-center gap-4 px-5 py-4 transition-colors hover:bg-surface-blush-hover sm:px-6"
+              >
+                <span className="w-10 shrink-0 text-sm font-medium text-peach-ink tabular-nums">
+                  {verse.chapter}.{verse.verse}
+                </span>
+                <span className="flex min-w-0 flex-1 flex-col gap-0.5">
+                  <span
+                    lang="sa"
+                    className="truncate font-serif text-lg leading-relaxed"
+                  >
+                    {verse.devanagari[0]}
+                  </span>
+                  <span className="truncate text-sm text-muted-foreground">
+                    {verse.translation}
+                  </span>
+                </span>
+                <ChevronRight
+                  aria-hidden
+                  className="size-4 shrink-0 text-muted-foreground/60 transition-all duration-200 group-hover/row:translate-x-0.5 group-hover/row:text-foreground motion-reduce:transition-none"
+                  strokeWidth={2}
+                />
+              </Link>
+            </li>
+          ))}
+        </ol>
+      )}
+    </details>
   )
 }
 
@@ -79,60 +157,15 @@ function GitaPage() {
             Verses
           </h2>
           <p className={sectionNote}>
-            The reader begins with {VERSES.length} verses on the restless mind.
-            The rest of these two chapters, and then the other sixteen, are
-            being added.
+            All eighteen chapters, {TOTAL_VERSES} verses. Open a chapter to see
+            its verses.
           </p>
         </div>
-        {CHAPTERS.map((chapter) => {
-          const verses = VERSES.filter(
-            (verse) => verse.chapter === chapter.chapter,
-          )
-          return (
-            <div key={chapter.chapter} className="flex flex-col gap-3">
-              <h3 className="flex flex-wrap items-baseline gap-x-3 text-lg font-medium">
-                Chapter {chapter.chapter}: {chapter.name}
-                <span className="text-sm font-normal text-muted-foreground">
-                  {chapter.about}. {verses.length} of {chapter.length} verses.
-                </span>
-              </h3>
-              <ol className="divide-y divide-border rounded-[28px] border border-border bg-card shadow-(--surface-shadow)">
-                {verses.map((verse) => (
-                  <li key={verse.verse}>
-                    <Link
-                      to="/gita/$chapter/$verse"
-                      params={{
-                        chapter: String(verse.chapter),
-                        verse: String(verse.verse),
-                      }}
-                      className="group flex items-center gap-4 px-5 py-4 transition-colors hover:bg-surface-blush-hover sm:px-6"
-                    >
-                      <span className="w-10 shrink-0 text-sm font-medium text-peach-ink tabular-nums">
-                        {verse.chapter}.{verse.verse}
-                      </span>
-                      <span className="flex min-w-0 flex-1 flex-col gap-0.5">
-                        <span
-                          lang="sa"
-                          className="truncate font-serif text-lg leading-relaxed"
-                        >
-                          {verse.devanagari[0]}
-                        </span>
-                        <span className="truncate text-sm text-muted-foreground">
-                          {verse.translation}
-                        </span>
-                      </span>
-                      <ChevronRight
-                        aria-hidden
-                        className="size-4 shrink-0 text-muted-foreground/60 transition-all duration-200 group-hover:translate-x-0.5 group-hover:text-foreground motion-reduce:transition-none"
-                        strokeWidth={2}
-                      />
-                    </Link>
-                  </li>
-                ))}
-              </ol>
-            </div>
-          )
-        })}
+        <div className="flex flex-col gap-3">
+          {CHAPTERS.map((chapter) => (
+            <ChapterVerses key={chapter.chapter} chapter={chapter} />
+          ))}
+        </div>
       </section>
 
       <section aria-labelledby="terms-heading" className="flex flex-col gap-5">

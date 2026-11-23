@@ -5,7 +5,7 @@ import {
   SPEAKER_NAME,
   getChapter,
   getTerm,
-  getVerse,
+  loadVerse,
   neighbours,
   verseRef,
 } from '@/content/gita'
@@ -15,16 +15,19 @@ import { sessionMinutes } from '@/lib/session-timeline'
 import { cn } from '@/lib/utils'
 
 export const Route = createFileRoute('/_app/gita_/$chapter/$verse')({
-  loader: ({ params }) => {
-    const verse = getVerse(Number(params.chapter), Number(params.verse))
+  loader: async ({ params }) => {
+    const verse = await loadVerse({
+      chapter: Number(params.chapter),
+      verse: Number(params.verse),
+    })
     if (!verse) throw notFound()
-    return { reference: verseRef(verse), translation: verse.translation }
+    return { verse }
   },
   head: ({ loaderData }) => ({
     meta: loaderData
       ? seo({
-          title: `Gita ${loaderData.reference} | ${SITE_NAME}`,
-          description: loaderData.translation,
+          title: `Gita ${verseRef(loaderData.verse)} | ${SITE_NAME}`,
+          description: loaderData.verse.translation,
         })
       : [],
   }),
@@ -32,10 +35,8 @@ export const Route = createFileRoute('/_app/gita_/$chapter/$verse')({
 })
 
 function VersePage() {
-  const params = Route.useParams()
-  const verse = getVerse(Number(params.chapter), Number(params.verse))
+  const { verse } = Route.useLoaderData()
   const [openTerm, setOpenTerm] = useState<string | null>(null)
-  if (!verse) return null
 
   const chapter = getChapter(verse.chapter)
   const { previous, next } = neighbours(verse)
@@ -67,17 +68,21 @@ function VersePage() {
             lang="sa"
             className="font-serif text-2xl leading-[1.7] text-foreground sm:text-3xl sm:leading-[1.7]"
           >
-            {verse.devanagari[0]}
-            <br />
-            {verse.devanagari[1]}
+            {verse.devanagari.map((line) => (
+              <span key={line} className="block">
+                {line}
+              </span>
+            ))}
           </p>
           <p
             lang="sa-Latn"
             className="leading-relaxed text-muted-foreground italic"
           >
-            {verse.iast[0]}
-            <br />
-            {verse.iast[1]}
+            {verse.iast.map((line) => (
+              <span key={line} className="block">
+                {line}
+              </span>
+            ))}
           </p>
         </div>
 
@@ -171,6 +176,19 @@ function VersePage() {
           )}
         </div>
       </section>
+
+      {verse.notes && verse.notes.length > 0 && (
+        <section className="flex flex-col gap-2 border-l-2 border-primary/50 pl-4">
+          <h2 className="text-sm font-medium text-pink-ink">
+            Another way to read this
+          </h2>
+          <ul className="flex max-w-[58ch] flex-col gap-2 leading-relaxed text-pretty text-muted-foreground">
+            {verse.notes.map((note) => (
+              <li key={note}>{note}</li>
+            ))}
+          </ul>
+        </section>
+      )}
 
       {practice && verse.practice && (
         <Link

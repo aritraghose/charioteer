@@ -1,0 +1,473 @@
+{
+  "53": {
+    "words": [
+      { "sa": "ahaṅkāram", "en": "ego" },
+      { "sa": "balam", "en": "force" },
+      { "sa": "darpam", "en": "pride" },
+      { "sa": "kāmam", "en": "desire", "term": "kama" },
+      { "sa": "krodham", "en": "anger" },
+      { "sa": "parigraham", "en": "possession" },
+      { "sa": "vimucya", "en": "having let go of" },
+      { "sa": "nirmamaḥ", "en": "without the sense of mine" },
+      { "sa": "śāntaḥ", "en": "at peace", "term": "shanti" },
+      { "sa": "brahma-bhūyāya", "en": "for becoming brahman", "term": "brahman" },
+      { "sa": "kalpate", "en": "he is fit" }
+    ],
+    "translation": "having let go of ego, force, pride, desire, anger and possession, without the sense of mine, at peace, he is fit for becoming brahman."
+  },
+  "54": {
+    "words": [
+      { "sa": "brahma-bhūtaḥ", "en": "having become brahman", "term": "brahman" },
+      { "sa": "prasanna-ātmā", "en": "whose self is serene", "term": "atman" },
+      { "sa": "na", "en": "not" },
+      { "sa": "śocati", "en": "he grieves" },
+      { "sa": "na", "en": "not" },
+      { "sa": "kāṅkṣati", "en": "he longs" },
+      { "sa": "samaḥ", "en": "the same", "term": "samatva" },
+      { "sa": "sarveṣu", "en": "toward all" },
+      { "sa": "bhūteṣu", "en": "toward beings" },
+      { "sa": "mat-bhaktim", "en": "devotion to me" },
+      { "sa": "labhate", "en": "he gains" },
+      { "sa": "parām", "en": "supreme" }
+    ],
+    "translation": "Having become brahman, his self serene, he does not grieve and does not long. The same toward all beings, he gains supreme devotion to me."
+  },
+  "55": {
+    "words": [
+      { "sa": "bhaktyā", "en": "by devotion" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "abhijānāti", "en": "he comes to know" },
+      { "sa": "yāvān", "en": "how great" },
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "tattvataḥ", "en": "in truth" },
+      { "sa": "tataḥ", "en": "then" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "tattvataḥ", "en": "in truth" },
+      { "sa": "jñātvā", "en": "having known" },
+      { "sa": "viśate", "en": "he enters" },
+      { "sa": "tat-anantaram", "en": "immediately after that" }
+    ],
+    "translation": "By devotion he comes to know me, how great and who I am in truth. Then, having known me in truth, he enters immediately after that.",
+    "notes": ["\"He enters immediately after that\" can also be read as \"he enters that without delay\", where \"that\" is what he enters."]
+  },
+  "56": {
+    "words": [
+      { "sa": "sarva-karmāṇi", "en": "all actions", "term": "karma" },
+      { "sa": "api", "en": "even" },
+      { "sa": "sadā", "en": "always" },
+      { "sa": "kurvāṇaḥ", "en": "doing" },
+      { "sa": "mat-vyapāśrayaḥ", "en": "having me as refuge" },
+      { "sa": "mat-prasādāt", "en": "by my grace" },
+      { "sa": "avāpnoti", "en": "he reaches" },
+      { "sa": "śāśvatam", "en": "eternal" },
+      { "sa": "padam", "en": "the abode" },
+      { "sa": "avyayam", "en": "imperishable" }
+    ],
+    "translation": "Even while always doing all actions, having me as refuge, by my grace he reaches the eternal, imperishable abode."
+  },
+  "57": {
+    "words": [
+      { "sa": "cetasā", "en": "with the mind" },
+      { "sa": "sarva-karmāṇi", "en": "all actions", "term": "karma" },
+      { "sa": "mayi", "en": "in me" },
+      { "sa": "saṁnyasya", "en": "having laid down", "term": "sannyasa" },
+      { "sa": "mat-paraḥ", "en": "holding me as the highest" },
+      { "sa": "buddhi-yogam", "en": "the yoga of buddhi", "term": "yoga" },
+      { "sa": "upāśritya", "en": "having resorted to" },
+      { "sa": "mat-cittaḥ", "en": "with thought on me" },
+      { "sa": "satatam", "en": "constantly" },
+      { "sa": "bhava", "en": "be" }
+    ],
+    "translation": "Having laid down all actions in me with the mind, holding me as the highest, having resorted to the yoga of buddhi, be constantly with thought on me."
+  },
+  "58": {
+    "words": [
+      { "sa": "mat-cittaḥ", "en": "with thought on me" },
+      { "sa": "sarva-durgāṇi", "en": "all difficulties" },
+      { "sa": "mat-prasādāt", "en": "by my grace" },
+      { "sa": "tariṣyasi", "en": "you will cross over" },
+      { "sa": "atha", "en": "but" },
+      { "sa": "cet", "en": "if" },
+      { "sa": "tvam", "en": "you" },
+      { "sa": "ahaṅkārāt", "en": "out of ego" },
+      { "sa": "na", "en": "not" },
+      { "sa": "śroṣyasi", "en": "you will listen" },
+      { "sa": "vinaṅkṣyasi", "en": "you will perish" }
+    ],
+    "translation": "With thought on me, by my grace you will cross over all difficulties. But if, out of ego, you will not listen, you will perish."
+  },
+  "59": {
+    "words": [
+      { "sa": "yat", "en": "if" },
+      { "sa": "ahaṅkāram", "en": "ego" },
+      { "sa": "āśritya", "en": "having resorted to" },
+      { "sa": "na", "en": "not" },
+      { "sa": "yotsye", "en": "I will fight" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "manyase", "en": "you think" },
+      { "sa": "mithyā", "en": "in vain" },
+      { "sa": "eṣaḥ", "en": "this" },
+      { "sa": "vyavasāyaḥ", "en": "resolve" },
+      { "sa": "te", "en": "of yours" },
+      { "sa": "prakṛtiḥ", "en": "nature" },
+      { "sa": "tvām", "en": "you" },
+      { "sa": "niyokṣyati", "en": "will compel" }
+    ],
+    "translation": "If, having resorted to ego, you think thus, \"I will not fight\", this resolve of yours is in vain. Nature will compel you."
+  },
+  "60": {
+    "words": [
+      { "sa": "svabhāva-jena", "en": "born of your own nature" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "nibaddhaḥ", "en": "bound" },
+      { "sa": "svena", "en": "by your own" },
+      { "sa": "karmaṇā", "en": "by action", "term": "karma" },
+      { "sa": "kartum", "en": "to do" },
+      { "sa": "na", "en": "not" },
+      { "sa": "icchasi", "en": "you wish" },
+      { "sa": "yat", "en": "what" },
+      { "sa": "mohāt", "en": "out of delusion" },
+      { "sa": "kariṣyasi", "en": "you will do" },
+      { "sa": "avaśaḥ", "en": "against your will" },
+      { "sa": "api", "en": "even" },
+      { "sa": "tat", "en": "that" }
+    ],
+    "translation": "Bound by your own action, born of your own nature, O son of Kuntī, what out of delusion you do not wish to do, that you will do even against your will."
+  },
+  "61": {
+    "words": [
+      { "sa": "īśvaraḥ", "en": "the lord" },
+      { "sa": "sarva-bhūtānām", "en": "of all beings" },
+      { "sa": "hṛt-deśe", "en": "in the region of the heart" },
+      { "sa": "arjuna", "en": "O Arjuna" },
+      { "sa": "tiṣṭhati", "en": "stands" },
+      { "sa": "bhrāmayan", "en": "causing to revolve" },
+      { "sa": "sarva-bhūtāni", "en": "all beings" },
+      { "sa": "yantra-ārūḍhāni", "en": "mounted on a machine" },
+      { "sa": "māyayā", "en": "by illusion" }
+    ],
+    "translation": "The lord stands in the region of the heart of all beings, O Arjuna, causing all beings, mounted on a machine, to revolve by illusion.",
+    "notes": ["\"By illusion\" can also be read as \"by his wondrous power\"."]
+  },
+  "62": {
+    "words": [
+      { "sa": "tam", "en": "to him" },
+      { "sa": "eva", "en": "alone" },
+      { "sa": "śaraṇam", "en": "for refuge" },
+      { "sa": "gaccha", "en": "go" },
+      { "sa": "sarva-bhāvena", "en": "with your whole being" },
+      { "sa": "bhārata", "en": "O descendant of Bharata" },
+      { "sa": "tat-prasādāt", "en": "by his grace" },
+      { "sa": "parām", "en": "supreme" },
+      { "sa": "śāntim", "en": "peace", "term": "shanti" },
+      { "sa": "sthānam", "en": "the abode" },
+      { "sa": "prāpsyasi", "en": "you will reach" },
+      { "sa": "śāśvatam", "en": "eternal" }
+    ],
+    "translation": "Go to him alone for refuge with your whole being, O descendant of Bharata. By his grace you will reach supreme peace, the eternal abode."
+  },
+  "63": {
+    "words": [
+      { "sa": "iti", "en": "thus" },
+      { "sa": "te", "en": "to you" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "ākhyātam", "en": "has been declared" },
+      { "sa": "guhyāt", "en": "than the secret" },
+      { "sa": "guhyataram", "en": "more secret" },
+      { "sa": "mayā", "en": "by me" },
+      { "sa": "vimṛśya", "en": "having reflected on" },
+      { "sa": "etat", "en": "this" },
+      { "sa": "aśeṣeṇa", "en": "fully" },
+      { "sa": "yathā", "en": "as" },
+      { "sa": "icchasi", "en": "you wish" },
+      { "sa": "tathā", "en": "so" },
+      { "sa": "kuru", "en": "do" }
+    ],
+    "translation": "Thus knowledge more secret than the secret has been declared to you by me. Having reflected on this fully, as you wish, so do."
+  },
+  "64": {
+    "words": [
+      { "sa": "sarva-guhyatamam", "en": "most secret of all" },
+      { "sa": "bhūyaḥ", "en": "again" },
+      { "sa": "śṛṇu", "en": "hear" },
+      { "sa": "me", "en": "my" },
+      { "sa": "paramam", "en": "supreme" },
+      { "sa": "vacaḥ", "en": "word" },
+      { "sa": "iṣṭaḥ", "en": "beloved" },
+      { "sa": "asi", "en": "you are" },
+      { "sa": "me", "en": "to me" },
+      { "sa": "dṛḍham", "en": "firmly" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "tataḥ", "en": "for that reason" },
+      { "sa": "vakṣyāmi", "en": "I will speak" },
+      { "sa": "te", "en": "for you" },
+      { "sa": "hitam", "en": "what is good" }
+    ],
+    "translation": "Hear again my supreme word, the most secret of all. You are firmly beloved to me: thus, for that reason, I will speak what is good for you."
+  },
+  "65": {
+    "words": [
+      { "sa": "mat-manāḥ", "en": "with mind on me", "term": "manas" },
+      { "sa": "bhava", "en": "be" },
+      { "sa": "mat-bhaktaḥ", "en": "devoted to me" },
+      { "sa": "mat-yājī", "en": "sacrificing to me" },
+      { "sa": "mām", "en": "to me" },
+      { "sa": "namaskuru", "en": "bow" },
+      { "sa": "mām", "en": "to me" },
+      { "sa": "eva", "en": "alone" },
+      { "sa": "eṣyasi", "en": "you will come" },
+      { "sa": "satyam", "en": "truly" },
+      { "sa": "te", "en": "to you" },
+      { "sa": "pratijāne", "en": "I promise" },
+      { "sa": "priyaḥ", "en": "dear" },
+      { "sa": "asi", "en": "you are" },
+      { "sa": "me", "en": "to me" }
+    ],
+    "translation": "Be with mind on me, devoted to me, sacrificing to me. Bow to me. To me alone you will come. Truly I promise to you: you are dear to me."
+  },
+  "66": {
+    "words": [
+      { "sa": "sarva-dharmān", "en": "all dharmas", "term": "dharma" },
+      { "sa": "parityajya", "en": "having abandoned" },
+      { "sa": "mām", "en": "to me" },
+      { "sa": "ekam", "en": "alone" },
+      { "sa": "śaraṇam", "en": "for refuge" },
+      { "sa": "vraja", "en": "go" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "tvā", "en": "you" },
+      { "sa": "sarva-pāpebhyaḥ", "en": "from all evils" },
+      { "sa": "mokṣayiṣyāmi", "en": "I will free" },
+      { "sa": "mā", "en": "do not" },
+      { "sa": "śucaḥ", "en": "grieve" }
+    ],
+    "translation": "Having abandoned all dharmas, go to me alone for refuge. I will free you from all evils. Do not grieve."
+  },
+  "67": {
+    "words": [
+      { "sa": "idam", "en": "this" },
+      { "sa": "te", "en": "by you" },
+      { "sa": "na", "en": "not" },
+      { "sa": "atapaskāya", "en": "to one without austerity" },
+      { "sa": "na", "en": "not" },
+      { "sa": "abhaktāya", "en": "to one without devotion" },
+      { "sa": "kadācana", "en": "ever" },
+      { "sa": "na", "en": "not" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "aśuśrūṣave", "en": "to one who does not wish to hear" },
+      { "sa": "vācyam", "en": "to be spoken" },
+      { "sa": "na", "en": "not" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "abhyasūyati", "en": "finds fault with" }
+    ],
+    "translation": "This is not ever to be spoken by you to one without austerity, nor to one without devotion, nor to one who does not wish to hear, nor to one who finds fault with me.",
+    "notes": ["\"One who does not wish to hear\" can also be read as \"one who does not serve\"."]
+  },
+  "68": {
+    "words": [
+      { "sa": "yaḥ", "en": "he who" },
+      { "sa": "idam", "en": "this" },
+      { "sa": "paramam", "en": "supreme" },
+      { "sa": "guhyam", "en": "secret" },
+      { "sa": "mat-bhakteṣu", "en": "among my devotees" },
+      { "sa": "abhidhāsyati", "en": "will declare" },
+      { "sa": "bhaktim", "en": "devotion" },
+      { "sa": "mayi", "en": "to me" },
+      { "sa": "parām", "en": "supreme" },
+      { "sa": "kṛtvā", "en": "having done" },
+      { "sa": "mām", "en": "to me" },
+      { "sa": "eva", "en": "alone" },
+      { "sa": "eṣyati", "en": "he will come" },
+      { "sa": "asaṁśayaḥ", "en": "without doubt" }
+    ],
+    "translation": "He who will declare this supreme secret among my devotees, having done supreme devotion to me, will come to me alone, without doubt.",
+    "notes": ["\"Without doubt\" can also be read as describing the person: \"being free of doubt\"."]
+  },
+  "69": {
+    "words": [
+      { "sa": "na", "en": "not" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "tasmāt", "en": "than he" },
+      { "sa": "manuṣyeṣu", "en": "among humans" },
+      { "sa": "kaścit", "en": "anyone" },
+      { "sa": "me", "en": "to me" },
+      { "sa": "priya-kṛt-tamaḥ", "en": "a greater doer of what is dear" },
+      { "sa": "bhavitā", "en": "will be" },
+      { "sa": "na", "en": "not" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "me", "en": "to me" },
+      { "sa": "tasmāt", "en": "than he" },
+      { "sa": "anyaḥ", "en": "another" },
+      { "sa": "priyataraḥ", "en": "dearer" },
+      { "sa": "bhuvi", "en": "on earth" }
+    ],
+    "translation": "And no one among humans is a greater doer of what is dear to me than he, and no other on earth will be dearer to me than he."
+  },
+  "70": {
+    "words": [
+      { "sa": "adhyeṣyate", "en": "will study" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "yaḥ", "en": "he who" },
+      { "sa": "imam", "en": "this" },
+      { "sa": "dharmyam", "en": "in keeping with dharma", "term": "dharma" },
+      { "sa": "saṁvādam", "en": "dialogue" },
+      { "sa": "āvayoḥ", "en": "of us two" },
+      { "sa": "jñāna-yajñena", "en": "with the sacrifice of knowledge" },
+      { "sa": "tena", "en": "by him" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "iṣṭaḥ", "en": "worshipped" },
+      { "sa": "syām", "en": "I would be" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "me", "en": "my" },
+      { "sa": "matiḥ", "en": "view" }
+    ],
+    "translation": "And he who will study this dialogue of us two, which is in keeping with dharma, by him I would be worshipped with the sacrifice of knowledge. Thus is my view."
+  },
+  "71": {
+    "words": [
+      { "sa": "śraddhāvān", "en": "having faith" },
+      { "sa": "anasūyaḥ", "en": "not finding fault" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "śṛṇuyāt", "en": "should listen" },
+      { "sa": "api", "en": "even" },
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "naraḥ", "en": "the man" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "api", "en": "too" },
+      { "sa": "muktaḥ", "en": "freed" },
+      { "sa": "śubhān", "en": "auspicious" },
+      { "sa": "lokān", "en": "the worlds" },
+      { "sa": "prāpnuyāt", "en": "would reach" },
+      { "sa": "puṇya-karmaṇām", "en": "of those whose actions are meritorious", "term": "karma" }
+    ],
+    "translation": "And the man who, having faith and not finding fault, should even listen, he too, freed, would reach the auspicious worlds of those whose actions are meritorious."
+  },
+  "72": {
+    "words": [
+      { "sa": "kaccit", "en": "is it so?" },
+      { "sa": "etat", "en": "this" },
+      { "sa": "śrutam", "en": "heard" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "tvayā", "en": "by you" },
+      { "sa": "eka-agreṇa", "en": "one-pointed" },
+      { "sa": "cetasā", "en": "with a mind" },
+      { "sa": "kaccit", "en": "is it so?" },
+      { "sa": "ajñāna-sammohaḥ", "en": "the delusion of ignorance" },
+      { "sa": "pranaṣṭaḥ", "en": "destroyed" },
+      { "sa": "te", "en": "your" },
+      { "sa": "dhanañjaya", "en": "O winner of wealth" }
+    ],
+    "translation": "Has this been heard by you, O son of Pṛthā, with a one-pointed mind? Has your delusion of ignorance been destroyed, O winner of wealth?"
+  },
+  "73": {
+    "words": [
+      { "sa": "naṣṭaḥ", "en": "destroyed" },
+      { "sa": "mohaḥ", "en": "delusion" },
+      { "sa": "smṛtiḥ", "en": "memory" },
+      { "sa": "labdhā", "en": "gained" },
+      { "sa": "tvat-prasādāt", "en": "by your grace" },
+      { "sa": "mayā", "en": "by me" },
+      { "sa": "acyuta", "en": "O unfallen one" },
+      { "sa": "sthitaḥ", "en": "standing firm" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "gata-sandehaḥ", "en": "with doubt gone" },
+      { "sa": "kariṣye", "en": "I will do" },
+      { "sa": "vacanam", "en": "word" },
+      { "sa": "tava", "en": "your" }
+    ],
+    "translation": "Delusion is destroyed. Memory has been gained by me, by your grace, O unfallen one. I am standing firm, with doubt gone. I will do your word."
+  },
+  "74": {
+    "words": [
+      { "sa": "iti", "en": "thus" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "vāsudevasya", "en": "of the son of Vasudeva" },
+      { "sa": "pārthasya", "en": "of the son of Pṛthā" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "mahā-ātmanaḥ", "en": "of the one great in self", "term": "atman" },
+      { "sa": "saṁvādam", "en": "dialogue" },
+      { "sa": "imam", "en": "this" },
+      { "sa": "aśrauṣam", "en": "I heard" },
+      { "sa": "adbhutam", "en": "wondrous" },
+      { "sa": "roma-harṣaṇam", "en": "making the hair stand on end" }
+    ],
+    "translation": "Thus I heard this dialogue of the son of Vasudeva and of the son of Pṛthā, the one great in self, wondrous, making the hair stand on end."
+  },
+  "75": {
+    "words": [
+      { "sa": "vyāsa-prasādāt", "en": "by the grace of Vyāsa" },
+      { "sa": "śrutavān", "en": "having heard" },
+      { "sa": "etat", "en": "this" },
+      { "sa": "guhyam", "en": "secret" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "param", "en": "supreme" },
+      { "sa": "yogam", "en": "yoga", "term": "yoga" },
+      { "sa": "yoga-īśvarāt", "en": "from the lord of yoga", "term": "yoga" },
+      { "sa": "kṛṣṇāt", "en": "from Kṛṣṇa" },
+      { "sa": "sākṣāt", "en": "directly" },
+      { "sa": "kathayataḥ", "en": "telling" },
+      { "sa": "svayam", "en": "himself" }
+    ],
+    "translation": "By the grace of Vyāsa I have heard this supreme secret, yoga, directly from Kṛṣṇa, the lord of yoga, himself telling it."
+  },
+  "76": {
+    "words": [
+      { "sa": "rājan", "en": "O king" },
+      { "sa": "saṁsmṛtya", "en": "recalling" },
+      { "sa": "saṁsmṛtya", "en": "recalling" },
+      { "sa": "saṁvādam", "en": "dialogue" },
+      { "sa": "imam", "en": "this" },
+      { "sa": "adbhutam", "en": "wondrous" },
+      { "sa": "keśava-arjunayoḥ", "en": "of Keśava and Arjuna" },
+      { "sa": "puṇyam", "en": "holy" },
+      { "sa": "hṛṣyāmi", "en": "I rejoice" },
+      { "sa": "ca", "en": "also" },
+      { "sa": "muhuḥ", "en": "again" },
+      { "sa": "muhuḥ", "en": "again" }
+    ],
+    "translation": "O king, recalling and recalling this wondrous, holy dialogue of Keśava and Arjuna, I also rejoice again and again."
+  },
+  "77": {
+    "words": [
+      { "sa": "tat", "en": "that" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "saṁsmṛtya", "en": "recalling" },
+      { "sa": "saṁsmṛtya", "en": "recalling" },
+      { "sa": "rūpam", "en": "form" },
+      { "sa": "ati-adbhutam", "en": "most wondrous" },
+      { "sa": "hareḥ", "en": "of Hari" },
+      { "sa": "vismayaḥ", "en": "amazement" },
+      { "sa": "me", "en": "my" },
+      { "sa": "mahān", "en": "great" },
+      { "sa": "rājan", "en": "O king" },
+      { "sa": "hṛṣyāmi", "en": "I rejoice" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "punaḥ", "en": "again" },
+      { "sa": "punaḥ", "en": "again" }
+    ],
+    "translation": "And recalling and recalling that most wondrous form of Hari, great is my amazement, O king, and I rejoice again and again."
+  },
+  "78": {
+    "words": [
+      { "sa": "yatra", "en": "where" },
+      { "sa": "yoga-īśvaraḥ", "en": "the lord of yoga", "term": "yoga" },
+      { "sa": "kṛṣṇaḥ", "en": "Kṛṣṇa" },
+      { "sa": "yatra", "en": "where" },
+      { "sa": "pārthaḥ", "en": "the son of Pṛthā" },
+      { "sa": "dhanuḥ-dharaḥ", "en": "the bearer of the bow" },
+      { "sa": "tatra", "en": "there" },
+      { "sa": "śrīḥ", "en": "fortune" },
+      { "sa": "vijayaḥ", "en": "victory" },
+      { "sa": "bhūtiḥ", "en": "prosperity" },
+      { "sa": "dhruvā", "en": "firm" },
+      { "sa": "nītiḥ", "en": "right conduct" },
+      { "sa": "matiḥ", "en": "view" },
+      { "sa": "mama", "en": "my" }
+    ],
+    "translation": "Where Kṛṣṇa, the lord of yoga, is, where the son of Pṛthā, the bearer of the bow, is, there are fortune, victory, prosperity and firm right conduct. This is my view.",
+    "notes": ["\"Firm right conduct\" can also be read with \"firm\" meaning \"certain\" and applying to the whole list: \"there fortune, victory, prosperity and right conduct are certain\"."]
+  }
+}

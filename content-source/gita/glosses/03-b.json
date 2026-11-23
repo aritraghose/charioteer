@@ -1,0 +1,378 @@
+{
+  "23": {
+    "words": [
+      { "sa": "yadi", "en": "if" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "na", "en": "not" },
+      { "sa": "varteyam", "en": "should engage" },
+      { "sa": "jātu", "en": "ever" },
+      { "sa": "karmaṇi", "en": "in action", "term": "karma" },
+      { "sa": "atandritaḥ", "en": "unwearied" },
+      { "sa": "mama", "en": "my" },
+      { "sa": "vartma", "en": "path" },
+      { "sa": "anuvartante", "en": "they follow" },
+      { "sa": "manuṣyāḥ", "en": "men" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "sarvaśaḥ", "en": "in every way" }
+    ],
+    "translation": "For if I should not ever engage in action, unwearied, and men follow my path in every way, O son of Pṛthā,",
+    "notes": [
+      "Verses 23 to 24 are one sentence in the Sanskrit.",
+      "\"Men follow my path in every way\" can also be read as \"men would follow my path in every way\", making this verse a complete sentence of its own."
+    ]
+  },
+  "24": {
+    "words": [
+      { "sa": "utsīdeyuḥ", "en": "would sink down" },
+      { "sa": "ime", "en": "these" },
+      { "sa": "lokāḥ", "en": "worlds" },
+      { "sa": "na", "en": "not" },
+      { "sa": "kuryām", "en": "I should do" },
+      { "sa": "karma", "en": "action", "term": "karma" },
+      { "sa": "cet", "en": "if" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "saṅkarasya", "en": "of confusion" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "kartā", "en": "the maker" },
+      { "sa": "syām", "en": "I would be" },
+      { "sa": "upahanyām", "en": "I would destroy" },
+      { "sa": "imāḥ", "en": "these" },
+      { "sa": "prajāḥ", "en": "creatures" }
+    ],
+    "translation": "these worlds would sink down, if I should not do action, and I would be the maker of confusion, I would destroy these creatures."
+  },
+  "25": {
+    "words": [
+      { "sa": "saktāḥ", "en": "attached", "term": "sanga" },
+      { "sa": "karmaṇi", "en": "in action", "term": "karma" },
+      { "sa": "avidvāṁsaḥ", "en": "the unknowing" },
+      { "sa": "yathā", "en": "as" },
+      { "sa": "kurvanti", "en": "they act" },
+      { "sa": "bhārata", "en": "O descendant of Bharata" },
+      { "sa": "kuryāt", "en": "should act" },
+      { "sa": "vidvān", "en": "the knowing one" },
+      { "sa": "tathā", "en": "so" },
+      { "sa": "asaktaḥ", "en": "unattached", "term": "sanga" },
+      { "sa": "cikīrṣuḥ", "en": "wishing to bring about" },
+      { "sa": "loka-saṅgraham", "en": "the holding together of the world" }
+    ],
+    "translation": "As the unknowing act, attached in action, O descendant of Bharata, so should the knowing one act, unattached, wishing to bring about the holding together of the world."
+  },
+  "26": {
+    "words": [
+      { "sa": "na", "en": "not" },
+      { "sa": "buddhi-bhedam", "en": "a splitting of the buddhi", "term": "buddhi" },
+      { "sa": "janayet", "en": "one should produce" },
+      { "sa": "ajñānām", "en": "of the unknowing" },
+      { "sa": "karma-saṅginām", "en": "of those attached to action", "term": "karma" },
+      { "sa": "joṣayet", "en": "should cause to delight in" },
+      { "sa": "sarva-karmāṇi", "en": "all actions", "term": "karma" },
+      { "sa": "vidvān", "en": "the knowing one" },
+      { "sa": "yuktaḥ", "en": "yoked", "term": "yoga" },
+      { "sa": "samācaran", "en": "performing" }
+    ],
+    "translation": "One should not produce a splitting of the buddhi of the unknowing, of those attached to action. The knowing one, yoked, performing them, should cause them to delight in all actions."
+  },
+  "27": {
+    "words": [
+      { "sa": "prakṛteḥ", "en": "of nature" },
+      { "sa": "kriyamāṇāni", "en": "being done" },
+      { "sa": "guṇaiḥ", "en": "by the guṇas", "term": "guna" },
+      { "sa": "karmāṇi", "en": "actions", "term": "karma" },
+      { "sa": "sarvaśaḥ", "en": "in every way" },
+      { "sa": "ahaṅkāra-vimūḍha-ātmā", "en": "one whose self is deluded by the sense of I", "term": "atman" },
+      { "sa": "kartā", "en": "the doer" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "manyate", "en": "he thinks" }
+    ],
+    "translation": "Actions are being done in every way by the guṇas of nature. One whose self is deluded by the sense of I thinks thus: I am the doer."
+  },
+  "28": {
+    "words": [
+      { "sa": "tattva-vit", "en": "the knower of the truth" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "mahā-bāho", "en": "O mighty-armed one" },
+      { "sa": "guṇa-karma-vibhāgayoḥ", "en": "of the two divisions, of guṇa and of action", "term": "guna" },
+      { "sa": "guṇāḥ", "en": "the guṇas", "term": "guna" },
+      { "sa": "guṇeṣu", "en": "among the guṇas", "term": "guna" },
+      { "sa": "vartante", "en": "they move" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "matvā", "en": "having thought" },
+      { "sa": "na", "en": "not" },
+      { "sa": "sajjate", "en": "he is attached", "term": "sanga" }
+    ],
+    "translation": "But the knower of the truth, O mighty-armed one, of the two divisions, of guṇa and of action, having thought thus, the guṇas move among the guṇas, is not attached.",
+    "notes": [
+      "\"Of the two divisions, of guṇa and of action\" can also be read as \"of how the self is separate from the guṇas and from action\"."
+    ]
+  },
+  "29": {
+    "words": [
+      { "sa": "prakṛteḥ", "en": "of nature" },
+      { "sa": "guṇa-sammūḍhāḥ", "en": "those deluded by the guṇas", "term": "guna" },
+      { "sa": "sajjante", "en": "they are attached", "term": "sanga" },
+      { "sa": "guṇa-karmasu", "en": "in the actions of the guṇas", "term": "guna" },
+      { "sa": "tān", "en": "those" },
+      { "sa": "akṛtsna-vidaḥ", "en": "who do not know the whole" },
+      { "sa": "mandān", "en": "slow ones" },
+      { "sa": "kṛtsna-vit", "en": "the knower of the whole" },
+      { "sa": "na", "en": "not" },
+      { "sa": "vicālayet", "en": "should unsettle" }
+    ],
+    "translation": "Those deluded by the guṇas of nature are attached in the actions of the guṇas. The knower of the whole should not unsettle those slow ones who do not know the whole."
+  },
+  "30": {
+    "words": [
+      { "sa": "mayi", "en": "in me" },
+      { "sa": "sarvāṇi", "en": "all" },
+      { "sa": "karmāṇi", "en": "actions", "term": "karma" },
+      { "sa": "saṁnyasya", "en": "having laid down", "term": "sannyasa" },
+      { "sa": "adhyātma-cetasā", "en": "with the mind on the self", "term": "atman" },
+      { "sa": "nirāśīḥ", "en": "without wishes" },
+      { "sa": "nirmamaḥ", "en": "without the sense of mine" },
+      { "sa": "bhūtvā", "en": "having become" },
+      { "sa": "yudhyasva", "en": "fight" },
+      { "sa": "vigata-jvaraḥ", "en": "with fever gone" }
+    ],
+    "translation": "Having laid down all actions in me, with the mind on the self, having become without wishes and without the sense of mine, fight, with fever gone."
+  },
+  "31": {
+    "words": [
+      { "sa": "ye", "en": "those who" },
+      { "sa": "me", "en": "of mine" },
+      { "sa": "matam", "en": "teaching" },
+      { "sa": "idam", "en": "this" },
+      { "sa": "nityam", "en": "always" },
+      { "sa": "anutiṣṭhanti", "en": "they follow" },
+      { "sa": "mānavāḥ", "en": "humans" },
+      { "sa": "śraddhāvantaḥ", "en": "having faith" },
+      { "sa": "anasūyantaḥ", "en": "not finding fault" },
+      { "sa": "mucyante", "en": "they are freed" },
+      { "sa": "te", "en": "they" },
+      { "sa": "api", "en": "too" },
+      { "sa": "karmabhiḥ", "en": "from actions", "term": "karma" }
+    ],
+    "translation": "Those humans who always follow this teaching of mine, having faith, not finding fault, they too are freed from actions."
+  },
+  "32": {
+    "words": [
+      { "sa": "ye", "en": "those who" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "etat", "en": "this" },
+      { "sa": "abhyasūyantaḥ", "en": "finding fault with" },
+      { "sa": "na", "en": "not" },
+      { "sa": "anutiṣṭhanti", "en": "they follow" },
+      { "sa": "me", "en": "my" },
+      { "sa": "matam", "en": "teaching" },
+      { "sa": "sarva-jñāna-vimūḍhān", "en": "deluded in all knowledge" },
+      { "sa": "tān", "en": "them" },
+      { "sa": "viddhi", "en": "know" },
+      { "sa": "naṣṭān", "en": "lost" },
+      { "sa": "acetasaḥ", "en": "without understanding" }
+    ],
+    "translation": "But those who, finding fault with this, do not follow my teaching, know them as deluded in all knowledge, lost, without understanding."
+  },
+  "33": {
+    "words": [
+      { "sa": "sadṛśam", "en": "in accordance with" },
+      { "sa": "ceṣṭate", "en": "he acts" },
+      { "sa": "svasyāḥ", "en": "his own" },
+      { "sa": "prakṛteḥ", "en": "nature" },
+      { "sa": "jñānavān", "en": "one who has knowledge" },
+      { "sa": "api", "en": "even" },
+      { "sa": "prakṛtim", "en": "to nature" },
+      { "sa": "yānti", "en": "they go" },
+      { "sa": "bhūtāni", "en": "beings" },
+      { "sa": "nigrahaḥ", "en": "restraint" },
+      { "sa": "kim", "en": "what" },
+      { "sa": "kariṣyati", "en": "will do" }
+    ],
+    "translation": "Even one who has knowledge acts in accordance with his own nature. Beings go to nature. What will restraint do?"
+  },
+  "34": {
+    "words": [
+      { "sa": "indriyasya", "en": "of a sense", "term": "indriya" },
+      { "sa": "indriyasya", "en": "of each sense", "term": "indriya" },
+      { "sa": "arthe", "en": "in the object" },
+      { "sa": "rāga-dveṣau", "en": "attraction and aversion" },
+      { "sa": "vyavasthitau", "en": "settled" },
+      { "sa": "tayoḥ", "en": "of these two" },
+      { "sa": "na", "en": "not" },
+      { "sa": "vaśam", "en": "under the power" },
+      { "sa": "āgacchet", "en": "one should come" },
+      { "sa": "tau", "en": "those two" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "asya", "en": "his" },
+      { "sa": "paripanthinau", "en": "two waylayers" }
+    ],
+    "translation": "Attraction and aversion are settled in the object of each sense. One should not come under the power of these two, for those two are his waylayers."
+  },
+  "35": {
+    "words": [
+      { "sa": "śreyān", "en": "better" },
+      { "sa": "sva-dharmaḥ", "en": "one's own dharma", "term": "dharma" },
+      { "sa": "viguṇaḥ", "en": "without merit" },
+      { "sa": "para-dharmāt", "en": "than another's dharma", "term": "dharma" },
+      { "sa": "su-anuṣṭhitāt", "en": "well performed" },
+      { "sa": "sva-dharme", "en": "in one's own dharma", "term": "dharma" },
+      { "sa": "nidhanam", "en": "death" },
+      { "sa": "śreyaḥ", "en": "better" },
+      { "sa": "para-dharmaḥ", "en": "another's dharma", "term": "dharma" },
+      { "sa": "bhaya-āvahaḥ", "en": "bringing fear" }
+    ],
+    "translation": "Better is one's own dharma, without merit, than another's dharma well performed. Death in one's own dharma is better. Another's dharma brings fear.",
+    "notes": [
+      "\"Without merit\" can also be read as \"imperfectly carried out\"."
+    ]
+  },
+  "36": {
+    "words": [
+      { "sa": "atha", "en": "then" },
+      { "sa": "kena", "en": "by what" },
+      { "sa": "prayuktaḥ", "en": "impelled" },
+      { "sa": "ayam", "en": "this" },
+      { "sa": "pāpam", "en": "evil" },
+      { "sa": "carati", "en": "he does" },
+      { "sa": "pūruṣaḥ", "en": "person" },
+      { "sa": "anicchan", "en": "not wishing" },
+      { "sa": "api", "en": "even" },
+      { "sa": "vārṣṇeya", "en": "O descendant of Vṛṣṇi" },
+      { "sa": "balāt", "en": "by force" },
+      { "sa": "iva", "en": "as if" },
+      { "sa": "niyojitaḥ", "en": "set to it" }
+    ],
+    "translation": "Then impelled by what does this person do evil, even not wishing to, O descendant of Vṛṣṇi, as if set to it by force?"
+  },
+  "37": {
+    "words": [
+      { "sa": "kāmaḥ", "en": "desire", "term": "kama" },
+      { "sa": "eṣaḥ", "en": "this" },
+      { "sa": "krodhaḥ", "en": "anger" },
+      { "sa": "eṣaḥ", "en": "this" },
+      { "sa": "rajaḥ-guṇa-samudbhavaḥ", "en": "arising from the guṇa of rajas", "term": "guna" },
+      { "sa": "mahā-aśanaḥ", "en": "greatly devouring" },
+      { "sa": "mahā-pāpmā", "en": "greatly evil" },
+      { "sa": "viddhi", "en": "know" },
+      { "sa": "enam", "en": "this" },
+      { "sa": "iha", "en": "here" },
+      { "sa": "vairiṇam", "en": "the enemy" }
+    ],
+    "translation": "This is desire, this is anger, arising from the guṇa of rajas, greatly devouring, greatly evil. Know this as the enemy here."
+  },
+  "38": {
+    "words": [
+      { "sa": "dhūmena", "en": "by smoke" },
+      { "sa": "āvriyate", "en": "is covered" },
+      { "sa": "vahniḥ", "en": "fire" },
+      { "sa": "yathā", "en": "as" },
+      { "sa": "ādarśaḥ", "en": "a mirror" },
+      { "sa": "malena", "en": "by dust" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "yathā", "en": "as" },
+      { "sa": "ulbena", "en": "by the membrane" },
+      { "sa": "āvṛtaḥ", "en": "covered" },
+      { "sa": "garbhaḥ", "en": "an embryo" },
+      { "sa": "tathā", "en": "so" },
+      { "sa": "tena", "en": "by that" },
+      { "sa": "idam", "en": "this" },
+      { "sa": "āvṛtam", "en": "covered" }
+    ],
+    "translation": "As fire is covered by smoke, and a mirror by dust, as an embryo is covered by the membrane, so this is covered by that."
+  },
+  "39": {
+    "words": [
+      { "sa": "āvṛtam", "en": "covered" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "etena", "en": "by this" },
+      { "sa": "jñāninaḥ", "en": "of the knower" },
+      { "sa": "nitya-vairiṇā", "en": "by the constant enemy" },
+      { "sa": "kāma-rūpeṇa", "en": "by what has the form of desire", "term": "kama" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "duṣpūreṇa", "en": "hard to fill" },
+      { "sa": "analena", "en": "by a fire" },
+      { "sa": "ca", "en": "and" }
+    ],
+    "translation": "Knowledge is covered by this, the constant enemy of the knower, which has the form of desire, O son of Kuntī, and is a fire hard to fill.",
+    "notes": [
+      "\"Which has the form of desire\" can also be read as \"which takes any form it wishes\"."
+    ]
+  },
+  "40": {
+    "words": [
+      { "sa": "indriyāṇi", "en": "the senses", "term": "indriya" },
+      { "sa": "manaḥ", "en": "the mind", "term": "manas" },
+      { "sa": "buddhiḥ", "en": "the buddhi", "term": "buddhi" },
+      { "sa": "asya", "en": "its" },
+      { "sa": "adhiṣṭhānam", "en": "seat" },
+      { "sa": "ucyate", "en": "is said to be" },
+      { "sa": "etaiḥ", "en": "by these" },
+      { "sa": "vimohayati", "en": "it deludes" },
+      { "sa": "eṣaḥ", "en": "this" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "āvṛtya", "en": "having covered" },
+      { "sa": "dehinam", "en": "the embodied one", "term": "dehin" }
+    ],
+    "translation": "The senses, the mind and the buddhi are said to be its seat. By these, having covered knowledge, this deludes the embodied one."
+  },
+  "41": {
+    "words": [
+      { "sa": "tasmāt", "en": "therefore" },
+      { "sa": "tvam", "en": "you" },
+      { "sa": "indriyāṇi", "en": "the senses", "term": "indriya" },
+      { "sa": "ādau", "en": "at the start" },
+      { "sa": "niyamya", "en": "having restrained" },
+      { "sa": "bharata-ṛṣabha", "en": "O bull of the Bharatas" },
+      { "sa": "pāpmānam", "en": "the evil one" },
+      { "sa": "prajahi", "en": "strike down" },
+      { "sa": "hi", "en": "indeed" },
+      { "sa": "enam", "en": "this" },
+      { "sa": "jñāna-vijñāna-nāśanam", "en": "the destroyer of knowledge and discernment" }
+    ],
+    "translation": "Therefore you, having restrained the senses at the start, O bull of the Bharatas, strike down indeed this evil one, the destroyer of knowledge and discernment.",
+    "notes": [
+      "\"Strike down\" can also be read as \"give up\"."
+    ]
+  },
+  "42": {
+    "words": [
+      { "sa": "indriyāṇi", "en": "the senses", "term": "indriya" },
+      { "sa": "parāṇi", "en": "higher" },
+      { "sa": "āhuḥ", "en": "they say" },
+      { "sa": "indriyebhyaḥ", "en": "than the senses", "term": "indriya" },
+      { "sa": "param", "en": "higher" },
+      { "sa": "manaḥ", "en": "the mind", "term": "manas" },
+      { "sa": "manasaḥ", "en": "than the mind", "term": "manas" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "parā", "en": "higher" },
+      { "sa": "buddhiḥ", "en": "the buddhi", "term": "buddhi" },
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "buddheḥ", "en": "than the buddhi", "term": "buddhi" },
+      { "sa": "parataḥ", "en": "beyond" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "saḥ", "en": "he" }
+    ],
+    "translation": "They say the senses are higher. Higher than the senses is the mind. But higher than the mind is the buddhi. But who is beyond the buddhi, that is he.",
+    "notes": [
+      "\"That is he\" is usually taken to mean the self. Some take it to mean desire, the enemy spoken of in the verses before."
+    ]
+  },
+  "43": {
+    "words": [
+      { "sa": "evam", "en": "thus" },
+      { "sa": "buddheḥ", "en": "than the buddhi", "term": "buddhi" },
+      { "sa": "param", "en": "what is higher" },
+      { "sa": "buddhvā", "en": "having known" },
+      { "sa": "saṁstabhya", "en": "having steadied" },
+      { "sa": "ātmānam", "en": "the self", "term": "atman" },
+      { "sa": "ātmanā", "en": "by the self", "term": "atman" },
+      { "sa": "jahi", "en": "strike down" },
+      { "sa": "śatrum", "en": "the enemy" },
+      { "sa": "mahā-bāho", "en": "O mighty-armed one" },
+      { "sa": "kāma-rūpam", "en": "having the form of desire", "term": "kama" },
+      { "sa": "durāsadam", "en": "hard to approach" }
+    ],
+    "translation": "Thus having known what is higher than the buddhi, having steadied the self by the self, strike down the enemy, O mighty-armed one, who has the form of desire and is hard to approach."
+  }
+}

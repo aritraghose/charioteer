@@ -1,0 +1,398 @@
+{
+  "1": {
+    "words": [
+      { "sa": "bhūyaḥ", "en": "once again" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "mahā-bāho", "en": "O mighty-armed one" },
+      { "sa": "śṛṇu", "en": "hear" },
+      { "sa": "me", "en": "my" },
+      { "sa": "paramam", "en": "supreme" },
+      { "sa": "vacaḥ", "en": "word" },
+      { "sa": "yat", "en": "which" },
+      { "sa": "te", "en": "to you" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "prīyamāṇāya", "en": "to one who is delighted" },
+      { "sa": "vakṣyāmi", "en": "I will speak" },
+      { "sa": "hita-kāmyayā", "en": "out of desire for your good" }
+    ],
+    "translation": "Once again indeed, O mighty-armed one, hear my supreme word, which I will speak to you, who are delighted, out of desire for your good."
+  },
+  "2": {
+    "words": [
+      { "sa": "na", "en": "not" },
+      { "sa": "me", "en": "my" },
+      { "sa": "viduḥ", "en": "they know" },
+      { "sa": "sura-gaṇāḥ", "en": "the hosts of gods" },
+      { "sa": "prabhavam", "en": "origin" },
+      { "sa": "na", "en": "nor" },
+      { "sa": "mahā-ṛṣayaḥ", "en": "the great seers" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "ādiḥ", "en": "the beginning" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "devānām", "en": "of the gods" },
+      { "sa": "mahā-ṛṣīṇām", "en": "of the great seers" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "sarvaśaḥ", "en": "in every way" }
+    ],
+    "translation": "The hosts of gods do not know my origin, nor do the great seers. For I am the beginning of the gods and of the great seers in every way."
+  },
+  "3": {
+    "words": [
+      { "sa": "yaḥ", "en": "whoever" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "ajam", "en": "unborn" },
+      { "sa": "anādim", "en": "without beginning" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "vetti", "en": "knows" },
+      { "sa": "loka-mahā-īśvaram", "en": "the great lord of the worlds" },
+      { "sa": "asammūḍhaḥ", "en": "undeluded" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "martyeṣu", "en": "among mortals" },
+      { "sa": "sarva-pāpaiḥ", "en": "from all evils" },
+      { "sa": "pramucyate", "en": "is freed" }
+    ],
+    "translation": "Whoever knows me as unborn and without beginning, the great lord of the worlds, he, undeluded among mortals, is freed from all evils."
+  },
+  "4": {
+    "words": [
+      { "sa": "buddhiḥ", "en": "buddhi", "term": "buddhi" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "asammohaḥ", "en": "freedom from delusion" },
+      { "sa": "kṣamā", "en": "forbearance" },
+      { "sa": "satyam", "en": "truth" },
+      { "sa": "damaḥ", "en": "self-restraint" },
+      { "sa": "śamaḥ", "en": "calm" },
+      { "sa": "sukham", "en": "pleasure" },
+      { "sa": "duḥkham", "en": "pain" },
+      { "sa": "bhavaḥ", "en": "coming to be" },
+      { "sa": "abhāvaḥ", "en": "ceasing to be" },
+      { "sa": "bhayam", "en": "fear" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "abhayam", "en": "fearlessness" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" }
+    ],
+    "translation": "Buddhi, knowledge, freedom from delusion, forbearance, truth, self-restraint, calm, pleasure, pain, coming to be, ceasing to be, fear and indeed fearlessness,",
+    "notes": ["Verses 4 to 5 are one sentence in the Sanskrit."]
+  },
+  "5": {
+    "words": [
+      { "sa": "ahiṁsā", "en": "non-harm" },
+      { "sa": "samatā", "en": "evenness", "term": "samatva" },
+      { "sa": "tuṣṭiḥ", "en": "contentment" },
+      { "sa": "tapaḥ", "en": "austerity" },
+      { "sa": "dānam", "en": "giving" },
+      { "sa": "yaśaḥ", "en": "fame" },
+      { "sa": "ayaśaḥ", "en": "ill fame" },
+      { "sa": "bhavanti", "en": "they arise" },
+      { "sa": "bhāvāḥ", "en": "the states" },
+      { "sa": "bhūtānām", "en": "of beings" },
+      { "sa": "mattaḥ", "en": "from me" },
+      { "sa": "eva", "en": "alone" },
+      { "sa": "pṛthak-vidhāḥ", "en": "of different kinds" }
+    ],
+    "translation": "non-harm, evenness, contentment, austerity, giving, fame and ill fame: the states of beings, of different kinds, arise from me alone."
+  },
+  "6": {
+    "words": [
+      { "sa": "mahā-ṛṣayaḥ", "en": "the great seers" },
+      { "sa": "sapta", "en": "seven" },
+      { "sa": "pūrve", "en": "the ancient ones" },
+      { "sa": "catvāraḥ", "en": "four" },
+      { "sa": "manavaḥ", "en": "the Manus" },
+      { "sa": "tathā", "en": "likewise" },
+      { "sa": "mat-bhāvāḥ", "en": "having my nature" },
+      { "sa": "mānasāḥ", "en": "of the mind", "term": "manas" },
+      { "sa": "jātāḥ", "en": "born" },
+      { "sa": "yeṣām", "en": "of whom" },
+      { "sa": "loke", "en": "in the world" },
+      { "sa": "imāḥ", "en": "these" },
+      { "sa": "prajāḥ", "en": "creatures" }
+    ],
+    "translation": "The seven great seers, the four ancient ones, and likewise the Manus, having my nature, were born of the mind. Of them are these creatures in the world.",
+    "notes": [
+      "\"The four ancient ones, and likewise the Manus\" can also be read as \"and likewise the four Manus of old\", or with \"ancient\" describing the seven great seers.",
+      "\"Having my nature\" can also be read as \"having their being from me\"."
+    ]
+  },
+  "7": {
+    "words": [
+      { "sa": "etām", "en": "this" },
+      { "sa": "vibhūtim", "en": "manifestation" },
+      { "sa": "yogam", "en": "yoga", "term": "yoga" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "mama", "en": "of mine" },
+      { "sa": "yaḥ", "en": "whoever" },
+      { "sa": "vetti", "en": "knows" },
+      { "sa": "tattvataḥ", "en": "in truth" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "avikampena", "en": "by unshaking" },
+      { "sa": "yogena", "en": "by yoga", "term": "yoga" },
+      { "sa": "yujyate", "en": "is joined", "term": "yoga" },
+      { "sa": "na", "en": "not" },
+      { "sa": "atra", "en": "in this" },
+      { "sa": "saṁśayaḥ", "en": "doubt" }
+    ],
+    "translation": "Whoever knows in truth this manifestation and yoga of mine, he is joined by unshaking yoga. There is no doubt in this."
+  },
+  "8": {
+    "words": [
+      { "sa": "aham", "en": "I" },
+      { "sa": "sarvasya", "en": "of all" },
+      { "sa": "prabhavaḥ", "en": "the origin" },
+      { "sa": "mattaḥ", "en": "from me" },
+      { "sa": "sarvam", "en": "all" },
+      { "sa": "pravartate", "en": "proceeds" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "matvā", "en": "having thought" },
+      { "sa": "bhajante", "en": "they worship" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "budhāḥ", "en": "the wise" },
+      { "sa": "bhāva-samanvitāḥ", "en": "endowed with feeling" }
+    ],
+    "translation": "I am the origin of all. From me all proceeds. Having thought thus, the wise, endowed with feeling, worship me."
+  },
+  "9": {
+    "words": [
+      { "sa": "mat-cittāḥ", "en": "with thought on me" },
+      { "sa": "mat-gata-prāṇāḥ", "en": "with life-breath gone to me" },
+      { "sa": "bodhayantaḥ", "en": "awakening" },
+      { "sa": "parasparam", "en": "one another" },
+      { "sa": "kathayantaḥ", "en": "telling of" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "nityam", "en": "always" },
+      { "sa": "tuṣyanti", "en": "they are content" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "ramanti", "en": "they delight" },
+      { "sa": "ca", "en": "and" }
+    ],
+    "translation": "With thought on me, with life-breath gone to me, awakening one another and always telling of me, they are content and they delight."
+  },
+  "10": {
+    "words": [
+      { "sa": "teṣām", "en": "to them" },
+      { "sa": "satata-yuktānām", "en": "to the constantly joined", "term": "yoga" },
+      { "sa": "bhajatām", "en": "to those worshipping" },
+      { "sa": "prīti-pūrvakam", "en": "with love" },
+      { "sa": "dadāmi", "en": "I give" },
+      { "sa": "buddhi-yogam", "en": "buddhi-yoga", "term": "buddhi" },
+      { "sa": "tam", "en": "that" },
+      { "sa": "yena", "en": "by which" },
+      { "sa": "mām", "en": "to me" },
+      { "sa": "upayānti", "en": "they come" },
+      { "sa": "te", "en": "they" }
+    ],
+    "translation": "To them, constantly joined, worshipping with love, I give that buddhi-yoga by which they come to me.",
+    "notes": ["\"Worshipping with love, I give\" can also be read as \"worshipping, I give with love\"."]
+  },
+  "11": {
+    "words": [
+      { "sa": "teṣām", "en": "for them" },
+      { "sa": "eva", "en": "alone" },
+      { "sa": "anukampā-artham", "en": "out of compassion" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "ajñāna-jam", "en": "born of ignorance" },
+      { "sa": "tamaḥ", "en": "the darkness" },
+      { "sa": "nāśayāmi", "en": "I destroy" },
+      { "sa": "ātma-bhāva-sthaḥ", "en": "abiding in the state of the self", "term": "atman" },
+      { "sa": "jñāna-dīpena", "en": "with the lamp of knowledge" },
+      { "sa": "bhāsvatā", "en": "with the shining" }
+    ],
+    "translation": "Out of compassion for them alone, I, abiding in the state of the self, destroy the darkness born of ignorance with the shining lamp of knowledge.",
+    "notes": ["\"Abiding in the state of the self\" can also be read as \"dwelling within their own being\"."]
+  },
+  "12": {
+    "words": [
+      { "sa": "param", "en": "the supreme" },
+      { "sa": "brahma", "en": "brahman", "term": "brahman" },
+      { "sa": "param", "en": "the supreme" },
+      { "sa": "dhāma", "en": "abode" },
+      { "sa": "pavitram", "en": "purifier" },
+      { "sa": "paramam", "en": "the supreme" },
+      { "sa": "bhavān", "en": "you" },
+      { "sa": "puruṣam", "en": "the person" },
+      { "sa": "śāśvatam", "en": "eternal" },
+      { "sa": "divyam", "en": "divine" },
+      { "sa": "ādi-devam", "en": "the first god" },
+      { "sa": "ajam", "en": "unborn" },
+      { "sa": "vibhum", "en": "all-pervading" }
+    ],
+    "translation": "You are the supreme brahman, the supreme abode, the supreme purifier. The eternal divine person, the first god, unborn and all-pervading,",
+    "notes": [
+      "Verses 12 to 13 are one sentence in the Sanskrit.",
+      "\"The supreme abode\" can also be read as \"the supreme light\"."
+    ]
+  },
+  "13": {
+    "words": [
+      { "sa": "āhuḥ", "en": "they call" },
+      { "sa": "tvām", "en": "you" },
+      { "sa": "ṛṣayaḥ", "en": "the seers" },
+      { "sa": "sarve", "en": "all" },
+      { "sa": "deva-ṛṣiḥ", "en": "the divine seer" },
+      { "sa": "nāradaḥ", "en": "Nārada" },
+      { "sa": "tathā", "en": "likewise" },
+      { "sa": "asitaḥ", "en": "Asita" },
+      { "sa": "devalaḥ", "en": "Devala" },
+      { "sa": "vyāsaḥ", "en": "Vyāsa" },
+      { "sa": "svayam", "en": "yourself" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "bravīṣi", "en": "you tell" },
+      { "sa": "me", "en": "to me" }
+    ],
+    "translation": "all the seers call you that, and likewise the divine seer Nārada, Asita, Devala and Vyāsa, and indeed you yourself tell me.",
+    "notes": ["\"Asita, Devala\" can also be read as one seer, \"Asita Devala\"."]
+  },
+  "14": {
+    "words": [
+      { "sa": "sarvam", "en": "all" },
+      { "sa": "etat", "en": "this" },
+      { "sa": "ṛtam", "en": "true" },
+      { "sa": "manye", "en": "I think" },
+      { "sa": "yat", "en": "which" },
+      { "sa": "mām", "en": "to me" },
+      { "sa": "vadasi", "en": "you say" },
+      { "sa": "keśava", "en": "O Keśava" },
+      { "sa": "na", "en": "not" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "te", "en": "your" },
+      { "sa": "bhagavan", "en": "O blessed lord" },
+      { "sa": "vyaktim", "en": "manifestation" },
+      { "sa": "viduḥ", "en": "they know" },
+      { "sa": "devāḥ", "en": "the gods" },
+      { "sa": "na", "en": "nor" },
+      { "sa": "dānavāḥ", "en": "the Dānavas" }
+    ],
+    "translation": "All this which you say to me I think true, O Keśava. For neither the gods nor the Dānavas know your manifestation, O blessed lord."
+  },
+  "15": {
+    "words": [
+      { "sa": "svayam", "en": "yourself" },
+      { "sa": "eva", "en": "alone" },
+      { "sa": "ātmanā", "en": "by the self", "term": "atman" },
+      { "sa": "ātmānam", "en": "the self", "term": "atman" },
+      { "sa": "vettha", "en": "you know" },
+      { "sa": "tvam", "en": "you" },
+      { "sa": "puruṣa-uttama", "en": "O highest of persons" },
+      { "sa": "bhūta-bhāvana", "en": "O bringer forth of beings" },
+      { "sa": "bhūta-īśa", "en": "O lord of beings" },
+      { "sa": "deva-deva", "en": "O god of gods" },
+      { "sa": "jagat-pate", "en": "O master of the world" }
+    ],
+    "translation": "You yourself alone know the self by the self, O highest of persons, O bringer forth of beings, O lord of beings, O god of gods, O master of the world."
+  },
+  "16": {
+    "words": [
+      { "sa": "vaktum", "en": "to tell" },
+      { "sa": "arhasi", "en": "you ought" },
+      { "sa": "aśeṣeṇa", "en": "without remainder" },
+      { "sa": "divyāḥ", "en": "divine" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "ātma-vibhūtayaḥ", "en": "the manifestations of the self", "term": "atman" },
+      { "sa": "yābhiḥ", "en": "by which" },
+      { "sa": "vibhūtibhiḥ", "en": "by manifestations" },
+      { "sa": "lokān", "en": "worlds" },
+      { "sa": "imān", "en": "these" },
+      { "sa": "tvam", "en": "you" },
+      { "sa": "vyāpya", "en": "pervading" },
+      { "sa": "tiṣṭhasi", "en": "you stand" }
+    ],
+    "translation": "You ought to tell without remainder, for divine are the manifestations of the self, the manifestations by which you stand pervading these worlds."
+  },
+  "17": {
+    "words": [
+      { "sa": "katham", "en": "how" },
+      { "sa": "vidyām", "en": "may I know" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "yogin", "en": "O yogī", "term": "yoga" },
+      { "sa": "tvām", "en": "you" },
+      { "sa": "sadā", "en": "always" },
+      { "sa": "paricintayan", "en": "thinking of" },
+      { "sa": "keṣu", "en": "in which" },
+      { "sa": "keṣu", "en": "in which" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "bhāveṣu", "en": "in states" },
+      { "sa": "cintyaḥ", "en": "to be thought of" },
+      { "sa": "asi", "en": "you are" },
+      { "sa": "bhagavan", "en": "O blessed lord" },
+      { "sa": "mayā", "en": "by me" }
+    ],
+    "translation": "How may I know you, O yogī, always thinking of you? And in which, in which states are you to be thought of by me, O blessed lord?"
+  },
+  "18": {
+    "words": [
+      { "sa": "vistareṇa", "en": "at length" },
+      { "sa": "ātmanaḥ", "en": "of the self", "term": "atman" },
+      { "sa": "yogam", "en": "yoga", "term": "yoga" },
+      { "sa": "vibhūtim", "en": "manifestation" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "janārdana", "en": "O Janārdana" },
+      { "sa": "bhūyaḥ", "en": "again" },
+      { "sa": "kathaya", "en": "tell" },
+      { "sa": "tṛptiḥ", "en": "fullness" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "śṛṇvataḥ", "en": "of one hearing" },
+      { "sa": "na", "en": "not" },
+      { "sa": "asti", "en": "there is" },
+      { "sa": "me", "en": "for me" },
+      { "sa": "amṛtam", "en": "the nectar" }
+    ],
+    "translation": "Tell again at length of the yoga and manifestation of the self, O Janārdana. For there is no fullness for me, hearing the nectar."
+  },
+  "19": {
+    "words": [
+      { "sa": "hanta", "en": "come" },
+      { "sa": "te", "en": "to you" },
+      { "sa": "kathayiṣyāmi", "en": "I will tell" },
+      { "sa": "divyāḥ", "en": "divine" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "ātma-vibhūtayaḥ", "en": "the manifestations of the self", "term": "atman" },
+      { "sa": "prādhānyataḥ", "en": "by what is chief" },
+      { "sa": "kuru-śreṣṭha", "en": "O best of the Kurus" },
+      { "sa": "na", "en": "not" },
+      { "sa": "asti", "en": "there is" },
+      { "sa": "antaḥ", "en": "end" },
+      { "sa": "vistarasya", "en": "of the extent" },
+      { "sa": "me", "en": "my" }
+    ],
+    "translation": "Come, I will tell you, for divine are the manifestations of the self, by what is chief, O best of the Kurus. There is no end of my extent."
+  },
+  "20": {
+    "words": [
+      { "sa": "aham", "en": "I" },
+      { "sa": "ātmā", "en": "the self", "term": "atman" },
+      { "sa": "guḍākeśa", "en": "O Guḍākeśa" },
+      { "sa": "sarva-bhūta-āśaya-sthitaḥ", "en": "seated in the heart of all beings" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "ādiḥ", "en": "the beginning" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "madhyam", "en": "the middle" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "bhūtānām", "en": "of beings" },
+      { "sa": "antaḥ", "en": "the end" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" }
+    ],
+    "translation": "I am the self, O Guḍākeśa, seated in the heart of all beings. I am the beginning and the middle and indeed the end of beings."
+  },
+  "21": {
+    "words": [
+      { "sa": "ādityānām", "en": "of the Ādityas" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "viṣṇuḥ", "en": "Viṣṇu" },
+      { "sa": "jyotiṣām", "en": "of lights" },
+      { "sa": "raviḥ", "en": "the sun" },
+      { "sa": "aṁśumān", "en": "radiant" },
+      { "sa": "marīciḥ", "en": "Marīci" },
+      { "sa": "marutām", "en": "of the Maruts" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "nakṣatrāṇām", "en": "of the lunar mansions" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "śaśī", "en": "the moon" }
+    ],
+    "translation": "Of the Ādityas I am Viṣṇu. Of lights I am the radiant sun. I am Marīci of the Maruts. Of the lunar mansions I am the moon.",
+    "notes": ["\"Of the lunar mansions\" can also be read as \"of the stars\"."]
+  }
+}

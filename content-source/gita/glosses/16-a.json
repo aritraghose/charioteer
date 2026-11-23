@@ -1,0 +1,433 @@
+{
+  "1": {
+    "words": [
+      { "sa": "abhayam", "en": "fearlessness" },
+      { "sa": "sattva-saṁśuddhiḥ", "en": "purity of being" },
+      { "sa": "jñāna-yoga-vyavasthitiḥ", "en": "steadfastness in the yoga of knowledge", "term": "yoga" },
+      { "sa": "dānam", "en": "giving" },
+      { "sa": "damaḥ", "en": "self-restraint" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "yajñaḥ", "en": "sacrifice" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "svādhyāyaḥ", "en": "study of the scriptures" },
+      { "sa": "tapaḥ", "en": "austerity" },
+      { "sa": "ārjavam", "en": "straightness" }
+    ],
+    "translation": "Fearlessness, purity of being, steadfastness in the yoga of knowledge, giving and self-restraint and sacrifice, study of the scriptures, austerity, straightness,",
+    "notes": [
+      "Verses 1 to 3 are one sentence in the Sanskrit.",
+      "\"Steadfastness in the yoga of knowledge\" can also be read as \"steadfastness in knowledge and in yoga\", two things rather than one."
+    ]
+  },
+  "2": {
+    "words": [
+      { "sa": "ahiṁsā", "en": "non-harming" },
+      { "sa": "satyam", "en": "truth" },
+      { "sa": "akrodhaḥ", "en": "freedom from anger" },
+      { "sa": "tyāgaḥ", "en": "giving up" },
+      { "sa": "śāntiḥ", "en": "peace", "term": "shanti" },
+      { "sa": "apaiśunam", "en": "not slandering" },
+      { "sa": "dayā", "en": "compassion" },
+      { "sa": "bhūteṣu", "en": "towards beings" },
+      { "sa": "aloluptvam", "en": "freedom from greed" },
+      { "sa": "mārdavam", "en": "gentleness" },
+      { "sa": "hrīḥ", "en": "modesty" },
+      { "sa": "acāpalam", "en": "freedom from fickleness" }
+    ],
+    "translation": "non-harming, truth, freedom from anger, giving up, peace, not slandering, compassion towards beings, freedom from greed, gentleness, modesty, freedom from fickleness,"
+  },
+  "3": {
+    "words": [
+      { "sa": "tejaḥ", "en": "vigour" },
+      { "sa": "kṣamā", "en": "forbearance" },
+      { "sa": "dhṛtiḥ", "en": "firmness" },
+      { "sa": "śaucam", "en": "cleanliness" },
+      { "sa": "adrohaḥ", "en": "freedom from malice" },
+      { "sa": "na", "en": "not" },
+      { "sa": "ati-mānitā", "en": "excessive pride" },
+      { "sa": "bhavanti", "en": "they are" },
+      { "sa": "sampadam", "en": "to the endowment" },
+      { "sa": "daivīm", "en": "divine" },
+      { "sa": "abhijātasya", "en": "of one born" },
+      { "sa": "bhārata", "en": "O descendant of Bharata" }
+    ],
+    "translation": "vigour, forbearance, firmness, cleanliness, freedom from malice, no excessive pride: they are of one born to the divine endowment, O descendant of Bharata."
+  },
+  "4": {
+    "words": [
+      { "sa": "dambhaḥ", "en": "hypocrisy" },
+      { "sa": "darpaḥ", "en": "arrogance" },
+      { "sa": "abhimānaḥ", "en": "conceit" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "krodhaḥ", "en": "anger" },
+      { "sa": "pāruṣyam", "en": "harshness" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "ajñānam", "en": "ignorance" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "abhijātasya", "en": "of one born" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "sampadam", "en": "to the endowment" },
+      { "sa": "āsurīm", "en": "demonic" }
+    ],
+    "translation": "Hypocrisy, arrogance and conceit, anger and indeed harshness, and ignorance are of one born, O son of Pṛthā, to the demonic endowment."
+  },
+  "5": {
+    "words": [
+      { "sa": "daivī", "en": "divine" },
+      { "sa": "sampat", "en": "the endowment" },
+      { "sa": "vimokṣāya", "en": "for release" },
+      { "sa": "nibandhāya", "en": "for bondage" },
+      { "sa": "āsurī", "en": "the demonic" },
+      { "sa": "matā", "en": "is held" },
+      { "sa": "mā", "en": "do not" },
+      { "sa": "śucaḥ", "en": "grieve" },
+      { "sa": "sampadam", "en": "to the endowment" },
+      { "sa": "daivīm", "en": "divine" },
+      { "sa": "abhijātaḥ", "en": "born" },
+      { "sa": "asi", "en": "you are" },
+      { "sa": "pāṇḍava", "en": "O son of Pāṇḍu" }
+    ],
+    "translation": "The divine endowment is held to be for release, the demonic for bondage. Do not grieve. You are born to the divine endowment, O son of Pāṇḍu."
+  },
+  "6": {
+    "words": [
+      { "sa": "dvau", "en": "two" },
+      { "sa": "bhūta-sargau", "en": "creations of beings" },
+      { "sa": "loke", "en": "in the world" },
+      { "sa": "asmin", "en": "in this" },
+      { "sa": "daivaḥ", "en": "the divine" },
+      { "sa": "āsuraḥ", "en": "the demonic" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "daivaḥ", "en": "the divine" },
+      { "sa": "vistaraśaḥ", "en": "at length" },
+      { "sa": "proktaḥ", "en": "has been told" },
+      { "sa": "āsuram", "en": "the demonic" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "me", "en": "from me" },
+      { "sa": "śṛṇu", "en": "hear" }
+    ],
+    "translation": "There are two creations of beings in this world, the divine and indeed the demonic. The divine has been told at length. Hear from me the demonic, O son of Pṛthā."
+  },
+  "7": {
+    "words": [
+      { "sa": "pravṛttim", "en": "engaging in action" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "nivṛttim", "en": "ceasing from action" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "janāḥ", "en": "people" },
+      { "sa": "na", "en": "not" },
+      { "sa": "viduḥ", "en": "they know" },
+      { "sa": "āsurāḥ", "en": "demonic" },
+      { "sa": "na", "en": "not" },
+      { "sa": "śaucam", "en": "cleanliness" },
+      { "sa": "na", "en": "nor" },
+      { "sa": "api", "en": "even" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "ācāraḥ", "en": "right conduct" },
+      { "sa": "na", "en": "nor" },
+      { "sa": "satyam", "en": "truth" },
+      { "sa": "teṣu", "en": "in them" },
+      { "sa": "vidyate", "en": "is found" }
+    ],
+    "translation": "Demonic people do not know engaging in action and ceasing from action. Cleanliness is not found in them, nor even right conduct, nor truth.",
+    "notes": [
+      "\"Engaging in action and ceasing from action\" can also be read as \"what is to be done and what is to be left undone\"."
+    ]
+  },
+  "8": {
+    "words": [
+      { "sa": "asatyam", "en": "without truth" },
+      { "sa": "apratiṣṭham", "en": "without foundation" },
+      { "sa": "te", "en": "they" },
+      { "sa": "jagat", "en": "the world" },
+      { "sa": "āhuḥ", "en": "they say" },
+      { "sa": "anīśvaram", "en": "without a lord" },
+      { "sa": "aparaspara-sambhūtam", "en": "born of one with another" },
+      { "sa": "kim", "en": "what" },
+      { "sa": "anyat", "en": "else" },
+      { "sa": "kāma-haitukam", "en": "having desire as its cause", "term": "kama" }
+    ],
+    "translation": "They say the world is without truth, without foundation, without a lord, born of one with another, having desire as its cause. What else?",
+    "notes": [
+      "\"Born of one with another\" can also be read as \"not arising in any ordered sequence of causes\", that is, coming about by chance."
+    ]
+  },
+  "9": {
+    "words": [
+      { "sa": "etām", "en": "this" },
+      { "sa": "dṛṣṭim", "en": "view" },
+      { "sa": "avaṣṭabhya", "en": "holding to" },
+      { "sa": "naṣṭa-ātmānaḥ", "en": "those whose self is lost", "term": "atman" },
+      { "sa": "alpa-buddhayaḥ", "en": "of small buddhi", "term": "buddhi" },
+      { "sa": "prabhavanti", "en": "they come forth" },
+      { "sa": "ugra-karmāṇaḥ", "en": "of fierce action", "term": "karma" },
+      { "sa": "kṣayāya", "en": "for the destruction" },
+      { "sa": "jagataḥ", "en": "of the world" },
+      { "sa": "ahitāḥ", "en": "hostile" }
+    ],
+    "translation": "Holding to this view, those whose self is lost, of small buddhi, of fierce action, hostile, come forth for the destruction of the world."
+  },
+  "10": {
+    "words": [
+      { "sa": "kāmam", "en": "desire", "term": "kama" },
+      { "sa": "āśritya", "en": "resorting to" },
+      { "sa": "duṣpūram", "en": "hard to fill" },
+      { "sa": "dambha-māna-mada-anvitāḥ", "en": "filled with hypocrisy, pride and intoxication" },
+      { "sa": "mohāt", "en": "out of delusion" },
+      { "sa": "gṛhītvā", "en": "having seized" },
+      { "sa": "asat-grāhān", "en": "false notions" },
+      { "sa": "pravartante", "en": "they act" },
+      { "sa": "aśuci-vratāḥ", "en": "of impure vows" }
+    ],
+    "translation": "Resorting to desire that is hard to fill, filled with hypocrisy, pride and intoxication, having seized false notions out of delusion, they act, being of impure vows."
+  },
+  "11": {
+    "words": [
+      { "sa": "cintām", "en": "anxiety" },
+      { "sa": "aparimeyām", "en": "immeasurable" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "pralaya-antām", "en": "ending at death" },
+      { "sa": "upāśritāḥ", "en": "given over to" },
+      { "sa": "kāma-upabhoga-paramāḥ", "en": "holding the enjoyment of desires as the highest", "term": "kama" },
+      { "sa": "etāvat", "en": "this much" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "niścitāḥ", "en": "convinced" }
+    ],
+    "translation": "And given over to immeasurable anxiety ending at death, holding the enjoyment of desires as the highest, convinced that there is this much and no more,",
+    "notes": [
+      "Verses 11 to 12 are one sentence in the Sanskrit."
+    ]
+  },
+  "12": {
+    "words": [
+      { "sa": "āśā-pāśa-śataiḥ", "en": "by hundreds of ropes of hope" },
+      { "sa": "baddhāḥ", "en": "bound" },
+      { "sa": "kāma-krodha-parāyaṇāḥ", "en": "devoted to desire and anger", "term": "kama" },
+      { "sa": "īhante", "en": "they strive for" },
+      { "sa": "kāma-bhoga-artham", "en": "for the sake of enjoying desires", "term": "kama" },
+      { "sa": "anyāyena", "en": "by unjust means" },
+      { "sa": "artha-sañcayān", "en": "hoards of wealth" }
+    ],
+    "translation": "bound by hundreds of ropes of hope, devoted to desire and anger, they strive, for the sake of enjoying desires, for hoards of wealth by unjust means."
+  },
+  "13": {
+    "words": [
+      { "sa": "idam", "en": "this" },
+      { "sa": "adya", "en": "today" },
+      { "sa": "mayā", "en": "by me" },
+      { "sa": "labdham", "en": "has been gained" },
+      { "sa": "imam", "en": "this" },
+      { "sa": "prāpsye", "en": "I shall obtain" },
+      { "sa": "manaḥ-ratham", "en": "wish" },
+      { "sa": "idam", "en": "this" },
+      { "sa": "asti", "en": "there is" },
+      { "sa": "idam", "en": "this" },
+      { "sa": "api", "en": "also" },
+      { "sa": "me", "en": "mine" },
+      { "sa": "bhaviṣyati", "en": "will be" },
+      { "sa": "punaḥ", "en": "again" },
+      { "sa": "dhanam", "en": "wealth" }
+    ],
+    "translation": "\"This has been gained by me today, this wish I shall obtain. This there is, and this wealth also will be mine again,",
+    "notes": [
+      "Verses 13 to 16 are one sentence in the Sanskrit."
+    ]
+  },
+  "14": {
+    "words": [
+      { "sa": "asau", "en": "that" },
+      { "sa": "mayā", "en": "by me" },
+      { "sa": "hataḥ", "en": "has been slain" },
+      { "sa": "śatruḥ", "en": "enemy" },
+      { "sa": "haniṣye", "en": "I shall slay" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "aparān", "en": "others" },
+      { "sa": "api", "en": "too" },
+      { "sa": "īśvaraḥ", "en": "the lord" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "bhogī", "en": "the enjoyer" },
+      { "sa": "siddhaḥ", "en": "successful" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "balavān", "en": "strong" },
+      { "sa": "sukhī", "en": "happy" }
+    ],
+    "translation": "that enemy has been slain by me, and I shall slay others too. I am the lord, I am the enjoyer, I am successful, strong, happy,"
+  },
+  "15": {
+    "words": [
+      { "sa": "āḍhyaḥ", "en": "wealthy" },
+      { "sa": "abhijanavān", "en": "of high birth" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "kaḥ", "en": "who" },
+      { "sa": "anyaḥ", "en": "else" },
+      { "sa": "asti", "en": "is there" },
+      { "sa": "sadṛśaḥ", "en": "equal" },
+      { "sa": "mayā", "en": "to me" },
+      { "sa": "yakṣye", "en": "I shall sacrifice" },
+      { "sa": "dāsyāmi", "en": "I shall give" },
+      { "sa": "modiṣye", "en": "I shall rejoice" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "ajñāna-vimohitāḥ", "en": "deluded by ignorance" }
+    ],
+    "translation": "I am wealthy, of high birth. Who else is there equal to me? I shall sacrifice, I shall give, I shall rejoice.\" Thus deluded by ignorance,"
+  },
+  "16": {
+    "words": [
+      { "sa": "aneka-citta-vibhrāntāḥ", "en": "led astray by many thoughts" },
+      { "sa": "moha-jāla-samāvṛtāḥ", "en": "covered by a net of delusion" },
+      { "sa": "prasaktāḥ", "en": "attached" },
+      { "sa": "kāma-bhogeṣu", "en": "to the enjoyments of desire", "term": "kama" },
+      { "sa": "patanti", "en": "they fall" },
+      { "sa": "narake", "en": "into hell" },
+      { "sa": "aśucau", "en": "impure" }
+    ],
+    "translation": "led astray by many thoughts, covered by a net of delusion, attached to the enjoyments of desire, they fall into an impure hell."
+  },
+  "17": {
+    "words": [
+      { "sa": "ātma-sambhāvitāḥ", "en": "holding the self in high esteem", "term": "atman" },
+      { "sa": "stabdhāḥ", "en": "stubborn" },
+      { "sa": "dhana-māna-mada-anvitāḥ", "en": "filled with the pride and intoxication of wealth" },
+      { "sa": "yajante", "en": "they sacrifice" },
+      { "sa": "nāma-yajñaiḥ", "en": "with sacrifices in name only" },
+      { "sa": "te", "en": "they" },
+      { "sa": "dambhena", "en": "with hypocrisy" },
+      { "sa": "avidhi-pūrvakam", "en": "not according to rule" }
+    ],
+    "translation": "Holding the self in high esteem, stubborn, filled with the pride and intoxication of wealth, they sacrifice with sacrifices in name only, with hypocrisy, not according to rule,",
+    "notes": [
+      "Verses 17 to 18 are one sentence in the Sanskrit.",
+      "\"Filled with the pride and intoxication of wealth\" can also be read as \"filled with wealth, pride and intoxication\", three separate things."
+    ]
+  },
+  "18": {
+    "words": [
+      { "sa": "ahaṅkāram", "en": "egoism" },
+      { "sa": "balam", "en": "force" },
+      { "sa": "darpam", "en": "arrogance" },
+      { "sa": "kāmam", "en": "desire", "term": "kama" },
+      { "sa": "krodham", "en": "anger" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "saṁśritāḥ", "en": "resorting to" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "ātma-para-deheṣu", "en": "in their own bodies and those of others" },
+      { "sa": "pradviṣantaḥ", "en": "hating" },
+      { "sa": "abhyasūyakāḥ", "en": "envious" }
+    ],
+    "translation": "resorting to egoism, force, arrogance, desire and anger, hating me in their own bodies and those of others, envious."
+  },
+  "19": {
+    "words": [
+      { "sa": "tān", "en": "those" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "dviṣataḥ", "en": "hating ones" },
+      { "sa": "krūrān", "en": "cruel" },
+      { "sa": "saṁsāreṣu", "en": "in the cycles of birth" },
+      { "sa": "nara-adhamān", "en": "the lowest of men" },
+      { "sa": "kṣipāmi", "en": "I hurl" },
+      { "sa": "ajasram", "en": "ceaselessly" },
+      { "sa": "aśubhān", "en": "inauspicious" },
+      { "sa": "āsurīṣu", "en": "into demonic" },
+      { "sa": "eva", "en": "only" },
+      { "sa": "yoniṣu", "en": "into wombs" }
+    ],
+    "translation": "Those hating ones, cruel, the lowest of men, inauspicious, I hurl ceaselessly in the cycles of birth into demonic wombs only."
+  },
+  "20": {
+    "words": [
+      { "sa": "āsurīm", "en": "demonic" },
+      { "sa": "yonim", "en": "a womb" },
+      { "sa": "āpannāḥ", "en": "having fallen into" },
+      { "sa": "mūḍhāḥ", "en": "the deluded" },
+      { "sa": "janmani", "en": "in birth" },
+      { "sa": "janmani", "en": "after birth" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "aprāpya", "en": "not reaching" },
+      { "sa": "eva", "en": "at all" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "tataḥ", "en": "from there" },
+      { "sa": "yānti", "en": "they go" },
+      { "sa": "adhamām", "en": "to the lowest" },
+      { "sa": "gatim", "en": "state" }
+    ],
+    "translation": "Having fallen into a demonic womb, the deluded, in birth after birth, not reaching me at all, O son of Kuntī, go from there to the lowest state."
+  },
+  "21": {
+    "words": [
+      { "sa": "tri-vidham", "en": "threefold" },
+      { "sa": "narakasya", "en": "of hell" },
+      { "sa": "idam", "en": "this" },
+      { "sa": "dvāram", "en": "gate" },
+      { "sa": "nāśanam", "en": "destroying" },
+      { "sa": "ātmanaḥ", "en": "of the self", "term": "atman" },
+      { "sa": "kāmaḥ", "en": "desire", "term": "kama" },
+      { "sa": "krodhaḥ", "en": "anger" },
+      { "sa": "tathā", "en": "likewise" },
+      { "sa": "lobhaḥ", "en": "greed" },
+      { "sa": "tasmāt", "en": "therefore" },
+      { "sa": "etat", "en": "this" },
+      { "sa": "trayam", "en": "set of three" },
+      { "sa": "tyajet", "en": "one should give up" }
+    ],
+    "translation": "This is the threefold gate of hell, destroying of the self: desire, anger, likewise greed. Therefore one should give up this set of three."
+  },
+  "22": {
+    "words": [
+      { "sa": "etaiḥ", "en": "from these" },
+      { "sa": "vimuktaḥ", "en": "freed" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "tamaḥ-dvāraiḥ", "en": "from the gates of darkness" },
+      { "sa": "tribhiḥ", "en": "from the three" },
+      { "sa": "naraḥ", "en": "a man" },
+      { "sa": "ācarati", "en": "practises" },
+      { "sa": "ātmanaḥ", "en": "for the self", "term": "atman" },
+      { "sa": "śreyaḥ", "en": "what is best" },
+      { "sa": "tataḥ", "en": "from that" },
+      { "sa": "yāti", "en": "he goes" },
+      { "sa": "parām", "en": "to the highest" },
+      { "sa": "gatim", "en": "state" }
+    ],
+    "translation": "Freed from these three gates of darkness, O son of Kuntī, a man practises what is best for the self. From that he goes to the highest state.",
+    "notes": [
+      "\"Gates of darkness\" can also be read as \"gates of tamas\", naming the guṇa of that name rather than darkness in general."
+    ]
+  },
+  "23": {
+    "words": [
+      { "sa": "yaḥ", "en": "he who" },
+      { "sa": "śāstra-vidhim", "en": "the rule of scripture" },
+      { "sa": "utsṛjya", "en": "casting aside" },
+      { "sa": "vartate", "en": "acts" },
+      { "sa": "kāma-kārataḥ", "en": "at the urging of desire", "term": "kama" },
+      { "sa": "na", "en": "not" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "siddhim", "en": "success" },
+      { "sa": "avāpnoti", "en": "attains" },
+      { "sa": "na", "en": "nor" },
+      { "sa": "sukham", "en": "happiness" },
+      { "sa": "na", "en": "nor" },
+      { "sa": "parām", "en": "the highest" },
+      { "sa": "gatim", "en": "state" }
+    ],
+    "translation": "He who, casting aside the rule of scripture, acts at the urging of desire, he does not attain success, nor happiness, nor the highest state."
+  },
+  "24": {
+    "words": [
+      { "sa": "tasmāt", "en": "therefore" },
+      { "sa": "śāstram", "en": "scripture" },
+      { "sa": "pramāṇam", "en": "the measure" },
+      { "sa": "te", "en": "for you" },
+      { "sa": "kārya-akārya-vyavasthitau", "en": "in settling what is to be done and what is not to be done" },
+      { "sa": "jñātvā", "en": "having known" },
+      { "sa": "śāstra-vidhāna-uktam", "en": "declared by the ordinance of scripture" },
+      { "sa": "karma", "en": "action", "term": "karma" },
+      { "sa": "kartum", "en": "to do" },
+      { "sa": "iha", "en": "here" },
+      { "sa": "arhasi", "en": "you ought" }
+    ],
+    "translation": "Therefore scripture is the measure for you in settling what is to be done and what is not to be done. Having known the action declared by the ordinance of scripture, you ought to do it here."
+  }
+}

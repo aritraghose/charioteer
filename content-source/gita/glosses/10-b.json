@@ -1,0 +1,421 @@
+{
+  "22": {
+    "words": [
+      { "sa": "vedānām", "en": "of the Vedas" },
+      { "sa": "sāma-vedaḥ", "en": "the Sāma Veda (the Veda of chants)" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "devānām", "en": "of the gods" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "vāsavaḥ", "en": "Vāsava (Indra, chief of the gods)" },
+      { "sa": "indriyāṇām", "en": "of the senses", "term": "indriya" },
+      { "sa": "manaḥ", "en": "the mind", "term": "manas" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "bhūtānām", "en": "of beings" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "cetanā", "en": "consciousness" }
+    ],
+    "translation": "Of the Vedas I am the Sāma Veda. Of the gods I am Vāsava. And of the senses I am the mind. Of beings I am consciousness."
+  },
+  "23": {
+    "words": [
+      { "sa": "rudrāṇām", "en": "of the Rudras (the storm gods)" },
+      { "sa": "śaṅkaraḥ", "en": "Śaṅkara (Śiva)" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "vitta-īśaḥ", "en": "the lord of wealth (Kubera)" },
+      { "sa": "yakṣa-rakṣasām", "en": "of the yakṣas and rākṣasas" },
+      { "sa": "vasūnām", "en": "of the Vasus (a group of eight gods)" },
+      { "sa": "pāvakaḥ", "en": "fire" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "meruḥ", "en": "Meru (the mountain at the centre of the world)" },
+      { "sa": "śikhariṇām", "en": "of peaked mountains" },
+      { "sa": "aham", "en": "I" }
+    ],
+    "translation": "And of the Rudras I am Śaṅkara, the lord of wealth of the yakṣas and rākṣasas. And of the Vasus I am fire. Of peaked mountains I am Meru."
+  },
+  "24": {
+    "words": [
+      { "sa": "purodhasām", "en": "of household priests" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "mukhyam", "en": "the chief" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "viddhi", "en": "know" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "bṛhaspatim", "en": "Bṛhaspati (priest of the gods)" },
+      { "sa": "senānīnām", "en": "of army commanders" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "skandaḥ", "en": "Skanda (the war god)" },
+      { "sa": "sarasām", "en": "of bodies of water" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "sāgaraḥ", "en": "the ocean" }
+    ],
+    "translation": "And know me, O son of Pṛthā, as Bṛhaspati, the chief of household priests. Of army commanders I am Skanda. Of bodies of water I am the ocean."
+  },
+  "25": {
+    "words": [
+      { "sa": "maharṣīṇām", "en": "of the great seers" },
+      { "sa": "bhṛguḥ", "en": "Bhṛgu (a great seer)" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "girām", "en": "of utterances" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "ekam", "en": "the one" },
+      { "sa": "akṣaram", "en": "syllable" },
+      { "sa": "yajñānām", "en": "of sacrifices" },
+      { "sa": "japa-yajñaḥ", "en": "the sacrifice of murmured recitation" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "sthāvarāṇām", "en": "of immovable things" },
+      { "sa": "himālayaḥ", "en": "the Himālaya" }
+    ],
+    "translation": "Of the great seers I am Bhṛgu. Of utterances I am the one syllable. Of sacrifices I am the sacrifice of murmured recitation, of immovable things the Himālaya,",
+    "notes": [
+      "Verses 25 to 26 are one sentence in the Sanskrit.",
+      "\"The one syllable\" can also be read as \"the one imperishable\". The same word means both, and it is traditionally taken to point to the syllable Om."
+    ]
+  },
+  "26": {
+    "words": [
+      { "sa": "aśvatthaḥ", "en": "the sacred fig tree" },
+      { "sa": "sarva-vṛkṣāṇām", "en": "of all trees" },
+      { "sa": "devarṣīṇām", "en": "of the divine seers" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "nāradaḥ", "en": "Nārada (a divine seer)" },
+      { "sa": "gandharvāṇām", "en": "of the gandharvas (heavenly musicians)" },
+      { "sa": "citrarathaḥ", "en": "Citraratha (king of the gandharvas)" },
+      { "sa": "siddhānām", "en": "of the perfected ones" },
+      { "sa": "kapilaḥ", "en": "Kapila" },
+      { "sa": "muniḥ", "en": "the sage" }
+    ],
+    "translation": "of all trees the sacred fig tree, and of the divine seers Nārada, of the gandharvas Citraratha, of the perfected ones the sage Kapila."
+  },
+  "27": {
+    "words": [
+      { "sa": "uccaiḥśravasam", "en": "Uccaiḥśravas (Indra's horse)" },
+      { "sa": "aśvānām", "en": "of horses" },
+      { "sa": "viddhi", "en": "know" },
+      { "sa": "mām", "en": "me" },
+      { "sa": "amṛta-udbhavam", "en": "born of the nectar of immortality" },
+      { "sa": "airāvatam", "en": "Airāvata (Indra's elephant)" },
+      { "sa": "gaja-indrāṇām", "en": "of lordly elephants" },
+      { "sa": "narāṇām", "en": "of men" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "nara-adhipam", "en": "the ruler of men" }
+    ],
+    "translation": "Of horses know me as Uccaiḥśravas, born of the nectar of immortality, of lordly elephants as Airāvata, and of men as the ruler of men."
+  },
+  "28": {
+    "words": [
+      { "sa": "āyudhānām", "en": "of weapons" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "vajram", "en": "the thunderbolt" },
+      { "sa": "dhenūnām", "en": "of cows" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "kāmadhuk", "en": "the cow that yields what is desired" },
+      { "sa": "prajanaḥ", "en": "the begetter" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "kandarpaḥ", "en": "Kandarpa (the god of love)" },
+      { "sa": "sarpāṇām", "en": "of serpents" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "vāsukiḥ", "en": "Vāsuki (king of serpents)" }
+    ],
+    "translation": "Of weapons I am the thunderbolt. Of cows I am the cow that yields what is desired. And I am Kandarpa, the begetter. Of serpents I am Vāsuki."
+  },
+  "29": {
+    "words": [
+      { "sa": "anantaḥ", "en": "Ananta (the endless serpent)" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "nāgānām", "en": "of the nāgas (serpent beings)" },
+      { "sa": "varuṇaḥ", "en": "Varuṇa (god of the waters)" },
+      { "sa": "yādasām", "en": "of water creatures" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "pitṝṇām", "en": "of the ancestors" },
+      { "sa": "aryamā", "en": "Aryaman (chief of the ancestors)" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "yamaḥ", "en": "Yama (god of death)" },
+      { "sa": "saṁyamatām", "en": "of those who restrain" },
+      { "sa": "aham", "en": "I" }
+    ],
+    "translation": "And of the nāgas I am Ananta. Of water creatures I am Varuṇa. And of the ancestors I am Aryaman. Of those who restrain I am Yama."
+  },
+  "30": {
+    "words": [
+      { "sa": "prahlādaḥ", "en": "Prahlāda (the devout demon prince)" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "daityānām", "en": "of the daityas (demons, sons of Diti)" },
+      { "sa": "kālaḥ", "en": "time" },
+      { "sa": "kalayatām", "en": "of those who reckon" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "mṛgāṇām", "en": "of wild animals" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "mṛga-indraḥ", "en": "the lord of animals (the lion)" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "vainateyaḥ", "en": "the son of Vinatā (Garuḍa)" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "pakṣiṇām", "en": "of birds" }
+    ],
+    "translation": "And of the daityas I am Prahlāda. Of those who reckon I am time. And of wild animals I am the lord of animals, and of birds the son of Vinatā.",
+    "notes": [
+      "\"Of those who reckon\" can also be read as \"of those who drive things on\"."
+    ]
+  },
+  "31": {
+    "words": [
+      { "sa": "pavanaḥ", "en": "the wind" },
+      { "sa": "pavatām", "en": "of purifiers" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "rāmaḥ", "en": "Rāma" },
+      { "sa": "śastra-bhṛtām", "en": "of those who bear weapons" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "jhaṣāṇām", "en": "of fish" },
+      { "sa": "makaraḥ", "en": "the makara (a sea monster)" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "srotasām", "en": "of streams" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "jāhnavī", "en": "the daughter of Jahnu (the Ganges)" }
+    ],
+    "translation": "Of purifiers I am the wind. Of those who bear weapons I am Rāma. And of fish I am the makara. Of streams I am the daughter of Jahnu.",
+    "notes": [
+      "\"Of purifiers\" can also be read as \"of things that move swiftly\".",
+      "\"Rāma\" is usually taken to be Rāma the son of Daśaratha, but it can also be read as Rāma with the axe (Paraśurāma).",
+      "\"The makara\" is a sea creature that is read variously as a shark or a crocodile."
+    ]
+  },
+  "32": {
+    "words": [
+      { "sa": "sargāṇām", "en": "of creations" },
+      { "sa": "ādiḥ", "en": "the beginning" },
+      { "sa": "antaḥ", "en": "the end" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "madhyam", "en": "the middle" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "arjuna", "en": "O Arjuna" },
+      { "sa": "adhyātma-vidyā", "en": "the knowledge of the self", "term": "atman" },
+      { "sa": "vidyānām", "en": "of kinds of knowledge" },
+      { "sa": "vādaḥ", "en": "the argument" },
+      { "sa": "pravadatām", "en": "of those who debate" },
+      { "sa": "aham", "en": "I" }
+    ],
+    "translation": "Of creations I am the beginning and the end, and indeed the middle, O Arjuna. Of kinds of knowledge I am the knowledge of the self. Of those who debate I am the argument.",
+    "notes": [
+      "\"The argument\" can also be read more narrowly as \"honest debate that seeks the truth\", as against debate carried on only to win."
+    ]
+  },
+  "33": {
+    "words": [
+      { "sa": "akṣarāṇām", "en": "of letters" },
+      { "sa": "a-kāraḥ", "en": "the letter a" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "dvandvaḥ", "en": "the pair compound" },
+      { "sa": "sāmāsikasya", "en": "of the class of compounds" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "eva", "en": "alone" },
+      { "sa": "akṣayaḥ", "en": "undecaying" },
+      { "sa": "kālaḥ", "en": "time" },
+      { "sa": "dhātā", "en": "the ordainer" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "viśvataḥ-mukhaḥ", "en": "facing in every direction" }
+    ],
+    "translation": "Of letters I am the letter a, and of the class of compounds the pair compound. I alone am undecaying time. I am the ordainer, facing in every direction.",
+    "notes": [
+      "\"The ordainer\" can also be read as \"the supporter\"."
+    ]
+  },
+  "34": {
+    "words": [
+      { "sa": "mṛtyuḥ", "en": "death" },
+      { "sa": "sarva-haraḥ", "en": "that carries off all" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "udbhavaḥ", "en": "the origin" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "bhaviṣyatām", "en": "of things that are to be" },
+      { "sa": "kīrtiḥ", "en": "fame" },
+      { "sa": "śrīḥ", "en": "fortune" },
+      { "sa": "vāk", "en": "speech" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "nārīṇām", "en": "of feminine things" },
+      { "sa": "smṛtiḥ", "en": "memory" },
+      { "sa": "medhā", "en": "intelligence" },
+      { "sa": "dhṛtiḥ", "en": "steadfastness" },
+      { "sa": "kṣamā", "en": "forbearance" }
+    ],
+    "translation": "And I am death that carries off all, and the origin of things that are to be. Of feminine things I am fame, fortune and speech, memory, intelligence, steadfastness, forbearance.",
+    "notes": [
+      "\"Of feminine things\" can also be read as \"among women\". The seven qualities named are all feminine words in Sanskrit, and are also thought of as goddesses."
+    ]
+  },
+  "35": {
+    "words": [
+      { "sa": "bṛhat-sāma", "en": "the Bṛhat chant" },
+      { "sa": "tathā", "en": "likewise" },
+      { "sa": "sāmnām", "en": "of chants" },
+      { "sa": "gāyatrī", "en": "the Gāyatrī" },
+      { "sa": "chandasām", "en": "of metres" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "māsānām", "en": "of months" },
+      { "sa": "mārgaśīrṣaḥ", "en": "Mārgaśīrṣa (November to December)" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "ṛtūnām", "en": "of seasons" },
+      { "sa": "kusuma-ākaraḥ", "en": "the mine of flowers (spring)" }
+    ],
+    "translation": "Likewise, of chants I am the Bṛhat chant. Of metres I am the Gāyatrī. Of months I am Mārgaśīrṣa. Of seasons I am the mine of flowers."
+  },
+  "36": {
+    "words": [
+      { "sa": "dyūtam", "en": "gambling" },
+      { "sa": "chalayatām", "en": "of those who cheat" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "tejaḥ", "en": "the splendour" },
+      { "sa": "tejasvinām", "en": "of the splendid" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "jayaḥ", "en": "victory" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "vyavasāyaḥ", "en": "resolve" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "sattvam", "en": "the sattva", "term": "guna" },
+      { "sa": "sattvavatām", "en": "of those who have sattva", "term": "guna" },
+      { "sa": "aham", "en": "I" }
+    ],
+    "translation": "Of those who cheat I am gambling. I am the splendour of the splendid. I am victory. I am resolve. I am the sattva of those who have sattva.",
+    "notes": [
+      "\"The sattva of those who have sattva\" can also be read as \"the courage of the courageous\" or \"the goodness of the good\"."
+    ]
+  },
+  "37": {
+    "words": [
+      { "sa": "vṛṣṇīnām", "en": "of the Vṛṣṇis (Kṛṣṇa's clan)" },
+      { "sa": "vāsudevaḥ", "en": "the son of Vasudeva (Kṛṣṇa)" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "pāṇḍavānām", "en": "of the sons of Pāṇḍu" },
+      { "sa": "dhanañjayaḥ", "en": "the winner of wealth (Arjuna)" },
+      { "sa": "munīnām", "en": "of sages" },
+      { "sa": "api", "en": "also" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "vyāsaḥ", "en": "Vyāsa (the sage who composed the Mahābhārata)" },
+      { "sa": "kavīnām", "en": "of poets" },
+      { "sa": "uśanā", "en": "Uśanas (the sage Śukra, teacher of the demons)" },
+      { "sa": "kaviḥ", "en": "the poet" }
+    ],
+    "translation": "Of the Vṛṣṇis I am the son of Vasudeva, of the sons of Pāṇḍu the winner of wealth. Of sages also I am Vyāsa, of poets the poet Uśanas.",
+    "notes": [
+      "\"Of poets the poet Uśanas\" can also be read as \"of seers the seer Uśanas\". The same word means both a poet and a wise seer."
+    ]
+  },
+  "38": {
+    "words": [
+      { "sa": "daṇḍaḥ", "en": "the rod" },
+      { "sa": "damayatām", "en": "of those who subdue" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "nītiḥ", "en": "right conduct" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "jigīṣatām", "en": "of those who wish to conquer" },
+      { "sa": "maunam", "en": "silence" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "asmi", "en": "I am" },
+      { "sa": "guhyānām", "en": "of secret things" },
+      { "sa": "jñānam", "en": "the knowledge" },
+      { "sa": "jñānavatām", "en": "of those who have knowledge" },
+      { "sa": "aham", "en": "I" }
+    ],
+    "translation": "I am the rod of those who subdue. I am the right conduct of those who wish to conquer. And indeed I am the silence of secret things. I am the knowledge of those who have knowledge.",
+    "notes": [
+      "\"The right conduct\" can also be read as \"the statecraft\"."
+    ]
+  },
+  "39": {
+    "words": [
+      { "sa": "yat", "en": "which" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "api", "en": "also" },
+      { "sa": "sarva-bhūtānām", "en": "of all beings" },
+      { "sa": "bījam", "en": "the seed" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "arjuna", "en": "O Arjuna" },
+      { "sa": "na", "en": "not" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "asti", "en": "there is" },
+      { "sa": "vinā", "en": "without" },
+      { "sa": "yat", "en": "which" },
+      { "sa": "syāt", "en": "could be" },
+      { "sa": "mayā", "en": "me" },
+      { "sa": "bhūtam", "en": "being" },
+      { "sa": "cara-acaram", "en": "moving or unmoving" }
+    ],
+    "translation": "And also that which is the seed of all beings, that I am, O Arjuna. There is not that being, moving or unmoving, which could be without me."
+  },
+  "40": {
+    "words": [
+      { "sa": "na", "en": "not" },
+      { "sa": "antaḥ", "en": "an end" },
+      { "sa": "asti", "en": "there is" },
+      { "sa": "mama", "en": "of my" },
+      { "sa": "divyānām", "en": "divine" },
+      { "sa": "vibhūtīnām", "en": "of manifestations of power" },
+      { "sa": "parantapa", "en": "O scorcher of foes" },
+      { "sa": "eṣaḥ", "en": "this" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "uddeśataḥ", "en": "by way of example" },
+      { "sa": "proktaḥ", "en": "has been told" },
+      { "sa": "vibhūteḥ", "en": "of manifested power" },
+      { "sa": "vistaraḥ", "en": "the extent" },
+      { "sa": "mayā", "en": "by me" }
+    ],
+    "translation": "There is not an end of my divine manifestations of power, O scorcher of foes. But this extent of manifested power has been told by me by way of example."
+  },
+  "41": {
+    "words": [
+      { "sa": "yat", "en": "whatever" },
+      { "sa": "yat", "en": "whatever" },
+      { "sa": "vibhūtimat", "en": "possessing power" },
+      { "sa": "sattvam", "en": "being" },
+      { "sa": "śrīmat", "en": "possessing fortune" },
+      { "sa": "ūrjitam", "en": "mighty" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "vā", "en": "or" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "avagaccha", "en": "understand" },
+      { "sa": "tvam", "en": "you" },
+      { "sa": "mama", "en": "of my" },
+      { "sa": "tejaḥ-aṁśa-sambhavam", "en": "arisen from a portion of splendour" }
+    ],
+    "translation": "Whatever being is possessing power, possessing fortune, or indeed mighty, understand that every such one is indeed arisen from a portion of my splendour.",
+    "notes": [
+      "\"Possessing fortune\" can also be read as \"possessing beauty\"."
+    ]
+  },
+  "42": {
+    "words": [
+      { "sa": "athavā", "en": "or rather" },
+      { "sa": "bahunā", "en": "with much" },
+      { "sa": "etena", "en": "with this" },
+      { "sa": "kim", "en": "what use" },
+      { "sa": "jñātena", "en": "known" },
+      { "sa": "tava", "en": "to you" },
+      { "sa": "arjuna", "en": "O Arjuna" },
+      { "sa": "viṣṭabhya", "en": "having propped up" },
+      { "sa": "aham", "en": "I" },
+      { "sa": "idam", "en": "this" },
+      { "sa": "kṛtsnam", "en": "whole" },
+      { "sa": "eka-aṁśena", "en": "with a single portion" },
+      { "sa": "sthitaḥ", "en": "stand" },
+      { "sa": "jagat", "en": "world" }
+    ],
+    "translation": "Or rather, what use to you, O Arjuna, is this much, known? Having propped up this whole world with a single portion, I stand.",
+    "notes": [
+      "\"Having propped up\" can also be read as \"having pervaded\"."
+    ]
+  }
+}

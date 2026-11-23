@@ -1,0 +1,470 @@
+{
+  "1": {
+    "words": [
+      { "sa": "saṁnyāsasya", "en": "of renunciation", "term": "sannyasa" },
+      { "sa": "mahā-bāho", "en": "O mighty-armed one" },
+      { "sa": "tattvam", "en": "the truth" },
+      { "sa": "icchāmi", "en": "I wish" },
+      { "sa": "veditum", "en": "to know" },
+      { "sa": "tyāgasya", "en": "of giving up" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "hṛṣīkeśa", "en": "O lord of the senses" },
+      { "sa": "pṛthak", "en": "separately" },
+      { "sa": "keśi-niṣūdana", "en": "O slayer of Keśī" }
+    ],
+    "translation": "O mighty-armed one, I wish to know the truth of renunciation, and of giving up, O lord of the senses, separately, O slayer of Keśī."
+  },
+  "2": {
+    "words": [
+      { "sa": "kāmyānām", "en": "of those done from desire", "term": "kama" },
+      { "sa": "karmaṇām", "en": "of actions", "term": "karma" },
+      { "sa": "nyāsam", "en": "the laying down" },
+      { "sa": "saṁnyāsam", "en": "renunciation", "term": "sannyasa" },
+      { "sa": "kavayaḥ", "en": "the poets" },
+      { "sa": "viduḥ", "en": "they know" },
+      { "sa": "sarva-karma-phala-tyāgam", "en": "the giving up of the fruit of all actions", "term": "karma" },
+      { "sa": "prāhuḥ", "en": "they call" },
+      { "sa": "tyāgam", "en": "giving up" },
+      { "sa": "vicakṣaṇāḥ", "en": "the clear-sighted" }
+    ],
+    "translation": "The poets know the laying down of actions done from desire as renunciation. The clear-sighted call the giving up of the fruit of all actions giving up."
+  },
+  "3": {
+    "words": [
+      { "sa": "tyājyam", "en": "to be given up" },
+      { "sa": "doṣa-vat", "en": "having fault" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "eke", "en": "some" },
+      { "sa": "karma", "en": "action", "term": "karma" },
+      { "sa": "prāhuḥ", "en": "they say" },
+      { "sa": "manīṣiṇaḥ", "en": "thoughtful ones" },
+      { "sa": "yajña-dāna-tapaḥ-karma", "en": "the action of sacrifice, giving and austerity", "term": "karma" },
+      { "sa": "na", "en": "not" },
+      { "sa": "tyājyam", "en": "to be given up" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "apare", "en": "others" }
+    ],
+    "translation": "Some thoughtful ones say: \"Action, having fault, is to be given up.\" And others: \"The action of sacrifice, giving and austerity is not to be given up.\"",
+    "notes": ["\"Action, having fault, is to be given up\" can also be read as \"action is to be given up like a fault\"."]
+  },
+  "4": {
+    "words": [
+      { "sa": "niścayam", "en": "the settled conclusion" },
+      { "sa": "śṛṇu", "en": "hear" },
+      { "sa": "me", "en": "my" },
+      { "sa": "tatra", "en": "there" },
+      { "sa": "tyāge", "en": "about giving up" },
+      { "sa": "bharata-sattama", "en": "O best of the Bharatas" },
+      { "sa": "tyāgaḥ", "en": "giving up" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "puruṣa-vyāghra", "en": "O tiger among men" },
+      { "sa": "tri-vidhaḥ", "en": "of three kinds" },
+      { "sa": "samprakīrtitaḥ", "en": "is declared" }
+    ],
+    "translation": "Hear my settled conclusion there, about giving up, O best of the Bharatas. For giving up, O tiger among men, is declared to be of three kinds."
+  },
+  "5": {
+    "words": [
+      { "sa": "yajña-dāna-tapaḥ-karma", "en": "the action of sacrifice, giving and austerity", "term": "karma" },
+      { "sa": "na", "en": "not" },
+      { "sa": "tyājyam", "en": "to be given up" },
+      { "sa": "kāryam", "en": "to be done" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "yajñaḥ", "en": "sacrifice" },
+      { "sa": "dānam", "en": "giving" },
+      { "sa": "tapaḥ", "en": "austerity" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "pāvanāni", "en": "purifiers" },
+      { "sa": "manīṣiṇām", "en": "of the thoughtful" }
+    ],
+    "translation": "The action of sacrifice, giving and austerity is not to be given up. That is indeed to be done. Sacrifice, giving and austerity are indeed purifiers of the thoughtful."
+  },
+  "6": {
+    "words": [
+      { "sa": "etāni", "en": "these" },
+      { "sa": "api", "en": "even" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "karmāṇi", "en": "actions", "term": "karma" },
+      { "sa": "saṅgam", "en": "attachment", "term": "sanga" },
+      { "sa": "tyaktvā", "en": "having given up" },
+      { "sa": "phalāni", "en": "the fruits" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "kartavyāni", "en": "to be done" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "me", "en": "my" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "niścitam", "en": "settled" },
+      { "sa": "matam", "en": "view" },
+      { "sa": "uttamam", "en": "highest" }
+    ],
+    "translation": "But even these actions are to be done having given up attachment and the fruits. This, O son of Pṛthā, is my settled, highest view."
+  },
+  "7": {
+    "words": [
+      { "sa": "niyatasya", "en": "of prescribed" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "saṁnyāsaḥ", "en": "renunciation", "term": "sannyasa" },
+      { "sa": "karmaṇaḥ", "en": "of action", "term": "karma" },
+      { "sa": "na", "en": "not" },
+      { "sa": "upapadyate", "en": "is fitting" },
+      { "sa": "mohāt", "en": "from delusion" },
+      { "sa": "tasya", "en": "of it" },
+      { "sa": "parityāgaḥ", "en": "the complete giving up" },
+      { "sa": "tāmasaḥ", "en": "of tamas", "term": "guna" },
+      { "sa": "parikīrtitaḥ", "en": "is declared" }
+    ],
+    "translation": "But renunciation of prescribed action is not fitting. The complete giving up of it from delusion is declared to be of tamas.",
+    "notes": ["\"Prescribed action\" can also be read as \"necessary action\", meaning what one's own nature and place require."]
+  },
+  "8": {
+    "words": [
+      { "sa": "duḥkham", "en": "painful" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "eva", "en": "merely" },
+      { "sa": "yat", "en": "whatever" },
+      { "sa": "karma", "en": "action", "term": "karma" },
+      { "sa": "kāya-kleśa-bhayāt", "en": "from fear of trouble to the body" },
+      { "sa": "tyajet", "en": "one would give up" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "kṛtvā", "en": "having done" },
+      { "sa": "rājasam", "en": "of rajas", "term": "guna" },
+      { "sa": "tyāgam", "en": "a giving up" },
+      { "sa": "na", "en": "not" },
+      { "sa": "eva", "en": "at all" },
+      { "sa": "tyāga-phalam", "en": "the fruit of giving up" },
+      { "sa": "labhet", "en": "would obtain" }
+    ],
+    "translation": "Whatever action one would give up merely as \"painful\", from fear of trouble to the body: he, having done a giving up of rajas, would not at all obtain the fruit of giving up."
+  },
+  "9": {
+    "words": [
+      { "sa": "kāryam", "en": "to be done" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "eva", "en": "merely" },
+      { "sa": "yat", "en": "whatever" },
+      { "sa": "karma", "en": "action", "term": "karma" },
+      { "sa": "niyatam", "en": "prescribed" },
+      { "sa": "kriyate", "en": "is done" },
+      { "sa": "arjuna", "en": "O Arjuna" },
+      { "sa": "saṅgam", "en": "attachment", "term": "sanga" },
+      { "sa": "tyaktvā", "en": "having given up" },
+      { "sa": "phalam", "en": "the fruit" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "also" },
+      { "sa": "saḥ", "en": "that" },
+      { "sa": "tyāgaḥ", "en": "giving up" },
+      { "sa": "sāttvikaḥ", "en": "of sattva", "term": "guna" },
+      { "sa": "mataḥ", "en": "is considered" }
+    ],
+    "translation": "Whatever prescribed action is done merely as \"to be done\", O Arjuna, having given up attachment and also the fruit: that giving up is considered to be of sattva."
+  },
+  "10": {
+    "words": [
+      { "sa": "na", "en": "not" },
+      { "sa": "dveṣṭi", "en": "he hates" },
+      { "sa": "akuśalam", "en": "disagreeable" },
+      { "sa": "karma", "en": "action", "term": "karma" },
+      { "sa": "kuśale", "en": "to the agreeable" },
+      { "sa": "na", "en": "not" },
+      { "sa": "anuṣajjate", "en": "he clings", "term": "sanga" },
+      { "sa": "tyāgī", "en": "the one who gives up" },
+      { "sa": "sattva-samāviṣṭaḥ", "en": "filled with sattva", "term": "guna" },
+      { "sa": "medhāvī", "en": "intelligent" },
+      { "sa": "chinna-saṁśayaḥ", "en": "whose doubt is cut off" }
+    ],
+    "translation": "The one who gives up, filled with sattva, intelligent, whose doubt is cut off, does not hate disagreeable action and does not cling to the agreeable.",
+    "notes": ["\"Disagreeable action\" and \"the agreeable\" can also be read as \"unskilled action\" and \"the skilled\"."]
+  },
+  "11": {
+    "words": [
+      { "sa": "na", "en": "not" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "deha-bhṛtā", "en": "by one who bears a body" },
+      { "sa": "śakyam", "en": "possible" },
+      { "sa": "tyaktum", "en": "to give up" },
+      { "sa": "karmāṇi", "en": "actions", "term": "karma" },
+      { "sa": "aśeṣataḥ", "en": "without remainder" },
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "karma-phala-tyāgī", "en": "one who gives up the fruit of action", "term": "karma" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "tyāgī", "en": "one who gives up" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "abhidhīyate", "en": "is called" }
+    ],
+    "translation": "For it is not possible for one who bears a body to give up actions without remainder. But he who gives up the fruit of action is called one who gives up."
+  },
+  "12": {
+    "words": [
+      { "sa": "aniṣṭam", "en": "unwanted" },
+      { "sa": "iṣṭam", "en": "wanted" },
+      { "sa": "miśram", "en": "mixed" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "tri-vidham", "en": "of three kinds" },
+      { "sa": "karmaṇaḥ", "en": "of action", "term": "karma" },
+      { "sa": "phalam", "en": "the fruit" },
+      { "sa": "bhavati", "en": "it comes to be" },
+      { "sa": "atyāginām", "en": "for those who do not give up" },
+      { "sa": "pretya", "en": "after departing" },
+      { "sa": "na", "en": "not" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "saṁnyāsinām", "en": "for renouncers", "term": "sannyasa" },
+      { "sa": "kvacit", "en": "ever" }
+    ],
+    "translation": "Unwanted, wanted and mixed: the fruit of action is of three kinds. It comes to be for those who do not give up, after departing, but not ever for renouncers."
+  },
+  "13": {
+    "words": [
+      { "sa": "pañca", "en": "five" },
+      { "sa": "etāni", "en": "these" },
+      { "sa": "mahā-bāho", "en": "O mighty-armed one" },
+      { "sa": "kāraṇāni", "en": "causes" },
+      { "sa": "nibodha", "en": "learn" },
+      { "sa": "me", "en": "from me" },
+      { "sa": "sāṅkhye", "en": "in the sāṅkhya", "term": "sankhya" },
+      { "sa": "kṛta-ante", "en": "in the settled conclusion" },
+      { "sa": "proktāni", "en": "declared" },
+      { "sa": "siddhaye", "en": "for the accomplishment" },
+      { "sa": "sarva-karmaṇām", "en": "of all actions", "term": "karma" }
+    ],
+    "translation": "Learn from me, O mighty-armed one, these five causes for the accomplishment of all actions, declared in the sāṅkhya, the settled conclusion.",
+    "notes": ["\"The settled conclusion\" can also be read as \"where action comes to its end\"."]
+  },
+  "14": {
+    "words": [
+      { "sa": "adhiṣṭhānam", "en": "the seat" },
+      { "sa": "tathā", "en": "likewise" },
+      { "sa": "kartā", "en": "the doer" },
+      { "sa": "karaṇam", "en": "the instrument" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "pṛthak-vidham", "en": "of separate kinds" },
+      { "sa": "vividhāḥ", "en": "various" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "pṛthak", "en": "separate" },
+      { "sa": "ceṣṭāḥ", "en": "movements" },
+      { "sa": "daivam", "en": "the divine" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "atra", "en": "here" },
+      { "sa": "pañcamam", "en": "the fifth" }
+    ],
+    "translation": "The seat, likewise the doer, and the instrument of separate kinds, and the various separate movements, and the divine is indeed the fifth here.",
+    "notes": ["\"The divine\" can also be read as \"fate\"."]
+  },
+  "15": {
+    "words": [
+      { "sa": "śarīra-vāk-manobhiḥ", "en": "with body, speech and mind", "term": "manas" },
+      { "sa": "yat", "en": "whatever" },
+      { "sa": "karma", "en": "action", "term": "karma" },
+      { "sa": "prārabhate", "en": "undertakes" },
+      { "sa": "naraḥ", "en": "a man" },
+      { "sa": "nyāyyam", "en": "right" },
+      { "sa": "vā", "en": "or" },
+      { "sa": "viparītam", "en": "the opposite" },
+      { "sa": "vā", "en": "or" },
+      { "sa": "pañca", "en": "five" },
+      { "sa": "ete", "en": "these" },
+      { "sa": "tasya", "en": "of it" },
+      { "sa": "hetavaḥ", "en": "the causes" }
+    ],
+    "translation": "Whatever action a man undertakes with body, speech and mind, right or the opposite, these five are the causes of it."
+  },
+  "16": {
+    "words": [
+      { "sa": "tatra", "en": "there" },
+      { "sa": "evam", "en": "thus" },
+      { "sa": "sati", "en": "it being" },
+      { "sa": "kartāram", "en": "as the doer" },
+      { "sa": "ātmānam", "en": "the self", "term": "atman" },
+      { "sa": "kevalam", "en": "alone" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "paśyati", "en": "sees" },
+      { "sa": "akṛta-buddhitvāt", "en": "from having an unformed buddhi", "term": "buddhi" },
+      { "sa": "na", "en": "not" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "paśyati", "en": "sees" },
+      { "sa": "durmatiḥ", "en": "of poor understanding" }
+    ],
+    "translation": "But it being thus there, he who, from having an unformed buddhi, sees the self alone as the doer, he, of poor understanding, does not see.",
+    "notes": ["\"The self alone as the doer\" can also be read as \"himself alone as the doer\"."]
+  },
+  "17": {
+    "words": [
+      { "sa": "yasya", "en": "whose" },
+      { "sa": "na", "en": "not" },
+      { "sa": "ahaṅkṛtaḥ", "en": "made of the sense of I" },
+      { "sa": "bhāvaḥ", "en": "state of being" },
+      { "sa": "buddhiḥ", "en": "buddhi", "term": "buddhi" },
+      { "sa": "yasya", "en": "whose" },
+      { "sa": "na", "en": "not" },
+      { "sa": "lipyate", "en": "is stained" },
+      { "sa": "hatvā", "en": "having killed" },
+      { "sa": "api", "en": "even" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "imān", "en": "these" },
+      { "sa": "lokān", "en": "worlds" },
+      { "sa": "na", "en": "not" },
+      { "sa": "hanti", "en": "he kills" },
+      { "sa": "na", "en": "not" },
+      { "sa": "nibadhyate", "en": "he is bound" }
+    ],
+    "translation": "He whose state of being is not made of the sense of I, whose buddhi is not stained, even having killed these worlds, does not kill and is not bound.",
+    "notes": ["\"These worlds\" can also be read as \"these people\"."]
+  },
+  "18": {
+    "words": [
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "jñeyam", "en": "what is to be known" },
+      { "sa": "parijñātā", "en": "the knower" },
+      { "sa": "tri-vidhā", "en": "of three kinds" },
+      { "sa": "karma-codanā", "en": "the urging to action", "term": "karma" },
+      { "sa": "karaṇam", "en": "the instrument" },
+      { "sa": "karma", "en": "the action", "term": "karma" },
+      { "sa": "kartā", "en": "the doer" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "tri-vidhaḥ", "en": "of three kinds" },
+      { "sa": "karma-saṅgrahaḥ", "en": "the sum of action", "term": "karma" }
+    ],
+    "translation": "Knowledge, what is to be known and the knower: the urging to action is of three kinds. The instrument, the action and the doer: thus the sum of action is of three kinds."
+  },
+  "19": {
+    "words": [
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "karma", "en": "action", "term": "karma" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "kartā", "en": "the doer" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "tridhā", "en": "in three ways" },
+      { "sa": "eva", "en": "only" },
+      { "sa": "guṇa-bhedataḥ", "en": "by the division of the guṇas", "term": "guna" },
+      { "sa": "procyate", "en": "is declared" },
+      { "sa": "guṇa-saṅkhyāne", "en": "in the reckoning of the guṇas", "term": "guna" },
+      { "sa": "yathāvat", "en": "as they are" },
+      { "sa": "śṛṇu", "en": "hear" },
+      { "sa": "tāni", "en": "those" },
+      { "sa": "api", "en": "also" }
+    ],
+    "translation": "Knowledge, action and the doer are declared in the reckoning of the guṇas in only three ways, by the division of the guṇas. Hear those also, as they are."
+  },
+  "20": {
+    "words": [
+      { "sa": "sarva-bhūteṣu", "en": "in all beings" },
+      { "sa": "yena", "en": "by which" },
+      { "sa": "ekam", "en": "one" },
+      { "sa": "bhāvam", "en": "being" },
+      { "sa": "avyayam", "en": "imperishable" },
+      { "sa": "īkṣate", "en": "one sees" },
+      { "sa": "avibhaktam", "en": "undivided" },
+      { "sa": "vibhakteṣu", "en": "in the divided" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "viddhi", "en": "know" },
+      { "sa": "sāttvikam", "en": "of sattva", "term": "guna" }
+    ],
+    "translation": "That by which one sees in all beings one imperishable being, undivided in the divided: know that knowledge to be of sattva."
+  },
+  "21": {
+    "words": [
+      { "sa": "pṛthaktvena", "en": "by separateness" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "yat", "en": "which" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "nānā-bhāvān", "en": "manifold beings" },
+      { "sa": "pṛthak-vidhān", "en": "of separate kinds" },
+      { "sa": "vetti", "en": "knows" },
+      { "sa": "sarveṣu", "en": "in all" },
+      { "sa": "bhūteṣu", "en": "in beings" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "viddhi", "en": "know" },
+      { "sa": "rājasam", "en": "of rajas", "term": "guna" }
+    ],
+    "translation": "But the knowledge which, by separateness, knows manifold beings of separate kinds in all beings: know that knowledge to be of rajas."
+  },
+  "22": {
+    "words": [
+      { "sa": "yat", "en": "which" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "kṛtsna-vat", "en": "as if the whole" },
+      { "sa": "ekasmin", "en": "to one" },
+      { "sa": "kārye", "en": "to an effect" },
+      { "sa": "saktam", "en": "attached", "term": "sanga" },
+      { "sa": "ahaitukam", "en": "without reason" },
+      { "sa": "atattva-artha-vat", "en": "not having the truth as its object" },
+      { "sa": "alpam", "en": "small" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "tāmasam", "en": "of tamas", "term": "guna" },
+      { "sa": "udāhṛtam", "en": "is said to be" }
+    ],
+    "translation": "But that which is attached to one effect as if it were the whole, without reason, not having the truth as its object, and small: that is said to be of tamas.",
+    "notes": ["\"One effect\" can also be read as \"one task\"."]
+  },
+  "23": {
+    "words": [
+      { "sa": "niyatam", "en": "prescribed" },
+      { "sa": "saṅga-rahitam", "en": "free of attachment", "term": "sanga" },
+      { "sa": "arāga-dveṣataḥ", "en": "without passion or hatred" },
+      { "sa": "kṛtam", "en": "done" },
+      { "sa": "aphala-prepsunā", "en": "by one not wishing to gain the fruit" },
+      { "sa": "karma", "en": "action", "term": "karma" },
+      { "sa": "yat", "en": "which" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "sāttvikam", "en": "of sattva", "term": "guna" },
+      { "sa": "ucyate", "en": "is said to be" }
+    ],
+    "translation": "Action which is prescribed, free of attachment, done without passion or hatred by one not wishing to gain the fruit: that is said to be of sattva."
+  },
+  "24": {
+    "words": [
+      { "sa": "yat", "en": "which" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "kāma-īpsunā", "en": "by one wishing to gain desires", "term": "kama" },
+      { "sa": "karma", "en": "action", "term": "karma" },
+      { "sa": "sa-ahaṅkāreṇa", "en": "by one with the sense of I" },
+      { "sa": "vā", "en": "or" },
+      { "sa": "punaḥ", "en": "again" },
+      { "sa": "kriyate", "en": "is done" },
+      { "sa": "bahula-āyāsam", "en": "with much strain" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "rājasam", "en": "of rajas", "term": "guna" },
+      { "sa": "udāhṛtam", "en": "is said to be" }
+    ],
+    "translation": "But action which is done with much strain by one wishing to gain desires, or again by one with the sense of I: that is said to be of rajas."
+  },
+  "25": {
+    "words": [
+      { "sa": "anubandham", "en": "consequence" },
+      { "sa": "kṣayam", "en": "loss" },
+      { "sa": "hiṁsām", "en": "harm" },
+      { "sa": "anapekṣya", "en": "without regarding" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "pauruṣam", "en": "one's own strength" },
+      { "sa": "mohāt", "en": "from delusion" },
+      { "sa": "ārabhyate", "en": "is undertaken" },
+      { "sa": "karma", "en": "action", "term": "karma" },
+      { "sa": "yat", "en": "which" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "tāmasam", "en": "of tamas", "term": "guna" },
+      { "sa": "ucyate", "en": "is said to be" }
+    ],
+    "translation": "Action which is undertaken from delusion, without regarding consequence, loss, harm and one's own strength: that is said to be of tamas."
+  },
+  "26": {
+    "words": [
+      { "sa": "mukta-saṅgaḥ", "en": "freed from attachment", "term": "sanga" },
+      { "sa": "anaham-vādī", "en": "not speaking of I" },
+      { "sa": "dhṛti-utsāha-samanvitaḥ", "en": "endowed with firmness and energy" },
+      { "sa": "siddhi-asiddhyoḥ", "en": "in success and failure" },
+      { "sa": "nirvikāraḥ", "en": "unchanged" },
+      { "sa": "kartā", "en": "a doer" },
+      { "sa": "sāttvikaḥ", "en": "of sattva", "term": "guna" },
+      { "sa": "ucyate", "en": "is said to be" }
+    ],
+    "translation": "A doer freed from attachment, not speaking of I, endowed with firmness and energy, unchanged in success and failure, is said to be of sattva."
+  }
+}

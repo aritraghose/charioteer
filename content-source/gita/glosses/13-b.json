@@ -1,0 +1,301 @@
+{
+  "19": {
+    "words": [
+      { "sa": "iti", "en": "thus" },
+      { "sa": "kṣetram", "en": "the field" },
+      { "sa": "tathā", "en": "likewise" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "jñeyam", "en": "what is to be known" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "uktam", "en": "has been told" },
+      { "sa": "samāsataḥ", "en": "in brief" },
+      { "sa": "mat-bhaktaḥ", "en": "one devoted to me" },
+      { "sa": "etat", "en": "this" },
+      { "sa": "vijñāya", "en": "having understood" },
+      { "sa": "mat-bhāvāya", "en": "for my state of being" },
+      { "sa": "upapadyate", "en": "becomes fit" }
+    ],
+    "translation": "Thus the field, likewise knowledge, and what is to be known have been told in brief. One devoted to me, having understood this, becomes fit for my state of being."
+  },
+  "20": {
+    "words": [
+      { "sa": "prakṛtim", "en": "nature" },
+      { "sa": "puruṣam", "en": "the person" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "viddhi", "en": "know" },
+      { "sa": "anādī", "en": "without beginning" },
+      { "sa": "ubhau", "en": "both" },
+      { "sa": "api", "en": "also" },
+      { "sa": "vikārān", "en": "the changes" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "guṇān", "en": "the guṇas", "term": "guna" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "viddhi", "en": "know" },
+      { "sa": "prakṛti-sambhavān", "en": "born of nature" }
+    ],
+    "translation": "Know that nature and the person are indeed both without beginning, and know also that the changes and the guṇas are indeed born of nature."
+  },
+  "21": {
+    "words": [
+      { "sa": "kārya-kāraṇa-kartṛtve", "en": "in the making of effect and cause" },
+      { "sa": "hetuḥ", "en": "the reason" },
+      { "sa": "prakṛtiḥ", "en": "nature" },
+      { "sa": "ucyate", "en": "is said to be" },
+      { "sa": "puruṣaḥ", "en": "the person" },
+      { "sa": "sukha-duḥkhānām", "en": "of pleasures and pains" },
+      { "sa": "bhoktṛtve", "en": "in the experiencing" },
+      { "sa": "hetuḥ", "en": "the reason" },
+      { "sa": "ucyate", "en": "is said to be" }
+    ],
+    "translation": "Nature is said to be the reason in the making of effect and cause. The person is said to be the reason in the experiencing of pleasures and pains.",
+    "notes": ["\"The making of effect and cause\" can also be read as \"the making of the body and its instruments\", that is, the body and the senses."]
+  },
+  "22": {
+    "words": [
+      { "sa": "puruṣaḥ", "en": "the person" },
+      { "sa": "prakṛti-sthaḥ", "en": "standing in nature" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "bhuṅkte", "en": "experiences" },
+      { "sa": "prakṛti-jān", "en": "born of nature" },
+      { "sa": "guṇān", "en": "the guṇas", "term": "guna" },
+      { "sa": "kāraṇam", "en": "the cause" },
+      { "sa": "guṇa-saṅgaḥ", "en": "attachment to the guṇas", "term": "sanga" },
+      { "sa": "asya", "en": "of this one" },
+      { "sa": "sat-asat-yoni-janmasu", "en": "in births in good and bad wombs" }
+    ],
+    "translation": "For the person, standing in nature, experiences the guṇas born of nature. Attachment to the guṇas is the cause of this one's births in good and bad wombs."
+  },
+  "23": {
+    "words": [
+      { "sa": "upadraṣṭā", "en": "the onlooker" },
+      { "sa": "anumantā", "en": "the one who consents" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "bhartā", "en": "the supporter" },
+      { "sa": "bhoktā", "en": "the experiencer" },
+      { "sa": "mahā-īśvaraḥ", "en": "the great lord" },
+      { "sa": "parama-ātmā", "en": "the highest self", "term": "atman" },
+      { "sa": "iti", "en": "thus" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "api", "en": "also" },
+      { "sa": "uktaḥ", "en": "is called" },
+      { "sa": "dehe", "en": "in the body" },
+      { "sa": "asmin", "en": "in this" },
+      { "sa": "puruṣaḥ", "en": "the person" },
+      { "sa": "paraḥ", "en": "the highest" }
+    ],
+    "translation": "The highest person in this body is the onlooker and the one who consents, the supporter, the experiencer, the great lord, and is also called the highest self."
+  },
+  "24": {
+    "words": [
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "evam", "en": "in this way" },
+      { "sa": "vetti", "en": "knows" },
+      { "sa": "puruṣam", "en": "the person" },
+      { "sa": "prakṛtim", "en": "nature" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "guṇaiḥ", "en": "with the guṇas", "term": "guna" },
+      { "sa": "saha", "en": "together" },
+      { "sa": "sarvathā", "en": "in whatever way" },
+      { "sa": "vartamānaḥ", "en": "living" },
+      { "sa": "api", "en": "even" },
+      { "sa": "na", "en": "not" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "bhūyaḥ", "en": "again" },
+      { "sa": "abhijāyate", "en": "is born" }
+    ],
+    "translation": "Who knows in this way the person and nature together with the guṇas, he is not born again, in whatever way he is living even."
+  },
+  "25": {
+    "words": [
+      { "sa": "dhyānena", "en": "by meditation" },
+      { "sa": "ātmani", "en": "in the self", "term": "atman" },
+      { "sa": "paśyanti", "en": "they see" },
+      { "sa": "kecit", "en": "some" },
+      { "sa": "ātmānam", "en": "the self", "term": "atman" },
+      { "sa": "ātmanā", "en": "by the self", "term": "atman" },
+      { "sa": "anye", "en": "others" },
+      { "sa": "sāṅkhyena", "en": "of sāṅkhya", "term": "sankhya" },
+      { "sa": "yogena", "en": "by the yoga", "term": "yoga" },
+      { "sa": "karma-yogena", "en": "by the yoga of action", "term": "karma" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "apare", "en": "still others" }
+    ],
+    "translation": "Some see the self in the self by the self by meditation, others by the yoga of sāṅkhya, and still others by the yoga of action.",
+    "notes": ["\"By the yoga of sāṅkhya\" can also be read as two separate paths, \"by sāṅkhya and by yoga\"."]
+  },
+  "26": {
+    "words": [
+      { "sa": "anye", "en": "others" },
+      { "sa": "tu", "en": "but" },
+      { "sa": "evam", "en": "in this way" },
+      { "sa": "ajānantaḥ", "en": "not knowing" },
+      { "sa": "śrutvā", "en": "having heard" },
+      { "sa": "anyebhyaḥ", "en": "from others" },
+      { "sa": "upāsate", "en": "they worship" },
+      { "sa": "te", "en": "they" },
+      { "sa": "api", "en": "also" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "atitaranti", "en": "they cross beyond" },
+      { "sa": "eva", "en": "indeed" },
+      { "sa": "mṛtyum", "en": "death" },
+      { "sa": "śruti-parāyaṇāḥ", "en": "devoted to what is heard" }
+    ],
+    "translation": "But others, not knowing in this way, having heard from others, worship. And they also, devoted to what is heard, indeed cross beyond death."
+  },
+  "27": {
+    "words": [
+      { "sa": "yāvat", "en": "as much as" },
+      { "sa": "sañjāyate", "en": "is born" },
+      { "sa": "kiñcit", "en": "any" },
+      { "sa": "sattvam", "en": "being" },
+      { "sa": "sthāvara-jaṅgamam", "en": "standing still or moving" },
+      { "sa": "kṣetra-kṣetrajña-saṁyogāt", "en": "from the joining of the field and the knower of the field" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "viddhi", "en": "know" },
+      { "sa": "bharata-ṛṣabha", "en": "O bull of the Bharatas" }
+    ],
+    "translation": "As much as any being is born, standing still or moving, know that to be from the joining of the field and the knower of the field, O bull of the Bharatas."
+  },
+  "28": {
+    "words": [
+      { "sa": "samam", "en": "the same", "term": "samatva" },
+      { "sa": "sarveṣu", "en": "in all" },
+      { "sa": "bhūteṣu", "en": "in beings" },
+      { "sa": "tiṣṭhantam", "en": "standing" },
+      { "sa": "parama-īśvaram", "en": "the highest lord" },
+      { "sa": "vinaśyatsu", "en": "in the perishing" },
+      { "sa": "avinaśyantam", "en": "not perishing" },
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "paśyati", "en": "sees" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "paśyati", "en": "sees" }
+    ],
+    "translation": "Who sees the highest lord standing the same in all beings, not perishing in the perishing, he sees."
+  },
+  "29": {
+    "words": [
+      { "sa": "samam", "en": "the same", "term": "samatva" },
+      { "sa": "paśyan", "en": "seeing" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "sarvatra", "en": "everywhere" },
+      { "sa": "samavasthitam", "en": "standing equally" },
+      { "sa": "īśvaram", "en": "the lord" },
+      { "sa": "na", "en": "not" },
+      { "sa": "hinasti", "en": "he harms" },
+      { "sa": "ātmanā", "en": "by the self", "term": "atman" },
+      { "sa": "ātmānam", "en": "the self", "term": "atman" },
+      { "sa": "tataḥ", "en": "from that" },
+      { "sa": "yāti", "en": "he goes" },
+      { "sa": "parām", "en": "to the highest" },
+      { "sa": "gatim", "en": "to the goal" }
+    ],
+    "translation": "For seeing the same lord standing equally everywhere, he does not harm the self by the self. From that he goes to the highest goal."
+  },
+  "30": {
+    "words": [
+      { "sa": "prakṛtyā", "en": "by nature" },
+      { "sa": "eva", "en": "alone" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "karmāṇi", "en": "actions", "term": "karma" },
+      { "sa": "kriyamāṇāni", "en": "being done" },
+      { "sa": "sarvaśaḥ", "en": "in every way" },
+      { "sa": "yaḥ", "en": "who" },
+      { "sa": "paśyati", "en": "sees" },
+      { "sa": "tathā", "en": "likewise" },
+      { "sa": "ātmānam", "en": "the self", "term": "atman" },
+      { "sa": "akartāram", "en": "not the doer" },
+      { "sa": "saḥ", "en": "he" },
+      { "sa": "paśyati", "en": "sees" }
+    ],
+    "translation": "And who sees actions being done in every way by nature alone, and likewise the self as not the doer, he sees."
+  },
+  "31": {
+    "words": [
+      { "sa": "yadā", "en": "when" },
+      { "sa": "bhūta-pṛthak-bhāvam", "en": "the separate state of beings" },
+      { "sa": "eka-stham", "en": "standing in one" },
+      { "sa": "anupaśyati", "en": "he sees" },
+      { "sa": "tataḥ", "en": "from that" },
+      { "sa": "eva", "en": "alone" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "vistāram", "en": "the spreading out" },
+      { "sa": "brahma", "en": "brahman", "term": "brahman" },
+      { "sa": "sampadyate", "en": "he becomes" },
+      { "sa": "tadā", "en": "then" }
+    ],
+    "translation": "When he sees the separate state of beings standing in one, and the spreading out from that alone, then he becomes brahman.",
+    "notes": ["\"He becomes brahman\" can also be read as \"he reaches brahman\"."]
+  },
+  "32": {
+    "words": [
+      { "sa": "anāditvāt", "en": "from being without beginning" },
+      { "sa": "nirguṇatvāt", "en": "from being without guṇas", "term": "guna" },
+      { "sa": "parama-ātmā", "en": "the highest self", "term": "atman" },
+      { "sa": "ayam", "en": "this" },
+      { "sa": "avyayaḥ", "en": "unchanging" },
+      { "sa": "śarīra-sthaḥ", "en": "standing in the body" },
+      { "sa": "api", "en": "even" },
+      { "sa": "kaunteya", "en": "O son of Kuntī" },
+      { "sa": "na", "en": "not" },
+      { "sa": "karoti", "en": "it acts" },
+      { "sa": "na", "en": "not" },
+      { "sa": "lipyate", "en": "it is stained" }
+    ],
+    "translation": "From being without beginning, from being without guṇas, this unchanging highest self, even standing in the body, O son of Kuntī, does not act and is not stained."
+  },
+  "33": {
+    "words": [
+      { "sa": "yathā", "en": "as" },
+      { "sa": "sarva-gatam", "en": "gone everywhere" },
+      { "sa": "saukṣmyāt", "en": "from its fineness" },
+      { "sa": "ākāśam", "en": "space" },
+      { "sa": "na", "en": "not" },
+      { "sa": "upalipyate", "en": "is stained" },
+      { "sa": "sarvatra", "en": "everywhere" },
+      { "sa": "avasthitaḥ", "en": "standing" },
+      { "sa": "dehe", "en": "in the body" },
+      { "sa": "tathā", "en": "so" },
+      { "sa": "ātmā", "en": "the self", "term": "atman" },
+      { "sa": "na", "en": "not" },
+      { "sa": "upalipyate", "en": "is stained" }
+    ],
+    "translation": "As space, gone everywhere, is not stained, from its fineness, so the self, standing everywhere in the body, is not stained."
+  },
+  "34": {
+    "words": [
+      { "sa": "yathā", "en": "as" },
+      { "sa": "prakāśayati", "en": "lights up" },
+      { "sa": "ekaḥ", "en": "one" },
+      { "sa": "kṛtsnam", "en": "whole" },
+      { "sa": "lokam", "en": "the world" },
+      { "sa": "imam", "en": "this" },
+      { "sa": "raviḥ", "en": "the sun" },
+      { "sa": "kṣetram", "en": "the field" },
+      { "sa": "kṣetrī", "en": "the owner of the field" },
+      { "sa": "tathā", "en": "so" },
+      { "sa": "kṛtsnam", "en": "whole" },
+      { "sa": "prakāśayati", "en": "lights up" },
+      { "sa": "bhārata", "en": "O descendant of Bharata" }
+    ],
+    "translation": "As the one sun lights up this whole world, so the owner of the field lights up the whole field, O descendant of Bharata."
+  },
+  "35": {
+    "words": [
+      { "sa": "kṣetra-kṣetrajñayoḥ", "en": "of the field and the knower of the field" },
+      { "sa": "evam", "en": "in this way" },
+      { "sa": "antaram", "en": "the difference" },
+      { "sa": "jñāna-cakṣuṣā", "en": "by the eye of knowledge" },
+      { "sa": "bhūta-prakṛti-mokṣam", "en": "the release of beings from nature" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "ye", "en": "who" },
+      { "sa": "viduḥ", "en": "they know" },
+      { "sa": "yānti", "en": "they go" },
+      { "sa": "te", "en": "they" },
+      { "sa": "param", "en": "to the highest" }
+    ],
+    "translation": "Who know in this way, by the eye of knowledge, the difference of the field and the knower of the field, and the release of beings from nature, they go to the highest.",
+    "notes": ["\"The release of beings from nature\" can also be read as \"release from the nature of beings\", that is, from the material source that beings come from."]
+  }
+}

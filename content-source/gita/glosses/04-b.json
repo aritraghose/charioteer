@@ -1,0 +1,358 @@
+{
+  "22": {
+    "words": [
+      { "sa": "yadṛcchā-lābha-santuṣṭaḥ", "en": "content with what is gained by chance" },
+      { "sa": "dvandva-atītaḥ", "en": "gone beyond the pairs" },
+      { "sa": "vimatsaraḥ", "en": "free from envy" },
+      { "sa": "samaḥ", "en": "the same", "term": "samatva" },
+      { "sa": "siddhau", "en": "in success" },
+      { "sa": "asiddhau", "en": "in failure" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "kṛtvā", "en": "having acted" },
+      { "sa": "api", "en": "even" },
+      { "sa": "na", "en": "not" },
+      { "sa": "nibadhyate", "en": "he is bound" }
+    ],
+    "translation": "Content with what is gained by chance, gone beyond the pairs, free from envy, the same in success and in failure, even having acted he is not bound."
+  },
+  "23": {
+    "words": [
+      { "sa": "gata-saṅgasya", "en": "of one whose attachment is gone", "term": "sanga" },
+      { "sa": "muktasya", "en": "of one who is freed" },
+      { "sa": "jñāna-avasthita-cetasaḥ", "en": "of one whose mind is settled in knowledge" },
+      { "sa": "yajñāya", "en": "for sacrifice" },
+      { "sa": "ācarataḥ", "en": "of one who acts" },
+      { "sa": "karma", "en": "action", "term": "karma" },
+      { "sa": "samagram", "en": "whole" },
+      { "sa": "pravilīyate", "en": "dissolves away" }
+    ],
+    "translation": "Of one whose attachment is gone, who is freed, whose mind is settled in knowledge, who acts for sacrifice, the whole action dissolves away."
+  },
+  "24": {
+    "words": [
+      { "sa": "brahma", "en": "brahman", "term": "brahman" },
+      { "sa": "arpaṇam", "en": "the offering" },
+      { "sa": "brahma", "en": "brahman", "term": "brahman" },
+      { "sa": "haviḥ", "en": "the oblation" },
+      { "sa": "brahma-agnau", "en": "into the fire of brahman", "term": "brahman" },
+      { "sa": "brahmaṇā", "en": "by brahman", "term": "brahman" },
+      { "sa": "hutam", "en": "poured" },
+      { "sa": "brahma", "en": "brahman", "term": "brahman" },
+      { "sa": "eva", "en": "alone" },
+      { "sa": "tena", "en": "by him" },
+      { "sa": "gantavyam", "en": "to be reached" },
+      { "sa": "brahma-karma-samādhinā", "en": "by one whose samādhi is in the action of brahman", "term": "brahman" }
+    ],
+    "translation": "Brahman is the offering, brahman is the oblation, poured by brahman into the fire of brahman. Brahman alone is to be reached by him, by one whose samādhi is in the action of brahman.",
+    "notes": [
+      "\"The offering\" can also be read as \"the tool of offering\", that is, the ladle used to pour the oblation.",
+      "\"The action of brahman\" can also be read as \"action that is brahman\"."
+    ]
+  },
+  "25": {
+    "words": [
+      { "sa": "daivam", "en": "to the gods" },
+      { "sa": "eva", "en": "only" },
+      { "sa": "apare", "en": "others" },
+      { "sa": "yajñam", "en": "the sacrifice" },
+      { "sa": "yoginaḥ", "en": "yogīs", "term": "yoga" },
+      { "sa": "paryupāsate", "en": "they attend upon" },
+      { "sa": "brahma-agnau", "en": "into the fire of brahman", "term": "brahman" },
+      { "sa": "apare", "en": "others" },
+      { "sa": "yajñam", "en": "the sacrifice" },
+      { "sa": "yajñena", "en": "by the sacrifice" },
+      { "sa": "eva", "en": "itself" },
+      { "sa": "upajuhvati", "en": "they offer" }
+    ],
+    "translation": "Other yogīs attend upon only the sacrifice to the gods. Others offer the sacrifice by the sacrifice itself into the fire of brahman."
+  },
+  "26": {
+    "words": [
+      { "sa": "śrotra-ādīni", "en": "hearing and the rest" },
+      { "sa": "indriyāṇi", "en": "the senses", "term": "indriya" },
+      { "sa": "anye", "en": "others" },
+      { "sa": "saṁyama-agniṣu", "en": "into the fires of restraint" },
+      { "sa": "juhvati", "en": "they offer" },
+      { "sa": "śabda-ādīn", "en": "sound and the rest" },
+      { "sa": "viṣayān", "en": "the objects" },
+      { "sa": "anye", "en": "others" },
+      { "sa": "indriya-agniṣu", "en": "into the fires of the senses", "term": "indriya" },
+      { "sa": "juhvati", "en": "they offer" }
+    ],
+    "translation": "Others offer the senses, hearing and the rest, into the fires of restraint. Others offer the objects, sound and the rest, into the fires of the senses."
+  },
+  "27": {
+    "words": [
+      { "sa": "sarvāṇi", "en": "all" },
+      { "sa": "indriya-karmāṇi", "en": "the actions of the senses", "term": "indriya" },
+      { "sa": "prāṇa-karmāṇi", "en": "the actions of the breath", "term": "karma" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "apare", "en": "others" },
+      { "sa": "ātma-saṁyama-yoga-agnau", "en": "into the fire of the yoga of restraint of the self", "term": "yoga" },
+      { "sa": "juhvati", "en": "they offer" },
+      { "sa": "jñāna-dīpite", "en": "kindled by knowledge" }
+    ],
+    "translation": "And others offer all the actions of the senses and the actions of the breath into the fire of the yoga of restraint of the self, kindled by knowledge."
+  },
+  "28": {
+    "words": [
+      { "sa": "dravya-yajñāḥ", "en": "those whose sacrifice is of material things" },
+      { "sa": "tapo-yajñāḥ", "en": "those whose sacrifice is austerity" },
+      { "sa": "yoga-yajñāḥ", "en": "those whose sacrifice is yoga", "term": "yoga" },
+      { "sa": "tathā", "en": "likewise" },
+      { "sa": "apare", "en": "others" },
+      { "sa": "svādhyāya-jñāna-yajñāḥ", "en": "those whose sacrifice is study and knowledge" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "yatayaḥ", "en": "strivers" },
+      { "sa": "saṁśita-vratāḥ", "en": "of sharpened vows" }
+    ],
+    "translation": "Likewise others are those whose sacrifice is of material things, those whose sacrifice is austerity, those whose sacrifice is yoga, and those whose sacrifice is study and knowledge, strivers of sharpened vows."
+  },
+  "29": {
+    "words": [
+      { "sa": "apāne", "en": "into the incoming breath" },
+      { "sa": "juhvati", "en": "they offer" },
+      { "sa": "prāṇam", "en": "the outgoing breath" },
+      { "sa": "prāṇe", "en": "into the outgoing breath" },
+      { "sa": "apānam", "en": "the incoming breath" },
+      { "sa": "tathā", "en": "likewise" },
+      { "sa": "apare", "en": "others" },
+      { "sa": "prāṇa-apāna-gatī", "en": "the movements of the outgoing and incoming breath" },
+      { "sa": "ruddhvā", "en": "having stopped" },
+      { "sa": "prāṇāyāma-parāyaṇāḥ", "en": "intent on control of the breath" }
+    ],
+    "translation": "Likewise others offer the outgoing breath into the incoming breath, and the incoming breath into the outgoing breath, having stopped the movements of the outgoing and incoming breath, intent on control of the breath.",
+    "notes": [
+      "\"The outgoing breath\" and \"the incoming breath\" can also be read the other way round, with the first word meaning the breath drawn in and the second the breath let out or sent downward."
+    ]
+  },
+  "30": {
+    "words": [
+      { "sa": "apare", "en": "others" },
+      { "sa": "niyata-āhārāḥ", "en": "with regulated food" },
+      { "sa": "prāṇān", "en": "the breaths" },
+      { "sa": "prāṇeṣu", "en": "into the breaths" },
+      { "sa": "juhvati", "en": "they offer" },
+      { "sa": "sarve", "en": "all" },
+      { "sa": "api", "en": "too" },
+      { "sa": "ete", "en": "these" },
+      { "sa": "yajña-vidaḥ", "en": "knowers of sacrifice" },
+      { "sa": "yajña-kṣapita-kalmaṣāḥ", "en": "with stains destroyed by sacrifice" }
+    ],
+    "translation": "Others, with regulated food, offer the breaths into the breaths. All these too are knowers of sacrifice, with stains destroyed by sacrifice."
+  },
+  "31": {
+    "words": [
+      { "sa": "yajña-śiṣṭa-amṛta-bhujaḥ", "en": "those who eat the nectar of what remains from sacrifice" },
+      { "sa": "yānti", "en": "they go" },
+      { "sa": "brahma", "en": "to brahman", "term": "brahman" },
+      { "sa": "sanātanam", "en": "eternal" },
+      { "sa": "na", "en": "not" },
+      { "sa": "ayam", "en": "this" },
+      { "sa": "lokaḥ", "en": "world" },
+      { "sa": "asti", "en": "is" },
+      { "sa": "ayajñasya", "en": "of one without sacrifice" },
+      { "sa": "kutaḥ", "en": "how then" },
+      { "sa": "anyaḥ", "en": "the other" },
+      { "sa": "kuru-sattama", "en": "O best of the Kurus" }
+    ],
+    "translation": "Those who eat the nectar of what remains from sacrifice go to eternal brahman. This world is not of one without sacrifice. How then the other, O best of the Kurus?"
+  },
+  "32": {
+    "words": [
+      { "sa": "evam", "en": "thus" },
+      { "sa": "bahu-vidhāḥ", "en": "of many kinds" },
+      { "sa": "yajñāḥ", "en": "sacrifices" },
+      { "sa": "vitatāḥ", "en": "spread out" },
+      { "sa": "brahmaṇaḥ", "en": "of brahman", "term": "brahman" },
+      { "sa": "mukhe", "en": "in the mouth" },
+      { "sa": "karma-jān", "en": "born of action", "term": "karma" },
+      { "sa": "viddhi", "en": "know" },
+      { "sa": "tān", "en": "them" },
+      { "sa": "sarvān", "en": "all" },
+      { "sa": "evam", "en": "thus" },
+      { "sa": "jñātvā", "en": "having known" },
+      { "sa": "vimokṣyase", "en": "you will be set free" }
+    ],
+    "translation": "Thus sacrifices of many kinds are spread out in the mouth of brahman. Know them all as born of action. Having known thus, you will be set free.",
+    "notes": [
+      "\"In the mouth of brahman\" can also be read as \"in the mouth of the Veda\", meaning that the Vedas set these sacrifices out."
+    ]
+  },
+  "33": {
+    "words": [
+      { "sa": "śreyān", "en": "better" },
+      { "sa": "dravya-mayāt", "en": "than that made of material things" },
+      { "sa": "yajñāt", "en": "than the sacrifice" },
+      { "sa": "jñāna-yajñaḥ", "en": "the sacrifice of knowledge" },
+      { "sa": "parantapa", "en": "O scorcher of foes" },
+      { "sa": "sarvam", "en": "all" },
+      { "sa": "karma", "en": "action", "term": "karma" },
+      { "sa": "akhilam", "en": "without a gap" },
+      { "sa": "pārtha", "en": "O son of Pṛthā" },
+      { "sa": "jñāne", "en": "in knowledge" },
+      { "sa": "parisamāpyate", "en": "is completed" }
+    ],
+    "translation": "Better than the sacrifice made of material things is the sacrifice of knowledge, O scorcher of foes. All action without a gap, O son of Pṛthā, is completed in knowledge."
+  },
+  "34": {
+    "words": [
+      { "sa": "tat", "en": "that" },
+      { "sa": "viddhi", "en": "know" },
+      { "sa": "praṇipātena", "en": "by bowing down" },
+      { "sa": "paripraśnena", "en": "by questioning" },
+      { "sa": "sevayā", "en": "by service" },
+      { "sa": "upadekṣyanti", "en": "they will teach" },
+      { "sa": "te", "en": "to you" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "jñāninaḥ", "en": "those who have knowledge" },
+      { "sa": "tattva-darśinaḥ", "en": "seers of the truth" }
+    ],
+    "translation": "Know that by bowing down, by questioning, by service. Those who have knowledge, seers of the truth, will teach you knowledge,",
+    "notes": [
+      "Verses 34 to 35 are one sentence in the Sanskrit."
+    ]
+  },
+  "35": {
+    "words": [
+      { "sa": "yat", "en": "which" },
+      { "sa": "jñātvā", "en": "having known" },
+      { "sa": "na", "en": "not" },
+      { "sa": "punaḥ", "en": "again" },
+      { "sa": "moham", "en": "to delusion" },
+      { "sa": "evam", "en": "in this way" },
+      { "sa": "yāsyasi", "en": "you will go" },
+      { "sa": "pāṇḍava", "en": "O son of Pāṇḍu" },
+      { "sa": "yena", "en": "by which" },
+      { "sa": "bhūtāni", "en": "beings" },
+      { "sa": "aśeṣeṇa", "en": "without remainder" },
+      { "sa": "drakṣyasi", "en": "you will see" },
+      { "sa": "ātmani", "en": "in the self", "term": "atman" },
+      { "sa": "atho", "en": "and then" },
+      { "sa": "mayi", "en": "in me" }
+    ],
+    "translation": "which having known, you will not again go to delusion in this way, O son of Pāṇḍu, and by which you will see beings without remainder in the self, and then in me.",
+    "notes": [
+      "\"In the self, and then in me\" can also be read as \"in the self, that is, in me\"."
+    ]
+  },
+  "36": {
+    "words": [
+      { "sa": "api", "en": "even" },
+      { "sa": "cet", "en": "if" },
+      { "sa": "asi", "en": "you are" },
+      { "sa": "pāpebhyaḥ", "en": "than the evil ones" },
+      { "sa": "sarvebhyaḥ", "en": "than all" },
+      { "sa": "pāpa-kṛt-tamaḥ", "en": "the greatest doer of evil" },
+      { "sa": "sarvam", "en": "all" },
+      { "sa": "jñāna-plavena", "en": "by the raft of knowledge" },
+      { "sa": "eva", "en": "alone" },
+      { "sa": "vṛjinam", "en": "wrong" },
+      { "sa": "santariṣyasi", "en": "you will cross over" }
+    ],
+    "translation": "Even if you are the greatest doer of evil, greater than all the evil ones, you will cross over all wrong by the raft of knowledge alone."
+  },
+  "37": {
+    "words": [
+      { "sa": "yathā", "en": "as" },
+      { "sa": "edhāṁsi", "en": "pieces of firewood" },
+      { "sa": "samiddhaḥ", "en": "kindled" },
+      { "sa": "agniḥ", "en": "fire" },
+      { "sa": "bhasmasāt", "en": "into ash" },
+      { "sa": "kurute", "en": "makes" },
+      { "sa": "arjuna", "en": "O Arjuna" },
+      { "sa": "jñāna-agniḥ", "en": "the fire of knowledge" },
+      { "sa": "sarva-karmāṇi", "en": "all actions", "term": "karma" },
+      { "sa": "bhasmasāt", "en": "into ash" },
+      { "sa": "kurute", "en": "makes" },
+      { "sa": "tathā", "en": "so" }
+    ],
+    "translation": "As a kindled fire makes pieces of firewood into ash, O Arjuna, so the fire of knowledge makes all actions into ash."
+  },
+  "38": {
+    "words": [
+      { "sa": "na", "en": "not" },
+      { "sa": "hi", "en": "for" },
+      { "sa": "jñānena", "en": "to knowledge" },
+      { "sa": "sadṛśam", "en": "equal" },
+      { "sa": "pavitram", "en": "a purifier" },
+      { "sa": "iha", "en": "here" },
+      { "sa": "vidyate", "en": "is found" },
+      { "sa": "tat", "en": "that" },
+      { "sa": "svayam", "en": "by himself" },
+      { "sa": "yoga-saṁsiddhaḥ", "en": "one perfected in yoga", "term": "yoga" },
+      { "sa": "kālena", "en": "in time" },
+      { "sa": "ātmani", "en": "in the self", "term": "atman" },
+      { "sa": "vindati", "en": "finds" }
+    ],
+    "translation": "For a purifier equal to knowledge is not found here. One perfected in yoga finds that by himself, in time, in the self."
+  },
+  "39": {
+    "words": [
+      { "sa": "śraddhāvān", "en": "one who has faith" },
+      { "sa": "labhate", "en": "gains" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "tat-paraḥ", "en": "intent on that" },
+      { "sa": "saṁyata-indriyaḥ", "en": "with the senses restrained", "term": "indriya" },
+      { "sa": "jñānam", "en": "knowledge" },
+      { "sa": "labdhvā", "en": "having gained" },
+      { "sa": "parām", "en": "highest" },
+      { "sa": "śāntim", "en": "peace", "term": "shanti" },
+      { "sa": "acireṇa", "en": "before long" },
+      { "sa": "adhigacchati", "en": "he reaches" }
+    ],
+    "translation": "One who has faith gains knowledge, intent on that, with the senses restrained. Having gained knowledge, he reaches the highest peace before long."
+  },
+  "40": {
+    "words": [
+      { "sa": "ajñaḥ", "en": "one who does not know" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "aśraddadhānaḥ", "en": "one who has no faith" },
+      { "sa": "ca", "en": "and" },
+      { "sa": "saṁśaya-ātmā", "en": "one whose self is doubt", "term": "atman" },
+      { "sa": "vinaśyati", "en": "perishes" },
+      { "sa": "na", "en": "not" },
+      { "sa": "ayam", "en": "this" },
+      { "sa": "lokaḥ", "en": "world" },
+      { "sa": "asti", "en": "is" },
+      { "sa": "na", "en": "nor" },
+      { "sa": "paraḥ", "en": "the other" },
+      { "sa": "na", "en": "nor" },
+      { "sa": "sukham", "en": "happiness" },
+      { "sa": "saṁśaya-ātmanaḥ", "en": "of one whose self is doubt", "term": "atman" }
+    ],
+    "translation": "One who does not know, and has no faith, and whose self is doubt, perishes. This world is not of one whose self is doubt, nor the other, nor happiness."
+  },
+  "41": {
+    "words": [
+      { "sa": "yoga-sannyasta-karmāṇam", "en": "one who has renounced actions through yoga", "term": "yoga" },
+      { "sa": "jñāna-sañchinna-saṁśayam", "en": "one whose doubt is cut apart by knowledge" },
+      { "sa": "ātmavantam", "en": "one who possesses the self", "term": "atman" },
+      { "sa": "na", "en": "not" },
+      { "sa": "karmāṇi", "en": "actions", "term": "karma" },
+      { "sa": "nibadhnanti", "en": "they bind" },
+      { "sa": "dhanañjaya", "en": "O winner of wealth" }
+    ],
+    "translation": "One who has renounced actions through yoga, whose doubt is cut apart by knowledge, who possesses the self, actions do not bind, O winner of wealth."
+  },
+  "42": {
+    "words": [
+      { "sa": "tasmāt", "en": "therefore" },
+      { "sa": "ajñāna-sambhūtam", "en": "born of ignorance" },
+      { "sa": "hṛt-stham", "en": "standing in the heart" },
+      { "sa": "jñāna-asinā", "en": "with the sword of knowledge" },
+      { "sa": "ātmanaḥ", "en": "of the self", "term": "atman" },
+      { "sa": "chittvā", "en": "having cut" },
+      { "sa": "enam", "en": "this" },
+      { "sa": "saṁśayam", "en": "doubt" },
+      { "sa": "yogam", "en": "to yoga", "term": "yoga" },
+      { "sa": "ātiṣṭha", "en": "resort" },
+      { "sa": "uttiṣṭha", "en": "stand up" },
+      { "sa": "bhārata", "en": "O descendant of Bharata" }
+    ],
+    "translation": "Therefore, having cut with the sword of knowledge this doubt of the self, born of ignorance and standing in the heart, resort to yoga. Stand up, O descendant of Bharata.",
+    "notes": [
+      "\"This doubt of the self\" can also be read as \"this doubt of your own\", or the words \"of the self\" can go with the sword instead: \"the self's sword of knowledge\"."
+    ]
+  }
+}
