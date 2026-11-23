@@ -1,3 +1,6 @@
+import { COURSE_SESSIONS } from '@/content/course-sessions'
+import type { Session, SessionStep } from '@/content/sessions-types'
+
 /**
  * Guided sessions, written as data. The player turns each one into a timeline.
  *
@@ -8,32 +11,9 @@
  * - Every session works with eyes open.
  */
 
-export type SessionStep =
-  /** Guidance to read, held on screen for `seconds`. */
-  | { kind: 'say'; text: string; seconds: number }
-  /** A stretch of practice with one short cue left on screen. */
-  | { kind: 'rest'; text: string; seconds: number }
-  /** Paced breathing. Times are in seconds per breath. */
-  | {
-      kind: 'breathe'
-      text: string
-      cycles: number
-      inhale: number
-      exhale: number
-    }
+export type { Session, SessionStep }
 
-export type Session = {
-  id: string
-  title: string
-  /** One line for the Practice list. */
-  note: string
-  /** Shown on the screen before the session starts. */
-  intro: string
-  /** Colour classes for the duration pill. */
-  pill: string
-  steps: SessionStep[]
-}
-
+/** Short sessions that can be done at any time. */
 export const SESSIONS: Session[] = [
   {
     id: 'settle',
@@ -217,6 +197,42 @@ export const SESSIONS: Session[] = [
   },
 ]
 
+/**
+ * A longer version of a session: the quiet stretches are lengthened and the
+ * spoken guidance is left as it is.
+ */
+function stretch(
+  session: Session,
+  factor: number,
+  overrides: Pick<Session, 'id' | 'title' | 'note'>,
+): Session {
+  return {
+    ...session,
+    ...overrides,
+    steps: session.steps.map((step) =>
+      step.kind === 'rest'
+        ? { ...step, seconds: Math.round((step.seconds * factor) / 10) * 10 }
+        : step,
+    ),
+  }
+}
+
+const openAwareness = SESSIONS.find((session) => session.id === 'open-awareness')
+
+const ALL_SESSIONS: Session[] = [
+  ...SESSIONS,
+  ...COURSE_SESSIONS,
+  ...(openAwareness
+    ? [
+        stretch(openAwareness, 1.7, {
+          id: 'open-awareness-long',
+          title: 'Open awareness, longer',
+          note: 'The open awareness practice with longer quiet stretches.',
+        }),
+      ]
+    : []),
+]
+
 export function getSession(id: string) {
-  return SESSIONS.find((session) => session.id === id)
+  return ALL_SESSIONS.find((session) => session.id === id)
 }
