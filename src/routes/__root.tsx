@@ -68,7 +68,7 @@ function Document({ children }: Readonly<{ children: ReactNode }>) {
         <meta
           name="theme-color"
           media="(prefers-color-scheme: dark)"
-          content="#2b212a"
+          content="#1a2040"
         />
         <ScriptOnce>{themeScript}</ScriptOnce>
       </head>

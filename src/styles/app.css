@@ -244,84 +244,86 @@
 }
 
 .dark {
-  /* Lighter twilight rose-mauve dark mode lit by pastel pink and buttercup yellow. */
-  --background: oklch(0.255 0.026 342);
-  --foreground: oklch(0.978 0.012 85);
-  --card: oklch(0.295 0.03 344);
-  --card-foreground: oklch(0.978 0.012 85);
-  --popover: oklch(0.3 0.03 344);
-  --popover-foreground: oklch(0.978 0.012 85);
+  /* Midnight: deep indigo-blue lit by warm gold, with lavender as the second accent. */
+  --background: oklch(0.22 0.04 265);
+  --foreground: oklch(0.96 0.012 90);
+  --card: oklch(0.265 0.045 265);
+  --card-foreground: oklch(0.96 0.012 90);
+  --popover: oklch(0.27 0.045 265);
+  --popover-foreground: oklch(0.96 0.012 90);
 
-  --primary: oklch(0.82 0.155 354);
-  --primary-foreground: oklch(0.24 0.04 344);
-  --secondary: oklch(0.34 0.036 346);
-  --secondary-foreground: oklch(0.978 0.012 85);
-  --muted: oklch(0.32 0.03 344);
-  --muted-foreground: oklch(0.835 0.025 350);
-  --accent: oklch(0.365 0.052 350);
-  --accent-foreground: oklch(0.91 0.11 354);
+  --primary: oklch(0.86 0.13 88);
+  --primary-foreground: oklch(0.24 0.05 265);
+  --secondary: oklch(0.31 0.05 265);
+  --secondary-foreground: oklch(0.96 0.012 90);
+  --muted: oklch(0.29 0.045 265);
+  --muted-foreground: oklch(0.82 0.03 265);
+  --accent: oklch(0.33 0.06 270);
+  --accent-foreground: oklch(0.92 0.09 88);
   --destructive: oklch(0.76 0.16 22);
 
-  --border: oklch(0.93 0.045 65 / 21%);
-  --input: oklch(0.93 0.045 65 / 30%);
-  --ring: oklch(0.88 0.13 92);
+  --border: oklch(0.9 0.04 265 / 18%);
+  --input: oklch(0.9 0.04 265 / 26%);
+  --ring: oklch(0.86 0.13 88);
 
-  --pink-soft: oklch(0.8 0.155 354 / 20%);
-  --pink-ink: oklch(0.87 0.125 354);
+  /* The "pink" tokens become lavender here, so dark mode carries no pink. */
+  --pink-soft: oklch(0.78 0.11 285 / 22%);
+  --pink-ink: oklch(0.87 0.085 285);
   --yellow-soft: oklch(0.9 0.13 92 / 20%);
   --yellow-ink: oklch(0.92 0.125 92);
-  --peach-soft: oklch(0.84 0.12 36 / 20%);
-  --peach-ink: oklch(0.88 0.115 38);
-  --lifeline-ink: oklch(0.24 0.068 346);
+  --peach-soft: oklch(0.84 0.11 55 / 20%);
+  --peach-ink: oklch(0.88 0.1 60);
+  --lifeline-ink: oklch(0.25 0.05 265);
 
-  --surface-blush: oklch(0.305 0.034 346);
-  --surface-blush-hover: oklch(0.34 0.044 348);
-  --surface-sun: oklch(0.32 0.036 72);
+  --surface-blush: oklch(0.275 0.045 268);
+  --surface-blush-hover: oklch(0.31 0.055 270);
+  --surface-sun: oklch(0.3 0.04 85);
 
   --tone-practice: var(--pink-ink);
   --tone-focus: var(--yellow-ink);
   --tone-gita: var(--peach-ink);
 
-  --flame: oklch(0.8 0.165 354);
-  --flame-top: oklch(0.92 0.14 92);
+  /* A gold lamp flame with an amber base. */
+  --flame: oklch(0.78 0.16 55);
+  --flame-top: oklch(0.93 0.14 93);
   --flame-core: oklch(0.995 0.015 95);
 
   --page-wash:
-    radial-gradient(56rem 28rem at 8% -8%, oklch(0.68 0.17 352 / 24%), transparent 66%),
-    radial-gradient(52rem 26rem at 92% -6%, oklch(0.8 0.14 92 / 18%), transparent 64%),
-    radial-gradient(38rem 20rem at 52% -8%, oklch(0.74 0.13 34 / 14%), transparent 62%);
+    radial-gradient(56rem 28rem at 8% -8%, oklch(0.55 0.15 285 / 26%), transparent 66%),
+    radial-gradient(52rem 26rem at 92% -6%, oklch(0.8 0.13 90 / 16%), transparent 64%),
+    radial-gradient(38rem 20rem at 52% -8%, oklch(0.65 0.1 225 / 12%), transparent 62%);
 
-  /* Keeps the joyful light pink -> peach -> butter-yellow glow even in dark mode! */
+  /* Gold to amber: the one bright surface in dark mode. */
   --grad-lifeline: linear-gradient(
     112deg,
-    oklch(0.81 0.145 352) 0%,
-    oklch(0.865 0.108 32) 52%,
-    oklch(0.925 0.135 93) 100%
+    oklch(0.93 0.13 95) 0%,
+    oklch(0.88 0.12 72) 55%,
+    oklch(0.84 0.11 48) 100%
   );
   --grad-sanctuary:
-    radial-gradient(28rem 20rem at 0% 0%, oklch(0.66 0.16 352 / 24%), transparent 70%),
-    radial-gradient(26rem 18rem at 100% 0%, oklch(0.78 0.13 92 / 20%), transparent 72%),
-    linear-gradient(180deg, oklch(0.305 0.034 346) 0%, oklch(0.285 0.028 344) 100%);
+    radial-gradient(28rem 20rem at 0% 0%, oklch(0.6 0.14 285 / 24%), transparent 70%),
+    radial-gradient(26rem 18rem at 100% 0%, oklch(0.78 0.13 92 / 18%), transparent 72%),
+    linear-gradient(180deg, oklch(0.28 0.046 266) 0%, oklch(0.255 0.042 265) 100%);
   --grad-folio:
-    radial-gradient(24rem 15rem at 94% 0%, oklch(0.8 0.135 92 / 22%), transparent 72%),
-    radial-gradient(22rem 15rem at 8% 100%, oklch(0.68 0.16 352 / 20%), transparent 74%),
-    linear-gradient(180deg, oklch(0.305 0.032 346) 0%, oklch(0.285 0.028 344) 100%);
+    radial-gradient(24rem 15rem at 94% 0%, oklch(0.8 0.135 92 / 20%), transparent 72%),
+    radial-gradient(22rem 15rem at 8% 100%, oklch(0.6 0.14 285 / 20%), transparent 74%),
+    linear-gradient(180deg, oklch(0.28 0.046 266) 0%, oklch(0.255 0.042 265) 100%);
   --grad-orb:
     radial-gradient(circle at 65% 30%, oklch(0.86 0.135 92 / 36%) 0%, transparent 58%),
-    radial-gradient(circle at 35% 68%, oklch(0.78 0.155 352 / 34%) 0%, transparent 62%);
+    radial-gradient(circle at 35% 68%, oklch(0.68 0.14 285 / 34%) 0%, transparent 62%);
 
-  --medallion-ring: inset 0 0 0 1px oklch(0.93 0.045 65 / 12%);
+  --medallion-ring: inset 0 0 0 1px oklch(0.9 0.04 265 / 14%);
   --medallion-core:
-    inset 0 0 0 1px oklch(0.93 0.045 65 / 14%),
+    inset 0 0 0 1px oklch(0.9 0.04 265 / 16%),
     0 12px 32px -12px oklch(0 0 0 / 55%);
   --lifeline-shadow:
     0 2px 8px oklch(0 0 0 / 24%),
-    0 16px 36px -14px oklch(0.8 0.14 354 / 30%);
+    0 16px 36px -14px oklch(0.8 0.13 90 / 28%);
   --surface-shadow:
     0 1px 3px oklch(0 0 0 / 22%),
     0 20px 48px -24px oklch(0 0 0 / 38%);
 
-  --sidebar: oklch(0.275 0.028 344);
+  --sidebar: oklch(0.24 0.042 265);
   --sidebar-foreground: var(--foreground);
   --sidebar-primary: var(--primary);
   --sidebar-primary-foreground: var(--primary-foreground);
