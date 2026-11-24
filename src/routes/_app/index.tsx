@@ -180,22 +180,31 @@ function Today() {
         </Link>
       </section>
 
-      <footer className="flex flex-col justify-between gap-3 border-t border-border/75 pt-7 text-sm leading-relaxed text-pretty text-muted-foreground sm:flex-row sm:items-center sm:gap-8">
-        <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
-          <p>No account. Everything you do here stays on this device.</p>
+<footer className="flex flex-col gap-5 border-t border-border/75 pt-7 text-sm leading-relaxed text-muted-foreground">
+        <div className="flex items-center justify-between gap-4">
+          <span className="flex items-center gap-2 text-base font-medium tracking-tight text-foreground">
+            <Logo className="size-5" />
+            {SITE_NAME}
+          </span>
           <a
             href={GITHUB_REPO_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 font-medium text-foreground/85 transition-colors hover:text-foreground"
+            className="inline-flex h-10 shrink-0 items-center gap-2 rounded-full border border-border bg-card px-4 text-sm font-medium text-foreground/85 transition-colors hover:bg-surface-blush-hover hover:text-foreground"
           >
-            <GitHubIcon className="size-3.5" />
-            <span>GitHub</span>
+            <GitHubIcon className="size-4" />
+            <span className="min-[380px]:hidden">GitHub</span>
+            <span className="hidden min-[380px]:inline">Source on GitHub</span>
           </a>
         </div>
-        <p className="text-xs sm:text-right sm:text-sm">
-          Practice, not therapy. In crisis, call your local emergency line.
-        </p>
+        <div className="flex flex-col gap-1.5 sm:flex-row sm:items-baseline sm:justify-between sm:gap-8">
+          <p className="text-pretty">
+            No account. Everything you do here stays on this device.
+          </p>
+          <p className="text-pretty sm:text-right">
+            Practice, not therapy. In crisis, call your local emergency line.
+          </p>
+        </div>
       </footer>
     </main>
   )
