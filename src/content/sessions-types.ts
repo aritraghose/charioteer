@@ -21,6 +21,10 @@ export type Session = {
   note: string
   /** Shown on the screen before the session starts. */
   intro: string
+  /** Short, plain-English explanation of why this evidence-based method helps. */
+  why?: string
+  /** Plain method tag for scannability (e.g. "Breathing", "Defusion", "Evening"). */
+  kind?: string
   /** Colour classes for the duration pill. */
   pill: string
   steps: SessionStep[]

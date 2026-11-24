@@ -1,7 +1,8 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
-import { ChevronRight, ShieldCheck } from 'lucide-react'
+import { ChevronRight, Compass, ShieldCheck } from 'lucide-react'
 import { Page } from '@/components/page'
 import { COURSE, getWeek } from '@/content/course'
+import { HOW_IT_WORKS } from '@/content/guidance'
 import { SESSIONS, getSession } from '@/content/sessions'
 import { useStored } from '@/hooks/use-stored'
 import { NAV_ITEMS } from '@/lib/nav'
@@ -39,6 +40,87 @@ function PracticePage() {
       icon={NAV_ITEMS[1].icon}
       badgeClass={NAV_ITEMS[1].badgeClass}
     >
+      {/* Quick signposting to the stateless matcher when someone isn't sure where to start */}
+      <Link
+        to="/calm"
+        className="group flex items-center gap-4 rounded-[28px] border border-lifeline-border bg-(image:--lifeline-surface) p-5 shadow-(--lifeline-shadow) transition-[background-image,transform] duration-200 hover:-translate-y-0.5 hover:bg-(image:--lifeline-surface-hover) motion-reduce:transition-none sm:px-6"
+      >
+        <span className="flex size-10 shrink-0 items-center justify-center rounded-2xl bg-lifeline-badge text-lifeline-badge-ink">
+          <Compass aria-hidden className="size-5" strokeWidth={1.9} />
+        </span>
+        <span className="flex min-w-0 flex-1 flex-col gap-0.5">
+          <span className="font-medium text-foreground">
+            Not sure what fits right now?
+          </span>
+          <span className="text-sm text-muted-foreground">
+            Pick what feels loudest in two taps—get one matched practice.
+          </span>
+        </span>
+        <ChevronRight
+          aria-hidden
+          className="size-4 shrink-0 text-muted-foreground transition-transform duration-200 group-hover:translate-x-0.5 group-hover:text-foreground motion-reduce:transition-none"
+          strokeWidth={2}
+        />
+      </Link>
+
+      <section aria-labelledby="anytime-heading" className="flex flex-col gap-5">
+        <div className="flex flex-col gap-1.5">
+          <h2
+            id="anytime-heading"
+            className="text-2xl font-medium tracking-[-0.025em]"
+          >
+            Any time
+          </h2>
+          <p className="max-w-[56ch] text-sm leading-relaxed text-pretty text-muted-foreground sm:text-base">
+            Short, evidence-based sessions for specific moments—looping
+            thoughts, harsh self-criticism, tense evenings, or steady daily
+            practice.
+          </p>
+        </div>
+        <div className="rounded-[28px] border border-border bg-(image:--grad-sanctuary) p-6 shadow-(--surface-shadow) sm:p-8">
+          <ul className="divide-y divide-border">
+            {SESSIONS.map((session) => (
+              <li key={session.id}>
+                <Link
+                  to="/session/$sessionId"
+                  params={{ sessionId: session.id }}
+                  className="group -mx-3 flex items-center gap-4 rounded-2xl px-3 py-4 transition-colors hover:bg-card sm:gap-6 sm:py-5"
+                >
+                  <div className="flex min-w-0 flex-1 flex-col gap-1">
+                    <div className="flex flex-wrap items-center gap-2">
+                      <h3 className="text-lg font-medium tracking-[-0.02em] text-foreground">
+                        {session.title}
+                      </h3>
+                      {session.kind && (
+                        <span className="text-xs font-medium text-muted-foreground">
+                          · {session.kind}
+                        </span>
+                      )}
+                    </div>
+                    <p className="max-w-[48ch] text-sm leading-relaxed text-pretty text-muted-foreground sm:text-base">
+                      {session.note}
+                    </p>
+                  </div>
+                  <span
+                    className={cn(
+                      'w-fit shrink-0 rounded-full px-3.5 py-1 text-xs font-medium ring-1 ring-border',
+                      session.pill,
+                    )}
+                  >
+                    {sessionMinutes(session)} min
+                  </span>
+                  <ChevronRight
+                    aria-hidden
+                    className="size-4 shrink-0 text-muted-foreground/60 transition-all duration-200 group-hover:translate-x-0.5 group-hover:text-foreground motion-reduce:transition-none"
+                    strokeWidth={2}
+                  />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
       <section aria-labelledby="course-heading" className="flex flex-col gap-5">
         <div className="flex flex-col gap-1.5">
           <h2
@@ -162,52 +244,35 @@ function PracticePage() {
         </Link>
       </section>
 
-      <section aria-labelledby="anytime-heading" className="flex flex-col gap-5">
+      {/* Plain-English psychoeducation — learn how these self-help methods work */}
+      <section aria-labelledby="how-works-heading" className="flex flex-col gap-5">
         <div className="flex flex-col gap-1.5">
           <h2
-            id="anytime-heading"
+            id="how-works-heading"
             className="text-2xl font-medium tracking-[-0.025em]"
           >
-            Any time
+            How these methods work
           </h2>
           <p className="max-w-[56ch] text-sm leading-relaxed text-pretty text-muted-foreground sm:text-base">
-            Short sessions for whenever you need one, in or out of the course.
+            Understanding the loop makes it easier to practise on your own.
           </p>
         </div>
-        <div className="rounded-[28px] border border-border bg-(image:--grad-sanctuary) p-6 shadow-(--surface-shadow) sm:p-8">
-          <ul className="divide-y divide-border">
-            {SESSIONS.map((session) => (
-              <li key={session.id}>
-                <Link
-                  to="/session/$sessionId"
-                  params={{ sessionId: session.id }}
-                  className="group -mx-3 flex items-center gap-4 rounded-2xl px-3 py-5 transition-colors hover:bg-card sm:gap-6"
-                >
-                  <div className="flex min-w-0 flex-1 flex-col gap-1">
-                    <h3 className="text-lg font-medium tracking-[-0.02em] text-foreground">
-                      {session.title}
-                    </h3>
-                    <p className="max-w-[48ch] text-sm leading-relaxed text-pretty text-muted-foreground sm:text-base">
-                      {session.note}
-                    </p>
-                  </div>
-                  <span
-                    className={cn(
-                      'w-fit shrink-0 rounded-full px-3.5 py-1 text-xs font-medium ring-1 ring-border',
-                      session.pill,
-                    )}
-                  >
-                    {sessionMinutes(session)} min
-                  </span>
-                  <ChevronRight
-                    aria-hidden
-                    className="size-4 shrink-0 text-muted-foreground/60 transition-all duration-200 group-hover:translate-x-0.5 group-hover:text-foreground motion-reduce:transition-none"
-                    strokeWidth={2}
-                  />
-                </Link>
-              </li>
-            ))}
-          </ul>
+        <div className="divide-y divide-border rounded-[28px] border border-border bg-card shadow-(--surface-shadow)">
+          {HOW_IT_WORKS.map((item) => (
+            <details key={item.title} className="group">
+              <summary className="flex cursor-pointer list-none items-center gap-3 px-5 py-4 transition-colors hover:bg-surface-blush-hover sm:px-6 [&::-webkit-details-marker]:hidden">
+                <span className="font-medium text-foreground">{item.title}</span>
+                <ChevronRight
+                  aria-hidden
+                  className="ml-auto size-4 text-muted-foreground/60 transition-transform group-open:rotate-90 motion-reduce:transition-none"
+                  strokeWidth={2}
+                />
+              </summary>
+              <p className="max-w-[60ch] px-5 pb-5 text-sm leading-relaxed text-pretty text-muted-foreground sm:px-6 sm:text-base">
+                {item.detail}
+              </p>
+            </details>
+          ))}
         </div>
       </section>
     </Page>

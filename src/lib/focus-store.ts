@@ -6,7 +6,15 @@ export const PARKED_KEY = 'parked-thoughts'
 const LOG_KEY = 'focus-log'
 const MAX_ENTRIES = 2000
 
-export const FOCUS_MINUTES = [15, 25, 45] as const
+export const FOCUS_MINUTES = [5, 15, 25, 45] as const
+
+/** Gentle one-tap starters for moments when writing an intention feels heavy. */
+export const FOCUS_INTENTION_PRESETS = [
+  'Start one avoided task',
+  'Work imperfectly',
+  'Read without checking phone',
+  'One small step',
+] as const
 
 /** The focus session that is running or paused right now. */
 export type ActiveFocus = {
@@ -21,6 +29,8 @@ export type ActiveFocus = {
   pausedRemainingMs: number | null
   /** Times the person noticed they drifted and came back. */
   returns: number
+  /** Optional 3-breath arrival beat before the countdown starts. */
+  arriveFirst?: boolean
 }
 
 /** A thought set down to deal with later. */

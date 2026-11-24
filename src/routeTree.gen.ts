@@ -16,7 +16,9 @@ import { Route as AppFocusRouteImport } from './routes/_app/focus'
 import { Route as AppGitaRouteImport } from './routes/_app/gita'
 import { Route as AppLadderRouteImport } from './routes/_app/ladder'
 import { Route as AppPracticeRouteImport } from './routes/_app/practice'
+import { Route as CalmBreatheRouteImport } from './routes/calm_.breathe'
 import { Route as CalmDelayRouteImport } from './routes/calm_.delay'
+import { Route as CalmGroundRouteImport } from './routes/calm_.ground'
 import { Route as CalmNowRouteImport } from './routes/calm_.now'
 import { Route as FocusNowRouteImport } from './routes/focus_.now'
 import { Route as LadderStepIdRouteImport } from './routes/ladder_.$stepId'
@@ -59,9 +61,19 @@ const AppPracticeRoute = AppPracticeRouteImport.update({
   path: '/practice',
   getParentRoute: () => AppRouteRoute,
 } as any)
+const CalmBreatheRoute = CalmBreatheRouteImport.update({
+  id: '/calm_/breathe',
+  path: '/calm/breathe',
+  getParentRoute: () => rootRouteImport,
+} as any)
 const CalmDelayRoute = CalmDelayRouteImport.update({
   id: '/calm_/delay',
   path: '/calm/delay',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CalmGroundRoute = CalmGroundRouteImport.update({
+  id: '/calm_/ground',
+  path: '/calm/ground',
   getParentRoute: () => rootRouteImport,
 } as any)
 const CalmNowRoute = CalmNowRouteImport.update({
@@ -107,7 +119,9 @@ export interface FileRoutesByFullPath {
   '/gita': typeof AppGitaRoute
   '/ladder': typeof AppLadderRoute
   '/practice': typeof AppPracticeRoute
+  '/calm/breathe': typeof CalmBreatheRoute
   '/calm/delay': typeof CalmDelayRoute
+  '/calm/ground': typeof CalmGroundRoute
   '/calm/now': typeof CalmNowRoute
   '/focus/now': typeof FocusNowRoute
   '/ladder/$stepId': typeof LadderStepIdRoute
@@ -122,7 +136,9 @@ export interface FileRoutesByTo {
   '/gita': typeof AppGitaRoute
   '/ladder': typeof AppLadderRoute
   '/practice': typeof AppPracticeRoute
+  '/calm/breathe': typeof CalmBreatheRoute
   '/calm/delay': typeof CalmDelayRoute
+  '/calm/ground': typeof CalmGroundRoute
   '/calm/now': typeof CalmNowRoute
   '/focus/now': typeof FocusNowRoute
   '/ladder/$stepId': typeof LadderStepIdRoute
@@ -140,7 +156,9 @@ export interface FileRoutesById {
   '/_app/gita': typeof AppGitaRoute
   '/_app/ladder': typeof AppLadderRoute
   '/_app/practice': typeof AppPracticeRoute
+  '/calm_/breathe': typeof CalmBreatheRoute
   '/calm_/delay': typeof CalmDelayRoute
+  '/calm_/ground': typeof CalmGroundRoute
   '/calm_/now': typeof CalmNowRoute
   '/focus_/now': typeof FocusNowRoute
   '/ladder_/$stepId': typeof LadderStepIdRoute
@@ -159,7 +177,9 @@ export interface FileRouteTypes {
     | '/gita'
     | '/ladder'
     | '/practice'
+    | '/calm/breathe'
     | '/calm/delay'
+    | '/calm/ground'
     | '/calm/now'
     | '/focus/now'
     | '/ladder/$stepId'
@@ -174,7 +194,9 @@ export interface FileRouteTypes {
     | '/gita'
     | '/ladder'
     | '/practice'
+    | '/calm/breathe'
     | '/calm/delay'
+    | '/calm/ground'
     | '/calm/now'
     | '/focus/now'
     | '/ladder/$stepId'
@@ -191,7 +213,9 @@ export interface FileRouteTypes {
     | '/_app/gita'
     | '/_app/ladder'
     | '/_app/practice'
+    | '/calm_/breathe'
     | '/calm_/delay'
+    | '/calm_/ground'
     | '/calm_/now'
     | '/focus_/now'
     | '/ladder_/$stepId'
@@ -204,7 +228,9 @@ export interface FileRouteTypes {
 }
 export interface RootRouteChildren {
   AppRouteRoute: typeof AppRouteRouteWithChildren
+  CalmBreatheRoute: typeof CalmBreatheRoute
   CalmDelayRoute: typeof CalmDelayRoute
+  CalmGroundRoute: typeof CalmGroundRoute
   CalmNowRoute: typeof CalmNowRoute
   FocusNowRoute: typeof FocusNowRoute
   LadderStepIdRoute: typeof LadderStepIdRoute
@@ -262,11 +288,25 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AppPracticeRouteImport
       parentRoute: typeof AppRouteRoute
     }
+    '/calm_/breathe': {
+      id: '/calm_/breathe'
+      path: '/calm/breathe'
+      fullPath: '/calm/breathe'
+      preLoaderRoute: typeof CalmBreatheRouteImport
+      parentRoute: typeof rootRouteImport
+    }
     '/calm_/delay': {
       id: '/calm_/delay'
       path: '/calm/delay'
       fullPath: '/calm/delay'
       preLoaderRoute: typeof CalmDelayRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/calm_/ground': {
+      id: '/calm_/ground'
+      path: '/calm/ground'
+      fullPath: '/calm/ground'
+      preLoaderRoute: typeof CalmGroundRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/calm_/now': {
@@ -351,7 +391,9 @@ const AppRouteRouteWithChildren = AppRouteRoute._addFileChildren(
 
 const rootRouteChildren: RootRouteChildren = {
   AppRouteRoute: AppRouteRouteWithChildren,
+  CalmBreatheRoute: CalmBreatheRoute,
   CalmDelayRoute: CalmDelayRoute,
+  CalmGroundRoute: CalmGroundRoute,
   CalmNowRoute: CalmNowRoute,
   FocusNowRoute: FocusNowRoute,
   LadderStepIdRoute: LadderStepIdRoute,

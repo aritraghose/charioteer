@@ -30,6 +30,8 @@ export const COURSE_SESSIONS: Session[] = [
     note: 'Move attention slowly through the body, noticing without fixing.',
     intro:
       'You move attention through the body from the feet to the head. There is nothing to relax or fix. You are only noticing what is there.',
+    why: 'Rumination keeps attention trapped in abstract thoughts. Moving slowly through physical sensations gives the mind concrete, present-moment ground.',
+    kind: 'Somatic',
     pill: 'bg-yellow-soft text-yellow-ink',
     steps: [
       {
@@ -95,6 +97,8 @@ export const COURSE_SESSIONS: Session[] = [
     note: 'Say "back" each time you notice the mind has wandered.',
     intro:
       'Each time you notice the mind has wandered, you say "back" quietly and return to the breath. A busy mind just gives you more repetitions.',
+    why: 'Treating every drift as a repetition removes the self-criticism that usually makes anxious people quit meditation.',
+    kind: 'Attention',
     pill: 'bg-peach-soft text-peach-ink',
     steps: [
       ...arrive,
@@ -144,6 +148,8 @@ export const COURSE_SESSIONS: Session[] = [
     note: 'Give a thought a one-word name, leave it unanswered, and come back.',
     intro:
       'When a thought pulls you away, you give it a one-word name such as "planning" or "worrying", and return to the breath. You name the kind of thought, not what it says.',
+    why: 'Affect and thought labelling recruits the observing part of the brain and quiets emotional reactivity without engaging the thought’s argument.',
+    kind: 'Defusion',
     pill: 'bg-pink-soft text-pink-ink',
     steps: [
       ...arrive,
@@ -197,6 +203,8 @@ export const COURSE_SESSIONS: Session[] = [
     note: 'Stay with an uncomfortable feeling or urge without fixing it.',
     intro:
       'You practise staying with something uncomfortable, such as an itch, restlessness or an urge, without fixing it. You can open your eyes and return to the breath at any point.',
+    why: 'Experiential avoidance makes discomfort feel unbearable. Watching a sensation rise and change proves directly that you can tolerate discomfort without reacting.',
+    kind: 'Urge surfing',
     pill: 'bg-yellow-soft text-yellow-ink',
     steps: [
       ...arrive,
@@ -256,6 +264,8 @@ export const COURSE_SESSIONS: Session[] = [
     note: 'Offer yourself the patience you would offer a friend.',
     intro:
       'You offer a few kind words to yourself, and then to someone else who struggles. It can feel awkward at first. You are only offering the words, not forcing a feeling.',
+    why: 'Self-compassion lowers threat-system activation and shame, which are major triggers for rumination and compulsive checking.',
+    kind: 'Compassion',
     pill: 'bg-peach-soft text-peach-ink',
     steps: [
       ...arrive,
@@ -316,6 +326,8 @@ export const COURSE_SESSIONS: Session[] = [
     note: 'Long quiet stretches with your own choice of anchor.',
     intro:
       'This is mostly quiet. You choose the anchor, whether breath, body, sounds or open awareness, and use what the earlier weeks taught you.',
+    why: 'Stepping back from constant guidance builds confidence that you carry the skill yourself—not inside an app or a script.',
+    kind: 'Independent',
     pill: 'bg-pink-soft text-pink-ink',
     steps: [
       ...arrive,

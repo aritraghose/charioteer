@@ -1,10 +1,12 @@
 import { Link } from '@tanstack/react-router'
-import { Bell, BellOff, Pause, Play, X } from 'lucide-react'
+import { Bell, BellOff, ChevronDown, Pause, Play, X } from 'lucide-react'
+import { useState } from 'react'
 import { BreathCircle, PHASE_LABEL } from '@/components/breath-circle'
 import { Button } from '@/components/ui/button'
 import type { Session } from '@/content/sessions'
 import { useSessionPlayer } from '@/hooks/use-session-player'
 import { sessionMinutes } from '@/lib/session-timeline'
+import { cn } from '@/lib/utils'
 
 function minutesLabel(seconds: number) {
   const minutes = Math.round(seconds / 60)
@@ -14,6 +16,7 @@ function minutesLabel(seconds: number) {
 
 export function SessionPlayer({ session }: Readonly<{ session: Session }>) {
   const player = useSessionPlayer(session)
+  const [showWhy, setShowWhy] = useState(false)
   const { status, segment } = player
   const active = status === 'playing' || status === 'paused'
   const remaining = player.total - player.elapsed
@@ -57,6 +60,30 @@ export function SessionPlayer({ session }: Readonly<{ session: Session }>) {
               <p className="max-w-[46ch] text-lg leading-relaxed text-pretty text-muted-foreground">
                 {session.intro}
               </p>
+              {session.why && (
+                <div className="flex flex-col items-center gap-2 pt-1">
+                  <button
+                    type="button"
+                    aria-expanded={showWhy}
+                    onClick={() => setShowWhy((open) => !open)}
+                    className="inline-flex cursor-pointer items-center gap-1 text-xs font-medium text-pink-ink hover:underline sm:text-sm"
+                  >
+                    <span>Why this works</span>
+                    <ChevronDown
+                      aria-hidden
+                      className={cn(
+                        'size-3.5 transition-transform duration-200 motion-reduce:transition-none',
+                        showWhy && 'rotate-180',
+                      )}
+                    />
+                  </button>
+                  {showWhy && (
+                    <p className="max-w-[48ch] rounded-2xl border border-border bg-card px-4 py-3 text-sm leading-relaxed text-pretty text-muted-foreground">
+                      {session.why}
+                    </p>
+                  )}
+                </div>
+              )}
             </div>
             <div className="flex flex-col items-center gap-4">
               <Button

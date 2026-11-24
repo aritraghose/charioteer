@@ -1,4 +1,5 @@
 import { Link, createFileRoute, useNavigate } from '@tanstack/react-router'
+import { Wind } from 'lucide-react'
 import { type FormEvent, useState } from 'react'
 import { Page } from '@/components/page'
 import { ThoughtParking } from '@/components/thought-parking'
@@ -10,6 +11,7 @@ import { devSpeed } from '@/lib/dev-speed'
 import {
   type ActiveFocus,
   FOCUS_ACTIVE_KEY,
+  FOCUS_INTENTION_PRESETS,
   FOCUS_MINUTES,
   clockLabel,
 } from '@/lib/focus-store'
@@ -31,7 +33,8 @@ const MAX_INTENTION = 80
 
 function FocusPage() {
   const navigate = useNavigate()
-  const [minutes, setMinutes] = useStored<number>('focus-minutes', 25)
+  const [minutes, setMinutes] = useStored<number>('focus-minutes', 15)
+  const [arriveFirst, setArriveFirst] = useStored<boolean>('focus-arrive', false)
   const [active, setActive] = useStored<ActiveFocus | null>(
     FOCUS_ACTIVE_KEY,
     null,
@@ -44,13 +47,16 @@ function FocusPage() {
     const now = Date.now()
     const totalMs = (minutes * 60_000) / devSpeed()
     setActive({
-      intention: intention.trim() || 'One thing at a time',
+      intention:
+        intention.trim() ||
+        (minutes === 5 ? 'One tiny first step' : 'One thing at a time'),
       minutes,
       totalMs,
       startedAt: now,
-      endsAt: now + totalMs,
-      pausedRemainingMs: null,
+      endsAt: arriveFirst ? null : now + totalMs,
+      pausedRemainingMs: arriveFirst ? totalMs : null,
       returns: 0,
+      arriveFirst,
     })
     void navigate({ to: '/focus/now' })
   }
@@ -65,7 +71,7 @@ function FocusPage() {
       <section className="grid overflow-hidden rounded-[28px] border border-border bg-card shadow-(--surface-shadow) sm:grid-cols-[0.95fr_1.05fr]">
         <form
           onSubmit={start}
-          className="flex flex-col items-center gap-6 bg-(image:--grad-sanctuary) p-7 text-center sm:border-r sm:border-border sm:p-8"
+          className="flex flex-col items-center gap-5 bg-(image:--grad-sanctuary) p-6 text-center sm:border-r sm:border-border sm:p-8"
         >
           <TimerRing progress={1}>
             <p className="text-4xl font-medium tracking-[-0.04em] text-foreground tabular-nums">
@@ -73,9 +79,9 @@ function FocusPage() {
             </p>
           </TimerRing>
 
-          <fieldset disabled={!!active} className="flex flex-col gap-2">
+          <fieldset disabled={!!active} className="flex flex-col items-center gap-2">
             <legend className="sr-only">Session length</legend>
-            <div className="flex gap-2">
+            <div className="flex flex-wrap justify-center gap-1.5">
               {FOCUS_MINUTES.map((option) => (
                 <button
                   key={option}
@@ -92,6 +98,12 @@ function FocusPage() {
                 </button>
               ))}
             </div>
+            {minutes === 5 && (
+              <p className="max-w-[30ch] text-xs leading-relaxed text-pretty text-muted-foreground">
+                Just start: pick one tiny physical step—you can stop after five
+                minutes.
+              </p>
+            )}
           </fieldset>
 
           {active ? (
@@ -114,11 +126,47 @@ function FocusPage() {
                 onChange={(event) => setIntention(event.target.value)}
                 maxLength={MAX_INTENTION}
                 autoComplete="off"
-                placeholder="What is the one thing?"
+                placeholder={
+                  minutes === 5
+                    ? 'One tiny first step?'
+                    : 'What is the one thing?'
+                }
                 className="h-11 w-full rounded-full border border-input bg-card px-4 text-center text-sm outline-none placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/40"
               />
+
+              {/* Optional one-tap gentle starters */}
+              <div className="flex flex-wrap justify-center gap-1.5">
+                {FOCUS_INTENTION_PRESETS.map((preset) => (
+                  <button
+                    key={preset}
+                    type="button"
+                    onClick={() => setIntention(preset)}
+                    className={cn(
+                      'cursor-pointer rounded-full border border-border/80 bg-card/70 px-2.5 py-1 text-xs text-muted-foreground transition-colors hover:bg-surface-blush-hover hover:text-foreground',
+                      intention === preset &&
+                        'border-primary/60 bg-pink-soft text-pink-ink',
+                    )}
+                  >
+                    {preset}
+                  </button>
+                ))}
+              </div>
+
+              <button
+                type="button"
+                aria-pressed={arriveFirst}
+                onClick={() => setArriveFirst((value) => !value)}
+                className={cn(
+                  'mx-auto inline-flex cursor-pointer items-center gap-1.5 rounded-full border border-border bg-card px-3.5 py-1.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-surface-blush-hover hover:text-foreground',
+                  arriveFirst && 'border-primary bg-pink-soft text-pink-ink',
+                )}
+              >
+                <Wind aria-hidden className="size-3.5 shrink-0" strokeWidth={1.9} />
+                <span>3 slow breaths first</span>
+              </button>
+
               <Button type="submit" className="h-11 w-full rounded-full text-base">
-                Start focusing
+                {minutes === 5 ? 'Start 5-minute step' : 'Start focusing'}
               </Button>
             </div>
           )}
@@ -131,11 +179,12 @@ function FocusPage() {
             </h2>
             <p className="text-sm leading-relaxed text-pretty text-muted-foreground">
               When an intrusive or urgent thought arrives, set it down in one
-              line so you do not have to hold it in your head or act on it
-              right away.
+              line so you do not have to hold it in your head or act on it right
+              away.
             </p>
           </div>
           <ThoughtParking
+            allowWorryWindow
             className="border-t border-border/80 pt-5"
             emptyText="Nothing parked. Tick a thought off once you have dealt with it or no longer need it."
           />
@@ -144,7 +193,7 @@ function FocusPage() {
 
       <p className="max-w-[56ch] text-sm leading-relaxed text-pretty text-muted-foreground">
         Your intention and parked thoughts stay on this device. A soft bell
-        marks the end of a session, and there are no alarms.
+        marks the end of a session, and there are no alarms or streaks.
       </p>
     </Page>
   )
