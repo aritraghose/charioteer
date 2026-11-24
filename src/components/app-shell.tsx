@@ -1,5 +1,6 @@
 import { Link } from '@tanstack/react-router'
 import type { ReactNode } from 'react'
+import { GITHUB_REPO_URL, GitHubIcon } from '@/components/brand-icons'
 import { Logo } from '@/components/logo'
 import { ThemeSwitcher } from '@/components/theme-switcher'
 import { CALM_ITEM, NAV_ITEMS } from '@/lib/nav'
@@ -34,7 +35,7 @@ export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
           ))}
         </nav>
 
-        <div className="ml-auto flex items-center gap-3">
+        <div className="ml-auto flex items-center gap-2.5 sm:gap-3">
           <Link
             to={CALM_ITEM.to}
             className="hidden h-9 items-center gap-2 rounded-full border border-lifeline-border bg-(image:--lifeline-surface) px-4 text-sm font-medium text-lifeline-ink shadow-(--lifeline-shadow) transition-[background-image,border-color,transform] duration-200 hover:bg-(image:--lifeline-surface-hover) active:scale-[0.98] motion-reduce:transition-none sm:inline-flex"
@@ -45,6 +46,15 @@ export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
             />
             <span>{CALM_ITEM.label}</span>
           </Link>
+          <a
+            href={GITHUB_REPO_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex h-8 items-center gap-1.5 rounded-full border border-border bg-card px-3 text-xs font-medium text-muted-foreground transition-colors hover:bg-surface-blush-hover hover:text-foreground sm:h-9 sm:px-3.5 sm:text-sm"
+          >
+            <GitHubIcon className="size-3.5 sm:size-4" />
+            <span>GitHub</span>
+          </a>
           {/* Fixed size so the header does not shift when the switcher mounts. */}
           <div className="h-8 w-20">
             <ThemeSwitcher />

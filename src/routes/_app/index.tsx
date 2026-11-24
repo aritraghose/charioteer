@@ -1,5 +1,7 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
 import { ChevronRight } from 'lucide-react'
+import { GITHUB_REPO_URL, GitHubIcon } from '@/components/brand-icons'
+import { TranslationReviewNote } from '@/components/gita/translation-review-note'
 import { Logo } from '@/components/logo'
 import { CALM_ITEM, NAV_ITEMS } from '@/lib/nav'
 import { SITE_DESCRIPTION, SITE_NAME, seo } from '@/lib/seo'
@@ -142,6 +144,7 @@ function Today() {
             <figcaption className="inline-flex w-fit rounded-full bg-yellow-soft px-3 py-0.5 text-xs font-medium text-yellow-ink">
               Chapter 6, Verse 19
             </figcaption>
+            <TranslationReviewNote className="pt-0.5" />
           </figure>
 
           <div className="flex flex-col gap-2 border-t border-border/80 pt-5">
@@ -160,8 +163,19 @@ function Today() {
         </Link>
       </section>
 
-      <footer className="flex flex-col justify-between gap-2 border-t border-border/75 pt-7 text-sm leading-relaxed text-pretty text-muted-foreground sm:flex-row sm:items-center sm:gap-8">
-        <p>No account. Everything you do here stays on this device.</p>
+      <footer className="flex flex-col justify-between gap-3 border-t border-border/75 pt-7 text-sm leading-relaxed text-pretty text-muted-foreground sm:flex-row sm:items-center sm:gap-8">
+        <div className="flex flex-wrap items-center gap-x-4 gap-y-2">
+          <p>No account. Everything you do here stays on this device.</p>
+          <a
+            href={GITHUB_REPO_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 font-medium text-foreground/85 transition-colors hover:text-foreground"
+          >
+            <GitHubIcon className="size-3.5" />
+            <span>GitHub</span>
+          </a>
+        </div>
         <p className="text-xs sm:text-right sm:text-sm">
           Practice, not therapy. In crisis, call your local emergency line.
         </p>

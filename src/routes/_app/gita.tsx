@@ -7,6 +7,7 @@ import {
   toggleSaved,
   useSavedVerses,
 } from '@/components/gita/save-button'
+import { TranslationReviewNote } from '@/components/gita/translation-review-note'
 import { Page } from '@/components/page'
 import {
   CHAPTERS,
@@ -324,12 +325,15 @@ function GitaPage() {
         </div>
       </section>
 
-      <p className="max-w-[58ch] border-l-2 border-primary/50 pl-4 text-sm leading-relaxed text-pretty text-muted-foreground">
-        The Sanskrit text is the source. Each verse has two English versions: a
-        plain one for reading straight through, and a literal one that follows
-        the Sanskrit word by word. Where a verse can be read in more than one
-        way, its page says so.
-      </p>
+      <div className="flex flex-col gap-3 border-l-2 border-primary/50 pl-4">
+        <TranslationReviewNote />
+        <p className="max-w-[58ch] text-sm leading-relaxed text-pretty text-muted-foreground">
+          The Sanskrit text is the source. Each verse has two English versions: a
+          plain one for reading straight through, and a literal one that follows
+          the Sanskrit word by word. Where a verse can be read in more than one
+          way, its page says so.
+        </p>
+      </div>
     </Page>
   )
 }

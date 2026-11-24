@@ -13,6 +13,7 @@ import {
   toggleSaved,
   useSavedVerses,
 } from '@/components/gita/save-button'
+import { TranslationReviewNote } from '@/components/gita/translation-review-note'
 import { WordStudy } from '@/components/gita/word-study'
 import {
   SPEAKER_NAME,
@@ -239,6 +240,8 @@ function VersePage() {
             </p>
           </div>
         )}
+
+        <TranslationReviewNote className="border-t border-border/60 pt-4" />
 
         {/* Tactile page-turn controls right at the foot of the folio */}
         <nav

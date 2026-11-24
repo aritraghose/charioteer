@@ -8,6 +8,7 @@ import {
   toggleSaved,
   useSavedVerses,
 } from '@/components/gita/save-button'
+import { TranslationReviewNote } from '@/components/gita/translation-review-note'
 import { WordStudy } from '@/components/gita/word-study'
 import {
   SPEAKER_NAME,
@@ -308,6 +309,8 @@ function ChapterPage() {
                     : verse.translation}
                 </p>
               )}
+
+              <TranslationReviewNote className="pt-0.5 text-[11px] opacity-80" />
 
               {/* Inline word-by-word study drawer — stay right in the chapter */}
               {isOpen && (
