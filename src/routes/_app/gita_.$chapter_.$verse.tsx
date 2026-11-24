@@ -4,26 +4,30 @@ import {
   notFound,
   useNavigate,
 } from '@tanstack/react-router'
-import { ChevronLeft, ChevronRight, X } from 'lucide-react'
-import { useEffect, useState } from 'react'
-import {
-  SPEAKER_NAME,
-  getChapter,
-  getTerm,
-  loadVerse,
-  neighbours,
-  verseRef,
-} from '@/content/gita'
+import { ChevronLeft, ChevronRight } from 'lucide-react'
+import { type TouchEvent, useEffect, useRef } from 'react'
+import { BookBar } from '@/components/gita/book-bar'
+import { useReadingOptions } from '@/components/gita/reading-options'
 import {
   SaveButton,
   toggleSaved,
   useSavedVerses,
 } from '@/components/gita/save-button'
-import { getSession } from '@/content/sessions'
+import { WordStudy } from '@/components/gita/word-study'
+import {
+  SPEAKER_NAME,
+  getChapter,
+  loadVerse,
+  neighbours,
+  verseRef,
+} from '@/content/gita'
 import { useStored } from '@/hooks/use-stored'
-import { LAST_READ_KEY, type LastRead } from '@/lib/gita-reading'
+import {
+  LAST_READ_KEY,
+  type LastRead,
+  SIZE_CLASSES,
+} from '@/lib/gita-reading'
 import { SITE_NAME, seo } from '@/lib/seo'
-import { sessionMinutes } from '@/lib/session-timeline'
 import { cn } from '@/lib/utils'
 
 export const Route = createFileRoute('/_app/gita_/$chapter_/$verse')({
@@ -48,24 +52,23 @@ export const Route = createFileRoute('/_app/gita_/$chapter_/$verse')({
 
 function VersePage() {
   const { verse } = Route.useLoaderData()
-  const [openTerm, setOpenTerm] = useState<string | null>(null)
+  const [options, setOptions] = useReadingOptions()
   const [saved, setSaved] = useSavedVerses()
   const [, setLastRead] = useStored<LastRead | null>(LAST_READ_KEY, null)
   const navigate = useNavigate()
-  const reference = verseRef(verse)
+  const touchStart = useRef<{ x: number; y: number } | null>(null)
 
+  const reference = verseRef(verse)
   const chapter = getChapter(verse.chapter)
   const { previous, next } = neighbours(verse)
-  const term = openTerm ? getTerm(openTerm) : undefined
-  const practice = verse.practice && getSession(verse.practice.sessionId)
+  const size = SIZE_CLASSES[options.size]
 
-  // Remember this as the place to continue from, and close any open term card.
+  // Remember this verse as the bookmark ribbon position.
   useEffect(() => {
     setLastRead({ chapter: verse.chapter, verse: verse.verse })
-    setOpenTerm(null)
   }, [verse.chapter, verse.verse, setLastRead])
 
-  // Left and right arrow keys move between verses.
+  // Left and right arrow keys turn pages smoothly between verses.
   useEffect(() => {
     const onKey = (event: KeyboardEvent) => {
       if (event.metaKey || event.ctrlKey || event.altKey) return
@@ -92,22 +95,64 @@ function VersePage() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [verse.chapter, verse.verse, navigate])
 
+  const onTouchStart = (event: TouchEvent) => {
+    const touch = event.touches[0]
+    touchStart.current = { x: touch.clientX, y: touch.clientY }
+  }
+
+  const onTouchEnd = (event: TouchEvent) => {
+    if (!touchStart.current) return
+    const touch = event.changedTouches[0]
+    const dx = touch.clientX - touchStart.current.x
+    const dy = touch.clientY - touchStart.current.y
+    touchStart.current = null
+    // Require a deliberate mostly-horizontal swipe so normal scrolling never triggers page turns.
+    if (Math.abs(dx) < 64 || Math.abs(dx) < Math.abs(dy) * 1.6) return
+    const target = dx < 0 ? next : previous
+    if (!target) return
+    void navigate({
+      to: '/gita/$chapter/$verse',
+      params: {
+        chapter: String(target.chapter),
+        verse: String(target.verse),
+      },
+    })
+  }
+
+  const primaryEnglish =
+    options.english === 'plain' && verse.plain
+      ? { label: 'In plain English', text: verse.plain }
+      : { label: 'Literal translation', text: verse.translation }
+
+  const secondaryEnglish =
+    verse.plain && options.translation
+      ? options.english === 'plain'
+        ? { label: 'Literal translation', text: verse.translation }
+        : { label: 'In plain English', text: verse.plain }
+      : null
+
   return (
-    <main className="mx-auto flex w-full max-w-2xl flex-1 flex-col gap-9 px-5 pt-10 pb-20 sm:px-8 sm:pt-16">
-      <header className="flex flex-col gap-3">
-        <Link
-          to="/gita/$chapter"
-          params={{ chapter: String(verse.chapter) }}
-          hash={`v${verse.verse}`}
-          className="inline-flex w-fit items-center gap-1 text-sm font-medium text-muted-foreground hover:text-foreground"
-        >
-          <ChevronLeft aria-hidden className="size-4" />
-          Chapter {verse.chapter}
-        </Link>
+    <main className="mx-auto flex w-full max-w-2xl flex-1 flex-col gap-8 px-5 pt-4 pb-24 sm:px-8 sm:pt-8">
+      {chapter && (
+        <BookBar
+          mode="verse"
+          chapter={chapter}
+          activeVerse={verse.verse}
+          options={options}
+          onOptionsChange={setOptions}
+        />
+      )}
+
+      <header className="flex flex-col gap-2 pt-2">
         <div className="flex items-start justify-between gap-4">
-          <h1 className="text-4xl leading-[1.06] font-medium tracking-[-0.036em] sm:text-5xl">
-            Chapter {verse.chapter}, verse {verse.verse}
-          </h1>
+          <div className="flex flex-col gap-1.5">
+            <p className="font-serif text-sm text-yellow-ink italic">
+              — {SPEAKER_NAME[verse.speaker]}
+            </p>
+            <h1 className="font-serif text-3xl leading-[1.12] font-medium tracking-[-0.025em] text-foreground sm:text-4xl">
+              Chapter {verse.chapter}, verse {verse.verse}
+            </h1>
+          </div>
           <SaveButton
             withLabel
             reference={reference}
@@ -116,217 +161,163 @@ function VersePage() {
             className="mt-1 shrink-0 border border-border bg-card"
           />
         </div>
-        <p className="text-muted-foreground">
-          {chapter && `${chapter.name}. ${chapter.about}. `}
-          {SPEAKER_NAME[verse.speaker]} speaks.
-        </p>
+        {chapter && (
+          <p className="text-sm text-muted-foreground sm:text-base">
+            {chapter.name} · {chapter.about}
+          </p>
+        )}
       </header>
 
-      <article className="flex flex-col gap-7 rounded-[28px] border border-border bg-(image:--grad-folio) p-6 shadow-(--surface-shadow) sm:p-9">
-        <div className="flex flex-col gap-3">
-          <p
-            lang="sa"
-            className="font-serif text-2xl leading-[1.7] text-foreground sm:text-3xl sm:leading-[1.7]"
-          >
-            {verse.devanagari.map((line) => (
-              <span key={line} className="block">
-                {line}
-              </span>
-            ))}
-          </p>
-          <p
-            lang="sa-Latn"
-            className="leading-relaxed text-muted-foreground italic"
-          >
-            {verse.iast.map((line) => (
-              <span key={line} className="block">
-                {line}
-              </span>
-            ))}
-          </p>
-        </div>
+      {/* Main verse folio page — swipeable on touch screens */}
+      <article
+        onTouchStart={onTouchStart}
+        onTouchEnd={onTouchEnd}
+        className="flex flex-col gap-7 rounded-[28px] border border-border bg-(image:--grad-folio) p-6 shadow-(--surface-shadow) sm:p-9"
+      >
+        {(options.sanskrit || options.transliteration) && (
+          <div className="flex flex-col gap-3">
+            {options.sanskrit && (
+              <p
+                lang="sa"
+                className={cn('font-serif text-foreground/95', size.sa)}
+              >
+                {verse.devanagari.map((line) => (
+                  <span key={line} className="block">
+                    {line}
+                  </span>
+                ))}
+              </p>
+            )}
+            {options.transliteration && (
+              <p
+                lang="sa-Latn"
+                className="leading-relaxed text-muted-foreground italic"
+              >
+                {verse.iast.map((line) => (
+                  <span key={line} className="block">
+                    {line}
+                  </span>
+                ))}
+              </p>
+            )}
+          </div>
+        )}
 
-        {verse.plain && (
-          <div className="flex flex-col gap-2 border-t border-border/80 pt-6">
-            <h2 className="text-sm font-medium text-pink-ink">
-              In plain English
+        {options.translation && (
+          <div
+            className={cn(
+              'flex flex-col gap-2',
+              (options.sanskrit || options.transliteration) &&
+                'border-t border-border/75 pt-6',
+            )}
+          >
+            <h2 className="text-xs font-medium text-pink-ink sm:text-sm">
+              {primaryEnglish.label}
             </h2>
-            <p className="font-serif text-xl leading-relaxed text-pretty sm:text-2xl sm:leading-relaxed">
-              {verse.plain}
+            <p
+              className={cn(
+                'font-serif text-pretty text-foreground',
+                options.size === 's'
+                  ? 'text-lg leading-relaxed sm:text-xl'
+                  : options.size === 'l'
+                    ? 'text-2xl leading-relaxed sm:text-3xl'
+                    : 'text-xl leading-relaxed sm:text-2xl',
+              )}
+            >
+              {primaryEnglish.text}
             </p>
           </div>
         )}
 
-        <div className="flex flex-col gap-2 border-t border-border/80 pt-6">
-          <h2 className="text-sm font-medium text-pink-ink">
-            Literal translation
-          </h2>
-          <p
-            className={
-              verse.plain
-                ? 'max-w-[60ch] leading-relaxed text-pretty text-muted-foreground'
-                : 'font-serif text-xl leading-relaxed text-pretty sm:text-2xl sm:leading-relaxed'
-            }
-          >
-            {verse.translation}
-          </p>
-        </div>
+        {secondaryEnglish && (
+          <div className="flex flex-col gap-1.5 border-t border-border/75 pt-5">
+            <h2 className="text-xs font-medium text-muted-foreground">
+              {secondaryEnglish.label}
+            </h2>
+            <p className="max-w-[60ch] text-sm leading-relaxed text-pretty text-muted-foreground sm:text-base">
+              {secondaryEnglish.text}
+            </p>
+          </div>
+        )}
+
+        {/* Tactile page-turn controls right at the foot of the folio */}
+        <nav
+          aria-label="Turn verse page"
+          className="flex items-center justify-between gap-3 border-t border-border/75 pt-5 text-sm font-medium"
+        >
+          {previous ? (
+            <Link
+              to="/gita/$chapter/$verse"
+              params={{
+                chapter: String(previous.chapter),
+                verse: String(previous.verse),
+              }}
+              className="inline-flex h-10 items-center gap-1.5 rounded-full border border-border bg-card px-4 text-foreground transition-colors hover:bg-surface-blush-hover"
+            >
+              <ChevronLeft aria-hidden className="size-4 text-muted-foreground" />
+              <span className="tabular-nums">
+                {previous.chapter !== verse.chapter
+                  ? `Ch. ${previous.chapter} · ${verseRef(previous)}`
+                  : verseRef(previous)}
+              </span>
+            </Link>
+          ) : (
+            <span />
+          )}
+
+          <span className="hidden text-xs text-muted-foreground/80 sm:inline">
+            ← → keys turn pages
+          </span>
+
+          {next ? (
+            <Link
+              to="/gita/$chapter/$verse"
+              params={{
+                chapter: String(next.chapter),
+                verse: String(next.verse),
+              }}
+              className="inline-flex h-10 items-center gap-1.5 rounded-full border border-border bg-card px-4 text-foreground transition-colors hover:bg-surface-blush-hover"
+            >
+              <span className="tabular-nums">
+                {next.chapter !== verse.chapter
+                  ? `Ch. ${next.chapter} · ${verseRef(next)}`
+                  : verseRef(next)}
+              </span>
+              <ChevronRight aria-hidden className="size-4 text-muted-foreground" />
+            </Link>
+          ) : (
+            <Link
+              to="/gita"
+              className="inline-flex h-10 items-center gap-1.5 rounded-full border border-border bg-card px-4 text-pink-ink transition-colors hover:bg-surface-blush-hover"
+            >
+              Finish book
+            </Link>
+          )}
+        </nav>
       </article>
 
-      <section aria-labelledby="words-heading" className="flex flex-col gap-4">
-        <div className="flex flex-col gap-1">
-          <h2
-            id="words-heading"
-            className="text-2xl font-medium tracking-[-0.025em]"
-          >
-            Word by word
-          </h2>
-          <p className="text-sm text-muted-foreground">
-            In the order of the verse. Tap an outlined word to see its range of
-            meaning.
-          </p>
-        </div>
-        <ul className="flex flex-wrap gap-2.5">
-          {verse.words.map((word, index) => {
-            const content = (
-              <>
-                <span className="font-medium" lang="sa-Latn">
-                  {word.sa}
-                </span>
-                <span className="text-sm leading-snug text-muted-foreground">
-                  {word.en}
-                </span>
-              </>
-            )
-            const key = `${word.sa}-${index}`
-            if (!word.term) {
-              return (
-                <li
-                  key={key}
-                  className="flex max-w-56 flex-col gap-0.5 rounded-2xl bg-card px-4 py-2.5 ring-1 ring-border"
-                >
-                  {content}
-                </li>
-              )
-            }
-            const isOpen = openTerm === word.term
-            return (
-              <li key={key} className="flex">
-              <button
-                type="button"
-                aria-expanded={isOpen}
-                aria-controls="term-card"
-                onClick={() => setOpenTerm(isOpen ? null : (word.term ?? null))}
-                className={cn(
-                  'flex max-w-56 cursor-pointer flex-col gap-0.5 rounded-2xl bg-yellow-soft px-4 py-2.5 text-left ring-1 ring-yellow-ink/40 transition-colors hover:bg-pink-soft',
-                  isOpen && 'bg-pink-soft ring-primary',
-                )}
-              >
-                {content}
-              </button>
-              </li>
-            )
-          })}
-        </ul>
-
-        <div id="term-card" aria-live="polite">
-          {term && (
-            <div className="flex flex-col gap-2 rounded-[22px] border border-primary/40 bg-card p-5 shadow-(--surface-shadow)">
-              <div className="flex items-center gap-3">
-                <h3 className="text-lg font-medium">{term.sa}</h3>
-                <span lang="sa" className="font-serif text-muted-foreground">
-                  {term.devanagari}
-                </span>
-                <button
-                  type="button"
-                  aria-label="Close"
-                  onClick={() => setOpenTerm(null)}
-                  className="ml-auto flex size-8 cursor-pointer items-center justify-center rounded-full text-muted-foreground hover:bg-surface-blush-hover hover:text-foreground"
-                >
-                  <X aria-hidden className="size-4" />
-                </button>
-              </div>
-              <p className="max-w-[58ch] leading-relaxed text-pretty text-muted-foreground">
-                {term.meaning}
-              </p>
-            </div>
-          )}
-        </div>
-      </section>
-
-      {verse.notes && verse.notes.length > 0 && (
-        <section className="flex flex-col gap-2 border-l-2 border-primary/50 pl-4">
-          <h2 className="text-sm font-medium text-pink-ink">
-            Another way to read this
-          </h2>
-          <ul className="flex max-w-[58ch] flex-col gap-2 leading-relaxed text-pretty text-muted-foreground">
-            {verse.notes.map((note) => (
-              <li key={note}>{note}</li>
-            ))}
-          </ul>
-        </section>
-      )}
-
-      {practice && verse.practice && (
-        <Link
-          to="/session/$sessionId"
-          params={{ sessionId: practice.id }}
-          className="group flex items-center gap-4 rounded-[28px] border border-border bg-(image:--grad-sanctuary) p-6 shadow-(--surface-shadow) transition-[transform,border-color] duration-200 hover:-translate-y-0.5 hover:border-primary/40 motion-reduce:transition-none"
-        >
-          <span className="flex min-w-0 flex-1 flex-col gap-1">
-            <span className="text-sm font-medium text-pink-ink">
-              Put this verse into practice
-            </span>
-            <span className="text-lg font-medium tracking-[-0.02em]">
-              {verse.practice.label}, {sessionMinutes(practice)} minutes
-            </span>
-          </span>
-          <ChevronRight
-            aria-hidden
-            className="size-5 shrink-0 text-muted-foreground transition-transform duration-200 group-hover:translate-x-0.5 motion-reduce:transition-none"
-          />
-        </Link>
-      )}
+      {/* Word-by-word glosses, glossary definitions, reading notes & linked practice */}
+      <WordStudy key={reference} verse={verse} />
 
       <nav
-        aria-label="Verses"
+        aria-label="Chapter context"
         className="flex items-center justify-between gap-4 border-t border-border/80 pt-6 text-sm font-medium"
       >
-        {previous ? (
-          <Link
-            to="/gita/$chapter/$verse"
-            params={{
-              chapter: String(previous.chapter),
-              verse: String(previous.verse),
-            }}
-            className="inline-flex items-center gap-1 text-muted-foreground hover:text-foreground"
-          >
-            <ChevronLeft aria-hidden className="size-4" />
-            {verseRef(previous)}
-          </Link>
-        ) : (
-          <span />
-        )}
         <Link
           to="/gita/$chapter"
           params={{ chapter: String(verse.chapter) }}
           hash={`v${verse.verse}`}
-          className="text-pink-ink"
+          className="inline-flex items-center gap-1 text-pink-ink hover:underline"
         >
-          Read chapter {verse.chapter}
+          <ChevronLeft aria-hidden className="size-4" />
+          Read chapter {verse.chapter} continuously
         </Link>
-        {next ? (
-          <Link
-            to="/gita/$chapter/$verse"
-            params={{ chapter: String(next.chapter), verse: String(next.verse) }}
-            className="inline-flex items-center gap-1 text-muted-foreground hover:text-foreground"
-          >
-            {verseRef(next)}
-            <ChevronRight aria-hidden className="size-4" />
-          </Link>
-        ) : (
-          <span />
-        )}
+        <Link
+          to="/gita"
+          className="text-muted-foreground transition-colors hover:text-foreground"
+        >
+          All chapters
+        </Link>
       </nav>
     </main>
   )
