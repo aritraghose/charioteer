@@ -77,7 +77,8 @@ export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
             NAV_ITEMS[1],
             { ...CALM_ITEM, label: CALM_ITEM.shortLabel },
             NAV_ITEMS[2],
-            NAV_ITEMS[3],
+            // The bottom bar is the one place the title is shortened to fit.
+            { ...NAV_ITEMS[3], label: 'Gita' },
           ].map((item) => {
             const isCalm = item.to === CALM_ITEM.to
             return (
