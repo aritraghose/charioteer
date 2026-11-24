@@ -1,6 +1,6 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
-import { ChevronRight, Sparkles } from 'lucide-react'
-import { Flame } from '@/components/flame'
+import { ChevronRight } from 'lucide-react'
+import { Logo } from '@/components/logo'
 import { CALM_ITEM, NAV_ITEMS } from '@/lib/nav'
 import { SITE_DESCRIPTION, SITE_NAME, seo } from '@/lib/seo'
 import { cn } from '@/lib/utils'
@@ -19,21 +19,15 @@ const gitaItem = NAV_ITEMS[3]
 function Today() {
   return (
     <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col gap-14 px-5 pt-10 pb-20 sm:px-8 sm:pt-16">
-      {/* Expressive sunlit hero with concentric pink-and-yellow stillness medallion */}
+      {/* Calm hero paired with the concentric stillness medallion */}
       <section className="grid items-center gap-12 md:grid-cols-[1.25fr_0.75fr] md:gap-10">
-        <div className="flex flex-col gap-6">
-          <p className="inline-flex w-fit items-center gap-2 rounded-full bg-yellow-soft px-3.5 py-1.5 text-xs font-medium text-yellow-ink ring-1 ring-border">
-            <Sparkles aria-hidden className="size-3.5" strokeWidth={2} />
-            <span>A gentle place for busy minds</span>
-          </p>
-
+        <div className="flex flex-col gap-5">
           <h1 className="max-w-[14ch] text-5xl leading-[1.03] font-medium tracking-[-0.042em] text-balance text-foreground sm:text-6xl lg:text-7xl">
             When the mind wanders, bring it back.
           </h1>
           <p className="max-w-[46ch] text-lg leading-relaxed text-pretty text-muted-foreground sm:text-xl sm:leading-relaxed">
-            A bright, calm space for OCD, racing thoughts and a sensitive
-            nervous system. Gentle meditation, steady focus, and the Bhagavad
-            Gita.
+            A quiet space for OCD, racing thoughts and a sensitive nervous
+            system. Gentle meditation, steady focus, and the Bhagavad Gita.
           </p>
         </div>
 
@@ -43,53 +37,38 @@ function Today() {
           className="relative mx-auto flex size-56 items-center justify-center sm:size-64 md:mr-0 md:ml-auto lg:size-72"
         >
           <div className="pointer-events-none absolute -inset-10 rounded-full bg-(image:--grad-orb) blur-3xl" />
-          <span className="ring-breathe absolute inset-0 rounded-full bg-surface-sun shadow-(--medallion-ring)" />
-          <span className="ring-breathe absolute inset-[13%] rounded-full bg-pink-soft shadow-(--medallion-ring) [animation-delay:-3s]" />
-          <span className="absolute inset-[27%] rounded-full bg-card shadow-(--medallion-core)" />
+          <span className="ring-breathe absolute inset-0 rounded-full bg-medallion-outer shadow-(--medallion-ring)" />
+          <span className="ring-breathe absolute inset-[13%] rounded-full bg-medallion-mid shadow-(--medallion-ring) [animation-delay:-3s]" />
+          <span className="absolute inset-[27%] rounded-full bg-medallion-inner shadow-(--medallion-core)" />
 
-          <svg
-            viewBox="0 0 24 24"
-            className="absolute top-[7%] right-[12%] size-4 text-yellow-ink/70"
-            fill="currentColor"
-          >
-            <path d="M12 2L14.2 9.8L22 12L14.2 14.2L12 22L9.8 14.2L2 12L9.8 9.8L12 2Z" />
-          </svg>
-          <svg
-            viewBox="0 0 24 24"
-            className="absolute bottom-[10%] left-[8%] size-3 text-pink-ink/65"
-            fill="currentColor"
-          >
-            <path d="M12 2L14.2 9.8L22 12L14.2 14.2L12 22L9.8 14.2L2 12L9.8 9.8L12 2Z" />
-          </svg>
-
-          <Flame settle className="relative h-20 lg:h-24" />
+          <Logo settle className="relative size-20 lg:size-24" />
         </div>
       </section>
 
-      {/* Two bespoke sculptural surfaces: sunlit sanctuary left, Gita folio right */}
+      {/* Two bespoke sculptural surfaces: sanctuary left, Gita folio right */}
       <section
         aria-label="Spaces"
         className="grid gap-6 lg:grid-cols-[1.35fr_1fr] lg:items-stretch"
       >
-        {/* Left: Unified pink-and-yellow sanctuary surface */}
+        {/* Left: Calm sanctuary surface */}
         <div className="flex flex-col justify-between gap-5 overflow-hidden rounded-[28px] border border-border bg-(image:--grad-sanctuary) p-6 shadow-(--surface-shadow) sm:p-8">
           <Link
             to={CALM_ITEM.to}
-            className="group flex flex-col gap-5 rounded-2xl bg-(image:--grad-lifeline) p-6 text-lifeline-ink shadow-(--lifeline-shadow) ring-1 ring-white/60 transition-[transform,filter,box-shadow] duration-200 hover:-translate-y-0.5 hover:brightness-102 active:translate-y-0 active:scale-[0.99] ring-inset motion-reduce:transition-none sm:flex-row sm:items-center sm:gap-5"
+            className="group flex flex-col gap-5 rounded-2xl border border-lifeline-border bg-(image:--lifeline-surface) p-6 text-lifeline-ink shadow-(--lifeline-shadow) transition-[background-image,border-color,transform] duration-200 hover:-translate-y-0.5 hover:bg-(image:--lifeline-surface-hover) active:translate-y-0 active:scale-[0.99] motion-reduce:transition-none sm:flex-row sm:items-center sm:gap-5"
           >
-            <span className="flex size-11 shrink-0 items-center justify-center rounded-2xl bg-white/85 text-pink-ink shadow-xs">
-              <CALM_ITEM.icon className="size-5" strokeWidth={2} />
+            <span className="flex size-11 shrink-0 items-center justify-center rounded-2xl bg-lifeline-badge text-lifeline-badge-ink">
+              <CALM_ITEM.icon className="size-5" strokeWidth={1.9} />
             </span>
             <span className="flex min-w-0 flex-1 flex-col gap-1">
-              <span className="text-xl font-medium tracking-[-0.02em]">
+              <span className="text-xl font-medium tracking-[-0.02em] text-foreground">
                 {CALM_ITEM.label}
               </span>
-              <span className="max-w-[40ch] text-sm leading-relaxed text-pretty text-lifeline-ink/82">
+              <span className="max-w-[40ch] text-sm leading-relaxed text-pretty text-muted-foreground">
                 {CALM_ITEM.description}
               </span>
             </span>
-            <span className="flex size-9 shrink-0 items-center justify-center self-start rounded-full bg-white/80 text-lifeline-ink transition-transform duration-200 group-hover:translate-x-0.5 motion-reduce:transition-none sm:self-center">
-              <ChevronRight aria-hidden className="size-4" strokeWidth={2.2} />
+            <span className="flex size-9 shrink-0 items-center justify-center self-start rounded-full bg-lifeline-arrow text-lifeline-arrow-ink transition-transform duration-200 group-hover:translate-x-0.5 motion-reduce:transition-none sm:self-center">
+              <ChevronRight aria-hidden className="size-4" strokeWidth={2.1} />
             </span>
           </Link>
 

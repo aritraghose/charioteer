@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Flame } from '@/components/flame'
+import { Logo } from '@/components/logo'
 import { type Phase, REST_SCALE, circleScale } from '@/lib/session-timeline'
 
 function usePrefersReducedMotion() {
@@ -36,15 +36,15 @@ export function BreathCircle({
     >
       <div className="pointer-events-none absolute -inset-10 rounded-full bg-(image:--grad-orb) blur-3xl" />
       <span
-        className="absolute inset-0 rounded-full bg-surface-sun shadow-(--medallion-ring) will-change-transform"
+        className="absolute inset-0 rounded-full bg-medallion-outer shadow-(--medallion-ring) will-change-transform"
         style={ringStyle(1)}
       />
       <span
-        className="absolute inset-[13%] rounded-full bg-pink-soft shadow-(--medallion-ring) will-change-transform"
+        className="absolute inset-[13%] rounded-full bg-medallion-mid shadow-(--medallion-ring) will-change-transform"
         style={ringStyle(0.6)}
       />
-      <span className="absolute inset-[30%] rounded-full bg-card shadow-(--medallion-core)" />
-      <Flame className="relative h-16" />
+      <span className="absolute inset-[30%] rounded-full bg-medallion-inner shadow-(--medallion-core)" />
+      <Logo className="relative size-16" />
     </div>
   )
 }

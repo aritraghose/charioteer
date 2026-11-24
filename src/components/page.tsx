@@ -35,7 +35,7 @@ export function Page({
             className={cn(
               'flex size-12 items-center justify-center rounded-2xl',
               accent === 'lifeline'
-                ? 'bg-(image:--grad-lifeline) text-lifeline-ink shadow-(--lifeline-shadow) ring-1 ring-white/55 ring-inset'
+                ? 'border border-lifeline-border bg-(image:--lifeline-surface) text-lifeline-badge-ink shadow-(--lifeline-shadow)'
                 : badgeClass,
             )}
           >

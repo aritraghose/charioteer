@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ff94c8"/><stop offset="55" stop-color="#ffbeaa"/><stop offset="100" stop-color="#ffe785"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#g)"/><path d="M16 5.2s6.5 7 6.5 12.2a6.5 6.5 0 0 1-13 0C9.5 12.2 16 5.2 16 5.2Z" fill="#ffffff"/><path d="M16 12.8s2.8 3.2 2.8 5.5a2.8 2.8 0 0 1-5.6 0c0-2.3 2.8-5.5 2.8-5.5Z" fill="#fff2b8"/><path d="M10 26.8h12" stroke="#452337" stroke-opacity=".55" stroke-width="1.6" stroke-linecap="round"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="dot" x1="12" y1="12" x2="20" y2="20" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ebd5a7"/>
+      <stop offset="100%" stop-color="#c99557"/>
+    </linearGradient>
+  </defs>
+  <rect width="32" height="32" rx="8" fill="#181817"/>
+  <rect x="0.75" y="0.75" width="30.5" height="30.5" rx="7.25" stroke="#eae6df" stroke-opacity="0.12" stroke-width="1.5"/>
+  <circle cx="16" cy="16" r="11.5" stroke="#dfc99e" stroke-opacity="0.34" stroke-width="1.45"/>
+  <circle cx="16" cy="16" r="7.5" stroke="#dfc99e" stroke-opacity="0.68" stroke-width="1.65"/>
+  <circle cx="16" cy="16" r="3.5" fill="url(#dot)"/>
+</svg>

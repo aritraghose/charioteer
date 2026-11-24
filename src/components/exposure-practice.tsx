@@ -1,6 +1,6 @@
 import { Link } from '@tanstack/react-router'
 import { useEffect, useState } from 'react'
-import { Flame } from '@/components/flame'
+import { Logo } from '@/components/logo'
 import { QuietScreen } from '@/components/quiet-screen'
 import { RatingScale } from '@/components/rating-scale'
 import { Button } from '@/components/ui/button'
@@ -111,7 +111,7 @@ export function ExposurePractice({ stepId }: Readonly<{ stepId: string }>) {
 
   return (
     <QuietScreen leaveTo="/ladder" leaveLabel="Ladder">
-      <Flame className="h-20" />
+      <Logo className="size-16" />
 
       <div aria-live="polite" className="flex flex-col items-center gap-8">
         {stage === 'before' && (
