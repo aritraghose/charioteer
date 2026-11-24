@@ -25,7 +25,7 @@ export const NAV_ITEMS = [
   },
   {
     to: '/gita',
-    label: 'Gita',
+    label: 'Bhagavad Gita',
     badgeClass: 'bg-peach-soft text-peach-ink',
     icon: BookOpen,
     description:

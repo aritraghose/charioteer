@@ -57,7 +57,7 @@ export function GitaSearch() {
     <div className="flex flex-col gap-3">
       <form onSubmit={submit} role="search" className="relative">
         <label htmlFor="gita-search" className="sr-only">
-          Search the Gita
+          Search the Bhagavad Gita
         </label>
         <Search
           aria-hidden

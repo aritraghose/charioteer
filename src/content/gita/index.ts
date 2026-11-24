@@ -47,7 +47,7 @@ export const GLOSSARY: GlossaryTerm[] = [
     sa: 'yoga',
     devanagari: 'योग',
     meaning:
-      'Literally "yoking" or "joining". In the Gita it means a discipline or method, and also the steady state that discipline leads to. Verse 2.48 defines it as evenness of mind. It does not mean physical postures here.',
+      'Literally "yoking" or "joining". In the Bhagavad Gita it means a discipline or method, and also the steady state that discipline leads to. Verse 2.48 defines it as evenness of mind. It does not mean physical postures here.',
   },
   {
     id: 'atman',
@@ -166,7 +166,7 @@ export const GLOSSARY: GlossaryTerm[] = [
     sa: 'sāṅkhya',
     devanagari: 'साङ्ख्य',
     meaning:
-      'The way of understanding or analysis: seeing clearly what is the self and what is not. In the Gita it is paired with yoga, the way of disciplined action.',
+      'The way of understanding or analysis: seeing clearly what is the self and what is not. In the Bhagavad Gita it is paired with yoga, the way of disciplined action.',
   },
   {
     id: 'sannyasa',

@@ -152,7 +152,7 @@ function Today() {
               {gitaItem.description}
             </p>
             <span className="inline-flex items-center gap-1 text-sm font-medium text-pink-ink">
-              Open Gita reader
+              Open Bhagavad Gita reader
               <ChevronRight
                 aria-hidden
                 className="size-4 transition-transform duration-200 group-hover:translate-x-0.5 motion-reduce:transition-none"

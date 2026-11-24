@@ -43,7 +43,7 @@ export const Route = createFileRoute('/_app/gita_/$chapter_/$verse')({
   head: ({ loaderData }) => ({
     meta: loaderData
       ? seo({
-          title: `Gita ${verseRef(loaderData.verse)} | ${SITE_NAME}`,
+          title: `Bhagavad Gita ${verseRef(loaderData.verse)} | ${SITE_NAME}`,
           description: loaderData.verse.plain ?? loaderData.verse.translation,
         })
       : [],

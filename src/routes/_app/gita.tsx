@@ -29,7 +29,7 @@ import { cn } from '@/lib/utils'
 export const Route = createFileRoute('/_app/gita')({
   head: () => ({
     meta: seo({
-      title: `Gita | ${SITE_NAME}`,
+      title: `Bhagavad Gita | ${SITE_NAME}`,
       description: NAV_ITEMS[3].description,
     }),
   }),
@@ -101,7 +101,7 @@ function GitaPage() {
 
   return (
     <Page
-      title="Gita"
+      title="Bhagavad Gita"
       lede={NAV_ITEMS[3].description}
       icon={NAV_ITEMS[3].icon}
       badgeClass={NAV_ITEMS[3].badgeClass}

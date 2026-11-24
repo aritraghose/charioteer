@@ -28,7 +28,7 @@ export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
               key={item.to}
               to={item.to}
               activeOptions={{ exact: item.to === '/' }}
-              className="rounded-full px-3.5 py-1.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-yellow-soft/70 hover:text-foreground data-[status=active]:bg-pink-soft data-[status=active]:text-pink-ink"
+              className="rounded-full px-3.5 py-1.5 text-sm font-medium whitespace-nowrap text-muted-foreground transition-colors hover:bg-yellow-soft/70 hover:text-foreground data-[status=active]:bg-pink-soft data-[status=active]:text-pink-ink"
             >
               {item.label}
             </Link>
@@ -99,7 +99,7 @@ export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
                   >
                     <item.icon className="size-[1.125rem]" strokeWidth={1.9} />
                   </span>
-                  <span>{item.label}</span>
+                  <span className="text-center leading-tight">{item.label}</span>
                 </Link>
               </li>
             )
