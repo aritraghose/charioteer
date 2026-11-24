@@ -21,21 +21,25 @@
     @apply relative isolate text-foreground antialiased selection:bg-yellow-soft selection:text-foreground;
     background-color: transparent;
   }
-  /* Static GPU-cached backdrop layers (sea/river light mode, cosmic nebula dark mode) — zero JS, zero blur filters. */
-  body::before,
-  body::after {
+  /*
+   * Static backdrop (sea/river light mode, cosmic nebula dark mode) on one
+   * fixed layer of its own: painted once, never repainted while scrolling.
+   * Sized to the largest viewport so a hiding mobile URL bar does not resize it.
+   */
+  body::before {
     content: '';
     position: fixed;
-    inset: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    height: 100lvh;
     pointer-events: none;
     z-index: -1;
     background-repeat: no-repeat;
-  }
-  body::before {
-    background-image: var(--backdrop-base);
-  }
-  body::after {
-    background-image: var(--backdrop-detail);
+    background-image: var(--backdrop-detail), var(--backdrop-base);
+    transform: translateZ(0);
+    backface-visibility: hidden;
   }
   :focus-visible {
     outline: 2px solid var(--ring);
@@ -100,6 +104,15 @@
   @media (prefers-reduced-motion: reduce) {
     animation: none;
   }
+}
+
+/*
+ * One verse in the chapter reader. Off-screen verses skip layout and paint, so
+ * a 78-verse chapter scrolls like a short page on low-memory phones.
+ */
+@utility verse-block {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 22rem;
 }
 
 @theme inline {
@@ -221,7 +234,7 @@
   --medallion-inner: var(--card);
 
   /* Clean, lightly tinted sea-pearl surface so the sticky Gita reader bar stands off the river backdrop. */
-  --book-bar: oklch(0.994 0.005 192 / 94%);
+  --book-bar: oklch(0.994 0.005 192);
   --book-bar-border: oklch(0.52 0.048 202 / 26%);
   --book-bar-shadow:
     0 2px 6px oklch(0.36 0.04 210 / 7%),
@@ -282,10 +295,10 @@
     radial-gradient(24rem 15rem at 94% 0%, oklch(0.935 0.052 80 / 62%), transparent 72%),
     radial-gradient(22rem 15rem at 8% 100%, oklch(0.91 0.044 196 / 48%), transparent 74%),
     linear-gradient(180deg, oklch(0.996 0.005 90) 0%, oklch(0.974 0.014 176) 100%);
-  /* Gentle shallow-water & morning-sun halo behind the hero medallion. */
+  /* Gentle shallow-water & morning-sun halo behind the hero medallion — soft by gradient alone, no blur filter. */
   --grad-orb:
-    radial-gradient(circle at 65% 30%, oklch(0.92 0.068 84 / 52%) 0%, transparent 58%),
-    radial-gradient(circle at 35% 68%, oklch(0.84 0.072 196 / 48%) 0%, transparent 62%);
+    radial-gradient(40% 40% at 59% 40%, oklch(0.92 0.068 84 / 46%) 0%, oklch(0.92 0.068 84 / 16%) 55%, transparent 100%),
+    radial-gradient(42% 42% at 42% 57%, oklch(0.84 0.072 196 / 42%) 0%, oklch(0.84 0.072 196 / 14%) 55%, transparent 100%);
 
   --medallion-ring: inset 0 0 0 1px oklch(0.52 0.048 202 / 22%);
   --medallion-core:
@@ -363,7 +376,7 @@
   --medallion-mid: oklch(0.246 0.004 80);
   --medallion-inner: oklch(0.194 0.003 80);
 
-  --book-bar: oklch(0.242 0.004 80 / 94%);
+  --book-bar: oklch(0.242 0.004 80);
   --book-bar-border: oklch(0.92 0.006 80 / 15%);
   --book-bar-shadow:
     0 2px 6px oklch(0 0 0 / 28%),
@@ -442,9 +455,10 @@
   );
   /* Whisper-soft ember warmth behind the stillness medallion — no glowing halo. */
   --grad-orb: radial-gradient(
-    circle at 50% 50%,
-    oklch(0.74 0.075 76 / 10%) 0%,
-    transparent 58%
+    closest-side,
+    oklch(0.74 0.075 76 / 9%) 0%,
+    oklch(0.74 0.075 76 / 4%) 55%,
+    transparent 100%
   );
 
   --medallion-ring: inset 0 0 0 1px oklch(0.92 0.006 80 / 9%);

@@ -67,7 +67,7 @@ export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
 
       <nav
         aria-label="Main"
-        className="fixed inset-x-0 bottom-0 z-30 border-t border-border bg-background/94 pb-[env(safe-area-inset-bottom)] backdrop-blur-md sm:hidden"
+        className="fixed inset-x-0 bottom-0 z-30 border-t border-border bg-background pb-[env(safe-area-inset-bottom)] sm:hidden"
       >
         <ul className="mx-auto grid max-w-md grid-cols-5">
           {[

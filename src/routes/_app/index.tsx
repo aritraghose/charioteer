@@ -38,7 +38,7 @@ function Today() {
           aria-hidden
           className="relative mx-auto flex size-56 items-center justify-center sm:size-64 md:mr-0 md:ml-auto lg:size-72"
         >
-          <div className="pointer-events-none absolute -inset-10 rounded-full bg-(image:--grad-orb) blur-3xl" />
+          <div className="pointer-events-none absolute -inset-6 bg-(image:--grad-orb) sm:-inset-10" />
           <span className="ring-breathe absolute inset-0 rounded-full bg-medallion-outer shadow-(--medallion-ring)" />
           <span className="ring-breathe absolute inset-[13%] rounded-full bg-medallion-mid shadow-(--medallion-ring) [animation-delay:-3s]" />
           <span className="absolute inset-[27%] rounded-full bg-medallion-inner shadow-(--medallion-core)" />

@@ -157,7 +157,7 @@ export function BookBar({
 
   return (
     <div ref={containerRef} className="sticky top-3 z-20 -mx-1 sm:mx-0">
-      <div className="relative overflow-hidden rounded-2xl border border-book-bar-border bg-book-bar shadow-(--book-bar-shadow) backdrop-blur-md">
+      <div className="relative overflow-hidden rounded-2xl border border-book-bar-border bg-book-bar shadow-(--book-bar-shadow)">
         <div className="flex items-center gap-1 px-2 py-1.5 sm:gap-1.5 sm:px-2.5">
           {/* Previous chapter or previous verse */}
           {mode === 'chapter' ? (

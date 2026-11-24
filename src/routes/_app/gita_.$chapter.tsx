@@ -1,6 +1,6 @@
 import { Link, createFileRoute, notFound } from '@tanstack/react-router'
 import { ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react'
-import { useCallback, useEffect, useRef, useState } from 'react'
+import { memo, useCallback, useEffect, useRef, useState } from 'react'
 import { BookBar } from '@/components/gita/book-bar'
 import { useReadingOptions } from '@/components/gita/reading-options'
 import {
@@ -20,7 +20,9 @@ import { useStored } from '@/hooks/use-stored'
 import {
   LAST_READ_KEY,
   type LastRead,
+  type ReadingOptions,
   SIZE_CLASSES,
+  bindDanda,
 } from '@/lib/gita-reading'
 import { SITE_NAME, seo } from '@/lib/seo'
 import { cn } from '@/lib/utils'
@@ -70,7 +72,6 @@ function ChapterPage() {
   const [loadingWords, setLoadingWords] = useState(false)
   const loadedChapterRef = useRef<number | null>(null)
 
-  const size = SIZE_CLASSES[options.size]
   const previous = getChapter(chapter.chapter - 1)
   const next = getChapter(chapter.chapter + 1)
 
@@ -94,39 +95,40 @@ function ChapterPage() {
     }
   }, [chapter.chapter, chapter.length])
 
-  // Track which verse is near the top of the reading viewport as the user scrolls.
+  // Track which verse is near the top of the reading viewport. An observer
+  // only wakes when a verse crosses the line, so scrolling itself runs no code.
   useEffect(() => {
+    const visible = new Set<number>()
     let saveTimer = 0
-    let frame = 0
-    const detectTopVerse = () => {
-      const blocks = document.querySelectorAll<HTMLElement>('[data-verse]')
-      for (const block of blocks) {
-        if (block.getBoundingClientRect().bottom > 110) {
-          return Number(block.dataset.verse)
+    let first = true
+    const observer = new IntersectionObserver(
+      (entries) => {
+        for (const entry of entries) {
+          const num = Number((entry.target as HTMLElement).dataset.verse)
+          if (entry.isIntersecting) visible.add(num)
+          else visible.delete(num)
         }
-      }
-      return 1
+        // The landing position is not a reading position yet.
+        const landing = first
+        first = false
+        if (visible.size === 0) return
+        const top = Math.min(...visible)
+        setActiveVerse(top)
+        if (landing) return
+        window.clearTimeout(saveTimer)
+        saveTimer = window.setTimeout(() => {
+          setLastRead({ chapter: chapter.chapter, verse: top })
+        }, 350)
+      },
+      // Start below the sticky book bar.
+      { rootMargin: '-110px 0px 0px 0px' },
+    )
+    for (const block of document.querySelectorAll('[data-verse]')) {
+      observer.observe(block)
     }
-    const onScroll = () => {
-      if (!frame) {
-        frame = window.requestAnimationFrame(() => {
-          frame = 0
-          setActiveVerse(detectTopVerse())
-        })
-      }
-      window.clearTimeout(saveTimer)
-      saveTimer = window.setTimeout(() => {
-        setLastRead({
-          chapter: chapter.chapter,
-          verse: detectTopVerse(),
-        })
-      }, 350)
-    }
-    window.addEventListener('scroll', onScroll, { passive: true })
     return () => {
-      window.cancelAnimationFrame(frame)
+      observer.disconnect()
       window.clearTimeout(saveTimer)
-      window.removeEventListener('scroll', onScroll)
     }
   }, [chapter.chapter, setLastRead])
 
@@ -148,22 +150,33 @@ function ChapterPage() {
     [chapter.chapter, setLastRead],
   )
 
-  const toggleStudy = async (verseNum: number) => {
-    if (openVerse === verseNum) {
-      setOpenVerse(null)
-      return
-    }
-    setOpenVerse(verseNum)
-    if (loadedChapterRef.current === chapter.chapter && fullVerses) return
-    setLoadingWords(true)
-    try {
-      const loaded = await loadChapter(chapter.chapter)
+  const toggleStudy = useCallback(
+    (verseNum: number) => {
+      setOpenVerse((current) => (current === verseNum ? null : verseNum))
+      if (loadedChapterRef.current === chapter.chapter) return
+      // Word glosses load once per chapter, on the first study tap.
       loadedChapterRef.current = chapter.chapter
-      setFullVerses(new Map(loaded.map((item) => [item.verse, item])))
-    } finally {
-      setLoadingWords(false)
-    }
-  }
+      setLoadingWords(true)
+      loadChapter(chapter.chapter)
+        .then((loaded) => {
+          if (loadedChapterRef.current !== chapter.chapter) return
+          setFullVerses(new Map(loaded.map((item) => [item.verse, item])))
+        })
+        .catch(() => {
+          if (loadedChapterRef.current === chapter.chapter) {
+            loadedChapterRef.current = null
+          }
+        })
+        .finally(() => setLoadingWords(false))
+    },
+    [chapter.chapter],
+  )
+
+  const toggleSave = useCallback(
+    (reference: string) =>
+      setSaved((current) => toggleSaved(current, reference)),
+    [setSaved],
+  )
 
   return (
     <main className="mx-auto flex w-full max-w-2xl flex-1 flex-col gap-9 px-5 pt-4 pb-24 sm:px-8 sm:pt-8">
@@ -190,148 +203,32 @@ function ChapterPage() {
       </header>
 
       <ol className="flex flex-col">
-        {verses.map((verse, index) => {
-          const reference = `${chapter.chapter}.${verse.verse}`
-          const speakerChanged =
-            index === 0 || verses[index - 1].speaker !== verse.speaker
-          const isOpen = openVerse === verse.verse
-          const fullVerse = fullVerses?.get(verse.verse)
-          const isSaved = saved.includes(reference)
-
-          return (
-            <li
-              key={verse.verse}
-              id={`v${verse.verse}`}
-              data-verse={verse.verse}
-              className={cn(
-                'group/verse flex scroll-mt-24 flex-col gap-3.5 border-b border-border/55 py-7 first:pt-0 last:border-b-0',
-                speakerChanged && index > 0 && 'pt-10',
-              )}
-            >
-              {speakerChanged && (
-                <p className="font-serif text-sm text-yellow-ink italic">
-                  — {SPEAKER_NAME[verse.speaker]}
-                </p>
-              )}
-
-              {/* Quiet verse reference + subtle study/bookmark controls */}
-              <div className="flex items-center justify-between gap-3">
-                <Link
-                  to="/gita/$chapter/$verse"
-                  params={{
-                    chapter: String(chapter.chapter),
-                    verse: String(verse.verse),
-                  }}
-                  title={`Open verse ${reference}`}
-                  className="text-xs font-medium text-muted-foreground tabular-nums transition-colors hover:text-peach-ink"
-                >
-                  {reference}
-                </Link>
-
-                <span
-                  className={cn(
-                    'flex items-center gap-0.5 transition-opacity duration-200',
-                    isOpen || isSaved
-                      ? 'opacity-100'
-                      : 'opacity-75 group-hover/verse:opacity-100 sm:opacity-55 sm:focus-within:opacity-100',
-                  )}
-                >
-                  <button
-                    type="button"
-                    aria-expanded={isOpen}
-                    onClick={() => void toggleStudy(verse.verse)}
-                    className={cn(
-                      'inline-flex h-8 cursor-pointer items-center gap-1 rounded-full px-3 text-xs font-medium text-muted-foreground transition-colors hover:bg-surface-blush-hover hover:text-foreground',
-                      isOpen && 'bg-pink-soft text-pink-ink',
-                    )}
-                  >
-                    <span>Word by word</span>
-                    {verse.hasNotes && (
-                      <span
-                        aria-label="has a reading note"
-                        className="size-1.5 rounded-full bg-primary"
-                      />
-                    )}
-                    <ChevronDown
-                      aria-hidden
-                      className={cn(
-                        'size-3.5 transition-transform duration-200 motion-reduce:transition-none',
-                        isOpen && 'rotate-180',
-                      )}
-                    />
-                  </button>
-                  <SaveButton
-                    reference={reference}
-                    saved={isSaved}
-                    onToggle={(ref) =>
-                      setSaved((current) => toggleSaved(current, ref))
-                    }
-                    className="h-8 w-8"
-                  />
-                </span>
-              </div>
-
-              {options.sanskrit && (
-                <p
-                  lang="sa"
-                  className={cn('font-serif text-foreground/92', size.sa)}
-                >
-                  {verse.devanagari.map((line) => (
-                    <span key={line} className="block">
-                      {line}
-                    </span>
-                  ))}
-                </p>
-              )}
-
-              {options.transliteration && (
-                <p
-                  lang="sa-Latn"
-                  className="leading-relaxed text-muted-foreground italic"
-                >
-                  {verse.iast.map((line) => (
-                    <span key={line} className="block">
-                      {line}
-                    </span>
-                  ))}
-                </p>
-              )}
-
-              {options.translation && (
-                <p
-                  className={cn(
-                    'font-serif text-pretty text-foreground',
-                    size.en,
-                  )}
-                >
-                  {options.english === 'plain'
-                    ? (verse.plain ?? verse.translation)
-                    : verse.translation}
-                </p>
-              )}
-
-              <TranslationReviewNote className="pt-0.5 text-[11px] opacity-80" />
-
-              {/* Inline word-by-word study drawer — stay right in the chapter */}
-              {isOpen && (
-                <div className="mt-2 rounded-2xl border border-border bg-(image:--grad-sanctuary) p-4 sm:p-5">
-                  {loadingWords && !fullVerse ? (
-                    <p className="text-sm text-muted-foreground">
-                      Loading word glosses…
-                    </p>
-                  ) : fullVerse ? (
-                    <WordStudy
-                      verse={fullVerse}
-                      englishStyle={options.english}
-                      compact
-                      showFullVerseLink
-                    />
-                  ) : null}
-                </div>
-              )}
-            </li>
-          )
-        })}
+        {verses.map((verse, index) => (
+          <VerseBlock
+            key={verse.verse}
+            chapter={chapter.chapter}
+            verse={verse}
+            speakerChanged={
+              index === 0 || verses[index - 1].speaker !== verse.speaker
+            }
+            first={index === 0}
+            open={openVerse === verse.verse}
+            saved={saved.includes(`${chapter.chapter}.${verse.verse}`)}
+            fullVerse={
+              openVerse === verse.verse
+                ? fullVerses?.get(verse.verse)
+                : undefined
+            }
+            loadingWords={loadingWords && openVerse === verse.verse}
+            sanskrit={options.sanskrit}
+            transliteration={options.transliteration}
+            translation={options.translation}
+            english={options.english}
+            size={options.size}
+            onToggleStudy={toggleStudy}
+            onToggleSave={toggleSave}
+          />
+        ))}
       </ol>
 
       {/* End-of-chapter page turn */}
@@ -412,3 +309,169 @@ function ChapterPage() {
     </main>
   )
 }
+
+type ChapterVerse = Pick<
+  Verse,
+  'verse' | 'speaker' | 'devanagari' | 'iast' | 'translation' | 'plain'
+> & { hasNotes: boolean }
+
+/**
+ * One verse of the chapter. Memoised so scrolling (which only moves the active
+ * verse in the book bar) never re-renders the list.
+ */
+const VerseBlock = memo(function VerseBlock({
+  chapter,
+  verse,
+  speakerChanged,
+  first,
+  open: isOpen,
+  saved: isSaved,
+  fullVerse,
+  loadingWords,
+  sanskrit,
+  transliteration,
+  translation,
+  english,
+  size: sizeKey,
+  onToggleStudy,
+  onToggleSave,
+}: Readonly<{
+  chapter: number
+  verse: ChapterVerse
+  speakerChanged: boolean
+  first: boolean
+  open: boolean
+  saved: boolean
+  fullVerse: Verse | undefined
+  loadingWords: boolean
+  sanskrit: boolean
+  transliteration: boolean
+  translation: boolean
+  english: ReadingOptions['english']
+  size: ReadingOptions['size']
+  onToggleStudy: (verse: number) => void
+  onToggleSave: (reference: string) => void
+}>) {
+  const reference = `${chapter}.${verse.verse}`
+  const size = SIZE_CLASSES[sizeKey]
+
+  return (
+    <li
+      id={`v${verse.verse}`}
+      data-verse={verse.verse}
+      className={cn(
+        'group/verse verse-block flex scroll-mt-24 flex-col gap-3.5 border-b border-border/55 py-7 first:pt-0 last:border-b-0',
+        speakerChanged && !first && 'pt-10',
+      )}
+    >
+      {speakerChanged && (
+        <p className="font-serif text-sm text-yellow-ink italic">
+          — {SPEAKER_NAME[verse.speaker]}
+        </p>
+      )}
+
+      {/* Quiet verse reference + subtle study/bookmark controls */}
+      <div className="flex items-center justify-between gap-3">
+        <Link
+          to="/gita/$chapter/$verse"
+          params={{ chapter: String(chapter), verse: String(verse.verse) }}
+          title={`Open verse ${reference}`}
+          className="text-xs font-medium text-muted-foreground tabular-nums transition-colors hover:text-peach-ink"
+        >
+          {reference}
+        </Link>
+
+        <span
+          className={cn(
+            'flex items-center gap-0.5 transition-opacity duration-200',
+            isOpen || isSaved
+              ? 'opacity-100'
+              : 'opacity-75 group-hover/verse:opacity-100 sm:opacity-55 sm:focus-within:opacity-100',
+          )}
+        >
+          <button
+            type="button"
+            aria-expanded={isOpen}
+            onClick={() => onToggleStudy(verse.verse)}
+            className={cn(
+              'inline-flex h-8 cursor-pointer items-center gap-1 rounded-full px-3 text-xs font-medium text-muted-foreground transition-colors hover:bg-surface-blush-hover hover:text-foreground',
+              isOpen && 'bg-pink-soft text-pink-ink',
+            )}
+          >
+            <span>Word by word</span>
+            {verse.hasNotes && (
+              <span
+                aria-label="has a reading note"
+                className="size-1.5 rounded-full bg-primary"
+              />
+            )}
+            <ChevronDown
+              aria-hidden
+              className={cn(
+                'size-3.5 transition-transform duration-200 motion-reduce:transition-none',
+                isOpen && 'rotate-180',
+              )}
+            />
+          </button>
+          <SaveButton
+            reference={reference}
+            saved={isSaved}
+            onToggle={onToggleSave}
+            className="h-8 w-8"
+          />
+        </span>
+      </div>
+
+      {sanskrit && (
+        <p lang="sa" className={cn('font-serif text-foreground/92', size.sa)}>
+          {verse.devanagari.map((line) => (
+            <span key={line} className="block">
+              {bindDanda(line)}
+            </span>
+          ))}
+        </p>
+      )}
+
+      {transliteration && (
+        <p
+          lang="sa-Latn"
+          className="leading-relaxed text-muted-foreground italic"
+        >
+          {verse.iast.map((line) => (
+            <span key={line} className="block">
+              {line}
+            </span>
+          ))}
+        </p>
+      )}
+
+      {translation && (
+        <p className={cn('font-serif text-pretty text-foreground', size.en)}>
+          {english === 'plain'
+            ? (verse.plain ?? verse.translation)
+            : verse.translation}
+        </p>
+      )}
+
+      <TranslationReviewNote className="pt-0.5 opacity-80" />
+
+      {/* Inline word-by-word study drawer — stay right in the chapter */}
+      {isOpen && (
+        <div className="mt-2 rounded-2xl border border-border bg-(image:--grad-sanctuary) p-4 sm:p-5">
+          {fullVerse ? (
+            <WordStudy
+              verse={fullVerse}
+              englishStyle={english}
+              compact
+              showFullVerseLink
+            />
+          ) : loadingWords ? (
+            <p className="text-sm text-muted-foreground">
+              Loading word glosses…
+            </p>
+          ) : null}
+        </div>
+      )}
+    </li>
+  )
+})

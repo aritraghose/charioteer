@@ -34,7 +34,7 @@ export function BreathCircle({
       aria-hidden
       className="relative flex size-64 shrink-0 items-center justify-center sm:size-72"
     >
-      <div className="pointer-events-none absolute -inset-10 rounded-full bg-(image:--grad-orb) blur-3xl" />
+      <div className="pointer-events-none absolute -inset-6 bg-(image:--grad-orb) sm:-inset-10" />
       <span
         className="absolute inset-0 rounded-full bg-medallion-outer shadow-(--medallion-ring) will-change-transform"
         style={ringStyle(1)}
