@@ -63,7 +63,7 @@ function Document({ children }: Readonly<{ children: ReactNode }>) {
         <meta
           name="theme-color"
           media="(prefers-color-scheme: light)"
-          content="#ffffff"
+          content="#f4f8f8"
         />
         <meta
           name="theme-color"
