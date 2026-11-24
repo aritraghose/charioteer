@@ -16,12 +16,12 @@ import {
 import { TranslationReviewNote } from '@/components/gita/translation-review-note'
 import { WordStudy } from '@/components/gita/word-study'
 import {
-  SPEAKER_NAME,
   getChapter,
   loadVerse,
   neighbours,
   verseRef,
 } from '@/content/gita'
+import { SPEAKER_CUE, loadGuide, passageFor } from '@/content/gita/guide'
 import { useStored } from '@/hooks/use-stored'
 import {
   LAST_READ_KEY,
@@ -39,7 +39,9 @@ export const Route = createFileRoute('/_app/gita_/$chapter_/$verse')({
       verse: Number(params.verse),
     })
     if (!verse) throw notFound()
-    return { verse }
+    const guide = await loadGuide(verse.chapter)
+    // Only the passage this verse sits in travels with the page.
+    return { verse, passage: guide && passageFor(guide, verse.verse) }
   },
   head: ({ loaderData }) => ({
     meta: loaderData
@@ -53,7 +55,7 @@ export const Route = createFileRoute('/_app/gita_/$chapter_/$verse')({
 })
 
 function VersePage() {
-  const { verse } = Route.useLoaderData()
+  const { verse, passage } = Route.useLoaderData()
   const [options, setOptions] = useReadingOptions()
   const [saved, setSaved] = useSavedVerses()
   const [, setLastRead] = useStored<LastRead | null>(LAST_READ_KEY, null)
@@ -149,7 +151,7 @@ function VersePage() {
         <div className="flex items-start justify-between gap-4">
           <div className="flex flex-col gap-1.5">
             <p className="font-serif text-sm text-yellow-ink italic">
-              — {SPEAKER_NAME[verse.speaker]}
+              {SPEAKER_CUE[verse.speaker]}
             </p>
             <h1 className="font-serif text-3xl leading-[1.12] font-medium tracking-[-0.025em] text-foreground sm:text-4xl">
               Chapter {verse.chapter}, verse {verse.verse}
@@ -167,6 +169,21 @@ function VersePage() {
           <p className="text-sm text-muted-foreground sm:text-base">
             {chapter.name} · {chapter.about}
           </p>
+        )}
+        {options.guide && passage && (
+          <div className="mt-3 flex flex-col gap-1.5 border-l-2 border-primary/50 pl-4">
+            <p className="text-xs font-medium text-muted-foreground tabular-nums">
+              {passage.from === passage.to
+                ? 'This verse stands on its own'
+                : `Part of verses ${passage.from} to ${passage.to}`}
+            </p>
+            <h2 className="text-lg leading-snug font-medium tracking-[-0.02em] text-balance text-foreground">
+              {passage.title}
+            </h2>
+            <p className="max-w-[60ch] text-sm leading-relaxed text-pretty text-muted-foreground sm:text-[0.9375rem]">
+              {passage.about}
+            </p>
+          </div>
         )}
       </header>
 

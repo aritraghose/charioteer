@@ -1,5 +1,5 @@
 import { Link, createFileRoute, notFound } from '@tanstack/react-router'
-import { ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react'
+import { ChevronDown, ChevronLeft, ChevronRight, Compass } from 'lucide-react'
 import { memo, useCallback, useEffect, useRef, useState } from 'react'
 import { BookBar } from '@/components/gita/book-bar'
 import { useReadingOptions } from '@/components/gita/reading-options'
@@ -11,11 +11,15 @@ import {
 import { TranslationReviewNote } from '@/components/gita/translation-review-note'
 import { WordStudy } from '@/components/gita/word-study'
 import {
-  SPEAKER_NAME,
   type Verse,
   getChapter,
   loadChapter,
 } from '@/content/gita'
+import {
+  type GuidePassage,
+  SPEAKER_CUE,
+  loadGuide,
+} from '@/content/gita/guide'
 import { useStored } from '@/hooks/use-stored'
 import {
   LAST_READ_KEY,
@@ -32,9 +36,13 @@ export const Route = createFileRoute('/_app/gita_/$chapter')({
   loader: async ({ params }) => {
     const chapter = getChapter(Number(params.chapter))
     if (!chapter) throw notFound()
-    const verses = await loadChapter(chapter.chapter)
+    const [verses, guide] = await Promise.all([
+      loadChapter(chapter.chapter),
+      loadGuide(chapter.chapter),
+    ])
     return {
       chapter,
+      guide,
       // Keep the SSR payload light; full word glosses load lazily on first inline study tap.
       verses: verses.map(
         ({ verse, speaker, devanagari, iast, translation, plain, notes }) => ({
@@ -61,7 +69,7 @@ export const Route = createFileRoute('/_app/gita_/$chapter')({
 })
 
 function ChapterPage() {
-  const { chapter, verses } = Route.useLoaderData()
+  const { chapter, verses, guide: chapterGuide } = Route.useLoaderData()
   const [options, setOptions] = useReadingOptions()
   const [saved, setSaved] = useSavedVerses()
   const [, setLastRead] = useStored<LastRead | null>(LAST_READ_KEY, null)
@@ -72,6 +80,8 @@ function ChapterPage() {
   const [loadingWords, setLoadingWords] = useState(false)
   const loadedChapterRef = useRef<number | null>(null)
 
+  // The reading guide can be switched off in the Aa panel.
+  const guide = options.guide ? chapterGuide : undefined
   const previous = getChapter(chapter.chapter - 1)
   const next = getChapter(chapter.chapter + 1)
 
@@ -200,6 +210,25 @@ function ChapterPage() {
         <p className="text-base text-muted-foreground sm:text-lg">
           {chapter.about} · {chapter.length} verses
         </p>
+        {guide && (
+          <div className="mt-3 flex flex-col gap-2.5 rounded-2xl border border-border bg-(image:--grad-sanctuary) p-4 sm:p-5">
+            <h2 className="flex items-center gap-2 text-sm font-medium text-pink-ink">
+              <Compass aria-hidden className="size-4" strokeWidth={1.9} />
+              Where we are
+            </h2>
+            <p className="max-w-[62ch] text-[0.9375rem] leading-relaxed text-pretty text-foreground/90 sm:text-base">
+              {guide.setting}
+            </p>
+            <Link
+              to="/gita"
+              hash="start-here"
+              className="inline-flex w-fit items-center gap-1 text-sm font-medium text-pink-ink hover:underline"
+            >
+              The story so far and who is speaking
+              <ChevronRight aria-hidden className="size-3.5" strokeWidth={2.2} />
+            </Link>
+          </div>
+        )}
       </header>
 
       <ol className="flex flex-col">
@@ -212,6 +241,9 @@ function ChapterPage() {
               index === 0 || verses[index - 1].speaker !== verse.speaker
             }
             first={index === 0}
+            passage={guide?.passages.find(
+              (passage) => passage.from === verse.verse,
+            )}
             open={openVerse === verse.verse}
             saved={saved.includes(`${chapter.chapter}.${verse.verse}`)}
             fullVerse={
@@ -230,6 +262,62 @@ function ChapterPage() {
           />
         ))}
       </ol>
+
+      {guide && (
+        <section
+          aria-labelledby="chapter-summary"
+          className="flex flex-col gap-6 border-t border-border/80 pt-8"
+        >
+          <div className="flex flex-col gap-3">
+            <h2
+              id="chapter-summary"
+              className="text-2xl font-medium tracking-[-0.025em] text-foreground"
+            >
+              Chapter {chapter.chapter} in short
+            </h2>
+            <p className="max-w-[62ch] leading-relaxed text-pretty text-foreground/90 sm:text-lg sm:leading-relaxed">
+              {guide.summary}
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-3">
+            <h3 className="text-lg font-medium tracking-[-0.02em] text-foreground">
+              What to carry with you
+            </h3>
+            <ul className="divide-y divide-border rounded-[28px] border border-border bg-card shadow-(--surface-shadow)">
+              {guide.teachings.map((teaching) => (
+                <li
+                  key={teaching.title}
+                  className="flex flex-col gap-2 px-5 py-4 sm:px-6 sm:py-5"
+                >
+                  <p className="font-medium text-pretty text-foreground">
+                    {teaching.title}
+                  </p>
+                  <p className="max-w-[60ch] text-sm leading-relaxed text-pretty text-muted-foreground sm:text-base">
+                    {teaching.text}
+                  </p>
+                  <p className="flex flex-wrap items-center gap-1.5 pt-0.5">
+                    <span className="sr-only">Verses:</span>
+                    {teaching.verses.map((num) => (
+                      <Link
+                        key={num}
+                        to="/gita/$chapter/$verse"
+                        params={{
+                          chapter: String(chapter.chapter),
+                          verse: String(num),
+                        }}
+                        className="rounded-full bg-yellow-soft px-2.5 py-0.5 text-xs font-medium text-yellow-ink tabular-nums ring-1 ring-border transition-colors hover:bg-pink-soft hover:text-pink-ink"
+                      >
+                        {chapter.chapter}.{num}
+                      </Link>
+                    ))}
+                  </p>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
 
       {/* End-of-chapter page turn */}
       <footer className="flex flex-col gap-5 border-t border-border/80 pt-8">
@@ -324,6 +412,7 @@ const VerseBlock = memo(function VerseBlock({
   verse,
   speakerChanged,
   first,
+  passage,
   open: isOpen,
   saved: isSaved,
   fullVerse,
@@ -340,6 +429,8 @@ const VerseBlock = memo(function VerseBlock({
   verse: ChapterVerse
   speakerChanged: boolean
   first: boolean
+  /** The guide passage that starts at this verse, if one does. */
+  passage: GuidePassage | undefined
   open: boolean
   saved: boolean
   fullVerse: Verse | undefined
@@ -361,12 +452,29 @@ const VerseBlock = memo(function VerseBlock({
       data-verse={verse.verse}
       className={cn(
         'group/verse verse-block flex scroll-mt-24 flex-col gap-3.5 border-b border-border/55 py-7 first:pt-0 last:border-b-0',
-        speakerChanged && !first && 'pt-10',
+        (speakerChanged || passage) && !first && 'pt-10',
       )}
     >
+      {/* Commentary is set in the sans face so it never reads as scripture. */}
+      {passage && (
+        <div className="mb-2 flex flex-col gap-1.5 border-l-2 border-primary/50 pl-4">
+          <p className="text-xs font-medium text-muted-foreground tabular-nums">
+            {passage.from === passage.to
+              ? `Verse ${passage.from}`
+              : `Verses ${passage.from} to ${passage.to}`}
+          </p>
+          <h2 className="text-lg leading-snug font-medium tracking-[-0.02em] text-balance text-foreground">
+            {passage.title}
+          </h2>
+          <p className="max-w-[60ch] text-sm leading-relaxed text-pretty text-muted-foreground sm:text-[0.9375rem]">
+            {passage.about}
+          </p>
+        </div>
+      )}
+
       {speakerChanged && (
         <p className="font-serif text-sm text-yellow-ink italic">
-          — {SPEAKER_NAME[verse.speaker]}
+          {SPEAKER_CUE[verse.speaker]}
         </p>
       )}
 

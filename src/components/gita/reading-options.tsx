@@ -73,6 +73,14 @@ export function ReadingOptionsBar({
             {layer.label}
           </button>
         ))}
+        <button
+          type="button"
+          aria-pressed={options.guide}
+          onClick={() => onChange({ ...options, guide: !options.guide })}
+          className={cn(chip, options.guide && chipOn)}
+        >
+          Guide
+        </button>
       </div>
       {options.translation && (
         <div

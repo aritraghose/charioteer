@@ -13,6 +13,8 @@ export type ReadingOptions = {
   sanskrit: boolean
   transliteration: boolean
   translation: boolean
+  /** Show the reading guide: context, passage notes and chapter summaries. */
+  guide: boolean
   english: EnglishStyle
   size: TextSize
 }
@@ -21,6 +23,7 @@ export const DEFAULT_READING: ReadingOptions = {
   sanskrit: true,
   transliteration: false,
   translation: true,
+  guide: true,
   english: 'plain',
   size: 'm',
 }

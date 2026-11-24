@@ -20,6 +20,13 @@ import {
   loadVerse,
   parseRef,
 } from '@/content/gita'
+import {
+  BOOK_SHAPE,
+  OTHER_NAMES,
+  READING_NOTE,
+  STORY_SO_FAR,
+  VOICES,
+} from '@/content/gita/guide'
 import { useStored } from '@/hooks/use-stored'
 import { LAST_READ_KEY, type LastRead } from '@/lib/gita-reading'
 import { NAV_ITEMS } from '@/lib/nav'
@@ -51,6 +58,22 @@ function VerseChip({ reference }: Readonly<{ reference: string }>) {
     >
       {reference}
     </Link>
+  )
+}
+
+const startSummary =
+  'flex cursor-pointer list-none items-center gap-3 px-5 py-4 transition-colors hover:bg-surface-blush-hover sm:px-6 [&::-webkit-details-marker]:hidden'
+const startBody = 'flex flex-col gap-4 px-5 pt-1 pb-6 sm:px-6'
+const startProse =
+  'max-w-[62ch] text-[0.9375rem] leading-relaxed text-pretty text-muted-foreground sm:text-base'
+
+function StartChevron() {
+  return (
+    <ChevronRight
+      aria-hidden
+      className="ml-auto size-4 shrink-0 text-muted-foreground/60 transition-transform group-open:rotate-90 motion-reduce:transition-none"
+      strokeWidth={2}
+    />
   )
 }
 
@@ -157,6 +180,129 @@ function GitaPage() {
               <span>Verse by verse</span>
             </Link>
           </div>
+        </div>
+      </section>
+
+      {/* Everything a first-time reader needs before verse 1.1 */}
+      <section
+        id="start-here"
+        aria-labelledby="start-heading"
+        className="flex scroll-mt-6 flex-col gap-5"
+      >
+        <div className="flex flex-col gap-1.5">
+          <h2 id="start-heading" className={sectionHeading}>
+            New to the Bhagavad Gita? Start here
+          </h2>
+          <p className={sectionNote}>
+            The book is a conversation. It is much easier to follow once you
+            know who is talking and what has just happened. Every chapter also
+            opens with where things stand and closes with a short summary.
+          </p>
+        </div>
+        <div className="divide-y divide-border overflow-hidden rounded-[28px] border border-border bg-card shadow-(--surface-shadow)">
+          <details className="group" open>
+            <summary className={startSummary}>
+              <span className="font-medium">The story so far</span>
+              <StartChevron />
+            </summary>
+            <div className={startBody}>
+              {STORY_SO_FAR.map((paragraph) => (
+                <p key={paragraph} className={startProse}>
+                  {paragraph}
+                </p>
+              ))}
+            </div>
+          </details>
+
+          <details className="group">
+            <summary className={startSummary}>
+              <span className="font-medium">The four voices</span>
+              <StartChevron />
+            </summary>
+            <dl className={startBody}>
+              {VOICES.map((voice) => (
+                <div key={voice.speaker} className="flex flex-col gap-1">
+                  <dt className="flex flex-wrap items-baseline gap-x-2.5">
+                    <span className="font-medium text-foreground">
+                      {voice.name}
+                    </span>
+                    <span className="text-sm text-yellow-ink">{voice.role}</span>
+                  </dt>
+                  <dd className={startProse}>{voice.about}</dd>
+                </div>
+              ))}
+            </dl>
+          </details>
+
+          <details className="group">
+            <summary className={startSummary}>
+              <span className="font-medium">
+                Other names for Arjuna and Kṛṣṇa
+              </span>
+              <StartChevron />
+            </summary>
+            <div className={startBody}>
+              <p className={startProse}>
+                Both are addressed by many names. No new character is arriving:
+                it is always one of these two.
+              </p>
+              {OTHER_NAMES.map((group) => (
+                <div key={group.of} className="flex flex-col gap-2">
+                  <h3 className="text-sm font-medium text-pink-ink">
+                    {group.of}
+                  </h3>
+                  <dl className="grid grid-cols-1 gap-x-8 gap-y-1.5 sm:grid-cols-2">
+                    {group.names.map((item) => (
+                      <div
+                        key={item.name}
+                        className="flex flex-wrap items-baseline gap-x-2 text-sm"
+                      >
+                        <dt className="font-medium text-foreground">
+                          {item.name}
+                        </dt>
+                        <dd className="text-muted-foreground">{item.means}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                </div>
+              ))}
+            </div>
+          </details>
+
+          <details className="group">
+            <summary className={startSummary}>
+              <span className="font-medium">How the book unfolds</span>
+              <StartChevron />
+            </summary>
+            <div className={startBody}>
+              <ol className="flex flex-col gap-3.5">
+                {BOOK_SHAPE.map((part) => (
+                  <li key={part.from} className="flex gap-4">
+                    <Link
+                      to="/gita/$chapter"
+                      params={{ chapter: String(part.from) }}
+                      className="h-fit w-16 shrink-0 rounded-full bg-peach-soft px-2 py-0.5 text-center text-xs font-medium text-peach-ink tabular-nums ring-1 ring-border transition-colors hover:bg-pink-soft hover:text-pink-ink"
+                    >
+                      {part.from === part.to
+                        ? `Ch. ${part.from}`
+                        : `Ch. ${part.from}–${part.to}`}
+                    </Link>
+                    <span className="flex min-w-0 flex-1 flex-col gap-0.5">
+                      <span className="font-medium text-foreground">
+                        {part.title}
+                      </span>
+                      <span className="text-sm leading-relaxed text-pretty text-muted-foreground">
+                        {part.about}
+                      </span>
+                    </span>
+                  </li>
+                ))}
+              </ol>
+              <p className={cn(startProse, 'border-t border-border/80 pt-4')}>
+                {READING_NOTE}
+              </p>
+            </div>
+          </details>
         </div>
       </section>
 
