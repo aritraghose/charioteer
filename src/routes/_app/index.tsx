@@ -1,5 +1,6 @@
 import { Link, createFileRoute } from '@tanstack/react-router'
 import { ChevronRight } from 'lucide-react'
+import { useState } from 'react'
 import { GITHUB_REPO_URL, GitHubIcon } from '@/components/brand-icons'
 import { TranslationReviewNote } from '@/components/gita/translation-review-note'
 import { Logo } from '@/components/logo'
@@ -19,6 +20,9 @@ const focusItem = NAV_ITEMS[2]
 const gitaItem = NAV_ITEMS[3]
 
 function Today() {
+  // Each touch of the medallion sends one new ripple out from the flame.
+  const [ripple, setRipple] = useState(0)
+
   return (
     <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col gap-14 px-5 pt-10 pb-20 sm:px-8 sm:pt-16">
       {/* Calm hero paired with the concentric stillness medallion */}
@@ -36,14 +40,27 @@ function Today() {
         {/* Stillness medallion: soft rings breathe slowly around a flame that holds still. */}
         <div
           aria-hidden
-          className="relative mx-auto flex size-56 items-center justify-center sm:size-64 md:mr-0 md:ml-auto lg:size-72"
+          onPointerDown={() => setRipple((count) => count + 1)}
+          className="group/logo relative mx-auto flex size-56 cursor-pointer touch-manipulation items-center justify-center sm:size-64 md:mr-0 md:ml-auto lg:size-72"
         >
           <div className="pointer-events-none absolute -inset-6 bg-(image:--grad-orb) sm:-inset-10" />
           <span className="ring-breathe absolute inset-0 rounded-full bg-medallion-outer shadow-(--medallion-ring)" />
           <span className="ring-breathe absolute inset-[13%] rounded-full bg-medallion-mid shadow-(--medallion-ring) [animation-delay:-3s]" />
           <span className="absolute inset-[27%] rounded-full bg-medallion-inner shadow-(--medallion-core)" />
 
-          <Logo settle className="relative size-20 lg:size-24" />
+          {ripple > 0 && (
+            <span
+              key={ripple}
+              className="logo-ripple pointer-events-none absolute inset-[27%] rounded-full border border-flame/70"
+            />
+          )}
+
+          <Logo
+            settle
+            interactive
+            spin
+            className="relative size-20 transition-transform duration-500 ease-out group-hover/logo:scale-110 group-active/logo:scale-95 motion-reduce:transition-none lg:size-24"
+          />
         </div>
       </section>
 

@@ -13,10 +13,12 @@ export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
       <header className="mx-auto flex w-full max-w-5xl items-center gap-3 px-5 py-5 sm:gap-6 sm:px-8">
         <Link
           to="/"
-          className="group flex items-center gap-2 rounded-xl text-base font-medium tracking-tight text-foreground"
+          className="group/logo flex items-center gap-2 rounded-xl text-base font-medium tracking-tight text-foreground"
         >
-          <Logo className="size-6 transition-transform duration-300 group-hover:scale-105 motion-reduce:transition-none" />
-          <span>{SITE_NAME}</span>
+          <Logo interactive className="size-6" />
+          <span className="transition-colors duration-300 group-hover/logo:text-primary">
+            {SITE_NAME}
+          </span>
         </Link>
 
         <nav
