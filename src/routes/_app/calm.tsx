@@ -70,7 +70,7 @@ function CalmPage() {
           </p>
         </div>
 
-        <div className="grid divide-y divide-border overflow-hidden rounded-[28px] border border-border bg-card shadow-(--surface-shadow) sm:grid-cols-2 sm:divide-y-0">
+        <div className="grid grid-cols-1 divide-y divide-border overflow-hidden rounded-[28px] border border-border bg-card shadow-(--surface-shadow) sm:grid-cols-2 sm:divide-y-0">
           {directTools.map((tool, index) => (
             <Link
               key={tool.to}

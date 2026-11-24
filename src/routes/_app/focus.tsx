@@ -68,7 +68,7 @@ function FocusPage() {
       icon={NAV_ITEMS[2].icon}
       badgeClass={NAV_ITEMS[2].badgeClass}
     >
-      <section className="grid overflow-hidden rounded-[28px] border border-border bg-card shadow-(--surface-shadow) sm:grid-cols-[0.95fr_1.05fr]">
+      <section className="grid grid-cols-1 overflow-hidden rounded-[28px] border border-border bg-card shadow-(--surface-shadow) sm:grid-cols-[0.95fr_1.05fr]">
         <form
           onSubmit={start}
           className="flex flex-col items-center gap-5 bg-(image:--grad-sanctuary) p-6 text-center sm:border-r sm:border-border sm:p-8"

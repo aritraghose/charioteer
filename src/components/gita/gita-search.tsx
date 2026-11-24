@@ -71,7 +71,7 @@ export function GitaSearch() {
           onFocus={warmSearch}
           autoComplete="off"
           placeholder="Search by verse (2.47), word or Sanskrit"
-          className="h-12 w-full rounded-full border border-input bg-card pr-4 pl-11 text-base outline-none placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/40"
+          className="h-12 w-full rounded-full border border-input bg-card pr-4 pl-11 text-base text-ellipsis outline-none placeholder:text-muted-foreground focus-visible:border-ring focus-visible:ring-3 focus-visible:ring-ring/40"
         />
       </form>
 

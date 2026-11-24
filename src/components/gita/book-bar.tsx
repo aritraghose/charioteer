@@ -208,16 +208,15 @@ export function BookBar({
             aria-controls="gita-book-panel"
             onClick={() => togglePanel('flipper')}
             className={cn(
-              'flex min-w-0 flex-1 cursor-pointer items-center justify-center gap-1.5 rounded-xl px-2.5 py-1.5 text-sm transition-colors hover:bg-surface-blush-hover',
+              'flex min-w-0 flex-1 cursor-pointer items-center justify-center gap-1 rounded-xl px-1.5 py-1.5 text-sm sm:gap-1.5 sm:px-2.5 transition-colors hover:bg-surface-blush-hover',
               panel === 'flipper' && 'bg-surface-blush-hover',
             )}
           >
-            <span className="truncate font-medium text-foreground">
+            <span className="shrink-0 font-medium whitespace-nowrap text-foreground">
               Ch. {chapter.chapter}
-              <span className="hidden font-normal text-muted-foreground sm:inline">
-                {' '}
-                · {chapter.name}
-              </span>
+            </span>
+            <span className="hidden min-w-0 truncate text-muted-foreground sm:inline">
+              · {chapter.name}
             </span>
             <span className="shrink-0 text-xs text-muted-foreground tabular-nums">
               {activeVerse}/{chapter.length}
@@ -241,7 +240,7 @@ export function BookBar({
               }}
               aria-label="Switch to single-verse view"
               title="Read one verse at a time"
-              className="flex h-9 shrink-0 items-center gap-1.5 rounded-xl px-2.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-surface-blush-hover hover:text-foreground"
+              className="flex h-9 shrink-0 items-center gap-1.5 rounded-xl px-2 text-xs sm:px-2.5 font-medium text-muted-foreground transition-colors hover:bg-surface-blush-hover hover:text-foreground"
             >
               <BookOpen aria-hidden className="size-4" strokeWidth={1.8} />
               <span className="hidden sm:inline">Verse</span>
@@ -253,7 +252,7 @@ export function BookBar({
               hash={`v${activeVerse}`}
               aria-label="Switch to chapter scroll view"
               title="Read full chapter"
-              className="flex h-9 shrink-0 items-center gap-1.5 rounded-xl px-2.5 text-xs font-medium text-muted-foreground transition-colors hover:bg-surface-blush-hover hover:text-foreground"
+              className="flex h-9 shrink-0 items-center gap-1.5 rounded-xl px-2 text-xs sm:px-2.5 font-medium text-muted-foreground transition-colors hover:bg-surface-blush-hover hover:text-foreground"
             >
               <AlignJustify aria-hidden className="size-4" strokeWidth={1.8} />
               <span className="hidden sm:inline">Chapter</span>
@@ -269,7 +268,7 @@ export function BookBar({
             title="Reading display options"
             onClick={() => togglePanel('display')}
             className={cn(
-              'flex h-9 shrink-0 cursor-pointer items-center justify-center rounded-xl px-2.5 font-serif text-sm font-medium text-muted-foreground transition-colors hover:bg-surface-blush-hover hover:text-foreground',
+              'flex h-9 shrink-0 cursor-pointer items-center justify-center rounded-xl px-2 font-serif sm:px-2.5 text-sm font-medium text-muted-foreground transition-colors hover:bg-surface-blush-hover hover:text-foreground',
               panel === 'display' && 'bg-pink-soft text-pink-ink',
             )}
           >
@@ -464,7 +463,7 @@ export function BookBar({
                   <p className="text-xs font-medium text-muted-foreground">
                     Chapters — tap a chapter to pick a verse
                   </p>
-                  <ol className="grid gap-1 sm:grid-cols-2">
+                  <ol className="grid grid-cols-1 gap-1 sm:grid-cols-2">
                     {CHAPTERS.map((item) => {
                       const isSelected = item.chapter === selectedChapter.chapter
                       const isReadingHere = item.chapter === chapter.chapter

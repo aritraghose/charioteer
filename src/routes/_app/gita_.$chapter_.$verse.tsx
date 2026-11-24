@@ -27,6 +27,7 @@ import {
   LAST_READ_KEY,
   type LastRead,
   SIZE_CLASSES,
+  bindDanda,
 } from '@/lib/gita-reading'
 import { SITE_NAME, seo } from '@/lib/seo'
 import { cn } from '@/lib/utils'
@@ -184,7 +185,7 @@ function VersePage() {
               >
                 {verse.devanagari.map((line) => (
                   <span key={line} className="block">
-                    {line}
+                    {bindDanda(line)}
                   </span>
                 ))}
               </p>

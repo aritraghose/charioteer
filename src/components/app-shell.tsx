@@ -10,7 +10,7 @@ import { cn } from '@/lib/utils'
 export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <div className="flex min-h-svh flex-col overflow-x-clip">
-      <header className="mx-auto flex w-full max-w-5xl items-center gap-6 px-5 py-5 sm:px-8">
+      <header className="mx-auto flex w-full max-w-5xl items-center gap-3 px-5 py-5 sm:gap-6 sm:px-8">
         <Link
           to="/"
           className="group flex items-center gap-2 rounded-xl text-base font-medium tracking-tight text-foreground"
@@ -35,7 +35,7 @@ export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
           ))}
         </nav>
 
-        <div className="ml-auto flex items-center gap-2.5 sm:gap-3">
+        <div className="ml-auto flex shrink-0 items-center gap-2 sm:gap-3">
           <Link
             to={CALM_ITEM.to}
             className="hidden h-9 items-center gap-2 rounded-full border border-lifeline-border bg-(image:--lifeline-surface) px-4 text-sm font-medium text-lifeline-ink shadow-(--lifeline-shadow) transition-[background-image,border-color,transform] duration-200 hover:bg-(image:--lifeline-surface-hover) active:scale-[0.98] motion-reduce:transition-none sm:inline-flex"
@@ -50,13 +50,14 @@ export function AppShell({ children }: Readonly<{ children: ReactNode }>) {
             href={GITHUB_REPO_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex h-8 items-center gap-1.5 rounded-full border border-border bg-card px-3 text-xs font-medium text-muted-foreground transition-colors hover:bg-surface-blush-hover hover:text-foreground sm:h-9 sm:px-3.5 sm:text-sm"
+            aria-label="GitHub"
+            className="inline-flex size-8 shrink-0 items-center justify-center gap-1.5 rounded-full border border-border bg-card text-xs font-medium text-muted-foreground transition-colors hover:bg-surface-blush-hover hover:text-foreground min-[380px]:w-auto min-[380px]:px-3 sm:h-9 sm:px-3.5 sm:text-sm"
           >
             <GitHubIcon className="size-3.5 sm:size-4" />
-            <span>GitHub</span>
+            <span className="hidden min-[380px]:inline">GitHub</span>
           </a>
           {/* Fixed size so the header does not shift when the switcher mounts. */}
-          <div className="h-8 w-20">
+          <div className="h-8 w-20 shrink-0">
             <ThemeSwitcher />
           </div>
         </div>

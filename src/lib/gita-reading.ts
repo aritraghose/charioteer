@@ -33,3 +33,8 @@ export const SIZE_CLASSES: Record<TextSize, { sa: string; en: string }> = {
   m: { sa: 'text-2xl leading-[1.7]', en: 'text-lg leading-relaxed' },
   l: { sa: 'text-3xl leading-[1.7]', en: 'text-xl leading-relaxed' },
 }
+
+/** Keep a closing danda on the same line as the word before it on narrow screens. */
+export function bindDanda(line: string) {
+  return line.replace(/ ([।॥])/g, '\u00A0$1')
+}

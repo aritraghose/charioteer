@@ -22,7 +22,7 @@ function Today() {
   return (
     <main className="mx-auto flex w-full max-w-5xl flex-1 flex-col gap-14 px-5 pt-10 pb-20 sm:px-8 sm:pt-16">
       {/* Calm hero paired with the concentric stillness medallion */}
-      <section className="grid items-center gap-12 md:grid-cols-[1.25fr_0.75fr] md:gap-10">
+      <section className="grid grid-cols-1 items-center gap-12 md:grid-cols-[1.25fr_0.75fr] md:gap-10">
         <div className="flex flex-col gap-5">
           <h1 className="max-w-[14ch] text-5xl leading-[1.03] font-medium tracking-[-0.042em] text-balance text-foreground sm:text-6xl lg:text-7xl">
             When the mind wanders, bring it back.
@@ -50,10 +50,10 @@ function Today() {
       {/* Two bespoke sculptural surfaces: sanctuary left, Gita folio right */}
       <section
         aria-label="Spaces"
-        className="grid gap-6 lg:grid-cols-[1.35fr_1fr] lg:items-stretch"
+        className="grid grid-cols-1 gap-6 lg:grid-cols-[1.35fr_1fr] lg:items-stretch"
       >
         {/* Left: Calm sanctuary surface */}
-        <div className="flex flex-col justify-between gap-5 overflow-hidden rounded-[28px] border border-border bg-(image:--grad-sanctuary) p-6 shadow-(--surface-shadow) sm:p-8">
+        <div className="flex flex-col justify-between gap-5 overflow-hidden rounded-[28px] border border-border bg-(image:--grad-sanctuary) p-4 shadow-(--surface-shadow) sm:p-8">
           <Link
             to={CALM_ITEM.to}
             className="group flex flex-col gap-5 rounded-2xl border border-lifeline-border bg-(image:--lifeline-surface) p-6 text-lifeline-ink shadow-(--lifeline-shadow) transition-[background-image,border-color,transform] duration-200 hover:-translate-y-0.5 hover:bg-(image:--lifeline-surface-hover) active:translate-y-0 active:scale-[0.99] motion-reduce:transition-none sm:flex-row sm:items-center sm:gap-5"
@@ -74,7 +74,7 @@ function Today() {
             </span>
           </Link>
 
-          <div className="grid flex-1 divide-y divide-border rounded-2xl bg-card ring-1 ring-border sm:grid-cols-2 sm:divide-x sm:divide-y-0">
+          <div className="grid flex-1 grid-cols-1 divide-y divide-border rounded-2xl bg-card ring-1 ring-border sm:grid-cols-2 sm:divide-x sm:divide-y-0">
             {[practiceItem, focusItem].map((item) => (
               <Link
                 key={item.to}

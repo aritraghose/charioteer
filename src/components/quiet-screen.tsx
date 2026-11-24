@@ -19,7 +19,7 @@ export function QuietScreen({
   children: ReactNode
 }>) {
   return (
-    <div className="flex min-h-svh flex-col">
+    <div className="flex min-h-svh flex-col overflow-x-clip">
       <header className="mx-auto flex w-full max-w-3xl items-center px-5 py-5 sm:px-8">
         <Button asChild variant="ghost" size="sm" className="rounded-full">
           <Link to={leaveTo}>

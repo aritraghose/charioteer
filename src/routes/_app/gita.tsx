@@ -219,7 +219,7 @@ function GitaPage() {
             straight through or flip verse by verse.
           </p>
         </div>
-        <ol className="grid divide-y divide-border overflow-hidden rounded-[28px] border border-border bg-card shadow-(--surface-shadow) sm:grid-cols-2 sm:divide-y-0">
+        <ol className="grid grid-cols-1 divide-y divide-border overflow-hidden rounded-[28px] border border-border bg-card shadow-(--surface-shadow) sm:grid-cols-2 sm:divide-y-0">
           {CHAPTERS.map((chapter, index) => {
             const isHere = lastRead?.chapter === chapter.chapter
             return (
